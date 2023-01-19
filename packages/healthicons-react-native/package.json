@@ -1,0 +1,17 @@
+{
+  "name": "healthicons-react-native",
+  "version": "1.0.0",
+  "description": "React Native icon library for Health Icons",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/esm/index.js",
+  "author": "Sten Raadschelders",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/runtime": "^7.20.7",
+    "@types/react": "^18.0.27",
+    "@types/react-native": "^0.71.0",
+    "react": "^18.2.0",
+    "react-native-svg": "^13.7.0"
+  }
+}

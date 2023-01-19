@@ -1,0 +1,33 @@
+import * as React from "react";
+import { SVGProps, Ref, forwardRef } from "react";
+import { HealthIconsContext } from "./HealthIconsContext";
+const SvgOutlineHomeAlt = (
+  passedProps: SVGProps<SVGSVGElement>,
+  ref: Ref<SVGSVGElement>
+) => {
+  const context = React.useContext(HealthIconsContext);
+  const props = {
+    ...context,
+    ...passedProps,
+  };
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="1.5em"
+      height="1.5em"
+      fill="none"
+      color="currentColor"
+      ref={ref}
+      {...props}
+    >
+      <path
+        fill="#333"
+        fillRule="evenodd"
+        d="M41.708 23.794 24.058 6.086 6.294 23.792a1 1 0 0 0 1.412 1.416L10 22.922V41a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-8.741a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v8.74a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1V22.908l2.292 2.299a1 1 0 0 0 1.416-1.412ZM36 20.9 24.053 8.914 12 20.928V40h7v-7.741a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v7.74h7V20.9Z"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+};
+const ForwardRef = forwardRef(SvgOutlineHomeAlt);
+export default ForwardRef;

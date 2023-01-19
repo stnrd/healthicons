@@ -1,0 +1,49 @@
+import * as React from "react";
+import Svg, { SvgProps, Path } from "react-native-svg";
+import { Ref, forwardRef } from "react";
+import { HealthIconsContext } from "./HealthIconsContext";
+const SvgNegativeIScheduleSchoolDateTime = (
+  passedProps: SvgProps,
+  ref: Ref<SVGSVGElement>
+) => {
+  const context = React.useContext(HealthIconsContext);
+  const props = {
+    ...context,
+    ...passedProps,
+  };
+  return (
+    <Svg
+      width="1.5em"
+      height="1.5em"
+      fill="none"
+      color="currentColor"
+      ref={ref}
+      {...props}
+    >
+      <Path
+        fill="#333"
+        fillRule="evenodd"
+        d="M35 40a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm1-7.5a1 1 0 1 0-2 0v2.914l1.293 1.293a1 1 0 0 0 1.414-1.414L36 34.586V32.5Z"
+        clipRule="evenodd"
+      />
+      <Path
+        fill="#333"
+        d="M12 23v2h2v-2h-2Zm8 0h2v2h-2v-2Zm8 0v2h2v-2h-2Zm-14 8v2h-2v-2h2Zm8 0h-2v2h2v-2Z"
+      />
+      <Path
+        fill="#333"
+        fillRule="evenodd"
+        d="M8 18v18a1 1 0 0 0 1 1h19.29A7.001 7.001 0 0 1 34 28.07V18H8Zm4 3a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-2Zm6 2a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2Zm10-2a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-2ZM10 31a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2Zm10-2a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-2Z"
+        clipRule="evenodd"
+      />
+      <Path
+        fill="#333"
+        fillRule="evenodd"
+        d="M0 0h48v48H0V0Zm35 42a7 7 0 0 0 1-13.93V12a3 3 0 0 0-3-3h-3v3a1 1 0 1 1-2 0V7a1 1 0 1 0-2 0v2H16v3a1 1 0 1 1-2 0V7a1 1 0 1 0-2 0v2H9a3 3 0 0 0-3 3v24a3 3 0 0 0 3 3h20.255A6.992 6.992 0 0 0 35 42Z"
+        clipRule="evenodd"
+      />
+    </Svg>
+  );
+};
+const ForwardRef = forwardRef(SvgNegativeIScheduleSchoolDateTime);
+export default ForwardRef;

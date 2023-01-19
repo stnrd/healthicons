@@ -1,0 +1,33 @@
+import * as React from "react";
+import { SVGProps, Ref, forwardRef } from "react";
+import { HealthIconsContext } from "./HealthIconsContext";
+const SvgNegativeI = (
+  passedProps: SVGProps<SVGSVGElement>,
+  ref: Ref<SVGSVGElement>
+) => {
+  const context = React.useContext(HealthIconsContext);
+  const props = {
+    ...context,
+    ...passedProps,
+  };
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="1.5em"
+      height="1.5em"
+      fill="none"
+      color="currentColor"
+      ref={ref}
+      {...props}
+    >
+      <path
+        fill="#333"
+        fillRule="evenodd"
+        d="M48 0H0v48h48V0ZM16 10a2 2 0 1 0 0 4h6v20h-6a2 2 0 1 0 0 4h16a2 2 0 1 0 0-4h-6V14h6a2 2 0 1 0 0-4H16Z"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+};
+const ForwardRef = forwardRef(SvgNegativeI);
+export default ForwardRef;
