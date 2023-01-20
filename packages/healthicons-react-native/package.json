@@ -1,10 +1,35 @@
 {
   "name": "healthicons-react-native",
-  "version": "1.0.0",
-  "description": "React Native icon library for Health Icons",
+  "version": "1.0.1",
+  "description": "React Native icon library for the Health Icons set",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dist": "tsc -p tsconfig.dist.json && tsc -p tsconfig.dist.esm.json",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stnrd/healthicons.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "icons",
+    "svg",
+    "health",
+    "healthicons"
+  ],
+  "bugs": {
+    "url": "https://github.com/stnrd/healthicons/issues"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6 || ^17 || ^18"
+  },
   "author": "Sten Raadschelders",
   "license": "MIT",
   "devDependencies": {
