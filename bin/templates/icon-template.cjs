@@ -5,7 +5,7 @@ const template = (
   props[0].name = "passedProps";
   return tpl`
     ${imports}
-import { HealthIconsContext } from './HealthIconsContext'
+import { HealthIconsContext } from '../HealthIconsContext'
 
 ${interfaces}
 

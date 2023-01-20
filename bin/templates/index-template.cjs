@@ -7,7 +7,7 @@ function template(filePaths) {
     return `export { default as ${exportName} } from './${basename}'`;
   });
   exportEntries.push(
-    "export { HealthIconsProvider, HealthIconsContext, HealthIconsContextValue } from './HealthIconsContext'"
+    "export { HealthIconsProvider, HealthIconsContext, HealthIconsContextValue } from '../HealthIconsContext'"
   );
   return exportEntries.join("\n");
 }

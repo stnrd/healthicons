@@ -3,6 +3,7 @@ import { promises as fs, readFileSync } from "fs";
 import { Listr } from "listr2";
 import os from "os";
 import path, { dirname } from "path";
+import { optimize } from "svgo";
 import { fileURLToPath } from "url";
 import { incompatibleNames } from "../constants.js";
 
@@ -35,7 +36,6 @@ const deepReadDir = async (dirPath) =>
     ).map(async (dirent) => {
       const lstat = await fs.lstat(path.join(dirPath, dirent));
       const p = path.join(dirPath, dirent);
-      console.log(p);
       return lstat.isDirectory() ? await deepReadDir(p) : p;
     })
   );
@@ -62,9 +62,10 @@ const tasks = new Listr(
     {
       title: "Fetching icons",
       task: async (ctx) => {
+        deepReadDir(healthiconsIconsDir);
         ctx.healthIconsFiles = (await deepReadDir(healthiconsIconsDir))
-          .filter((val) => val.includes(".svg"))
-          .flat(Number.POSITIVE_INFINITY);
+          .flat(Number.POSITIVE_INFINITY)
+          .filter((val) => val.includes(".svg"));
       },
     },
     {
@@ -80,7 +81,11 @@ const tasks = new Listr(
               task: async (ctx) => {
                 await fs.writeFile(
                   path.join(rootDir, targets["meta-data"].path),
-                  JSON.stringify({ icons: ctx.healthIconsFiles })
+                  JSON.stringify({
+                    icons: ctx.healthIconsFiles.map(
+                      (file) => file.split("healthicons/icons/")[1] // Make it an relative path
+                    ),
+                  })
                 );
               },
             },
@@ -98,22 +103,21 @@ const tasks = new Listr(
                   ).replace("[YEAR]", new Date().getFullYear()),
                 ];
                 ctx.healthIconsFiles.forEach((file) => {
-                  const fileContents = readFileSync(
-                    path.join(__dirname, "../icons/", file)
-                  )
-                    .toString()
-                    .replace(/\n/g, "")
-                    .replace(/(width|height)="[0-9]+"/g, "")
-                    .replace(/[ ]+/g, " ");
+                  const fileContents = readFileSync(file).toString();
+                  const optimizedContent = optimize(fileContents);
 
-                  const iconName = path.parse(file).name;
-                  const dstFileName =
+                  const iconType = file
+                    .split("healthicons/icons/")[1]
+                    .split("/")[0];
+                  const iconName = path.parse(file).name.replaceAll("_", "-");
+                  const dstFileName = `${iconType}-${
                     iconName in incompatibleNames
                       ? incompatibleNames[iconName]
-                      : iconName;
+                      : iconName
+                  }`;
 
                   content.push(
-                    `.healthicons_${dstFileName}::before{mask-image:url('data:image/svg+xml;charset=utf-8,${fileContents}');-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,${fileContents}');}`
+                    `.healthicons-${dstFileName}::before{mask-image:url('data:image/svg+xml;charset=utf-8,${optimizedContent.data}');-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,${optimizedContent.data}');}`
                   );
                 });
                 await fs.writeFile(
@@ -150,13 +154,19 @@ const tasks = new Listr(
                       skip: (ctx) => ctx.skip,
                       task: async (ctx) => {
                         try {
+                          // Create icon type directories
+                          ["filled", "outline", "negative"].forEach(
+                            async (iconType) => {
+                              await fs.mkdir(path.join(ctx.tmpDir, iconType));
+                            }
+                          );
+
                           const promises = ctx.healthIconsFiles.map((file) => {
-                            const srcFilePath = path.join(
-                              healthiconsIconsDir,
-                              file
-                            );
+                            const srcFilePath = path.join(file);
                             const iconPath = path.parse(file);
-                            const iconType = iconPath.dir.split(path.sep)[1]; // get filled or outline or negative
+                            const iconType = file
+                              .split("healthicons/icons/")[1]
+                              .split("/")[0]; // get filled or outline or negative
                             const iconName = iconPath.name;
                             const dstFileName =
                               iconName in incompatibleNames
@@ -209,7 +219,6 @@ const tasks = new Listr(
                                         const files = (
                                           await deepReadDir(builtIconsDir)
                                         ).flat(Number.POSITIVE_INFINITY);
-                                        console.log(files);
                                         const promises = files
                                           .filter(
                                             (file) =>
@@ -218,9 +227,7 @@ const tasks = new Listr(
                                               )
                                           )
                                           .map((file) => {
-                                            return fs.unlink(
-                                              path.join(builtIconsDir, file)
-                                            );
+                                            return fs.unlink(path.join(file));
                                           });
                                         return Promise.all(promises).catch(
                                           (err) => {
