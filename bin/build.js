@@ -16,12 +16,29 @@ const ignoreCleanFilenames = ["HealthIconsContext.tsx"];
 const targets = {
   "meta-data": { path: "meta-data.json" },
   css: { path: "css/healthicons.css" },
-  "healthicons-react": { react: true, path: "packages/healthicons-react" },
+  "healthicons-react": {
+    react: true,
+    path: "packages/healthicons-react",
+    iconTypes: ["filled", "outline", "negative"],
+  },
   "healthicons-react-native": {
     react: true,
     path: "packages/healthicons-react-native",
+    iconTypes: ["filled", "outline", "negative"],
   },
 };
+
+const deepReadDir = async (dirPath) =>
+  await Promise.all(
+    (
+      await fs.readdir(dirPath)
+    ).map(async (dirent) => {
+      const lstat = await fs.lstat(path.join(dirPath, dirent));
+      const p = path.join(dirPath, dirent);
+      console.log(p);
+      return lstat.isDirectory() ? await deepReadDir(p) : p;
+    })
+  );
 
 // Get targets from command line arguments
 // (build all targets if no arguments)
@@ -45,7 +62,9 @@ const tasks = new Listr(
     {
       title: "Fetching icons",
       task: async (ctx) => {
-        ctx.healthIconsFiles = await fs.readdir(healthiconsIconsDir);
+        ctx.healthIconsFiles = (await deepReadDir(healthiconsIconsDir))
+          .filter((val) => val.includes(".svg"))
+          .flat(Number.POSITIVE_INFINITY);
       },
     },
     {
@@ -86,10 +105,15 @@ const tasks = new Listr(
                     .replace(/\n/g, "")
                     .replace(/(width|height)="[0-9]+"/g, "")
                     .replace(/[ ]+/g, " ");
+
+                  const iconName = path.parse(file).name;
+                  const dstFileName =
+                    iconName in incompatibleNames
+                      ? incompatibleNames[iconName]
+                      : iconName;
+
                   content.push(
-                    `.healthicons-${
-                      path.parse(file).name
-                    }::before{mask-image:url('data:image/svg+xml;charset=utf-8,${fileContents}');-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,${fileContents}');}`
+                    `.healthicons_${dstFileName}::before{mask-image:url('data:image/svg+xml;charset=utf-8,${fileContents}');-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,${fileContents}');}`
                   );
                 });
                 await fs.writeFile(
@@ -131,13 +155,16 @@ const tasks = new Listr(
                               healthiconsIconsDir,
                               file
                             );
-                            const iconName = file.split(".")[0];
+                            const iconPath = path.parse(file);
+                            const iconType = iconPath.dir.split(path.sep)[1]; // get filled or outline or negative
+                            const iconName = iconPath.name;
                             const dstFileName =
                               iconName in incompatibleNames
                                 ? incompatibleNames[iconName]
                                 : iconName;
                             const dstFilePath = path.join(
                               ctx.tmpDir,
+                              iconType,
                               `${dstFileName}.svg`
                             );
 
@@ -179,9 +206,10 @@ const tasks = new Listr(
                                     title: "Cleaning target directory",
                                     task: async (ctx) => {
                                       try {
-                                        const files = await fs.readdir(
-                                          builtIconsDir
-                                        );
+                                        const files = (
+                                          await deepReadDir(builtIconsDir)
+                                        ).flat(Number.POSITIVE_INFINITY);
+                                        console.log(files);
                                         const promises = files
                                           .filter(
                                             (file) =>

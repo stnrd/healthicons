@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "node ./bin/build.js",
+    "download": "node ./bin/download.js",
     "prepublish-all": "node ./bin/prepublish.js",
     "dist": "pnpm -r --filter './packages/**' run dist"
   },
@@ -33,6 +34,7 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "execa": "^6.1.0",
+    "jszip": "^3.10.1",
     "listr2": "^5.0.7",
     "prettier": "^2.8.3",
     "semver": "^7.3.8"
