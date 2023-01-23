@@ -20,7 +20,7 @@ npm i healthicons-react
 
 ```javascript
 import React from "react";
-import { BloodBag } from "healthicons-react/solid";
+import { BloodBag } from "healthicons-react/dist/filled";
 
 const App = () => {
   return <BloodBag />;
@@ -50,7 +50,10 @@ Default values for the most common props are given below:
 Tired of specifying the same props for every single icon, every time you use them? So were we. Use HealthIconsProvider to set the default icon props for everything inside HealthIconsProvider.
 
 ```tsx
-import { HealthIconsProvider, BloodBag } from "healthicons-react-native";
+import {
+  HealthIconsProvider,
+  BloodBag,
+} from "healthicons-react-native/dist/filled";
 return (
   <HealthIconsProvider
     iconProps={{
