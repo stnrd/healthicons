@@ -9,8 +9,9 @@
     "dist"
   ],
   "scripts": {
-    "dist": "tsc -p tsconfig.dist.json && tsc -p tsconfig.dist.esm.json",
-    "prepublish": "npm run build"
+    "type": "tsc --noEmit",
+    "dist": "tsc -p tsconfig.json && tsc -p tsconfig.esm.json",
+    "prepublish": "yarn run dist"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
     "@types/react": "^18.0.27",
     "@types/react-native": "^0.71.0",
     "react": "^18.2.0",
-    "react-native-svg": "^13.7.0"
+    "react-native-svg": "^13.7.0",
+    "typescript": "^4.9.4"
   }
 }

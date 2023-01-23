@@ -1,11 +1,7 @@
 import * as React from "react";
 import Svg, { SvgProps, G, Path, Defs, ClipPath } from "react-native-svg";
-import { Ref, forwardRef } from "react";
 import { HealthIconsContext } from "../HealthIconsContext";
-const SvgCommunityMeeting = (
-  passedProps: SvgProps,
-  ref: Ref<SVGSVGElement>
-) => {
+const SvgCommunityMeeting = (passedProps: SvgProps) => {
   const context = React.useContext(HealthIconsContext);
   const props = {
     ...context,
@@ -18,7 +14,6 @@ const SvgCommunityMeeting = (
       viewBox="0 0 48 48"
       fill="none"
       color="currentColor"
-      ref={ref}
       {...props}
     >
       <G clipPath="url(#community_meeting_svg__a)" fill="#333">
@@ -37,5 +32,4 @@ const SvgCommunityMeeting = (
     </Svg>
   );
 };
-const ForwardRef = forwardRef(SvgCommunityMeeting);
-export default ForwardRef;
+export default SvgCommunityMeeting;

@@ -1,11 +1,7 @@
 import * as React from "react";
 import Svg, { SvgProps, Path } from "react-native-svg";
-import { Ref, forwardRef } from "react";
 import { HealthIconsContext } from "../HealthIconsContext";
-const SvgRdtResultMixedRectangular = (
-  passedProps: SvgProps,
-  ref: Ref<SVGSVGElement>
-) => {
+const SvgRdtResultMixedRectangular = (passedProps: SvgProps) => {
   const context = React.useContext(HealthIconsContext);
   const props = {
     ...context,
@@ -18,7 +14,6 @@ const SvgRdtResultMixedRectangular = (
       viewBox="0 0 48 48"
       fill="none"
       color="currentColor"
-      ref={ref}
       {...props}
     >
       <Path
@@ -38,5 +33,4 @@ const SvgRdtResultMixedRectangular = (
     </Svg>
   );
 };
-const ForwardRef = forwardRef(SvgRdtResultMixedRectangular);
-export default ForwardRef;
+export default SvgRdtResultMixedRectangular;

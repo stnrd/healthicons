@@ -1,11 +1,7 @@
 import * as React from "react";
 import Svg, { SvgProps, Path } from "react-native-svg";
-import { Ref, forwardRef } from "react";
 import { HealthIconsContext } from "../HealthIconsContext";
-const SvgBabyMale0203MAlt = (
-  passedProps: SvgProps,
-  ref: Ref<SVGSVGElement>
-) => {
+const SvgBabyMale0203MAlt = (passedProps: SvgProps) => {
   const context = React.useContext(HealthIconsContext);
   const props = {
     ...context,
@@ -18,7 +14,6 @@ const SvgBabyMale0203MAlt = (
       viewBox="0 0 48 48"
       fill="none"
       color="currentColor"
-      ref={ref}
       {...props}
     >
       <Path d="M33 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z" fill="#333" />
@@ -35,5 +30,4 @@ const SvgBabyMale0203MAlt = (
     </Svg>
   );
 };
-const ForwardRef = forwardRef(SvgBabyMale0203MAlt);
-export default ForwardRef;
+export default SvgBabyMale0203MAlt;

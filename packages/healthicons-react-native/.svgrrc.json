@@ -1,6 +1,5 @@
 {
   "icon": true,
-  "ref": true,
   "typescript": true,
   "native": true,
   "svgProps": {
@@ -14,8 +13,8 @@
         [
           "@svgr/babel-plugin-remove-jsx-attribute",
           {
-            "elements":["Svg"],
-            "attributes":["xmlns"]
+            "elements": ["Svg"],
+            "attributes": ["xmlns"]
           }
         ],
         [

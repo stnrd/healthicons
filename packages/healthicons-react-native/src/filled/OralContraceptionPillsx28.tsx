@@ -1,11 +1,7 @@
 import * as React from "react";
 import Svg, { SvgProps, Mask, Path } from "react-native-svg";
-import { Ref, forwardRef } from "react";
 import { HealthIconsContext } from "../HealthIconsContext";
-const SvgOralContraceptionPillsx28 = (
-  passedProps: SvgProps,
-  ref: Ref<SVGSVGElement>
-) => {
+const SvgOralContraceptionPillsx28 = (passedProps: SvgProps) => {
   const context = React.useContext(HealthIconsContext);
   const props = {
     ...context,
@@ -18,7 +14,6 @@ const SvgOralContraceptionPillsx28 = (
       viewBox="0 0 48 48"
       fill="none"
       color="currentColor"
-      ref={ref}
       {...props}
     >
       <Mask id="oral_contraception_pillsx28_svg__a" fill="#fff">
@@ -42,5 +37,4 @@ const SvgOralContraceptionPillsx28 = (
     </Svg>
   );
 };
-const ForwardRef = forwardRef(SvgOralContraceptionPillsx28);
-export default ForwardRef;
+export default SvgOralContraceptionPillsx28;

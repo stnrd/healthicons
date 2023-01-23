@@ -1,11 +1,7 @@
 import * as React from "react";
 import Svg, { SvgProps, Path } from "react-native-svg";
-import { Ref, forwardRef } from "react";
 import { HealthIconsContext } from "../HealthIconsContext";
-const SvgBlisterPillsOvalX1 = (
-  passedProps: SvgProps,
-  ref: Ref<SVGSVGElement>
-) => {
+const SvgBlisterPillsOvalX1 = (passedProps: SvgProps) => {
   const context = React.useContext(HealthIconsContext);
   const props = {
     ...context,
@@ -18,7 +14,6 @@ const SvgBlisterPillsOvalX1 = (
       viewBox="0 0 48 48"
       fill="none"
       color="currentColor"
-      ref={ref}
       {...props}
     >
       <Path
@@ -34,5 +29,4 @@ const SvgBlisterPillsOvalX1 = (
     </Svg>
   );
 };
-const ForwardRef = forwardRef(SvgBlisterPillsOvalX1);
-export default ForwardRef;
+export default SvgBlisterPillsOvalX1;
