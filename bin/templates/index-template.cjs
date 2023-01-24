@@ -6,9 +6,6 @@ function template(filePaths) {
     const exportName = /^\d/.test(basename) ? `Svg${basename}` : basename;
     return `export { default as ${exportName} } from './${basename}'`;
   });
-  exportEntries.push(
-    "export { HealthIconsProvider, HealthIconsContext, HealthIconsContextValue } from '../HealthIconsContext'"
-  );
   return exportEntries.join("\n");
 }
 

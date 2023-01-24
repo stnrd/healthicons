@@ -575,8 +575,3 @@ export { default as Xray } from "./Xray";
 export { default as Yen } from "./Yen";
 export { default as Yes } from "./Yes";
 export { default as YoungPeople } from "./YoungPeople";
-export {
-  HealthIconsProvider,
-  HealthIconsContext,
-  HealthIconsContextValue,
-} from "../HealthIconsContext";
