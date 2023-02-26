@@ -24,11 +24,6 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Generate changelog file
-        uses: rhysd/changelog-from-release/action@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Build
         run: yarn run build
 
