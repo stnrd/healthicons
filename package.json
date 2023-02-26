@@ -33,11 +33,13 @@
   "homepage": "https://healthicons.org/",
   "devDependencies": {
     "@svgr/cli": "^6.5.1",
+    "decompress": "^4.2.1",
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "execa": "^6.1.0",
     "listr2": "^5.0.7",
+    "node-fetch": "^3.3.0",
     "prettier": "^2.8.3",
     "semver": "^7.3.8",
     "svgo": "^3.0.2"

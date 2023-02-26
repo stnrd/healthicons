@@ -135,4 +135,9 @@ yarn.lock
 .vscode
 .idea
 .kanbn
+
+# static files
 dist
+
+# backups
+icons.bak
