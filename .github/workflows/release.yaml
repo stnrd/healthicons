@@ -1,0 +1,55 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Generate changelog file
+        uses: rhysd/changelog-from-release/action@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build
+        run: yarn run build
+
+      - name: Prepare packages
+        run: yarn run prepublish-all
+        env:
+          TAG_NAME: ${{ github.ref_name }}
+
+      - name: Commit release
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Release Version ${{ github.ref_name }}
+          branch: main
+
+      - name: Update tag
+        run: |
+          git -c user.email="actions@github.com" -c user.name="GitHub Actions" tag -fa ${{ github.ref_name }} -m "${{ github.ref_name }}"
+          git push -f origin ${{ github.ref_name }}
+
+      # - name: Publish packages
+      #   run: yarn -r publish --access public
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      #   continue-on-error: true
