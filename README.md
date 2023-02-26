@@ -10,6 +10,21 @@
   <a href="https://healthicons.org"><strong>Browse at healthicons.org &rarr;</strong></a>
 </div>
 
+<div align="center">
+  <a href="https://github.com/stnrd/healthicons/releases">
+    <img src="https://img.shields.io/github/v/release/stnrd/healthicons?style=flat-square" alt="Version" />
+  </a>
+  <a href="https://www.npmjs.com/package/healthicons-react">
+    <img src="https://img.shields.io/npm/dm/healthicons-react?color=98E8F3&label=react&style=flat-square" alt="React Library" />
+  </a>
+  <a href="https://www.npmjs.com/package/healthicons-react-native">
+    <img src="https://img.shields.io/npm/dm/healthicons-react?color=98E8F3&label=react-native&style=flat-square" alt="React Native Library" />
+  </a>
+  <a href="https://github.com/stnrd/healthicons/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/stnrd/healthicons?style=flat-square" alt="License" />
+  </a>
+</div>
+
 ## Basic
 
 The icons are available via the `healthicons` NPM package:
