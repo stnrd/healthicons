@@ -3,14 +3,6 @@
 </div>
 
 <div align="center">
-  Introducing our new React and React Native Icon Wrapper package for <a href="https://healthicons.org"><strong>Health Icons</strong> </a>! This package provides a simple and easy-to-use interface for accessing all the health icons within your React or React Native projects. This package is perfect for any health-related application and will save you time and effort in creating and maintaining your application's iconography.
-</div>
-
-<div align="center">
-  <a href="https://healthicons.org"><strong>Browse at healthicons.org &rarr;</strong></a>
-</div>
-
-<div align="center">
   <a href="https://github.com/stnrd/healthicons/releases">
     <img src="https://img.shields.io/github/v/release/stnrd/healthicons?style=flat-square" alt="Version" />
   </a>
@@ -23,6 +15,14 @@
   <a href="https://github.com/stnrd/healthicons/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/stnrd/healthicons?style=flat-square" alt="License" />
   </a>
+</div>
+
+<div align="center">
+  Introducing our new React and React Native Icon Wrapper package for <a href="https://healthicons.org"><strong>Health Icons</strong> </a>! This package provides a simple and easy-to-use interface for accessing all the health icons within your React or React Native projects. This package is perfect for any health-related application and will save you time and effort in creating and maintaining your application's iconography.
+</div>
+
+<div align="center">
+  <a href="https://healthicons.org"><strong>Browse at healthicons.org &rarr;</strong></a>
 </div>
 
 ## Basic
