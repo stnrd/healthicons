@@ -25,7 +25,7 @@
   <a href="https://healthicons.org"><strong>Browse at healthicons.org &rarr;</strong></a>
 </div>
 
-## Basic
+<!-- ## Basic
 
 The icons are available via the `healthicons` NPM package:
 
@@ -39,7 +39,7 @@ Example usage:
 
 ```js
 import HealthIcons from "healthicons/icons/healthicons.svg";
-```
+``` -->
 
 ## React
 
