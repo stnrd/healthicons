@@ -44,7 +44,7 @@ jobs:
           git push -f origin ${{ github.ref_name }}
 
       # - name: Publish packages
-      #   run: yarn -r publish --access public
+      #   run: yarn workspaces foreach npm publish -r
       #   env:
       #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       #   continue-on-error: true
