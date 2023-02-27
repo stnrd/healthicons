@@ -49,20 +49,26 @@ A React library is available to install under the name `healthicons-react`. For 
 
 A React Native library is available to install under the name `healthicons-react-native`. For more details, see the package [README](./packages/healthicons-react-native).
 
-<!-- ## CSS
+## CSS
 
 Import the CSS File:
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/healthicons/healthicons@main/css/healthicons.css">
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/stnrd/healthicons@main/css/healthicons.css"
+/>
+```
 
 Here is an example in HTML:
 
+```html
 <i class="healthicons-filled-blood-bag"></i>
+```
 
 The class must always be "healthicons-" following by the icon type(filled, outline, negative). You can find the names of the icons [here](https://healthicons.org/).
 
-The icons are display: inline-block and default to the current font size. You can control this
-by adjusting the ::before styles of the element (which is where the icons are added as a mask). -->
+The icons are set to be displayed as inline-block and will use the current font size as their default. To modify this behavior, you can make changes to the ::before styles of the element where the icons are applied as a mask.
 
 ## Health Icons
 
