@@ -1,0 +1,24 @@
+name: healthicons_flutter
+description: Flutter library for Healthicons icon set
+version: 6.4.0
+homepage: https://healthicons.org/
+repository: https://github.com/stnrd/healthicons.git
+issue_tracker: https://github.com/stnrd/healthicons/issues
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  assets:
+    - ../../icons/

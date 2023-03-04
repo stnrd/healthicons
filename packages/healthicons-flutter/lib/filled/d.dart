@@ -1,0 +1,23 @@
+import 'package:flutter/widgets.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+
+class D extends StatelessWidget {
+  final Color? color;
+  final double? width;
+  final double? height;
+
+  const D({Key? key, this.color, this.width, this.height})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) => SvgPicture.string(
+        '''
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12 12C12 10.8954 12.8954 10 14 10H22C29.732 10 36 16.268 36 24C36 31.732 29.732 38 22 38H14C12.8954 38 12 37.1046 12 36V12ZM16 14V34H22C27.5228 34 32 29.5228 32 24C32 18.4772 27.5228 14 22 14H16Z" fill="#333333"/>
+</svg>
+''',
+        color: color,
+        width: width,
+        height: height,
+      );
+}

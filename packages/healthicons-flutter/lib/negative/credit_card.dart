@@ -1,0 +1,23 @@
+import 'package:flutter/widgets.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+
+class CreditCard extends StatelessWidget {
+  final Color? color;
+  final double? width;
+  final double? height;
+
+  const CreditCard({Key? key, this.color, this.width, this.height})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) => SvgPicture.string(
+        '''
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M48 0H0V48H48V0ZM4 13C4 11.3431 5.34315 10 7 10H41C42.6569 10 44 11.3431 44 13V17H4V13ZM4 23H44V35C44 36.6569 42.6569 38 41 38H7C5.34315 38 4 36.6569 4 35V23Z" fill="#333333"/>
+</svg>
+''',
+        color: color,
+        width: width,
+        height: height,
+      );
+}

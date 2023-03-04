@@ -1,6 +1,7 @@
 import { execa } from "execa";
 import { promises as fs, readFileSync } from "fs";
 import { Listr } from "listr2";
+import { generateTemplateFilesBatch } from "generate-template-files";
 import os from "os";
 import path, { dirname } from "path";
 import { optimize } from "svgo";
@@ -26,6 +27,10 @@ const targets = {
     react: true,
     path: "packages/healthicons-react-native",
     iconTypes: ["filled", "outline", "negative"],
+  },
+  "healthicons-flutter": {
+    flutter: true,
+    path: "packages/healthicons-flutter",
   },
 };
 
@@ -72,221 +77,441 @@ const tasks = new Listr(
       title: "Building targets",
       skip: (ctx) => !ctx.healthIconsFiles,
       task: (_, task) =>
-        task.newListr(
-          [
-            {
-              title: "Building meta-data file",
-              enabled: () =>
-                cliTargets.length === 0 || cliTargets.includes("meta-data"),
-              task: async (ctx) => {
-                await fs.writeFile(
-                  path.join(rootDir, targets["meta-data"].path),
-                  JSON.stringify({
-                    icons: ctx.healthIconsFiles.map(
-                      (file) => file.split("healthicons/icons/")[1] // Make it an relative path
-                    ),
-                  })
-                );
-              },
+        task.newListr([
+          {
+            title: "Building meta-data file",
+            enabled: () =>
+              cliTargets.length === 0 || cliTargets.includes("meta-data"),
+            task: async (ctx) => {
+              await fs.writeFile(
+                path.join(rootDir, targets["meta-data"].path),
+                JSON.stringify({
+                  icons: ctx.healthIconsFiles.map(
+                    (file) => file.split("healthicons/icons/")[1] // Make it an relative path
+                  ),
+                })
+              );
             },
-            {
-              title: "Building CSS file",
-              enabled: () =>
-                cliTargets.length === 0 || cliTargets.includes("css"),
-              task: async (ctx) => {
-                const content = [
-                  (
-                    await fs.readFile(
-                      path.join(__dirname, "header.css"),
-                      "utf8"
-                    )
-                  ).replace("[YEAR]", new Date().getFullYear()),
-                ];
-                ctx.healthIconsFiles.forEach((file) => {
-                  const fileContents = readFileSync(file).toString();
-                  const optimizedContent = optimize(fileContents);
+          },
+          {
+            title: "Building CSS file",
+            enabled: () =>
+              cliTargets.length === 0 || cliTargets.includes("css"),
+            task: async (ctx) => {
+              const content = [
+                (
+                  await fs.readFile(path.join(__dirname, "header.css"), "utf8")
+                ).replace("[YEAR]", new Date().getFullYear()),
+              ];
+              ctx.healthIconsFiles.forEach((file) => {
+                const fileContents = readFileSync(file).toString();
+                const optimizedContent = optimize(fileContents);
 
-                  const iconType = file
-                    .split("healthicons/icons/")[1]
-                    .split("/")[0];
-                  const iconName = path.parse(file).name.replaceAll("_", "-");
-                  const dstFileName = `${iconType}-${
-                    iconName in incompatibleNames
-                      ? incompatibleNames[iconName]
-                      : iconName
-                  }`;
+                const iconType = file
+                  .split("healthicons/icons/")[1]
+                  .split("/")[0];
+                const iconName = path.parse(file).name.replaceAll("_", "-");
+                const dstFileName = `${iconType}-${
+                  iconName in incompatibleNames
+                    ? incompatibleNames[iconName]
+                    : iconName
+                }`;
 
-                  content.push(
-                    `.healthicons-${dstFileName}::before{mask-image:url('data:image/svg+xml;charset=utf-8,${optimizedContent.data}');-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,${optimizedContent.data}');}`
-                  );
-                });
-                await fs.writeFile(
-                  path.join(rootDir, targets.css.path),
-                  content
+                content.push(
+                  `.healthicons-${dstFileName}::before{mask-image:url('data:image/svg+xml;charset=utf-8,${optimizedContent.data}');-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,${optimizedContent.data}');}`
                 );
-              },
+              });
+              await fs.writeFile(path.join(rootDir, targets.css.path), content);
             },
-            {
-              title: "Building React libraries",
-              enabled: () =>
-                cliTargets.length === 0 ||
-                cliTargets.filter((cliTarget) => targets[cliTarget]?.react)
-                  .length > 0,
-              task: (_, task) =>
-                task.newListr(
-                  [
-                    {
-                      title: "Creating temporary directory",
-                      task: async (ctx) => {
-                        try {
-                          ctx.tmpDir = await fs.mkdtemp(
-                            path.join(os.tmpdir(), "healthicons-")
+          },
+          {
+            title: "Building React libraries",
+            enabled: () =>
+              cliTargets.length === 0 ||
+              cliTargets.filter((cliTarget) => targets[cliTarget]?.react)
+                .length > 0,
+            task: (_, task) =>
+              task.newListr(
+                [
+                  {
+                    title: "Creating temporary directory",
+                    task: async (ctx) => {
+                      try {
+                        ctx.tmpDir = await fs.mkdtemp(
+                          path.join(os.tmpdir(), "healthicons-")
+                        );
+                      } catch (err) {
+                        ctx.skip = true;
+                        throw new Error(err.message);
+                      }
+                    },
+                  },
+                  {
+                    title:
+                      "Copying icon files to temporary directory, while renaming icons with incompatible names",
+                    skip: (ctx) => ctx.skip,
+                    task: async (ctx) => {
+                      try {
+                        // Create icon type directories
+                        ["filled", "outline", "negative"].forEach(
+                          async (iconType) => {
+                            await fs.mkdir(path.join(ctx.tmpDir, iconType));
+                          }
+                        );
+
+                        const promises = ctx.healthIconsFiles.map((file) => {
+                          const srcFilePath = path.join(file);
+                          const iconPath = path.parse(file);
+                          const iconType = file
+                            .split("healthicons/icons/")[1]
+                            .split("/")[0]; // get filled or outline or negative
+                          const iconName = iconPath.name;
+                          const dstFileName =
+                            iconName in incompatibleNames
+                              ? incompatibleNames[iconName]
+                              : iconName;
+                          const dstFilePath = path.join(
+                            ctx.tmpDir,
+                            iconType,
+                            `${dstFileName}.svg`
                           );
-                        } catch (err) {
+
+                          return fs.copyFile(srcFilePath, dstFilePath);
+                        });
+                        return Promise.all(promises).catch((err) => {
                           ctx.skip = true;
                           throw new Error(err.message);
-                        }
-                      },
+                        });
+                      } catch (err) {
+                        ctx.skip = true;
+                        throw new Error(err.message);
+                      }
                     },
-                    {
-                      title:
-                        "Copying icon files to temporary directory, while renaming icons with incompatible names",
-                      skip: (ctx) => ctx.skip,
-                      task: async (ctx) => {
-                        try {
-                          // Create icon type directories
-                          ["filled", "outline", "negative"].forEach(
-                            async (iconType) => {
-                              await fs.mkdir(path.join(ctx.tmpDir, iconType));
-                            }
-                          );
-
-                          const promises = ctx.healthIconsFiles.map((file) => {
-                            const srcFilePath = path.join(file);
-                            const iconPath = path.parse(file);
-                            const iconType = file
-                              .split("healthicons/icons/")[1]
-                              .split("/")[0]; // get filled or outline or negative
-                            const iconName = iconPath.name;
-                            const dstFileName =
-                              iconName in incompatibleNames
-                                ? incompatibleNames[iconName]
-                                : iconName;
-                            const dstFilePath = path.join(
-                              ctx.tmpDir,
-                              iconType,
-                              `${dstFileName}.svg`
+                  },
+                  {
+                    skip: (ctx) => ctx.skip,
+                    task: (_, task) => {
+                      const targetsToBuild =
+                        cliTargets.length > 0
+                          ? cliTargets.filter(
+                              (cliTarget) => targets[cliTarget]?.react
+                            )
+                          : Object.keys(targets).filter(
+                              (target) => targets[target].react
                             );
+                      const tasks = targetsToBuild.map((target) => {
+                        const builtIconsDir = path.join(
+                          rootDir,
+                          targets[target].path,
+                          "src"
+                        );
+                        return {
+                          title: `Building ${target}`,
+                          task: (_, task) =>
+                            task.newListr(
+                              [
+                                {
+                                  title: "Cleaning target directory",
+                                  task: async (ctx) => {
+                                    try {
+                                      const files = (
+                                        await deepReadDir(builtIconsDir)
+                                      ).flat(Number.POSITIVE_INFINITY);
+                                      const promises = files
+                                        .filter(
+                                          (file) =>
+                                            !ignoreCleanFilenames.includes(
+                                              path.basename(file)
+                                            )
+                                        )
+                                        .map((file) => {
+                                          return fs.unlink(path.join(file));
+                                        });
+                                      return Promise.all(promises).catch(
+                                        (err) => {
+                                          ctx[target] = { skip: true };
+                                          throw new Error(err.message);
+                                        }
+                                      );
+                                    } catch (err) {
+                                      ctx[target] = { skip: true };
+                                      throw new Error(err.message);
+                                    }
+                                  },
+                                },
+                                {
+                                  title: "Building icon files",
+                                  skip: (ctx) => ctx[target]?.skip,
+                                  task: async (ctx) => {
+                                    try {
+                                      await execa(
+                                        "svgr",
+                                        [
+                                          "--config-file",
+                                          path.join(
+                                            targets[target].path,
+                                            ".svgrrc.json"
+                                          ),
+                                          "--out-dir",
+                                          builtIconsDir,
+                                          "--template",
+                                          "bin/templates/icon-template.cjs",
+                                          "--index-template",
+                                          "bin/templates/index-template.cjs",
+                                          ctx.tmpDir,
+                                        ],
+                                        { preferLocal: true }
+                                      );
+                                    } catch (err) {
+                                      throw new Error(err.message);
+                                    }
+                                  },
+                                },
+                              ],
+                              { concurrent: false, exitOnError: false }
+                            ),
+                        };
+                      });
+                      return task.newListr(tasks, {
+                        concurrent: true,
+                        rendererOptions: { collapse: false },
+                      });
+                    },
+                  },
+                ],
+                { concurrent: false }
+              ),
+          },
+          {
+            title: "Building Flutter libraries",
+            enabled: () =>
+              cliTargets.length === 0 ||
+              cliTargets.filter((cliTarget) => targets[cliTarget]?.flutter)
+                .length > 0,
+            task: (_, task) =>
+              task.newListr(
+                [
+                  {
+                    title: "Creating temporary directory",
+                    task: async (ctx) => {
+                      try {
+                        ctx.tmpDir = await fs.mkdtemp(
+                          path.join(os.tmpdir(), "healthicons-")
+                        );
+                      } catch (err) {
+                        ctx.skip = true;
+                        throw new Error(err.message);
+                      }
+                    },
+                  },
+                  {
+                    title:
+                      "Copying icon files to temporary directory, while renaming icons with incompatible names",
+                    skip: (ctx) => ctx.skip,
+                    task: async (ctx) => {
+                      try {
+                        // Create icon type directories
+                        ["filled", "outline", "negative"].forEach(
+                          async (iconType) => {
+                            await fs.mkdir(path.join(ctx.tmpDir, iconType));
+                          }
+                        );
 
-                            return fs.copyFile(srcFilePath, dstFilePath);
-                          });
-                          return Promise.all(promises).catch((err) => {
-                            ctx.skip = true;
-                            throw new Error(err.message);
-                          });
-                        } catch (err) {
+                        const promises = ctx.healthIconsFiles.map((file) => {
+                          const srcFilePath = path.join(file);
+                          const iconPath = path.parse(file);
+                          const iconType = file
+                            .split("healthicons/icons/")[1]
+                            .split("/")[0]; // get filled or outline or negative
+                          const iconName = iconPath.name;
+                          const dstFileName =
+                            iconName in incompatibleNames
+                              ? incompatibleNames[iconName]
+                              : iconName;
+                          const dstFilePath = path.join(
+                            ctx.tmpDir,
+                            iconType,
+                            `${dstFileName}.svg`
+                          );
+
+                          ctx.dstFilePaths = [
+                            ...(ctx.dstFilePaths ?? []),
+                            dstFilePath,
+                          ];
+
+                          return fs.copyFile(srcFilePath, dstFilePath);
+                        });
+                        return Promise.all(promises).catch((err) => {
                           ctx.skip = true;
                           throw new Error(err.message);
-                        }
-                      },
+                        });
+                      } catch (err) {
+                        ctx.skip = true;
+                        throw new Error(err.message);
+                      }
                     },
-                    {
-                      skip: (ctx) => ctx.skip,
-                      task: (_, task) => {
-                        const targetsToBuild =
-                          cliTargets.length > 0
-                            ? cliTargets.filter(
-                                (cliTarget) => targets[cliTarget]?.react
-                              )
-                            : Object.keys(targets).filter(
-                                (target) => targets[target].react
-                              );
-                        const tasks = targetsToBuild.map((target) => {
-                          const builtIconsDir = path.join(
-                            rootDir,
-                            targets[target].path,
-                            "src"
-                          );
-                          return {
-                            title: `Building ${target}`,
-                            task: (_, task) =>
-                              task.newListr(
-                                [
-                                  {
-                                    title: "Cleaning target directory",
-                                    task: async (ctx) => {
-                                      try {
-                                        const files = (
-                                          await deepReadDir(builtIconsDir)
-                                        ).flat(Number.POSITIVE_INFINITY);
-                                        const promises = files
-                                          .filter(
-                                            (file) =>
-                                              !ignoreCleanFilenames.includes(
-                                                path.basename(file)
-                                              )
+                  },
+                  {
+                    skip: (ctx) => ctx.skip,
+                    task: (_, task) => {
+                      const targetsToBuild =
+                        cliTargets.length > 0
+                          ? cliTargets.filter(
+                              (cliTarget) => targets[cliTarget]?.flutter
+                            )
+                          : Object.keys(targets).filter(
+                              (target) => targets[target].flutter
+                            );
+                      const tasks = targetsToBuild.map((target) => {
+                        const builtIconsDir = path.join(
+                          rootDir,
+                          targets[target].path,
+                          "lib"
+                        );
+                        return {
+                          title: `Building ${target}`,
+                          task: (_, task) =>
+                            task.newListr(
+                              [
+                                {
+                                  title: "Cleaning target directory",
+                                  task: async (ctx) => {
+                                    try {
+                                      const files = (
+                                        await deepReadDir(builtIconsDir)
+                                      ).flat(Number.POSITIVE_INFINITY);
+                                      const promises = files
+                                        .filter(
+                                          (file) =>
+                                            !ignoreCleanFilenames.includes(
+                                              path.basename(file)
+                                            )
+                                        )
+                                        .map((file) => {
+                                          return fs.unlink(path.join(file));
+                                        });
+                                      return Promise.all(promises).catch(
+                                        (err) => {
+                                          ctx[target] = { skip: true };
+                                          throw new Error(err.message);
+                                        }
+                                      );
+                                    } catch (err) {
+                                      ctx[target] = { skip: true };
+                                      throw new Error(err.message);
+                                    }
+                                  },
+                                },
+                                {
+                                  title: "Create entry file",
+                                  task: async () => {
+                                    await fs.writeFile(
+                                      path.join(
+                                        builtIconsDir,
+                                        "healthicons_flutter.dart"
+                                      ),
+                                      "library healthicons_flutter;\n\n"
+                                    );
+                                  },
+                                },
+                                {
+                                  title: "Building icon files",
+                                  skip: (ctx) => ctx[target]?.skip,
+                                  task: async (ctx) => {
+                                    const finalFileNames = [];
+                                    try {
+                                      await Promise.all(
+                                        ctx.dstFilePaths.map(async (file) => {
+                                          const svgfilename =
+                                            path.parse(file).name;
+
+                                          // Prefix with Svg if icon name starts with a number
+                                          const iconname = `${
+                                            /^\d/.test(svgfilename) ? "Svg" : ""
+                                          }${svgfilename}`;
+
+                                          // Extract the icon type from the parent directory
+                                          const iconType = path.basename(
+                                            path.dirname(file)
+                                          );
+
+                                          const svgfilecontent = (
+                                            await fs.readFile(file)
+                                          ).toString();
+
+                                          await generateTemplateFilesBatch([
+                                            {
+                                              option:
+                                                "Create Icon Flutter Widget",
+                                              entry: {
+                                                folderPath:
+                                                  "./bin/templates/__svgfilename__.dart",
+                                              },
+                                              dynamicReplacers: [
+                                                {
+                                                  slot: "__icon__",
+                                                  slotValue: iconname,
+                                                },
+                                                {
+                                                  slot: "__svgfilecontent__",
+                                                  slotValue: svgfilecontent,
+                                                },
+                                                {
+                                                  slot: "__svgfilename__",
+                                                  slotValue: svgfilename,
+                                                },
+                                              ],
+                                              output: {
+                                                path: `./packages/healthicons-flutter/lib/${iconType}/__svgfilename__(snakeCase).dart`,
+                                                pathAndFileNameDefaultCase:
+                                                  "(snakeCase)",
+                                              },
+                                              async onComplete(results) {
+                                                finalFileNames.push(
+                                                  results.output.path
+                                                );
+                                              },
+                                            },
+                                          ]);
+                                        })
+                                      );
+
+                                      finalFileNames.sort();
+                                      await fs.appendFile(
+                                        path.join(
+                                          builtIconsDir,
+                                          "healthicons_flutter.dart"
+                                        ),
+                                        finalFileNames
+                                          .map(
+                                            (fileName) =>
+                                              `export './${path.basename(
+                                                fileName
+                                              )}';`
                                           )
-                                          .map((file) => {
-                                            return fs.unlink(path.join(file));
-                                          });
-                                        return Promise.all(promises).catch(
-                                          (err) => {
-                                            ctx[target] = { skip: true };
-                                            throw new Error(err.message);
-                                          }
-                                        );
-                                      } catch (err) {
-                                        ctx[target] = { skip: true };
-                                        throw new Error(err.message);
-                                      }
-                                    },
+                                          .join("\n")
+                                      );
+                                    } catch (err) {
+                                      throw new Error(err.message);
+                                    }
                                   },
-                                  {
-                                    title: "Building icon files",
-                                    skip: (ctx) => ctx[target]?.skip,
-                                    task: async (ctx) => {
-                                      try {
-                                        await execa(
-                                          "svgr",
-                                          [
-                                            "--config-file",
-                                            path.join(
-                                              targets[target].path,
-                                              ".svgrrc.json"
-                                            ),
-                                            "--out-dir",
-                                            builtIconsDir,
-                                            "--template",
-                                            "bin/templates/icon-template.cjs",
-                                            "--index-template",
-                                            "bin/templates/index-template.cjs",
-                                            ctx.tmpDir,
-                                          ],
-                                          { preferLocal: true }
-                                        );
-                                      } catch (err) {
-                                        throw new Error(err.message);
-                                      }
-                                    },
-                                  },
-                                ],
-                                { concurrent: false, exitOnError: false }
-                              ),
-                          };
-                        });
-                        return task.newListr(tasks, {
-                          concurrent: true,
-                          rendererOptions: { collapse: false },
-                        });
-                      },
+                                },
+                              ],
+                              { concurrent: false, exitOnError: false }
+                            ),
+                        };
+                      });
+                      return task.newListr(tasks, {
+                        concurrent: true,
+                        rendererOptions: { collapse: false },
+                      });
                     },
-                  ],
-                  { concurrent: false }
-                ),
-            },
-          ],
-          { concurrent: true }
-        ),
+                  },
+                ],
+                { concurrent: false }
+              ),
+          },
+        ]),
     },
     {
       title: "Removing temporary directory",
