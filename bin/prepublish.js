@@ -26,6 +26,19 @@ function publishNpmPackage(name) {
   console.info("package.json updated");
 }
 
+function publishPubPackage(name) {
+  const pubspecFilepath = path.join("packages", name, "pubspec.yaml");
+  const pubspecContents = fs.readFileSync(pubspecFilepath).toString();
+
+  fs.writeFileSync(
+    pubspecFilepath,
+    updateYamlKey("version", newVersion, pubspecContents)
+  );
+
+  console.info("pubspec.yaml updated");
+}
+
 publishNpmPackage("healthicons");
 publishNpmPackage("healthicons-react");
 publishNpmPackage("healthicons-react-native");
+publishPubPackage("healthicons-flutter");
