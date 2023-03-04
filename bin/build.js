@@ -486,8 +486,8 @@ const tasks = new Listr(
                                           .map(
                                             (fileName) =>
                                               `export './${path.basename(
-                                                fileName
-                                              )}';`
+                                                path.dirname(fileName)
+                                              )}/${path.basename(fileName)}';`
                                           )
                                           .join("\n")
                                       );
