@@ -42,18 +42,21 @@ jobs:
         run: |
           git -c user.email="actions@github.com" -c user.name="GitHub Actions" tag -fa ${{ github.ref_name }} -m "${{ github.ref_name }}"
           git push -f origin ${{ github.ref_name }}
+      
+      - name: Set .npmrc 
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
 
-      # - name: Publish React packages
-      #   run: yarn --cwd ./packages/healthicons-react npm publish -r
-      #   env:
-      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      #   continue-on-error: true
-
-      # - name: Publish React Native packages
-      #   run: yarn --cwd ./packages/healthicons-react-native npm publish -r
-      #   env:
-      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      #   continue-on-error: true
+      - name: Publish React package
+        run: yarn --cwd ./packages/healthicons-react npm publish -r
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        continue-on-error: true
+      
+      - name: Publish React Native package
+        run: yarn --cwd ./packages/healthicons-react npm publish -r
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        continue-on-error: true
 
       # - name: Publish Flutter
       #   uses: k-paxian/dart-package-publisher@v1.5.1
