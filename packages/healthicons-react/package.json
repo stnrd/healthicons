@@ -1,6 +1,6 @@
 {
   "name": "healthicons-react",
-  "version": "1.2.2",
+  "version": "1.2.5",
   "description": "React icon library for the Health Icons set",
   "files": [
     "dist"
