@@ -37,7 +37,7 @@ jobs:
       - name: Commit release
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Release Version ${{ github.ref_name }}
+          commit_message: Release Version ${{ github.ref_name }} [skip ci]
           branch: main
           push_options: --force
 
