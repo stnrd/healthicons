@@ -49,13 +49,13 @@ jobs:
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
 
       - name: Publish React package
-        run: yarn --cwd ./packages/healthicons-react npm publish -r
+        run: yarn --cwd ./packages/healthicons-react publish -r
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         continue-on-error: true
 
       - name: Publish React Native package
-        run: yarn --cwd ./packages/healthicons-react npm publish -r
+        run: yarn --cwd ./packages/healthicons-react publish -r
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         continue-on-error: true

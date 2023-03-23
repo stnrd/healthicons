@@ -31,5 +31,5 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update build artifacts
+          commit_message: "[skip ci] Update build artifacts"
           push_options: --force
