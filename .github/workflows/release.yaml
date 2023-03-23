@@ -13,6 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
+          token: ${{ secrets.PAT }}
           ref: main
 
       - name: Setup Node.js
@@ -37,13 +38,14 @@ jobs:
         with:
           commit_message: Release Version ${{ github.ref_name }}
           branch: main
+          push_options: --force
 
       - name: Update tag
         run: |
           git -c user.email="actions@github.com" -c user.name="GitHub Actions" tag -fa ${{ github.ref_name }} -m "${{ github.ref_name }}"
           git push -f origin ${{ github.ref_name }}
-      
-      - name: Set .npmrc 
+
+      - name: Set .npmrc
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
 
       - name: Publish React package
@@ -51,7 +53,7 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         continue-on-error: true
-      
+
       - name: Publish React Native package
         run: yarn --cwd ./packages/healthicons-react npm publish -r
         env:
