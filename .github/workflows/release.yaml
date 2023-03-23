@@ -50,7 +50,7 @@ jobs:
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
 
       - name: Publish React package
-        run: >
+        run: |
           yarn --cwd ./packages/healthicons-react install 
           yarn --cwd ./packages/healthicons-react publish -r
         env:
@@ -58,7 +58,7 @@ jobs:
         continue-on-error: true
 
       - name: Publish React Native package
-        run: >
+        run: |
           yarn --cwd ./packages/healthicons-react-native install
           yarn --cwd ./packages/healthicons-react-native publish -r
         env:
