@@ -1,0 +1,23 @@
+import 'package:flutter/widgets.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+
+class ExplanationMark extends StatelessWidget {
+  final Color? color;
+  final double? width;
+  final double? height;
+
+  const ExplanationMark({Key? key, this.color, this.width, this.height})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) => SvgPicture.string(
+        '''
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M48 0H0V48H48V0ZM24 10C25.1046 10 26 10.8954 26 12V30C26 31.1046 25.1046 32 24 32C22.8954 32 22 31.1046 22 30V12C22 10.8954 22.8954 10 24 10ZM24 38C25.1046 38 26 37.1046 26 36C26 34.8954 25.1046 34 24 34C22.8954 34 22 34.8954 22 36C22 37.1046 22.8954 38 24 38Z" fill="#333333"/>
+</svg>
+''',
+        color: color,
+        width: width,
+        height: height,
+      );
+}
