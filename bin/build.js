@@ -83,7 +83,7 @@ const tasks = new Listr(
                   path.join(rootDir, targets["meta-data"].path),
                   JSON.stringify({
                     icons: ctx.healthIconsFiles.map(
-                      (file) => file.split("healthicons/icons/")[1] // Make it an relative path
+                      (file) => file.split("healthicons/icons/")[1]
                     ),
                   })
                 );
