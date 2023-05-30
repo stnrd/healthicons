@@ -21,11 +21,8 @@ const SvgTriangleLarge = (
       ref={ref}
       {...props}
     >
-      <path d="M24 42H6l9-18 9-18 9 18 9 18H24Z" fill="#333" />
       <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M24 5a1 1 0 0 1 .894.553l18 36A1 1 0 0 1 42 43H6a1 1 0 0 1-.894-1.447l18-36A1 1 0 0 1 24 5Zm0 3.236L7.618 41h32.764L24 8.236Z"
+        d="M24 5a1 1 0 0 1 .894.553l18 36A1 1 0 0 1 42 43H6a1 1 0 0 1-.894-1.447l18-36A1 1 0 0 1 24 5Z"
         fill="#333"
       />
     </svg>

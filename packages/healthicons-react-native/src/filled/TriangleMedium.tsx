@@ -16,11 +16,8 @@ const SvgTriangleMedium = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <Path d="M24 39H9l7.5-15L24 9l7.5 15L39 39H24Z" fill="#333" />
       <Path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M24 8a1 1 0 0 1 .894.553l15 30A1 1 0 0 1 39 40H9a1 1 0 0 1-.894-1.447l15-30A1 1 0 0 1 24 8Zm0 3.236L10.618 38h26.764L24 11.236Z"
+        d="M24.894 8.553a1 1 0 0 0-1.788 0l-15 30A1 1 0 0 0 9 40h30a1 1 0 0 0 .894-1.447l-15-30Z"
         fill="#333"
       />
     </Svg>

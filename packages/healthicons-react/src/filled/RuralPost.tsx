@@ -24,16 +24,14 @@ const SvgRuralPost = (
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M23 12H5v2h18v-2Zm0 4H6v21H5a1 1 0 1 0 0 2h38a1 1 0 1 0 0-2h-1V16h-3v2h1v19h-3V25h-8v12H8V18h15v-2Zm16-2v-2h4v2h-4ZM26 25H11v7h-1v2h17v-2h-1v-7Z"
+        d="M25 12a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2v-8Zm9 3h-2v-2h-2v2h-2v2h2v2h2v-2h2v-2Z"
         fill="#333"
       />
       <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M6 18v-5h2v5H6ZM40 18v-5h2v5h-2ZM35 10h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Zm-3 3v2h2v2h-2v2h-2v-2h-2v-2h2v-2h2Z"
+        d="M5 12h18v6H8v19h21V25h8v12h3V18h-1v-6h4v2h-1v23h1a1 1 0 1 1 0 2H5a1 1 0 1 1 0-2h1V14H5v-2Z"
         fill="#333"
       />
-      <path d="M8 14h15v2H8v-2ZM40 14h-1v2h1v-2Z" fill="#333" />
+      <path d="M27 34H10v-2h1v-7h15v7h1v2Z" fill="#333" />
     </svg>
   );
 };

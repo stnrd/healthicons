@@ -16,10 +16,11 @@ const SvgBook = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
+      <Path d="M30 19h-5v-5h-2v5h-5v2h5v5h2v-5h5v-2Z" fill="#333" />
       <Path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M14 5a5 5 0 0 0-5 5v32a1 1 0 0 0 1 1h28v-2H11v-1a3 3 0 0 1 3-3h24a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H14Zm-3 31c.836-.628 1.874-1 3-1h23V7H14a3 3 0 0 0-3 3v26Zm12-17v-5h2v5h5v2h-5v5h-2v-5h-5v-2h5Z"
+        d="M9 10a5 5 0 0 1 5-5h24a1 1 0 0 1 1 1v30a1 1 0 0 1-1 1H14a3 3 0 0 0-3 3v1h27v2H10a1 1 0 0 1-1-1V10Zm5 25a4.978 4.978 0 0 0-3 1V10a3 3 0 0 1 3-3h23v28H14Z"
         fill="#333"
       />
     </Svg>

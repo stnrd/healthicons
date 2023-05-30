@@ -22,25 +22,13 @@ const SvgHospital = (
       {...props}
     >
       <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M8 43a1 1 0 0 1 1-1h30a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1ZM19 8h-9V6h9v2ZM39 8h-9V6h9v2ZM17 11h-6V9h6v2ZM37 11h-6V9h6v2ZM32 38H16v-2h16v2ZM25 7v8h-2V7h2Z"
+        d="M20 20h-4v3h4v-3ZM16 25h4v3h-4v-3ZM20 30h-4v3h4v-3ZM22 20h4v3h-4v-3ZM26 25h-4v3h4v-3ZM22 30h4v3h-4v-3ZM32 20h-4v3h4v-3ZM28 25h4v3h-4v-3ZM32 30h-4v3h4v-3ZM25 15v-3h3v-2h-3V7h-2v3h-3v2h3v3h2Z"
         fill="#333"
       />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M20 10h8v2h-8v-2Z"
-        fill="#333"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M29 6H19v10h10V6ZM19 4h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H19a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2ZM11 42V7h2v35h-2ZM35 42V7h2v35h-2ZM23 42v-4h2v4h-2ZM29 42v-4h2v4h-2ZM17 42v-4h2v4h-2Z"
-        fill="#333"
-      />
-      <path
-        d="M16 20h4v3h-4v-3ZM16 25h4v3h-4v-3ZM16 30h4v3h-4v-3ZM22 20h4v3h-4v-3ZM22 25h4v3h-4v-3ZM22 30h4v3h-4v-3ZM28 20h4v3h-4v-3ZM28 25h4v3h-4v-3ZM28 30h4v3h-4v-3Z"
+        d="M17 6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2h8v2h-2v34h2a1 1 0 1 1 0 2H9a1 1 0 1 1 0-2h2V8h-1V6h7Zm0 5h-4v31h4v-4h-1v-2h16v2h-1v4h4V11h-4v5a2 2 0 0 1-2 2H19a2 2 0 0 1-2-2v-5Zm0-2h-4V8h4v1Zm2-3h10v10H19V6Zm4 36h-4v-4h4v4Zm6 0v-4h-4v4h4Zm6-33V8h-4v1h4Z"
         fill="#333"
       />
     </svg>

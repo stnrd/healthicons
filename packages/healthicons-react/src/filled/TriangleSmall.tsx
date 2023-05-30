@@ -21,11 +21,8 @@ const SvgTriangleSmall = (
       ref={ref}
       {...props}
     >
-      <path d="M24 36H12l6-12 6-12 6 12 6 12H24Z" fill="#333" />
       <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M24 11a1 1 0 0 1 .894.553l12 24A1 1 0 0 1 36 37H12a1 1 0 0 1-.894-1.447l12-24A1 1 0 0 1 24 11Zm0 3.236L13.618 35h20.764L24 14.236Z"
+        d="M24.894 11.553a1 1 0 0 0-1.788 0l-12 24A1 1 0 0 0 12 37h24a1 1 0 0 0 .894-1.447l-12-24Z"
         fill="#333"
       />
     </svg>

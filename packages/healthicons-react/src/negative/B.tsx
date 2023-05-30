@@ -21,16 +21,19 @@ const SvgB = (
       ref={ref}
       {...props}
     >
-      <path
-        d="M30 18a4 4 0 0 1-4 4h-8v-8h8a4 4 0 0 1 4 4ZM26 26h-8v8h8a4 4 0 0 0 0-8Z"
-        fill="#333"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M48 0H0v48h48V0ZM16 10a2 2 0 0 0-2 2v24a2 2 0 0 0 2 2h10a8 8 0 0 0 5.292-14A8 8 0 0 0 26 10H16Z"
-        fill="#333"
-      />
+      <g clipPath="url(#B_svg__a)" fill="#333">
+        <path d="M30 18a4 4 0 0 1-4 4h-8v-8h8a4 4 0 0 1 4 4ZM26 26h-8v8h8a4 4 0 0 0 0-8Z" />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M48 0H0v48h48V0ZM16 10a2 2 0 0 0-2 2v24a2 2 0 0 0 2 2h10a8 8 0 0 0 5.292-14A8 8 0 0 0 26 10H16Z"
+        />
+      </g>
+      <defs>
+        <clipPath id="B_svg__a">
+          <path fill="#fff" d="M0 0h48v48H0z" />
+        </clipPath>
+      </defs>
     </svg>
   );
 };

@@ -21,12 +21,19 @@ const SvgHome = (
       ref={ref}
       {...props}
     >
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M0 0h48v48H0V0Zm4 37a1 1 0 0 1 1-1h5V22l14-8 14 8v14h3a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1Zm30-1V25h-6v11h6ZM14 25h11v6H14v-6Zm17-11.043V11h5v5.899l5.507 3.24.862.506-1.014 1.724-.862-.507L24 12.16 7.507 21.862l-.862.507-1.014-1.724.862-.507 17-10a1 1 0 0 1 1.014 0L31 13.958Z"
-        fill="#333"
-      />
+      <g clipPath="url(#home_svg__a)" fill="#333">
+        <path d="M34 25v11h-6V25h6ZM25 25H14v6h11v-6Z" />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M48 0H0v48h48V0ZM5 36a1 1 0 1 0 0 2h36a1 1 0 1 0 0-2h-3V22l-14-8-14 8v14H5Zm31-19.101V11h-5v2.957l-6.493-3.819a1 1 0 0 0-1.014 0L5.631 20.645l1.014 1.724L24 12.16 41.355 22.37l1.014-1.724L36 16.9Z"
+        />
+      </g>
+      <defs>
+        <clipPath id="home_svg__a">
+          <path fill="#fff" d="M0 0h48v48H0z" />
+        </clipPath>
+      </defs>
     </svg>
   );
 };

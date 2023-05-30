@@ -1,5 +1,5 @@
 import * as React from "react";
-import Svg, { SvgProps, Path } from "react-native-svg";
+import Svg, { SvgProps, G, Path, Defs, ClipPath } from "react-native-svg";
 import { HealthIconsContext } from "../HealthIconsContext";
 const SvgHealthAlt = (passedProps: SvgProps) => {
   const context = React.useContext(HealthIconsContext);
@@ -16,12 +16,19 @@ const SvgHealthAlt = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <Path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M48 0H0v48h48V0ZM9 6a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h30a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3H9Zm13 8v8h-8v4h8v8h4v-8h8v-4h-8v-8h-4Z"
-        fill="#333"
-      />
+      <G clipPath="url(#health_alt_svg__a)">
+        <Path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M48 0H0v48h48V0ZM9 6a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h30a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3H9Zm13 8v8h-8v4h8v8h4v-8h8v-4h-8v-8h-4Z"
+          fill="#333"
+        />
+      </G>
+      <Defs>
+        <ClipPath id="health_alt_svg__a">
+          <Path fill="#fff" d="M0 0h48v48H0z" />
+        </ClipPath>
+      </Defs>
     </Svg>
   );
 };

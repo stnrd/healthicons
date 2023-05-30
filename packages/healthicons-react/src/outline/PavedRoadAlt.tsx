@@ -14,7 +14,7 @@ const SvgPavedRoadAlt = (
     <svg
       width="1.5em"
       height="1.5em"
-      viewBox="0 0 49 49"
+      viewBox="0 0 48 48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
@@ -22,7 +22,7 @@ const SvgPavedRoadAlt = (
       {...props}
     >
       <path
-        d="M33.02 7.98a1 1 0 1 1 2 0v34a1 1 0 1 1-2 0v-34ZM13.02 7.98a1 1 0 1 1 2 0v34a1 1 0 1 1-2 0v-34ZM23.02 11.98a1 1 0 1 1 2 0v4a1 1 0 1 1-2 0v-4ZM23.02 22.98a1 1 0 1 1 2 0v4a1 1 0 1 1-2 0v-4ZM23.02 33.98a1 1 0 1 1 2 0v4a1 1 0 1 1-2 0v-4Z"
+        d="M33 7a1 1 0 0 1 2 0v34a1 1 0 1 1-2 0V7ZM13 7a1 1 0 0 1 2 0v34a1 1 0 1 1-2 0V7ZM23 11a1 1 0 0 1 2 0v4a1 1 0 1 1-2 0v-4ZM23 22a1 1 0 0 1 2 0v4a1 1 0 1 1-2 0v-4ZM23 33a1 1 0 0 1 2 0v4a1 1 0 1 1-2 0v-4Z"
         fill="#333"
       />
     </svg>

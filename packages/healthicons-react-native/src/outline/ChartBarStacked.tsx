@@ -19,31 +19,7 @@ const SvgChartBarStacked = (passedProps: SvgProps) => {
       <Path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M8 40V7H6v34a1 1 0 0 0 1 1h34v-2H8Z"
-        fill="#333"
-      />
-      <Path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M11 25a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V25Zm2 1v14h4V26h-4Z"
-        fill="#333"
-      />
-      <Path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M11 33a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-8Zm2 1v6h4v-6h-4ZM21 21a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v20a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V21Zm2 1v18h4V22h-4Z"
-        fill="#333"
-      />
-      <Path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M21 29a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V29Zm2 1v10h4V30h-4ZM31 13a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v28a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V13Zm2 1v26h4V14h-4Z"
-        fill="#333"
-      />
-      <Path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M31 25a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V25Zm2 1v14h4V26h-4Z"
+        d="M12 24a1 1 0 0 0-1 1v15H8V7H6v34a1 1 0 0 0 1 1h34v-2h-2V13a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v27h-2V21a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v19h-2V25a1 1 0 0 0-1-1h-6Zm21 16h4V26h-4v14Zm4-16h-4V14h4v10Zm-14 6v10h4V30h-4Zm4-2h-4v-6h4v6Zm-14 6v6h4v-6h-4Zm4-2h-4v-6h4v6Z"
         fill="#333"
       />
     </Svg>

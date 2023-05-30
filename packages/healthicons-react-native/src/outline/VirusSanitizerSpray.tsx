@@ -16,7 +16,6 @@ const SvgVirusSanitizerSpray = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <Path fill="#fff" d="M0 0h48v48H0z" />
       <Path
         fillRule="evenodd"
         clipRule="evenodd"

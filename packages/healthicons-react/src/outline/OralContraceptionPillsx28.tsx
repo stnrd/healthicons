@@ -59,7 +59,7 @@ const SvgOralContraceptionPillsx28 = (
         cx={16.929}
         cy={25.414}
         r={0.5}
-        transform="rotate(-135 16.93 25.414)"
+        transform="rotate(-135 16.929 25.414)"
         stroke="#333"
       />
       <circle
@@ -91,10 +91,10 @@ const SvgOralContraceptionPillsx28 = (
         stroke="#333"
       />
       <circle
-        cx={25.415}
+        cx={25.414}
         cy={28.242}
         r={0.5}
-        transform="rotate(-135 25.415 28.242)"
+        transform="rotate(-135 25.414 28.242)"
         stroke="#333"
       />
       <circle
@@ -175,10 +175,10 @@ const SvgOralContraceptionPillsx28 = (
         stroke="#333"
       />
       <circle
-        cx={36.729}
+        cx={36.728}
         cy={28.242}
         r={0.5}
-        transform="rotate(-135 36.729 28.242)"
+        transform="rotate(-135 36.728 28.242)"
         fill="#333"
         stroke="#333"
       />

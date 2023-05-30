@@ -21,12 +21,19 @@ const SvgCircleSmall = (
       ref={ref}
       {...props}
     >
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M48 0H0v48h48V0ZM36 24c0 6.627-5.373 12-12 12s-12-5.373-12-12c0-6.628 5.373-12 12-12s12 5.372 12 12Z"
-        fill="#333"
-      />
+      <g clipPath="url(#circle_small_svg__a)">
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M48 0H0v48h48V0ZM36 24c0 6.627-5.373 12-12 12s-12-5.373-12-12c0-6.628 5.373-12 12-12s12 5.372 12 12Z"
+          fill="#333"
+        />
+      </g>
+      <defs>
+        <clipPath id="circle_small_svg__a">
+          <path fill="#fff" d="M0 0h48v48H0z" />
+        </clipPath>
+      </defs>
     </svg>
   );
 };

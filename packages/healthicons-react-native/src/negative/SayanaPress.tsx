@@ -1,5 +1,5 @@
 import * as React from "react";
-import Svg, { SvgProps, Path } from "react-native-svg";
+import Svg, { SvgProps, G, Path, Defs, ClipPath } from "react-native-svg";
 import { HealthIconsContext } from "../HealthIconsContext";
 const SvgSayanaPress = (passedProps: SvgProps) => {
   const context = React.useContext(HealthIconsContext);
@@ -16,12 +16,19 @@ const SvgSayanaPress = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <Path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M0 0h48v48H0V0Zm23 6 2-2v7h-2V6Zm-1 13h1v-8h-2a1 1 0 0 0-1 1v5h-1v2h-3a4 4 0 0 0-4 4v17a4 4 0 0 0 4 4h16a4 4 0 0 0 4-4V23a4 4 0 0 0-4-4h-3v-2h-1v-5a1 1 0 0 0-1-1h-2v8h1v1a1 1 0 0 1-1 1v3h-2v-3a1 1 0 0 1-1-1v-1Zm2 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm-1 2v2h2v-2h-2Z"
-        fill="#333"
-      />
+      <G clipPath="url(#sayana_press_svg__a)">
+        <Path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M0 0h48v48H0V0Zm23 6 2-2v7h-2V6Zm-1 13h1v-8h-2a1 1 0 0 0-1 1v5h-1v2h-3a4 4 0 0 0-4 4v17a4 4 0 0 0 4 4h16a4 4 0 0 0 4-4V23a4 4 0 0 0-4-4h-3v-2h-1v-5a1 1 0 0 0-1-1h-2v8h1v1a1 1 0 0 1-1 1v3h-2v-3a1 1 0 0 1-1-1v-1Zm2 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm-1 2v2h2v-2h-2Z"
+          fill="#333"
+        />
+      </G>
+      <Defs>
+        <ClipPath id="sayana_press_svg__a">
+          <Path fill="#fff" d="M0 0h48v48H0z" />
+        </ClipPath>
+      </Defs>
     </Svg>
   );
 };

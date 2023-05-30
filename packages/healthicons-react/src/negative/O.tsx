@@ -21,16 +21,19 @@ const SvgO = (
       ref={ref}
       {...props}
     >
-      <path
-        d="M14 24c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10-10-4.477-10-10Z"
-        fill="#333"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M48 0H0v48h48V0ZM24 10c-7.732 0-14 6.268-14 14s6.268 14 14 14 14-6.268 14-14-6.268-14-14-14Z"
-        fill="#333"
-      />
+      <g clipPath="url(#O_svg__a)" fill="#333">
+        <path d="M14 24c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10-10-4.477-10-10Z" />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M48 0H0v48h48V0ZM24 10c-7.732 0-14 6.268-14 14s6.268 14 14 14 14-6.268 14-14-6.268-14-14-14Z"
+        />
+      </g>
+      <defs>
+        <clipPath id="O_svg__a">
+          <path fill="#fff" d="M0 0h48v48H0z" />
+        </clipPath>
+      </defs>
     </svg>
   );
 };

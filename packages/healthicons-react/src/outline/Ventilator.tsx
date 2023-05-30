@@ -21,7 +21,6 @@ const SvgVentilator = (
       ref={ref}
       {...props}
     >
-      <path fill="#fff" d="M0 0h48v48H0z" />
       <path
         d="M37 16v2h-7v-2h7ZM30 13v2h7v-2h-7ZM30 21h7v-2h-7v2Z"
         fill="#333"

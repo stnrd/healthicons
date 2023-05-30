@@ -21,7 +21,6 @@ const SvgPpeFaceShieldAlt = (
       ref={ref}
       {...props}
     >
-      <path fill="#fff" d="M0 0h48v48H0z" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"

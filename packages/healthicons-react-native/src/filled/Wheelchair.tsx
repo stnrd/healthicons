@@ -16,7 +16,6 @@ const SvgWheelchair = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <Path fill="#fff" d="M0 0h48v48H0z" />
       <Path
         d="M30.5 9.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0ZM24.63 32.373l1.364-.098a6 6 0 0 0-8.476-5.739c.043 1.15.162 2.076.34 2.57 1.364 3.791 6.771 3.267 6.771 3.267Z"
         fill="#333"

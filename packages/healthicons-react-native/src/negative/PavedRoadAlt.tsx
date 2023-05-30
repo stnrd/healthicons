@@ -11,7 +11,7 @@ const SvgPavedRoadAlt = (passedProps: SvgProps) => {
     <Svg
       width="1.5em"
       height="1.5em"
-      viewBox="0 0 49 49"
+      viewBox="0 0 48 48"
       fill="none"
       color="currentColor"
       {...props}
@@ -20,13 +20,13 @@ const SvgPavedRoadAlt = (passedProps: SvgProps) => {
         <Path
           fillRule="evenodd"
           clipRule="evenodd"
-          d="M48.02 1.02.02.98l-.04 48 48 .04.04-48ZM13.013 8.95a2 2 0 0 1 2.002-1.998l18 .015a2 2 0 0 1 1.998 2.001l-.026 32a2 2 0 0 1-2.002 1.999l-18-.015a2 2 0 0 1-1.998-2.002l.026-32Zm11.018 2.03a1 1 0 0 0-1 .998l-.004 4a1 1 0 0 0 2 .002l.003-4a1 1 0 0 0-.999-1Zm-.009 11a1 1 0 0 0-1 .998l-.004 4a1 1 0 0 0 2 .002l.003-4a1 1 0 0 0-.999-1Zm-1.01 11.998a1 1 0 1 1 2 .002l-.003 4a1 1 0 0 1-2-.002l.003-4Z"
+          d="M48 .04 0 0l-.04 48 48 .04.04-48ZM12.993 7.97a2 2 0 0 1 2.002-1.998l18 .015a2 2 0 0 1 1.998 2.002l-.026 32a2 2 0 0 1-2.001 1.998l-18-.015a2 2 0 0 1-1.999-2.001l.026-32ZM24.012 10a1 1 0 0 0-1.001 1l-.003 4a1 1 0 1 0 2 0l.003-4a1 1 0 0 0-1-1Zm-.01 11a1 1 0 0 0-1 1l-.003 4a1 1 0 1 0 2 0l.003-4a1 1 0 0 0-1-1Zm-1.01 12a1 1 0 0 1 2 0l-.003 4a1 1 0 0 1-2 0l.004-4Z"
           fill="#333"
         />
       </G>
       <Defs>
         <ClipPath id="paved_road_alt_svg__a">
-          <Path fill="#fff" transform="translate(.02 .98)" d="M0 0h48v48H0z" />
+          <Path fill="#fff" d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>
     </Svg>

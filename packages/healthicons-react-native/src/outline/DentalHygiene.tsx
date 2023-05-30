@@ -16,7 +16,6 @@ const SvgDentalHygiene = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <Path fill="#fff" d="M0 0h48v48H0z" />
       <Path
         d="M17.092 14.312a1 1 0 0 1 1 1v3.533h3.615a1 1 0 1 1 0 2h-3.615v3.533a1 1 0 1 1-2 0v-3.533h-3.616a1 1 0 1 1 0-2h3.616v-3.533a1 1 0 0 1 1-1Z"
         fill="#333"

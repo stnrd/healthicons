@@ -22,19 +22,11 @@ const SvgLetrinaAlt = (
       {...props}
     >
       <path
+        d="M6 8a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2H6V8ZM12 28v-3H6V12h12v11h24c0 8.43-5.703 13.35-13 13.94V37h-5.5v2H29v3H14.5V30c-.747 0-2.5-.5-2.5-2Z"
+        fill="#333"
+      />
+      <path
         d="M20 20a1 1 0 0 1 1-1h20a1 1 0 1 1 0 2H21a1 1 0 0 1-1-1Z"
-        fill="#333"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M42 23H12v5c0 1.5 1.753 2 2.5 2v12H29v-3h-5.5v-2H29v-.06c7.297-.59 13-5.51 13-13.94Z"
-        fill="#333"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M8 6a2 2 0 0 0-2 2v2h12V8a2 2 0 0 0-2-2H8Zm10 6H6v13h12V12Z"
         fill="#333"
       />
     </svg>

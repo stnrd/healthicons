@@ -28,17 +28,17 @@ const SvgRdtResultPvInvalid = (
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M11 27a3 3 0 1 1 0-6h15a3 3 0 1 1 0 6H11Zm0-4h7v2h-7a1 1 0 1 1 0-2Zm15 2h-6v-2h6a1 1 0 1 1 0 2Z"
-        fill="#333"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
         d="M11 31a7 7 0 1 1 0-14h26a7 7 0 1 1 0 14H11Zm0-12h26a5 5 0 0 1 0 10H11a5 5 0 0 1 0-10ZM13 33a1 1 0 0 1 1-1h2.5a2.5 2.5 0 0 1 0 5H15v1a1 1 0 1 1-2 0v-5Zm2 2h1.5a.5.5 0 0 0 0-1H15v1ZM28 9a1 1 0 0 0-1 1v5a1 1 0 1 0 2 0v-1h1.5a2.5 2.5 0 0 0 0-5H28Zm2.5 3H29v-1h1.5a.5.5 0 0 1 0 1Z"
         fill="#333"
       />
       <path
         d="M22.5 39a1 1 0 0 0 .936-.649l1.5-4a1 1 0 1 0-1.872-.702l-.564 1.503-.564-1.503a1 1 0 0 0-1.872.702l1.5 4A1 1 0 0 0 22.5 39ZM35 16a1 1 0 0 0 1-1v-2a1 1 0 0 0 0-2 1 1 0 0 0 0-2c-.726 0-1.276.325-1.611.79A2.116 2.116 0 0 0 34 11a1 1 0 1 0 0 2v2a1 1 0 0 0 1 1Z"
+        fill="#333"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M29 24a3 3 0 0 0-3-3H11a3 3 0 1 0 0 6h15a3 3 0 0 0 3-3Zm-18-1h2v2h-2a1 1 0 1 1 0-2Zm4 2v-2h7v2h-7Zm11 0h-2v-2h2a1 1 0 1 1 0 2Z"
         fill="#333"
       />
     </svg>

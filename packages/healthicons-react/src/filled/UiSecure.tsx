@@ -24,13 +24,7 @@ const SvgUiSecure = (
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M11 18a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h26a2 2 0 0 0 2-2V20a2 2 0 0 0-2-2H11Zm4 8h18v-2H15v2Zm18 5H15v-2h18v2Zm-18 5h18v-2H15v2Z"
-        fill="#333"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M30 18v-2a6 6 0 0 0-12 0v2h12ZM24 6c-5.523 0-10 4.477-10 10v6h20v-6c0-5.523-4.477-10-10-10Z"
+        d="M9 20a2 2 0 0 1 2-2h3v-2c0-5.523 4.477-10 10-10s10 4.477 10 10v2h3a2 2 0 0 1 2 2v20a2 2 0 0 1-2 2H11a2 2 0 0 1-2-2V20Zm15-10a6 6 0 0 1 6 6v2H18v-2a6 6 0 0 1 6-6Zm9 16H15v-2h18v2Zm-18 5h18v-2H15v2Zm18 5H15v-2h18v2Z"
         fill="#333"
       />
     </svg>

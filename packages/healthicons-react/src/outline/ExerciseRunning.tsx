@@ -30,7 +30,7 @@ const SvgExerciseRunning = (
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M32.001 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm0 2a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"
+        d="M32 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm0 2a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"
         fill="#333"
       />
     </svg>

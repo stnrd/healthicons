@@ -24,29 +24,13 @@ const SvgAmbulatoryClinic = (
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M13.02 11.985c.057-.71.242-1.384.531-2H6v2.481l4 3.03v26.52h28V15.531l4.5-3.03V9.984H24.449c.29.616.474 1.29.532 2h14.706L36 14.468v25.547H12V14.503l-3.324-2.518h4.343Z"
+        d="M14 24v8h8v-8h-8Zm6 6v-4h-4v4h4Z"
         fill="#333"
       />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M20 26h-4v4h4v-4Zm-6-2v8h8v-8h-8ZM32 26h-6v14h6V26Zm-8-2v18h10V24H24Z"
-        fill="#333"
-      />
-      <path
-        d="M6 41a1 1 0 0 0 1 1h34a1 1 0 1 0 0-2H7a1 1 0 0 0-1 1Z"
-        fill="#333"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M15 16h-5v-2h5v2ZM37.5 16H23v-2h14.5v2Z"
-        fill="#333"
-      />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M25 12a6 6 0 1 1-12 0 6 6 0 0 1 12 0Zm-5-3v2h2v2h-2v2h-2v-2h-2v-2h2V9h2Z"
+        d="M19 6a6.002 6.002 0 0 0-5.653 3.985H6v2.481l4 3.03V40H7a1 1 0 1 0 0 2h3v.015h28V42h3a1 1 0 1 0 0-2h-3V15.532l4.5-3.03V9.984H24.653A6.002 6.002 0 0 0 19 6Zm5.659 8A5.99 5.99 0 0 0 25 12v-.015h14.687L36.695 14H24.659Zm-1.187 2A5.985 5.985 0 0 1 19 18a5.985 5.985 0 0 1-4.472-2H12v24h12V24h10v16h2V16H23.472ZM13 12c0 .701.12 1.374.341 2h-2.005l-2.66-2.015H13V12Zm7-1V9h-2v2h-2v2h2v2h2v-2h2v-2h-2Zm12 15v14h-6V26h6Z"
         fill="#333"
       />
     </svg>

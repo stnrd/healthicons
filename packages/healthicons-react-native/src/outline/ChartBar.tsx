@@ -19,13 +19,7 @@ const SvgChartBar = (passedProps: SvgProps) => {
       <Path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M8 40V7H6v34a1 1 0 0 0 1 1h34v-2H8Z"
-        fill="#333"
-      />
-      <Path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M11 25a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V25Zm2 1v14h4V26h-4ZM21 21a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v20a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V21Zm2 1v18h4V22h-4ZM31 13a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v28a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V13Zm2 1v26h4V14h-4Z"
+        d="M7 42a1 1 0 0 1-1-1V7h2v33h3V25a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v15h2V21a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v19h2V13a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v27h2v2H7Zm30-2V14h-4v26h4Zm-10 0h-4V22h4v18Zm-10 0V26h-4v14h4Z"
         fill="#333"
       />
     </Svg>
