@@ -21,7 +21,7 @@ const SvgUiSettings = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#ui_settings_svg__a)" fill="#333">
+      <g clipPath="url(#ui_settings_svg__a)" fill="#000">
         <path d="M24 29a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z" />
         <path
           fillRule="evenodd"

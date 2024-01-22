@@ -21,7 +21,7 @@ const SvgTravel = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#travel_svg__a)" fill="#333">
+      <g clipPath="url(#travel_svg__a)" fill="#000">
         <path d="M29.8 17.396c-1.648.06-3.595.104-5.8.104-2.198 0-4.138-.043-5.783-.104a6 6 0 1 0 11.567 0h.016ZM25 30.341l5 1.488V40h-5v-9.659ZM23 40h-5v-8.17l5-1.489V40Z" />
         <path
           fillRule="evenodd"

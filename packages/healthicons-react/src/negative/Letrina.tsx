@@ -21,7 +21,7 @@ const SvgLetrina = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#letrina_svg__a)" fill="#333">
+      <g clipPath="url(#letrina_svg__a)" fill="#000">
         <path d="M21 11h6l-6.518.033A4.03 4.03 0 0 1 21 11Z" />
         <path
           fillRule="evenodd"

@@ -21,7 +21,7 @@ const SvgRuralPost = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#rural_post_svg__a)" fill="#333">
+      <g clipPath="url(#rural_post_svg__a)" fill="#000">
         <path d="M32 12h-2v2h-2v2h2v2h2v-2h2v-2h-2v-2Z" />
         <path
           fillRule="evenodd"

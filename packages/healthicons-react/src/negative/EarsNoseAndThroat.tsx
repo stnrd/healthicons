@@ -21,7 +21,7 @@ const SvgEarsNoseAndThroat = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#ears_nose_and_throat_svg__a)" fill="#333">
+      <g clipPath="url(#ears_nose_and_throat_svg__a)" fill="#000">
         <path
           fillRule="evenodd"
           clipRule="evenodd"

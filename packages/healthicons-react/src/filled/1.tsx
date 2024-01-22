@@ -25,7 +25,7 @@ const Svg1 = (
         fillRule="evenodd"
         clipRule="evenodd"
         d="M27.765 10.152A2 2 0 0 1 29 12v24a2 2 0 0 1-4 0V16.828l-1.586 1.586a2 2 0 0 1-2.828-2.828l5-5a2 2 0 0 1 2.18-.434Z"
-        fill="#333"
+        fill="#000"
       />
     </svg>
   );

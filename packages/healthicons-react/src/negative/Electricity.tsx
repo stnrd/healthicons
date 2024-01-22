@@ -21,7 +21,7 @@ const SvgElectricity = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#electricity_svg__a)" fill="#333">
+      <g clipPath="url(#electricity_svg__a)" fill="#000">
         <path d="m19 21 6-9v6h4l-6 9v-6h-4Z" />
         <path
           fillRule="evenodd"

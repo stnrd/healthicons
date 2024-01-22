@@ -18,7 +18,7 @@ const SvgSquareSmall = (passedProps: SvgProps) => {
     >
       <Path
         d="M12 13a1 1 0 0 1 1-1h22a1 1 0 0 1 1 1v22a1 1 0 0 1-1 1H13a1 1 0 0 1-1-1V13Z"
-        fill="#333"
+        fill="#000"
       />
     </Svg>
   );

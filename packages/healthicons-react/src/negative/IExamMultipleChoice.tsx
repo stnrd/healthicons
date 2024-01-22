@@ -21,7 +21,7 @@ const SvgIExamMultipleChoice = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#i_exam_multiple_choice_svg__a)" fill="#333">
+      <g clipPath="url(#i_exam_multiple_choice_svg__a)" fill="#000">
         <path d="M21 14a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2h-8ZM20 19a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2h-8a1 1 0 0 1-1-1ZM21 27a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2h-8ZM20 32a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2h-8a1 1 0 0 1-1-1Z" />
         <path
           fillRule="evenodd"

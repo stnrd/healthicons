@@ -21,7 +21,7 @@ const SvgGhana = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#ghana_svg__a)" fill="#333">
+      <g clipPath="url(#ghana_svg__a)" fill="#000">
         <path d="M20.173 14.732a9.996 9.996 0 0 1 1.827-.56v19.596a9.995 9.995 0 0 1-6.315-4.242 10 10 0 0 1 4.488-14.794Z" />
         <path
           fillRule="evenodd"

@@ -16,7 +16,7 @@ const SvgMachinery = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#machinery_svg__a)" fill="#333">
+      <G clipPath="url(#machinery_svg__a)" fill="#000">
         <Path d="M31.033 16.762a.48.48 0 0 1 .5.453l.449 6.518a.25.25 0 0 1-.25.267H30.62c-.395 0-.787.064-1.158.189l-5.805 1.402a.5.5 0 0 1-.616-.516l.035-.579c.263-4.348 3.69-7.518 7.957-7.734ZM23.5 39a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM31 37.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM35.5 39a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" />
         <Path
           fillRule="evenodd"

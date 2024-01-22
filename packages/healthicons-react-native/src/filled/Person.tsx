@@ -18,13 +18,13 @@ const SvgPerson = (passedProps: SvgProps) => {
     >
       <Path
         d="M6 36c0-4.965 11.992-8 18-8 6.008 0 18 3.035 18 8v6H6v-6Z"
-        fill="#333"
+        fill="#000"
       />
       <Path
         fillRule="evenodd"
         clipRule="evenodd"
         d="M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10 4.477 10 10 10Z"
-        fill="#333"
+        fill="#000"
       />
     </Svg>
   );

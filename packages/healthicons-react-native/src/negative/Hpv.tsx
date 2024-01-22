@@ -16,7 +16,7 @@ const SvgHpv = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#hpv_svg__a)" fill="#333">
+      <G clipPath="url(#hpv_svg__a)" fill="#000">
         <Path d="M16 21a1 1 0 1 0-2 0v6a1 1 0 1 0 2 0v-2h2v2a1 1 0 1 0 2 0v-6a1 1 0 1 0-2 0v2h-2v-2Z" />
         <Path
           fillRule="evenodd"

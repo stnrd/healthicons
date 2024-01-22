@@ -26,7 +26,7 @@ const SvgSquareSmall = (
           fillRule="evenodd"
           clipRule="evenodd"
           d="M0 0h48v48H0V0Zm13 12a1 1 0 0 0-1 1v22a1 1 0 0 0 1 1h22a1 1 0 0 0 1-1V13a1 1 0 0 0-1-1H13Z"
-          fill="#333"
+          fill="#000"
         />
       </g>
       <defs>

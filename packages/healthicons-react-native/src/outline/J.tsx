@@ -20,7 +20,7 @@ const SvgJ = (passedProps: SvgProps) => {
         fillRule="evenodd"
         clipRule="evenodd"
         d="M27 12a3 3 0 1 1 6 0v18a9 9 0 1 1-18 0 3 3 0 0 1 6 0 3 3 0 1 0 6 0V12Zm3-1a1 1 0 0 0-1 1v18a5 5 0 0 1-10 0 1 1 0 1 0-2 0 7 7 0 1 0 14 0V12a1 1 0 0 0-1-1Z"
-        fill="#333"
+        fill="#000"
       />
     </Svg>
   );

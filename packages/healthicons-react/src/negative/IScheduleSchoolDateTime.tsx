@@ -21,7 +21,7 @@ const SvgIScheduleSchoolDateTime = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#i_schedule_school_date_time_svg__a)" fill="#333">
+      <g clipPath="url(#i_schedule_school_date_time_svg__a)" fill="#000">
         <path
           fillRule="evenodd"
           clipRule="evenodd"

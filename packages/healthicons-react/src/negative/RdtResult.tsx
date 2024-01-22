@@ -21,7 +21,7 @@ const SvgRdtResult = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#rdt_result_svg__a)" fill="#333">
+      <g clipPath="url(#rdt_result_svg__a)" fill="#000">
         <path d="M20 38a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM18 31a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z" />
         <path
           fillRule="evenodd"

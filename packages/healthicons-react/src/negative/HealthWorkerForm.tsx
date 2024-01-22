@@ -21,7 +21,7 @@ const SvgHealthWorkerForm = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#health_worker_form_svg__a)" fill="#333">
+      <g clipPath="url(#health_worker_form_svg__a)" fill="#000">
         <path d="M20 6a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-8ZM16 20a1 1 0 1 0 0 2h7a1 1 0 1 0 0-2h-7ZM15 16a1 1 0 0 1 1-1h15.5a1 1 0 1 1 0 2H16a1 1 0 0 1-1-1Z" />
         <path
           fillRule="evenodd"

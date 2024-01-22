@@ -16,7 +16,7 @@ const SvgLetrina = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#letrina_svg__a)" fill="#333">
+      <G clipPath="url(#letrina_svg__a)" fill="#000">
         <Path d="M21 11h6l-6.518.033A4.03 4.03 0 0 1 21 11Z" />
         <Path
           fillRule="evenodd"

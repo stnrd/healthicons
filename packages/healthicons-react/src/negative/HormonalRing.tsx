@@ -21,7 +21,7 @@ const SvgHormonalRing = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#hormonal_ring_svg__a)" fill="#333">
+      <g clipPath="url(#hormonal_ring_svg__a)" fill="#000">
         <path d="M24 37c7.18 0 13-5.82 13-13s-5.82-13-13-13-13 5.82-13 13 5.82 13 13 13Z" />
         <path
           fillRule="evenodd"

@@ -16,7 +16,7 @@ const SvgEmergencyPost = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#emergency_post_svg__a)" fill="#333">
+      <G clipPath="url(#emergency_post_svg__a)" fill="#000">
         <Path d="M19.758 31.97a1 1 0 0 1-.728-1.212L19.72 28H17a1 1 0 1 1 0-2h3.22l.81-3.242a1 1 0 1 1 1.94.485L22.28 26H25a1 1 0 1 1 0 2h-3.22l-.81 3.243a1 1 0 0 1-1.212.727Z" />
         <Path
           fillRule="evenodd"

@@ -16,7 +16,7 @@ const SvgRuralPost = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#rural_post_svg__a)" fill="#333">
+      <G clipPath="url(#rural_post_svg__a)" fill="#000">
         <Path d="M32 12h-2v2h-2v2h2v2h2v-2h2v-2h-2v-2Z" />
         <Path
           fillRule="evenodd"

@@ -25,7 +25,7 @@ const SvgT = (
         fillRule="evenodd"
         clipRule="evenodd"
         d="M14 12a2 2 0 0 1 2-2h16a2 2 0 1 1 0 4h-6v22a2 2 0 1 1-4 0V14h-6a2 2 0 0 1-2-2Z"
-        fill="#333"
+        fill="#000"
       />
     </svg>
   );

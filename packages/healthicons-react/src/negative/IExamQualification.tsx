@@ -21,7 +21,7 @@ const SvgIExamQualification = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#i_exam_qualification_svg__a)" fill="#333">
+      <g clipPath="url(#i_exam_qualification_svg__a)" fill="#000">
         <path d="M15 32a1 1 0 1 0 0 2h18a1 1 0 1 0 0-2H15ZM14 37a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H15a1 1 0 0 1-1-1Z" />
         <path
           fillRule="evenodd"

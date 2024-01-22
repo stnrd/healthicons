@@ -16,7 +16,7 @@ const SvgBlisterPillsRoundX14 = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#blister_pills_round_x14_svg__a)" fill="#333">
+      <G clipPath="url(#blister_pills_round_x14_svg__a)" fill="#000">
         <Path d="M23.6 39.8a.6.6 0 1 1 0 1.2.6.6 0 0 1 0-1.2ZM24.2 37.4a.6.6 0 1 0-1.2 0 .6.6 0 0 0 1.2 0ZM23.6 33.8a.6.6 0 1 1 0 1.2.6.6 0 0 1 0-1.2ZM24.2 31.4a.6.6 0 1 0-1.2 0 .6.6 0 0 0 1.2 0ZM23.6 27.8a.6.6 0 1 1 0 1.2.6.6 0 0 1 0-1.2ZM24.2 25.4a.6.6 0 1 0-1.2 0 .6.6 0 0 0 1.2 0ZM23.6 21.8a.6.6 0 1 1 0 1.2.6.6 0 0 1 0-1.2ZM24.2 19.4a.6.6 0 1 0-1.2 0 .6.6 0 0 0 1.2 0ZM23.6 15.8a.6.6 0 1 1 0 1.2.6.6 0 0 1 0-1.2ZM24.2 13.4a.6.6 0 1 0-1.2 0 .6.6 0 0 0 1.2 0ZM23.6 9.8a.6.6 0 1 1 0 1.2.6.6 0 0 1 0-1.2ZM24.2 7.4a.6.6 0 1 0-1.2 0 .6.6 0 0 0 1.2 0Z" />
         <Path
           fillRule="evenodd"

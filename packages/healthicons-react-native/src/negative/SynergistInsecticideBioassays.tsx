@@ -16,7 +16,7 @@ const SvgSynergistInsecticideBioassays = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#synergist_insecticide_bioassays_svg__a)" fill="#333">
+      <G clipPath="url(#synergist_insecticide_bioassays_svg__a)" fill="#000">
         <Path d="M14 10a1.333 1.333 0 1 0 0-2.667A1.333 1.333 0 0 0 14 10Z" />
         <Path
           fillRule="evenodd"

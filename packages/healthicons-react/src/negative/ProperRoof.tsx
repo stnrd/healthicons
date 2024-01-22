@@ -21,7 +21,7 @@ const SvgProperRoof = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#proper_roof_svg__a)" fill="#333">
+      <g clipPath="url(#proper_roof_svg__a)" fill="#000">
         <path d="M28 41v1-1Z" />
         <path
           fillRule="evenodd"

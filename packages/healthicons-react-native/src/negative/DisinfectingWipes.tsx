@@ -16,7 +16,7 @@ const SvgDisinfectingWipes = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#disinfecting_wipes_svg__a)" fill="#333">
+      <G clipPath="url(#disinfecting_wipes_svg__a)" fill="#000">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"

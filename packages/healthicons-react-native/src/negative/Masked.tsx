@@ -16,7 +16,7 @@ const SvgMasked = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#masked_svg__a)" fill="#333">
+      <G clipPath="url(#masked_svg__a)" fill="#000">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"

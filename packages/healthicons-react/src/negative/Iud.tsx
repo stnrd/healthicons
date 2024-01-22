@@ -21,7 +21,7 @@ const SvgIud = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#iud_svg__a)" fill="#333">
+      <g clipPath="url(#iud_svg__a)" fill="#000">
         <path d="M22 40a2 2 0 1 1 4 0 2 2 0 0 1-4 0Z" />
         <path
           fillRule="evenodd"

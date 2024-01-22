@@ -16,7 +16,7 @@ const SvgNetwork4G = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#network_4g_svg__a)" fill="#333">
+      <G clipPath="url(#network_4g_svg__a)" fill="#000">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"

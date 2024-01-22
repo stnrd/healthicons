@@ -16,7 +16,7 @@ const SvgUiSecure = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#ui_secure_svg__a)" fill="#333">
+      <G clipPath="url(#ui_secure_svg__a)" fill="#000">
         <Path d="M18 18h12v-2a6 6 0 0 0-12 0v2ZM15 26h18v-2H15v2ZM33 31H15v-2h18v2ZM15 36h18v-2H15v2Z" />
         <Path
           fillRule="evenodd"

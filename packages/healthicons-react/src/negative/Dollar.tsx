@@ -21,7 +21,7 @@ const SvgDollar = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#dollar_svg__a)" fill="#333">
+      <g clipPath="url(#dollar_svg__a)" fill="#000">
         <path d="M18 18a4 4 0 0 1 4-4v8a4 4 0 0 1-4-4ZM30 30a4 4 0 0 1-4 4v-8a4 4 0 0 1 4 4Z" />
         <path
           fillRule="evenodd"

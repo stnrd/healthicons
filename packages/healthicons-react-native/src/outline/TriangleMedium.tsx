@@ -20,7 +20,7 @@ const SvgTriangleMedium = (passedProps: SvgProps) => {
         fillRule="evenodd"
         clipRule="evenodd"
         d="M24 8a1 1 0 0 1 .894.553l15 30A1 1 0 0 1 39 40H9a1 1 0 0 1-.894-1.447l15-30A1 1 0 0 1 24 8Zm0 3.236L10.618 38h26.764L24 11.236Z"
-        fill="#333"
+        fill="#000"
       />
     </Svg>
   );

@@ -21,7 +21,7 @@ const SvgFemaleCondom = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#female_condom_svg__a)" fill="#333">
+      <g clipPath="url(#female_condom_svg__a)" fill="#000">
         <path
           fillRule="evenodd"
           clipRule="evenodd"

@@ -21,7 +21,7 @@ const SvgNetwork4G = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#network_4g_svg__a)" fill="#333">
+      <g clipPath="url(#network_4g_svg__a)" fill="#000">
         <path
           fillRule="evenodd"
           clipRule="evenodd"

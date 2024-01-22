@@ -25,7 +25,7 @@ const SvgZ = (
         fillRule="evenodd"
         clipRule="evenodd"
         d="M29.73 14H14a2 2 0 0 1 0-4h20a2 2 0 0 1 1.536 3.28L18.27 34H34a2 2 0 1 1 0 4H14a2 2 0 0 1-1.536-3.28L29.73 14Z"
-        fill="#333"
+        fill="#000"
       />
     </svg>
   );

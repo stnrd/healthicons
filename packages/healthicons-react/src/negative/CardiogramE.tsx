@@ -21,7 +21,7 @@ const SvgCardiogramE = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#cardiogram_e_svg__a)" fill="#333">
+      <g clipPath="url(#cardiogram_e_svg__a)" fill="#000">
         <path d="M14 9a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1V9ZM11 30a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H12a1 1 0 0 1-1-1ZM12 34a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H12Z" />
         <path
           fillRule="evenodd"

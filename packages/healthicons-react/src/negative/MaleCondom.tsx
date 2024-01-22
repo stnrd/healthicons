@@ -25,7 +25,7 @@ const SvgMaleCondom = (
         clipPath="url(#male_condom_svg__a)"
         fillRule="evenodd"
         clipRule="evenodd"
-        fill="#333"
+        fill="#000"
       >
         <path d="M19.67 26.5a5 5 0 1 0 8.66-5 5 5 0 0 0-8.66 5Zm1.576-.91a3.18 3.18 0 1 0 5.51-3.181 3.18 3.18 0 0 0-5.51 3.18Z" />
         <path d="M28.502 31.795a9 9 0 1 1-9-15.589 9 9 0 0 1 9 15.589Zm-1-1.735a6.999 6.999 0 1 1-6.999-12.122 6.999 6.999 0 0 1 7 12.122Z" />

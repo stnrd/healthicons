@@ -21,7 +21,7 @@ const SvgRdtResultNoTest = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#rdt_result_no_test_svg__a)" fill="#333">
+      <g clipPath="url(#rdt_result_no_test_svg__a)" fill="#000">
         <path d="M34.5 22.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM31.504 24a.751.751 0 1 0-1.502.002.751.751 0 0 0 1.502-.002Z" />
         <path
           fillRule="evenodd"

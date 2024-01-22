@@ -21,7 +21,7 @@ const SvgDisinfectingWipes = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#disinfecting_wipes_svg__a)" fill="#333">
+      <g clipPath="url(#disinfecting_wipes_svg__a)" fill="#000">
         <path
           fillRule="evenodd"
           clipRule="evenodd"

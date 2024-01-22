@@ -21,7 +21,7 @@ const SvgBlisterPillsRoundX4 = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#blister_pills_round_x4_svg__a)" fill="#333">
+      <g clipPath="url(#blister_pills_round_x4_svg__a)" fill="#000">
         <path
           fillRule="evenodd"
           clipRule="evenodd"

@@ -16,7 +16,7 @@ const SvgIScheduleSchoolDateTime = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#i_schedule_school_date_time_svg__a)" fill="#333">
+      <G clipPath="url(#i_schedule_school_date_time_svg__a)" fill="#000">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"

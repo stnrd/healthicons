@@ -21,7 +21,7 @@ const SvgBiochemistryLaboratory = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#biochemistry_laboratory_svg__a)" fill="#333">
+      <g clipPath="url(#biochemistry_laboratory_svg__a)" fill="#000">
         <path
           fillRule="evenodd"
           clipRule="evenodd"

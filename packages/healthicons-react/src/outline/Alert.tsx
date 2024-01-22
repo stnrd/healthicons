@@ -23,7 +23,7 @@ const SvgAlert = (
     >
       <path
         d="M21 8a3 3 0 1 1 6 0v22a3 3 0 1 1-6 0V8Zm0 32a3 3 0 1 1 6 0 3 3 0 0 1-6 0Z"
-        stroke="#333"
+        stroke="#000"
       />
     </svg>
   );

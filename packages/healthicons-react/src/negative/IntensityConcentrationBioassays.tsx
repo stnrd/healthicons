@@ -21,7 +21,7 @@ const SvgIntensityConcentrationBioassays = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#intensity_concentration_bioassays_svg__a)" fill="#333">
+      <g clipPath="url(#intensity_concentration_bioassays_svg__a)" fill="#000">
         <path d="M28.384 29c-.75 0-1.069-.189-1.204-.319l2.679-.445a1.906 1.906 0 0 1-.05.08c-.25.367-.652.684-1.425.684ZM37.62 28.681c-.135.13-.454.319-1.204.319-.773 0-1.176-.317-1.424-.685a1.906 1.906 0 0 1-.05-.079l2.678.445Z" />
         <path
           fillRule="evenodd"

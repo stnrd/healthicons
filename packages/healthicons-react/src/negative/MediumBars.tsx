@@ -21,7 +21,7 @@ const SvgMediumBars = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#medium_bars_svg__a)" fill="#333">
+      <g clipPath="url(#medium_bars_svg__a)" fill="#000">
         <path d="M34 9a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v30a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V9Z" />
         <path
           fillRule="evenodd"

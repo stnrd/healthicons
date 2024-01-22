@@ -21,7 +21,7 @@ const SvgAnimalCow = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#animal_cow_svg__a)" fill="#333">
+      <g clipPath="url(#animal_cow_svg__a)" fill="#000">
         <path d="M29 29h2.81c1.024.996 2.132 1.844 3.562 2.414-.625.357-1.42.586-2.372.586-2.566 0-4-1.67-4-3Z" />
         <path
           fillRule="evenodd"

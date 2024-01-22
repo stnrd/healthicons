@@ -26,7 +26,7 @@ const SvgI = (
           fillRule="evenodd"
           clipRule="evenodd"
           d="M48 0H0v48h48V0ZM16 10a2 2 0 1 0 0 4h6v20h-6a2 2 0 1 0 0 4h16a2 2 0 1 0 0-4h-6V14h6a2 2 0 1 0 0-4H16Z"
-          fill="#333"
+          fill="#000"
         />
       </g>
       <defs>

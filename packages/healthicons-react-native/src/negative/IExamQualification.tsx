@@ -16,7 +16,7 @@ const SvgIExamQualification = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#i_exam_qualification_svg__a)" fill="#333">
+      <G clipPath="url(#i_exam_qualification_svg__a)" fill="#000">
         <Path d="M15 32a1 1 0 1 0 0 2h18a1 1 0 1 0 0-2H15ZM14 37a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H15a1 1 0 0 1-1-1Z" />
         <Path
           fillRule="evenodd"

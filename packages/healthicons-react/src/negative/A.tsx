@@ -21,7 +21,7 @@ const SvgA = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#A_svg__a)" fill="#333">
+      <g clipPath="url(#A_svg__a)" fill="#000">
         <path d="M24 17.2 28.5 28h-9L24 17.2Z" />
         <path
           fillRule="evenodd"

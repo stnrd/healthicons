@@ -16,7 +16,7 @@ const SvgUiSettings = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#ui_settings_svg__a)" fill="#333">
+      <G clipPath="url(#ui_settings_svg__a)" fill="#000">
         <Path d="M24 29a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z" />
         <Path
           fillRule="evenodd"

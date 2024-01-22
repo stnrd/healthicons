@@ -21,7 +21,7 @@ const SvgUiFolder = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#ui_folder_svg__a)" fill="#333">
+      <g clipPath="url(#ui_folder_svg__a)" fill="#000">
         <path d="m24.872 15-1.913-3.482a1 1 0 0 0-.877-.518H9a1 1 0 0 0-1 1v3h16.872Z" />
         <path
           fillRule="evenodd"

@@ -16,7 +16,7 @@ const SvgMinistryOfHealth = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#ministry_of_health_svg__a)" fill="#333">
+      <G clipPath="url(#ministry_of_health_svg__a)" fill="#000">
         <Path d="M25 12v-2h-2v2h-2v2h2v2h2v-2h2v-2h-2ZM26 29a2 2 0 1 0-4 0v8h4v-8Z" />
         <Path
           fillRule="evenodd"

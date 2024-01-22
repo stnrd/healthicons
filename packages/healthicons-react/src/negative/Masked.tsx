@@ -21,7 +21,7 @@ const SvgMasked = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#masked_svg__a)" fill="#333">
+      <g clipPath="url(#masked_svg__a)" fill="#000">
         <path
           fillRule="evenodd"
           clipRule="evenodd"

@@ -21,7 +21,7 @@ const SvgImplant = (
       ref={ref}
       {...props}
     >
-      <path d="M21 9a3 3 0 1 1 6 0v30a3 3 0 1 1-6 0V9Z" fill="#333" />
+      <path d="M21 9a3 3 0 1 1 6 0v30a3 3 0 1 1-6 0V9Z" fill="#000" />
     </svg>
   );
 };

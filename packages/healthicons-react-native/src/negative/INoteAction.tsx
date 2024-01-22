@@ -16,7 +16,7 @@ const SvgINoteAction = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#i_note_action_svg__a)" fill="#333">
+      <G clipPath="url(#i_note_action_svg__a)" fill="#000">
         <Path d="M14 19a1 1 0 0 1 1-1h13a1 1 0 1 1 0 2H15a1 1 0 0 1-1-1ZM15 23a1 1 0 1 0 0 2h7a1 1 0 1 0 0-2h-7ZM14 29a1 1 0 0 1 1-1h11a1 1 0 1 1 0 2H15a1 1 0 0 1-1-1Z" />
         <Path
           fillRule="evenodd"

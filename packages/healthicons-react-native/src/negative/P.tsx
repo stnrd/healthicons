@@ -16,7 +16,7 @@ const SvgP = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#P_svg__a)" fill="#333">
+      <G clipPath="url(#P_svg__a)" fill="#000">
         <Path d="M26 22h-8v-8h8a4 4 0 0 1 0 8Z" />
         <Path
           fillRule="evenodd"

@@ -26,7 +26,7 @@ const SvgImplant = (
           fillRule="evenodd"
           clipRule="evenodd"
           d="M48 0H0v48h48V0ZM24 6a3 3 0 0 0-3 3v30a3 3 0 1 0 6 0V9a3 3 0 0 0-3-3Z"
-          fill="#333"
+          fill="#000"
         />
       </g>
       <defs>

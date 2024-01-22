@@ -21,7 +21,7 @@ const SvgT = (passedProps: SvgProps) => {
           fillRule="evenodd"
           clipRule="evenodd"
           d="M48 0H0v48h48V0ZM16 10a2 2 0 1 0 0 4h6v22a2 2 0 1 0 4 0V14h6a2 2 0 1 0 0-4H16Z"
-          fill="#333"
+          fill="#000"
         />
       </G>
       <Defs>

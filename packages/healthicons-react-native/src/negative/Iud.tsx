@@ -16,7 +16,7 @@ const SvgIud = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#iud_svg__a)" fill="#333">
+      <G clipPath="url(#iud_svg__a)" fill="#000">
         <Path d="M22 40a2 2 0 1 1 4 0 2 2 0 0 1-4 0Z" />
         <Path
           fillRule="evenodd"

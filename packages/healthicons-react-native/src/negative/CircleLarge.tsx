@@ -21,7 +21,7 @@ const SvgCircleLarge = (passedProps: SvgProps) => {
           fillRule="evenodd"
           clipRule="evenodd"
           d="M0 0v48h48V0H0Zm24 4a20 20 0 1 1 0 40 20 20 0 0 1 0-40Z"
-          fill="#333"
+          fill="#000"
         />
       </G>
       <Defs>

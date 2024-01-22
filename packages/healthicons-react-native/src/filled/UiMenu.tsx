@@ -20,7 +20,7 @@ const SvgUiMenu = (passedProps: SvgProps) => {
         fillRule="evenodd"
         clipRule="evenodd"
         d="M6 11a1 1 0 0 1 1-1h34a1 1 0 1 1 0 2H7a1 1 0 0 1-1-1ZM6 24a1 1 0 0 1 1-1h34a1 1 0 1 1 0 2H7a1 1 0 0 1-1-1ZM6 37a1 1 0 0 1 1-1h34a1 1 0 1 1 0 2H7a1 1 0 0 1-1-1Z"
-        fill="#333"
+        fill="#000"
       />
     </Svg>
   );

@@ -16,7 +16,7 @@ const SvgAlertTriangle = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#alert_triangle_svg__a)" fill="#333">
+      <G clipPath="url(#alert_triangle_svg__a)" fill="#000">
         <Path d="M24 18a2 2 0 0 0-2 2v10a2 2 0 1 0 4 0V20a2 2 0 0 0-2-2ZM22 35.966C22 34.88 22.88 34 23.966 34h.068a1.966 1.966 0 1 1 0 3.933h-.067A1.966 1.966 0 0 1 22 35.966Z" />
         <Path
           fillRule="evenodd"

@@ -18,7 +18,7 @@ const SvgCircleMedium = (passedProps: SvgProps) => {
     >
       <Path
         d="M24 40c8.837 0 16-7.163 16-16S32.837 8 24 8 8 15.163 8 24s7.163 16 16 16Z"
-        fill="#333"
+        fill="#000"
       />
     </Svg>
   );

@@ -16,7 +16,7 @@ const SvgIExamMultipleChoice = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#i_exam_multiple_choice_svg__a)" fill="#333">
+      <G clipPath="url(#i_exam_multiple_choice_svg__a)" fill="#000">
         <Path d="M21 14a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2h-8ZM20 19a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2h-8a1 1 0 0 1-1-1ZM21 27a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2h-8ZM20 32a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2h-8a1 1 0 0 1-1-1Z" />
         <Path
           fillRule="evenodd"

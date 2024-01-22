@@ -16,7 +16,7 @@ const SvgBlisterPillsOvalX1 = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#blister_pills_oval_x1_svg__a)" fill="#333">
+      <G clipPath="url(#blister_pills_oval_x1_svg__a)" fill="#000">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"

@@ -21,7 +21,7 @@ const SvgRdtResultInvalid = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#rdt_result_invalid_svg__a)" fill="#333">
+      <g clipPath="url(#rdt_result_invalid_svg__a)" fill="#000">
         <path d="M18 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM16.5 32.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" />
         <path
           fillRule="evenodd"

@@ -21,7 +21,7 @@ const SvgHappy = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#happy_svg__a)" fill="#333">
+      <g clipPath="url(#happy_svg__a)" fill="#000">
         <path d="M30.24 31.072c.387-.604.736-1.272 1.036-2h-14.43v.285c.271.619.578 1.19.913 1.715h12.482Z" />
         <path
           fillRule="evenodd"

@@ -16,7 +16,7 @@ const SvgElectricity = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#electricity_svg__a)" fill="#333">
+      <G clipPath="url(#electricity_svg__a)" fill="#000">
         <Path d="m19 21 6-9v6h4l-6 9v-6h-4Z" />
         <Path
           fillRule="evenodd"

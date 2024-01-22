@@ -16,7 +16,7 @@ const SvgNerve = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#nerve_svg__a)" fill="#333">
+      <G clipPath="url(#nerve_svg__a)" fill="#000">
         <Path d="M22.487 22.51a1.5 1.5 0 1 1-2.999 0 1.5 1.5 0 0 1 2.999 0Z" />
         <Path
           fillRule="evenodd"

@@ -21,7 +21,7 @@ const SvgYen = (passedProps: SvgProps) => {
           fillRule="evenodd"
           clipRule="evenodd"
           d="M48 0H0v48h48V0ZM35.536 13.28a2 2 0 1 0-3.072-2.56L24 20.876 15.537 10.72a2 2 0 1 0-3.073 2.56L19.73 22H18a2 2 0 0 0 0 4h4v2h-4a2 2 0 0 0 0 4h4v4a2 2 0 0 0 4 0v-4h4a2 2 0 0 0 0-4h-4v-2h4a2 2 0 0 0 0-4h-1.73l7.266-8.72Z"
-          fill="#333"
+          fill="#000"
         />
       </G>
       <Defs>

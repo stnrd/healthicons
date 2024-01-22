@@ -16,7 +16,7 @@ const SvgHospitalized = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#hospitalized_svg__a)" fill="#333">
+      <G clipPath="url(#hospitalized_svg__a)" fill="#000">
         <Path d="m18.117 21.188.364-.364a1.77 1.77 0 0 0 0-2.504l-1.8-1.8a1.771 1.771 0 0 0-2.504-.002l-.35.35 4.29 4.32ZM36 31v3H11v-8.644l5.275 5.311c.212.213.498.333.797.333H36Z" />
         <Path
           fillRule="evenodd"

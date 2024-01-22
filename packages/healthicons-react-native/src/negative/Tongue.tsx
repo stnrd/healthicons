@@ -16,7 +16,7 @@ const SvgTongue = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#tongue_svg__a)" fill="#333">
+      <G clipPath="url(#tongue_svg__a)" fill="#000">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"

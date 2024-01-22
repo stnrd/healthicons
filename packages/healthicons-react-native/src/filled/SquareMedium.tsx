@@ -18,7 +18,7 @@ const SvgSquareMedium = (passedProps: SvgProps) => {
     >
       <Path
         d="M9 10a1 1 0 0 1 1-1h28a1 1 0 0 1 1 1v28a1 1 0 0 1-1 1H10a1 1 0 0 1-1-1V10Z"
-        fill="#333"
+        fill="#000"
       />
     </Svg>
   );

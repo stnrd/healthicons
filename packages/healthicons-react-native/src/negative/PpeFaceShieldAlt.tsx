@@ -16,7 +16,7 @@ const SvgPpeFaceShieldAlt = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#ppe-face-shield-alt_svg__a)" fill="#333">
+      <G clipPath="url(#ppe-face-shield-alt_svg__a)" fill="#000">
         <Path d="M36.848 28.008a1.663 1.663 0 0 0 1.39-.744 1.629 1.629 0 0 0 .124-1.56c-1.62-3.595-4.347-7.63-4.347-7.63l-.193-3.167c.001-.232-.06-.571-.147-.907h1.346a4.89 4.89 0 0 1 3.51 1.501A5.26 5.26 0 0 1 40 19.163V36h-5.241l.154-7.992h1.935Z" />
         <Path
           fillRule="evenodd"

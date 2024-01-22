@@ -21,7 +21,7 @@ const SvgAmbulatoryClinic = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#ambulatory_clinic_svg__a)" fill="#333">
+      <g clipPath="url(#ambulatory_clinic_svg__a)" fill="#000">
         <path d="M26 40h8V24h-8v16ZM21 24h-7v7h7v-7ZM20 9h-2v2h-2v2h2v2h2v-2h2v-2h-2V9Z" />
         <path
           fillRule="evenodd"

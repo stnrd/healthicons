@@ -16,7 +16,7 @@ const SvgTemple = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#temple_svg__a)" fill="#333">
+      <G clipPath="url(#temple_svg__a)" fill="#000">
         <Path d="M13 36.048v6h2v-6h-2ZM19 42.048h-2v-6h14v6h-2v-2a2 2 0 0 0-2-2h-6a2 2 0 0 0-2 2v2ZM33 42.048v-6h2v6h-2ZM27 18.048h2v-4H19v4h2v-1a1 1 0 1 1 2 0v1h2v-1a1 1 0 1 1 2 0v1ZM17 25.048v4h2v-1a1 1 0 1 1 2 0v1h2v-1a1 1 0 1 1 2 0v1h2v-1a1 1 0 1 1 2 0v1h2v-4H17Z" />
         <Path
           fillRule="evenodd"

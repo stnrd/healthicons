@@ -16,7 +16,7 @@ const SvgOdontology = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#odontology_svg__a)" fill="#333">
+      <G clipPath="url(#odontology_svg__a)" fill="#000">
         <Path d="M33 22a1 1 0 0 0-1 1v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0-2h-2v-2a1 1 0 0 0-1-1Z" />
         <Path
           fillRule="evenodd"

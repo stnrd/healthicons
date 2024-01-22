@@ -21,7 +21,7 @@ const SvgTempleAlt = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#temple_alt_svg__a)" fill="#333">
+      <g clipPath="url(#temple_alt_svg__a)" fill="#000">
         <path d="M14 12.048h7v2h-7v-2ZM21 16.048h-5v2h5v-2ZM23 18.048v-2h2v2h-2ZM21 20.048h-8v2h8v-2ZM23 22.048v-2h2v2h-2ZM21 24.048h-7v2h7v-2ZM23 26.048v-2h2v2h-2ZM11 28.048v2h10v-2H11ZM37 30.048v-2H27v2h10ZM25 28.048V30h-2v-1.952h2ZM27 26.048h7v-2h-7v2ZM27 22.048h8v-2h-8v2ZM27 18.048h5v-2h-5v2ZM27 14.048h7v-2h-7v2ZM25 12.048v2h-2v-2h2ZM35 36v-3.952H13V36h7v-1.952h8V36h7ZM28 38v2h11v-2H28ZM20 38v2H9v-2h11Z" />
         <path
           fillRule="evenodd"

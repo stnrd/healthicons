@@ -16,7 +16,7 @@ const SvgRdtResultPfInvalid = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#rdt_result_pf_invalid_svg__a)" fill="#333">
+      <G clipPath="url(#rdt_result_pf_invalid_svg__a)" fill="#000">
         <Path d="M40 24a2 2 0 1 0-4 0 2 2 0 0 0 4 0ZM32.5 25.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z" />
         <Path
           fillRule="evenodd"

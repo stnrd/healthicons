@@ -21,7 +21,7 @@ const SvgO = (
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#O_svg__a)" fill="#333">
+      <g clipPath="url(#O_svg__a)" fill="#000">
         <path d="M14 24c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10-10-4.477-10-10Z" />
         <path
           fillRule="evenodd"
