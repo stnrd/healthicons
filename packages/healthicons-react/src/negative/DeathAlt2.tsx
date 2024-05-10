@@ -26,12 +26,11 @@ const SvgDeathAlt2 = (
           fillRule="evenodd"
           clipRule="evenodd"
           d="M48 0H0v48h48V0ZM16.01 4l16 .013 4.99 13L31.978 44l-16-.017L11 16.992 16.01 4ZM23 17.997V26h2v-8.003h3v-2h-3V13h-2v2.997h-3v2h3Z"
-          fill="#000"
         />
       </g>
       <defs>
         <clipPath id="death_alt2_svg__a">
-          <path fill="#fff" d="M0 0h48v48H0z" />
+          <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>
     </svg>

@@ -32,7 +32,7 @@ const SvgIntensityConcentrationBioassays = (passedProps: SvgProps) => {
       </G>
       <Defs>
         <ClipPath id="intensity_concentration_bioassays_svg__a">
-          <Path fill="#fff" d="M0 0h48v48H0z" />
+          <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>
     </Svg>

@@ -16,10 +16,7 @@ const SvgTriangleMedium = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <Path
-        d="M24.894 8.553a1 1 0 0 0-1.788 0l-15 30A1 1 0 0 0 9 40h30a1 1 0 0 0 .894-1.447l-15-30Z"
-        fill="#000"
-      />
+      <Path d="M24.894 8.553a1 1 0 0 0-1.788 0l-15 30A1 1 0 0 0 9 40h30a1 1 0 0 0 .894-1.447l-15-30Z" />
     </Svg>
   );
 };

@@ -16,7 +16,7 @@ const SvgImplant = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <Path d="M21 9a3 3 0 1 1 6 0v30a3 3 0 1 1-6 0V9Z" fill="#000" />
+      <Path d="M21 9a3 3 0 1 1 6 0v30a3 3 0 1 1-6 0V9Z" />
     </Svg>
   );
 };

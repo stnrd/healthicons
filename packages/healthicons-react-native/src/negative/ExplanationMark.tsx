@@ -21,12 +21,11 @@ const SvgExplanationMark = (passedProps: SvgProps) => {
           fillRule="evenodd"
           clipRule="evenodd"
           d="M48 0H0v48h48V0ZM24 10a2 2 0 0 1 2 2v18a2 2 0 1 1-4 0V12a2 2 0 0 1 2-2Zm0 28a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
-          fill="#000"
         />
       </G>
       <Defs>
         <ClipPath id="explanation_mark_svg__a">
-          <Path fill="#fff" d="M0 0h48v48H0z" />
+          <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>
     </Svg>

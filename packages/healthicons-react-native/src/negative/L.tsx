@@ -21,12 +21,11 @@ const SvgL = (passedProps: SvgProps) => {
           fillRule="evenodd"
           clipRule="evenodd"
           d="M48 0H0v48h48V0ZM20 12a2 2 0 1 0-4 0v24a2 2 0 0 0 2 2h12a2 2 0 1 0 0-4H20V12Z"
-          fill="#000"
         />
       </G>
       <Defs>
         <ClipPath id="L_svg__a">
-          <Path fill="#fff" d="M0 0h48v48H0z" />
+          <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>
     </Svg>

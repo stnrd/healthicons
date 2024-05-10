@@ -26,12 +26,11 @@ const SvgU = (
           fillRule="evenodd"
           clipRule="evenodd"
           d="M48 0H0v48h48V0ZM18 12a2 2 0 1 0-4 0v16c0 5.523 4.477 10 10 10s10-4.477 10-10V12a2 2 0 1 0-4 0v16a6 6 0 0 1-12 0V12Z"
-          fill="#000"
         />
       </g>
       <defs>
         <clipPath id="U_svg__a">
-          <path fill="#fff" d="M0 0h48v48H0z" />
+          <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>
     </svg>

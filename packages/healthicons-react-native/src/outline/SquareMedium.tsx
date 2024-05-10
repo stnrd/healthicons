@@ -20,7 +20,6 @@ const SvgSquareMedium = (passedProps: SvgProps) => {
         fillRule="evenodd"
         clipRule="evenodd"
         d="M11 11v26h26V11H11Zm-1-2a1 1 0 0 0-1 1v28a1 1 0 0 0 1 1h28a1 1 0 0 0 1-1V10a1 1 0 0 0-1-1H10Z"
-        fill="#000"
       />
     </Svg>
   );

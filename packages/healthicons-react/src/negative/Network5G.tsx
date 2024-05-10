@@ -31,7 +31,7 @@ const SvgNetwork5G = (
       </g>
       <defs>
         <clipPath id="network_5g_svg__a">
-          <path fill="#fff" d="M0 0h48v48H0z" />
+          <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>
     </svg>

@@ -21,12 +21,11 @@ const SvgJ = (passedProps: SvgProps) => {
           fillRule="evenodd"
           clipRule="evenodd"
           d="M48 0H0v48h48V0ZM32 12a2 2 0 1 0-4 0v18a4 4 0 1 1-8 0 2 2 0 1 0-4 0 8 8 0 1 0 16 0V12Z"
-          fill="#000"
         />
       </G>
       <Defs>
         <ClipPath id="J_svg__a">
-          <Path fill="#fff" d="M0 0h48v48H0z" />
+          <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>
     </Svg>

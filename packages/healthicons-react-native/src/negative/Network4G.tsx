@@ -31,7 +31,7 @@ const SvgNetwork4G = (passedProps: SvgProps) => {
       </G>
       <Defs>
         <ClipPath id="network_4g_svg__a">
-          <Path fill="#fff" d="M0 0h48v48H0z" />
+          <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>
     </Svg>

@@ -20,7 +20,6 @@ const SvgOralContraceptionPillsx28 = (passedProps: SvgProps) => {
         fillRule="evenodd"
         clipRule="evenodd"
         d="m8.444 21.172 18.384 18.384a2 2 0 0 0 2.829 0l9.9-9.9a2 2 0 0 0 0-2.828L21.171 8.444a2 2 0 0 0-2.829 0l-9.9 9.9a2 2 0 0 0 0 2.828Zm16.97 19.799a4 4 0 0 0 5.657 0l9.9-9.9a4 4 0 0 0 0-5.657L22.586 7.03a4 4 0 0 0-5.657 0l-9.9 9.899a4 4 0 0 0 0 5.657L25.414 40.97Z"
-        fill="#000"
       />
       <Circle
         cx={28.243}

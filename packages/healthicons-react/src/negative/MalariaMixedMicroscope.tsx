@@ -32,7 +32,7 @@ const SvgMalariaMixedMicroscope = (
       </g>
       <defs>
         <clipPath id="malaria_mixed_microscope_svg__a">
-          <path fill="#fff" d="M0 0h48v48H0z" />
+          <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>
     </svg>

@@ -16,10 +16,7 @@ const SvgAlert = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <Path
-        d="M21 7a3 3 0 1 1 6 0v24a3 3 0 1 1-6 0V7ZM21 41a3 3 0 1 1 6 0 3 3 0 0 1-6 0Z"
-        fill="#000"
-      />
+      <Path d="M21 7a3 3 0 1 1 6 0v24a3 3 0 1 1-6 0V7ZM21 41a3 3 0 1 1 6 0 3 3 0 0 1-6 0Z" />
     </Svg>
   );
 };

@@ -20,7 +20,6 @@ const SvgHealthAlt = (passedProps: SvgProps) => {
         fillRule="evenodd"
         clipRule="evenodd"
         d="M6 9a3 3 0 0 1 3-3h30a3 3 0 0 1 3 3v30a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9Zm16 13v-8h4v8h8v4h-8v8h-4v-8h-8v-4h8Z"
-        fill="#000"
       />
     </Svg>
   );

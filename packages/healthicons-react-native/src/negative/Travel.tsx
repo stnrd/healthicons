@@ -26,7 +26,7 @@ const SvgTravel = (passedProps: SvgProps) => {
       </G>
       <Defs>
         <ClipPath id="travel_svg__a">
-          <Path fill="#fff" d="M0 0h48v48H0z" />
+          <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>
     </Svg>

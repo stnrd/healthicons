@@ -25,7 +25,6 @@ const SvgSquareLarge = (
         fillRule="evenodd"
         clipRule="evenodd"
         d="M8 8v32h32V8H8ZM7 6a1 1 0 0 0-1 1v34a1 1 0 0 0 1 1h34a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7Z"
-        fill="#000"
       />
     </svg>
   );

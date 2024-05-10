@@ -27,7 +27,7 @@ const SvgBlisterPillsRoundX14 = (passedProps: SvgProps) => {
       </G>
       <Defs>
         <ClipPath id="blister_pills_round_x14_svg__a">
-          <Path fill="#fff" d="M0 0h48v48H0z" />
+          <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>
     </Svg>

@@ -36,7 +36,7 @@ const SvgSodiumFree = (
       </g>
       <defs>
         <clipPath id="sodium_free_svg__a">
-          <path fill="#fff" d="M0 0h48v48H0z" />
+          <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>
     </svg>

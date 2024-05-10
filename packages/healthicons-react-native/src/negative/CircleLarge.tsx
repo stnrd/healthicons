@@ -21,12 +21,11 @@ const SvgCircleLarge = (passedProps: SvgProps) => {
           fillRule="evenodd"
           clipRule="evenodd"
           d="M0 0v48h48V0H0Zm24 4a20 20 0 1 1 0 40 20 20 0 0 1 0-40Z"
-          fill="#000"
         />
       </G>
       <Defs>
         <ClipPath id="circle_large_svg__a">
-          <Path fill="#fff" d="M0 0h48v48H0z" />
+          <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>
     </Svg>

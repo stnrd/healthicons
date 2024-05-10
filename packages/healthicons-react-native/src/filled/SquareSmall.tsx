@@ -16,10 +16,7 @@ const SvgSquareSmall = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <Path
-        d="M12 13a1 1 0 0 1 1-1h22a1 1 0 0 1 1 1v22a1 1 0 0 1-1 1H13a1 1 0 0 1-1-1V13Z"
-        fill="#000"
-      />
+      <Path d="M12 13a1 1 0 0 1 1-1h22a1 1 0 0 1 1 1v22a1 1 0 0 1-1 1H13a1 1 0 0 1-1-1V13Z" />
     </Svg>
   );
 };

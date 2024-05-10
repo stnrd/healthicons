@@ -16,10 +16,7 @@ const SvgTriangleLarge = (passedProps: SvgProps) => {
       color="currentColor"
       {...props}
     >
-      <Path
-        d="M24 5a1 1 0 0 1 .894.553l18 36A1 1 0 0 1 42 43H6a1 1 0 0 1-.894-1.447l18-36A1 1 0 0 1 24 5Z"
-        fill="#000"
-      />
+      <Path d="M24 5a1 1 0 0 1 .894.553l18 36A1 1 0 0 1 42 43H6a1 1 0 0 1-.894-1.447l18-36A1 1 0 0 1 24 5Z" />
     </Svg>
   );
 };

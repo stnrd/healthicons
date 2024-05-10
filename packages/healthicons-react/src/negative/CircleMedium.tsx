@@ -26,12 +26,11 @@ const SvgCircleMedium = (
           fillRule="evenodd"
           clipRule="evenodd"
           d="M48 0H0v48h48V0Zm-8 24c0 8.837-7.163 16-16 16S8 32.837 8 24 15.163 8 24 8s16 7.163 16 16Z"
-          fill="#000"
         />
       </g>
       <defs>
         <clipPath id="circle_medium_svg__a">
-          <path fill="#fff" d="M0 0h48v48H0z" />
+          <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>
     </svg>

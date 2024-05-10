@@ -25,7 +25,6 @@ const SvgTriangleLarge = (
         fillRule="evenodd"
         clipRule="evenodd"
         d="M24 5a1 1 0 0 1 .894.553l18 36A1 1 0 0 1 42 43H6a1 1 0 0 1-.894-1.447l18-36A1 1 0 0 1 24 5Zm0 3.236L7.618 41h32.764L24 8.236Z"
-        fill="#000"
       />
     </svg>
   );

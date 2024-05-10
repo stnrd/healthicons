@@ -31,7 +31,7 @@ const SvgD = (
       </g>
       <defs>
         <clipPath id="D_svg__a">
-          <path fill="#fff" d="M0 0h48v48H0z" />
+          <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>
     </svg>

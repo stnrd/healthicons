@@ -32,7 +32,7 @@ const SvgRdtResultPfInvalid = (passedProps: SvgProps) => {
       </G>
       <Defs>
         <ClipPath id="rdt_result_pf_invalid_svg__a">
-          <Path fill="#fff" d="M0 0h48v48H0z" />
+          <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>
     </Svg>
