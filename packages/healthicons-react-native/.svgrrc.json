@@ -21,7 +21,7 @@
           "@svgr/babel-plugin-remove-jsx-attribute",
           {
             "elements": ["Path"],
-            "attributes": ["strokeWidth"]
+            "attributes": ["strokeWidth", "fill"]
           },
           "remove-stroke-width"
         ]
