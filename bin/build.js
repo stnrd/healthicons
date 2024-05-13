@@ -12,6 +12,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = path.join(__dirname, "..");
 const healthiconsIconsDir = path.join(rootDir, "icons");
 const ignoreCleanFilenames = ["HealthIconsContext.tsx"];
+const numberOfIconTypes = 3;
+let duplicateIconNames = {};
 
 // Targets for building icons
 const targets = {
@@ -40,6 +42,23 @@ const deepReadDir = async (dirPath) =>
     })
   );
 
+const formatIconName = (fileName) => {
+  const iconType = fileName.split("healthicons/icons/")[1].split("/")[0];
+  let iconName = path.parse(fileName).name.replaceAll("_", "-");
+
+  if (path.basename(fileName) in duplicateIconNames) {
+    const iconCategory = fileName
+      .split(`healthicons/icons/${iconType}/`)[1]
+      .split("/")[0];
+    iconName = `${iconName}_${iconCategory}`;
+  }
+
+  if (iconName in incompatibleNames) {
+    iconName = incompatibleNames[iconName];
+  }
+  return [iconName, iconType];
+};
+
 // Get targets from command line arguments
 // (build all targets if no arguments)
 const args = process.argv.slice(2);
@@ -66,6 +85,23 @@ const tasks = new Listr(
         ctx.healthIconsFiles = (await deepReadDir(healthiconsIconsDir))
           .flat(Number.POSITIVE_INFINITY)
           .filter((val) => val.includes(".svg"));
+
+        const countFileNames = ctx.healthIconsFiles.reduce((acc, file) => {
+          const fileName = path.basename(file);
+          acc[fileName] = (acc[fileName] || 0) + 1;
+          return acc;
+        }, {});
+
+        duplicateIconNames = Object.entries(countFileNames).reduce(
+          (acc, [file, count]) => {
+            // This states three because we have 3 icon types (categories)
+            if (count > numberOfIconTypes) {
+              acc[file] = count;
+            }
+            return acc;
+          },
+          {}
+        );
       },
     },
     {
@@ -106,18 +142,10 @@ const tasks = new Listr(
                   const fileContents = readFileSync(file).toString();
                   const optimizedContent = optimize(fileContents);
 
-                  const iconType = file
-                    .split("healthicons/icons/")[1]
-                    .split("/")[0];
-                  const iconName = path.parse(file).name.replaceAll("_", "-");
-                  const dstFileName = `${iconType}-${
-                    iconName in incompatibleNames
-                      ? incompatibleNames[iconName]
-                      : iconName
-                  }`;
+                  const [dstFileName, iconType] = formatIconName(file);
 
                   content.push(
-                    `.healthicons-${dstFileName}::before{mask-image:url('data:image/svg+xml;charset=utf-8,${optimizedContent.data}');-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,${optimizedContent.data}');}`
+                    `.healthicons-${iconType}-${dstFileName}::before{mask-image:url('data:image/svg+xml;charset=utf-8,${optimizedContent.data}');-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,${optimizedContent.data}');}`
                   );
                 });
                 await fs.writeFile(
@@ -163,15 +191,8 @@ const tasks = new Listr(
 
                           const promises = ctx.healthIconsFiles.map((file) => {
                             const srcFilePath = path.join(file);
-                            const iconPath = path.parse(file);
-                            const iconType = file
-                              .split("healthicons/icons/")[1]
-                              .split("/")[0]; // get filled or outline or negative
-                            const iconName = iconPath.name;
-                            const dstFileName =
-                              iconName in incompatibleNames
-                                ? incompatibleNames[iconName]
-                                : iconName;
+                            const [dstFileName, iconType] =
+                              formatIconName(file);
                             const dstFilePath = path.join(
                               ctx.tmpDir,
                               iconType,
