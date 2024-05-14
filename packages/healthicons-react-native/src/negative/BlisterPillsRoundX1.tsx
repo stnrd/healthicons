@@ -12,11 +12,11 @@ const SvgBlisterPillsRoundX1 = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#blister_pills_round_x1_svg__a)" fill="#000">
+      <G clipPath="url(#blister-pills-round-x1_svg__a)" fill="#000">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -25,7 +25,7 @@ const SvgBlisterPillsRoundX1 = (passedProps: SvgProps) => {
         <Path d="M27 14a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
       </G>
       <Defs>
-        <ClipPath id="blister_pills_round_x1_svg__a">
+        <ClipPath id="blister-pills-round-x1_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

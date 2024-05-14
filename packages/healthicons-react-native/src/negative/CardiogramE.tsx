@@ -12,11 +12,11 @@ const SvgCardiogramE = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#cardiogram_e_svg__a)" fill="#000">
+      <G clipPath="url(#cardiogram-e_svg__a)" fill="#000">
         <Path d="M14 9a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1V9ZM11 30a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H12a1 1 0 0 1-1-1ZM12 34a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H12Z" />
         <Path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ const SvgCardiogramE = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="cardiogram_e_svg__a">
+        <ClipPath id="cardiogram-e_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { SVGProps, Ref, forwardRef } from "react";
 import { HealthIconsContext } from "../HealthIconsContext";
-const SvgSpeechLanguageTherapy = (
+const SvgSpeechLanguageTherapySpecialties = (
   passedProps: SVGProps<SVGSVGElement>,
   ref: Ref<SVGSVGElement>
 ) => {
@@ -15,13 +15,13 @@ const SvgSpeechLanguageTherapy = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#speech_language_therapy_svg__a)">
+      <g clipPath="url(#speech-language-therapy_specialties_svg__a)">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -29,12 +29,12 @@ const SvgSpeechLanguageTherapy = (
         />
       </g>
       <defs>
-        <clipPath id="speech_language_therapy_svg__a">
+        <clipPath id="speech-language-therapy_specialties_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>
     </svg>
   );
 };
-const ForwardRef = forwardRef(SvgSpeechLanguageTherapy);
+const ForwardRef = forwardRef(SvgSpeechLanguageTherapySpecialties);
 export default ForwardRef;

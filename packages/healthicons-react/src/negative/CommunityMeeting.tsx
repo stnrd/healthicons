@@ -15,13 +15,13 @@ const SvgCommunityMeeting = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#community_meeting_svg__a)" fill="#000">
+      <g clipPath="url(#community-meeting_svg__a)" fill="#000">
         <path d="M25.22 17.946a4.94 4.94 0 0 1-.076.108c.108.208.25.476.424.787a27.419 27.419 0 0 0 1.908 2.967v-.146c1.105 0 2.265-.597 3.227-1.308.074-.054.146-.108.215-.162a5.963 5.963 0 0 1-.891-2.62c-1.09.276-2.28.428-3.527.428-.434 0-.862-.018-1.28-.054ZM32.253 21.686a5.991 5.991 0 0 0 1.693.953l-2.618 2.619c-.466-.187-.947-.48-1.44-.87-.342-.27-.677-.579-1.003-.913 1.184-.306 2.23-.939 3.006-1.511.126-.093.247-.186.362-.278Z" />
         <path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgCommunityMeeting = (
         />
       </g>
       <defs>
-        <clipPath id="community_meeting_svg__a">
+        <clipPath id="community-meeting_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

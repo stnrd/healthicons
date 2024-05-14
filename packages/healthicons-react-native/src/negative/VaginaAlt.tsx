@@ -12,11 +12,11 @@ const SvgVaginaAlt = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#vagina_alt_svg__a)" fill="#000">
+      <G clipPath="url(#vagina-alt_svg__a)" fill="#000">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -26,7 +26,7 @@ const SvgVaginaAlt = (passedProps: SvgProps) => {
         <Path d="M23 26v3a1 1 0 1 0 2 0v-3a1 1 0 0 0-2 0Z" />
       </G>
       <Defs>
-        <ClipPath id="vagina_alt_svg__a">
+        <ClipPath id="vagina-alt_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

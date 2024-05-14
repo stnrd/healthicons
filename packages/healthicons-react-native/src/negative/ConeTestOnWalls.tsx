@@ -12,11 +12,11 @@ const SvgConeTestOnWalls = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#cone_test_on_walls_svg__a)" fill="#000">
+      <G clipPath="url(#cone-test-on-walls_svg__a)" fill="#000">
         <Path d="M30.588 28.68C29.076 27.966 28 26.14 28 24c0-2.14 1.076-3.966 2.588-4.68l-15.013-4.504C16.446 17.018 17 20.316 17 24c0 3.685-.554 6.982-1.425 9.184l15.013-4.504ZM13.931 31.853c-.318.953-.653 1.588-.931 1.948-.278-.36-.613-.995-.931-1.948C11.429 29.935 11 27.159 11 24s.43-5.935 1.069-7.853c.318-.953.653-1.588.931-1.948.278.36.613.995.931 1.948C14.571 18.065 15 20.841 15 24s-.43 5.935-1.069 7.853Z" />
         <Path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ const SvgConeTestOnWalls = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="cone_test_on_walls_svg__a">
+        <ClipPath id="cone-test-on-walls_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

@@ -15,13 +15,13 @@ const SvgTestTubes = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#test_tubes_svg__a)" fill="#000">
+      <g clipPath="url(#test-tubes_svg__a)" fill="#000">
         <path d="M15 23v-2h-4v2h4Z" />
         <path d="M17 29v-8h3v8a4 4 0 0 0 8 0v-8h3v8a4 4 0 0 0 8 0v-8h2v13H7V21h2v8a4 4 0 0 0 8 0ZM22 19h4v-7h-4v7Z" />
         <path d="M33 26v-5h4v5h-4ZM33 19h4v-7h-4v7ZM11 12v7h4v-7h-4Z" />
@@ -32,7 +32,7 @@ const SvgTestTubes = (
         />
       </g>
       <defs>
-        <clipPath id="test_tubes_svg__a">
+        <clipPath id="test-tubes_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

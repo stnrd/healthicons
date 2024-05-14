@@ -15,13 +15,13 @@ const SvgFemaleReproductiveSystem = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#female_reproductive_system_svg__a)">
+      <g clipPath="url(#female-reproductive-system_svg__a)">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -29,7 +29,7 @@ const SvgFemaleReproductiveSystem = (
         />
       </g>
       <defs>
-        <clipPath id="female_reproductive_system_svg__a">
+        <clipPath id="female-reproductive-system_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

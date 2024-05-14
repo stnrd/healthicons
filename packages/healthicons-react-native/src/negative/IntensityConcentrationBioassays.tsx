@@ -12,11 +12,11 @@ const SvgIntensityConcentrationBioassays = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#intensity_concentration_bioassays_svg__a)" fill="#000">
+      <G clipPath="url(#intensity-concentration-bioassays_svg__a)" fill="#000">
         <Path d="M28.384 29c-.75 0-1.069-.189-1.204-.319l2.679-.445a1.906 1.906 0 0 1-.05.08c-.25.367-.652.684-1.425.684ZM37.62 28.681c-.135.13-.454.319-1.204.319-.773 0-1.176-.317-1.424-.685a1.906 1.906 0 0 1-.05-.079l2.678.445Z" />
         <Path
           fillRule="evenodd"
@@ -31,7 +31,7 @@ const SvgIntensityConcentrationBioassays = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="intensity_concentration_bioassays_svg__a">
+        <ClipPath id="intensity-concentration-bioassays_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

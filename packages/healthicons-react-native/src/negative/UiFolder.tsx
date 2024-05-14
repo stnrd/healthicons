@@ -12,11 +12,11 @@ const SvgUiFolder = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#ui_folder_svg__a)" fill="#000">
+      <G clipPath="url(#ui-folder_svg__a)" fill="#000">
         <Path d="m24.872 15-1.913-3.482a1 1 0 0 0-.877-.518H9a1 1 0 0 0-1 1v3h16.872Z" />
         <Path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ const SvgUiFolder = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="ui_folder_svg__a">
+        <ClipPath id="ui-folder_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

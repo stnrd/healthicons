@@ -15,13 +15,13 @@ const SvgAnimalCow = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#animal_cow_svg__a)" fill="#000">
+      <g clipPath="url(#animal-cow_svg__a)" fill="#000">
         <path d="M29 29h2.81c1.024.996 2.132 1.844 3.562 2.414-.625.357-1.42.586-2.372.586-2.566 0-4-1.67-4-3Z" />
         <path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgAnimalCow = (
         />
       </g>
       <defs>
-        <clipPath id="animal_cow_svg__a">
+        <clipPath id="animal-cow_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

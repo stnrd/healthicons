@@ -12,11 +12,11 @@ const SvgHormonalRing = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#hormonal_ring_svg__a)" fill="#000">
+      <G clipPath="url(#hormonal-ring_svg__a)" fill="#000">
         <Path d="M24 37c7.18 0 13-5.82 13-13s-5.82-13-13-13-13 5.82-13 13 5.82 13 13 13Z" />
         <Path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgHormonalRing = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="hormonal_ring_svg__a">
+        <ClipPath id="hormonal-ring_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

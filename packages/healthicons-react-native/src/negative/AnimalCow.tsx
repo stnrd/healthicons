@@ -12,11 +12,11 @@ const SvgAnimalCow = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#animal_cow_svg__a)" fill="#000">
+      <G clipPath="url(#animal-cow_svg__a)" fill="#000">
         <Path d="M29 29h2.81c1.024.996 2.132 1.844 3.562 2.414-.625.357-1.42.586-2.372.586-2.566 0-4-1.67-4-3Z" />
         <Path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ const SvgAnimalCow = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="animal_cow_svg__a">
+        <ClipPath id="animal-cow_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

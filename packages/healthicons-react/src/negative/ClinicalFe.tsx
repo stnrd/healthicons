@@ -15,13 +15,13 @@ const SvgClinicalFe = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#clinical_fe_svg__a)" fill="#000">
+      <g clipPath="url(#clinical-fe_svg__a)" fill="#000">
         <path d="M14 9a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1V9ZM14 18v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2ZM12 29a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H12ZM11 35a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H12a1 1 0 0 1-1-1Z" />
         <path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgClinicalFe = (
         />
       </g>
       <defs>
-        <clipPath id="clinical_fe_svg__a">
+        <clipPath id="clinical-fe_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

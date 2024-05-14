@@ -12,11 +12,11 @@ const SvgOdontologyImplant = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#odontology_implant_svg__a)">
+      <G clipPath="url(#odontology-implant_svg__a)">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -24,7 +24,7 @@ const SvgOdontologyImplant = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="odontology_implant_svg__a">
+        <ClipPath id="odontology-implant_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

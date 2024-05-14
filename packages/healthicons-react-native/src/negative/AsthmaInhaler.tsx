@@ -12,11 +12,11 @@ const SvgAsthmaInhaler = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#asthma__inhaler_svg__a)" fill="#000">
+      <G clipPath="url(#asthma--inhaler_svg__a)" fill="#000">
         <Path d="m8.847 9.778 1.162 4.333 5.54-2.519-.903-3.367-5.8 1.553Z" />
         <Path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ const SvgAsthmaInhaler = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="asthma__inhaler_svg__a">
+        <ClipPath id="asthma--inhaler_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

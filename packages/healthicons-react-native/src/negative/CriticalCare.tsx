@@ -12,12 +12,12 @@ const SvgCriticalCare = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
       <G
-        clipPath="url(#critical_care_svg__a)"
+        clipPath="url(#critical-care_svg__a)"
         fillRule="evenodd"
         clipRule="evenodd"
         fill="#000"
@@ -26,7 +26,7 @@ const SvgCriticalCare = (passedProps: SvgProps) => {
         <Path d="M48 0H0v48h48V0ZM9 6a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h30a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3H9Z" />
       </G>
       <Defs>
-        <ClipPath id="critical_care_svg__a">
+        <ClipPath id="critical-care_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

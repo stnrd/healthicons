@@ -15,13 +15,13 @@ const SvgINoteAction = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#i_note_action_svg__a)" fill="#000">
+      <g clipPath="url(#i-note-action_svg__a)" fill="#000">
         <path d="M14 19a1 1 0 0 1 1-1h13a1 1 0 1 1 0 2H15a1 1 0 0 1-1-1ZM15 23a1 1 0 1 0 0 2h7a1 1 0 1 0 0-2h-7ZM14 29a1 1 0 0 1 1-1h11a1 1 0 1 1 0 2H15a1 1 0 0 1-1-1Z" />
         <path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgINoteAction = (
         />
       </g>
       <defs>
-        <clipPath id="i_note_action_svg__a">
+        <clipPath id="i-note-action_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

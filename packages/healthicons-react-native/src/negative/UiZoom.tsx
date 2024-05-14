@@ -12,11 +12,11 @@ const SvgUiZoom = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#ui_zoom_svg__a)" fill="#000">
+      <G clipPath="url(#ui-zoom_svg__a)" fill="#000">
         <Path d="M40 21c0 7.18-5.82 13-13 13s-13-5.82-13-13S19.82 8 27 8s13 5.82 13 13Z" />
         <Path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ const SvgUiZoom = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="ui_zoom_svg__a">
+        <ClipPath id="ui-zoom_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

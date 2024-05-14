@@ -15,13 +15,13 @@ const SvgIDocumentsDenied = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#i_documents_denied_svg__a)" fill="#000">
+      <g clipPath="url(#i-documents-denied_svg__a)" fill="#000">
         <path d="m29 8 6 6h-5a1 1 0 0 1-1-1V8ZM22.707 20.293a1 1 0 0 0-1.414 1.414L24.586 25l-3.293 3.293a1 1 0 0 0 1.414 1.414L26 26.414l3.293 3.293a1 1 0 0 0 1.414-1.414L27.414 25l3.293-3.293a1 1 0 0 0-1.414-1.414L26 23.586l-3.293-3.293Z" />
         <path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgIDocumentsDenied = (
         />
       </g>
       <defs>
-        <clipPath id="i_documents_denied_svg__a">
+        <clipPath id="i-documents-denied_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

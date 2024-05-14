@@ -15,13 +15,13 @@ const SvgAsthmaInhaler = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#asthma__inhaler_svg__a)" fill="#000">
+      <g clipPath="url(#asthma--inhaler_svg__a)" fill="#000">
         <path d="m8.847 9.778 1.162 4.333 5.54-2.519-.903-3.367-5.8 1.553Z" />
         <path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgAsthmaInhaler = (
         />
       </g>
       <defs>
-        <clipPath id="asthma__inhaler_svg__a">
+        <clipPath id="asthma--inhaler_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

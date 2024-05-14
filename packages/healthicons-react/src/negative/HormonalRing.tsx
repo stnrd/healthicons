@@ -15,13 +15,13 @@ const SvgHormonalRing = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#hormonal_ring_svg__a)" fill="#000">
+      <g clipPath="url(#hormonal-ring_svg__a)" fill="#000">
         <path d="M24 37c7.18 0 13-5.82 13-13s-5.82-13-13-13-13 5.82-13 13 5.82 13 13 13Z" />
         <path
           fillRule="evenodd"
@@ -35,7 +35,7 @@ const SvgHormonalRing = (
         />
       </g>
       <defs>
-        <clipPath id="hormonal_ring_svg__a">
+        <clipPath id="hormonal-ring_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

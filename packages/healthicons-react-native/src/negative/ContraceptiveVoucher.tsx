@@ -12,12 +12,12 @@ const SvgContraceptiveVoucher = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
       <G
-        clipPath="url(#contraceptive_voucher_svg__a)"
+        clipPath="url(#contraceptive-voucher_svg__a)"
         fillRule="evenodd"
         clipRule="evenodd"
         fill="#000"
@@ -26,7 +26,7 @@ const SvgContraceptiveVoucher = (passedProps: SvgProps) => {
         <Path d="M0 0h48v48H0V0Zm43 24c0 10.493-8.507 19-19 19S5 34.493 5 24 13.507 5 24 5s19 8.507 19 19Z" />
       </G>
       <Defs>
-        <ClipPath id="contraceptive_voucher_svg__a">
+        <ClipPath id="contraceptive-voucher_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

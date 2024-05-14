@@ -15,13 +15,13 @@ const SvgMinistryOfHealth = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#ministry_of_health_svg__a)" fill="#000">
+      <g clipPath="url(#ministry-of-health_svg__a)" fill="#000">
         <path d="M25 12v-2h-2v2h-2v2h2v2h2v-2h2v-2h-2ZM26 29a2 2 0 1 0-4 0v8h4v-8Z" />
         <path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgMinistryOfHealth = (
         />
       </g>
       <defs>
-        <clipPath id="ministry_of_health_svg__a">
+        <clipPath id="ministry-of-health_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

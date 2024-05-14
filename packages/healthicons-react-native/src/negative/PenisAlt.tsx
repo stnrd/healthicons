@@ -12,12 +12,12 @@ const SvgPenisAlt = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
       <G
-        clipPath="url(#penis_alt_svg__a)"
+        clipPath="url(#penis-alt_svg__a)"
         fillRule="evenodd"
         clipRule="evenodd"
         fill="#000"
@@ -27,7 +27,7 @@ const SvgPenisAlt = (passedProps: SvgProps) => {
         <Path d="M23 42v-7h2v7h-2Z" />
       </G>
       <Defs>
-        <ClipPath id="penis_alt_svg__a">
+        <ClipPath id="penis-alt_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

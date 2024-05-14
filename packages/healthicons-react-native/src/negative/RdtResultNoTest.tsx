@@ -12,11 +12,11 @@ const SvgRdtResultNoTest = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#rdt_result_no_test_svg__a)" fill="#000">
+      <G clipPath="url(#rdt-result-no-test_svg__a)" fill="#000">
         <Path d="M34.5 22.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM31.504 24a.751.751 0 1 0-1.502.002.751.751 0 0 0 1.502-.002Z" />
         <Path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgRdtResultNoTest = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="rdt_result_no_test_svg__a">
+        <ClipPath id="rdt-result-no-test_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

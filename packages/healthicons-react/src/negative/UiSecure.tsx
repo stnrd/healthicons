@@ -15,13 +15,13 @@ const SvgUiSecure = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#ui_secure_svg__a)" fill="#000">
+      <g clipPath="url(#ui-secure_svg__a)" fill="#000">
         <path d="M18 18h12v-2a6 6 0 0 0-12 0v2ZM15 26h18v-2H15v2ZM33 31H15v-2h18v2ZM15 36h18v-2H15v2Z" />
         <path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgUiSecure = (
         />
       </g>
       <defs>
-        <clipPath id="ui_secure_svg__a">
+        <clipPath id="ui-secure_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

@@ -15,13 +15,13 @@ const SvgHearingAid = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#hearing_aid_svg__a)" fill="#000">
+      <g clipPath="url(#hearing-aid_svg__a)" fill="#000">
         <path d="M22.567 24.13a7.034 7.034 0 0 1-2.56-2.43L16.83 25.78l1.58 1.58 4.155-3.231Z" />
         <path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgHearingAid = (
         />
       </g>
       <defs>
-        <clipPath id="hearing_aid_svg__a">
+        <clipPath id="hearing-aid_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

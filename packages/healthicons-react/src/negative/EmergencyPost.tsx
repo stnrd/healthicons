@@ -15,13 +15,13 @@ const SvgEmergencyPost = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#emergency_post_svg__a)" fill="#000">
+      <g clipPath="url(#emergency-post_svg__a)" fill="#000">
         <path d="M19.758 31.97a1 1 0 0 1-.728-1.212L19.72 28H17a1 1 0 1 1 0-2h3.22l.81-3.242a1 1 0 1 1 1.94.485L22.28 26H25a1 1 0 1 1 0 2h-3.22l-.81 3.243a1 1 0 0 1-1.212.727Z" />
         <path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgEmergencyPost = (
         />
       </g>
       <defs>
-        <clipPath id="emergency_post_svg__a">
+        <clipPath id="emergency-post_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

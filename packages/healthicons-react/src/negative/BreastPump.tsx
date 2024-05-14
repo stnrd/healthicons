@@ -15,13 +15,13 @@ const SvgBreastPump = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#breast_pump_svg__a)" fill="#000">
+      <g clipPath="url(#breast-pump_svg__a)" fill="#000">
         <path d="M11.84 18.204c.854-1.163 1.723-2.993 2.319-5.217.596-2.223.758-4.243.6-5.677-.064-.594-.176-1.015-.287-1.286-.232.18-.54.488-.892.97-.853 1.163-1.723 2.994-2.319 5.217-.595 2.223-.757 4.243-.6 5.677.065.594.177 1.015.287 1.286.232-.18.54-.488.893-.97ZM25 17v-4a1 1 0 1 0-2 0v4h2ZM24 19a3 3 0 0 0-3 3h6a3 3 0 0 0-3-3ZM13.06 19.94l-.037-.01c1.193-1.388 2.336-3.694 3.068-6.425.732-2.73.895-5.299.556-7.098l.037.01c.21.073.555.327.826 1.663.26 1.278.377 3.182.47 5.931-1.455 2.335-2.51 3.925-3.372 4.902-.903 1.022-1.33 1.07-1.548 1.027Z" />
         <path
           fillRule="evenodd"
@@ -35,7 +35,7 @@ const SvgBreastPump = (
         />
       </g>
       <defs>
-        <clipPath id="breast_pump_svg__a">
+        <clipPath id="breast-pump_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

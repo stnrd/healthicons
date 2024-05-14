@@ -12,11 +12,11 @@ const SvgAlertCircle = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#alert_circle_svg__a)" fill="#000">
+      <G clipPath="url(#alert-circle_svg__a)" fill="#000">
         <Path d="M24 11a2 2 0 0 1 2 2v14a2 2 0 1 1-4 0V13a2 2 0 0 1 2-2ZM26 35a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z" />
         <Path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ const SvgAlertCircle = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="alert_circle_svg__a">
+        <ClipPath id="alert-circle_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

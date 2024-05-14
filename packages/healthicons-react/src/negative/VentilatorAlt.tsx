@@ -15,13 +15,13 @@ const SvgVentilatorAlt = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#ventilator_alt_svg__a)" fill="#000">
+      <g clipPath="url(#ventilator-alt_svg__a)" fill="#000">
         <path d="M22 23h4v-3h-4v3ZM24.683 9.207l2.252 4.037 1.521-1.816H31v2h-1.61l-2.787 3.327-2.21-3.962-1.183 1.493h-6.771v-2h5.804l2.44-3.079ZM8 20.333v-2h3v2H8ZM26 28a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM23 27a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" />
         <path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgVentilatorAlt = (
         />
       </g>
       <defs>
-        <clipPath id="ventilator_alt_svg__a">
+        <clipPath id="ventilator-alt_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

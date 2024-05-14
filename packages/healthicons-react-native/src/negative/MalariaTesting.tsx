@@ -12,11 +12,11 @@ const SvgMalariaTesting = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#malaria_testing_svg__a)" fill="#000">
+      <G clipPath="url(#malaria-testing_svg__a)" fill="#000">
         <Path d="M18.18 13.681c.135.13.454.319 1.204.319.773 0 1.176-.317 1.424-.685.018-.026.035-.052.05-.079l-2.678.445ZM27.416 14c.75 0 1.069-.189 1.204-.319l-2.679-.445.05.08c.25.367.652.684 1.425.684ZM38 25a2 2 0 1 1 0 4 2 2 0 0 1 0-4ZM31 27a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Z" />
         <Path
           fillRule="evenodd"
@@ -31,7 +31,7 @@ const SvgMalariaTesting = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="malaria_testing_svg__a">
+        <ClipPath id="malaria-testing_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

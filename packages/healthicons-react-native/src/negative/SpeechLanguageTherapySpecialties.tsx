@@ -1,7 +1,7 @@
 import * as React from "react";
 import Svg, { SvgProps, G, Path, Defs, ClipPath } from "react-native-svg";
 import { HealthIconsContext } from "../HealthIconsContext";
-const SvgSpeechLanguageTherapy = (passedProps: SvgProps) => {
+const SvgSpeechLanguageTherapySpecialties = (passedProps: SvgProps) => {
   const context = React.useContext(HealthIconsContext);
   const props = {
     ...context,
@@ -12,11 +12,11 @@ const SvgSpeechLanguageTherapy = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#speech_language_therapy_svg__a)">
+      <G clipPath="url(#speech-language-therapy_specialties_svg__a)">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -24,11 +24,11 @@ const SvgSpeechLanguageTherapy = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="speech_language_therapy_svg__a">
+        <ClipPath id="speech-language-therapy_specialties_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>
     </Svg>
   );
 };
-export default SvgSpeechLanguageTherapy;
+export default SvgSpeechLanguageTherapySpecialties;

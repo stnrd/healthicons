@@ -12,11 +12,11 @@ const SvgContactLenses = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#contact_lenses_svg__a)" fill="#000">
+      <G clipPath="url(#contact-lenses_svg__a)" fill="#000">
         <Path d="m33.104 9.112-.012.015.012-.015ZM32.56 9.5a7.94 7.94 0 0 0-1.388-.569C29.426 8.375 26.89 8 24 8c-2.89 0-5.426.375-7.172.931a7.94 7.94 0 0 0-1.388.569c.327.18.784.377 1.388.569C18.574 10.624 21.11 11 24 11c2.89 0 5.426-.376 7.172-.931A7.938 7.938 0 0 0 32.56 9.5ZM14.896 9.112l.012.015c-.01-.01-.012-.015-.012-.015ZM32.358 11.775C31.064 14.293 27.928 16.2 24 16.2c-3.927 0-7.064-1.907-8.358-4.425C17.659 12.525 20.655 13 24 13c3.345 0 6.34-.475 8.358-1.225Z" />
         <Path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ const SvgContactLenses = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="contact_lenses_svg__a">
+        <ClipPath id="contact-lenses_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

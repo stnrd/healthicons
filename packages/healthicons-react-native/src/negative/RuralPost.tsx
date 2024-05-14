@@ -12,11 +12,11 @@ const SvgRuralPost = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#rural_post_svg__a)" fill="#000">
+      <G clipPath="url(#rural-post_svg__a)" fill="#000">
         <Path d="M32 12h-2v2h-2v2h2v2h2v-2h2v-2h-2v-2Z" />
         <Path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ const SvgRuralPost = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="rural_post_svg__a">
+        <ClipPath id="rural-post_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

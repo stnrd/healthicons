@@ -15,13 +15,13 @@ const SvgRdtResult = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#rdt_result_svg__a)" fill="#000">
+      <g clipPath="url(#rdt-result_svg__a)" fill="#000">
         <path d="M20 38a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM18 31a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z" />
         <path
           fillRule="evenodd"
@@ -35,7 +35,7 @@ const SvgRdtResult = (
         />
       </g>
       <defs>
-        <clipPath id="rdt_result_svg__a">
+        <clipPath id="rdt-result_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

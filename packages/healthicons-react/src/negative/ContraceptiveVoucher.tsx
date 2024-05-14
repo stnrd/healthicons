@@ -15,14 +15,14 @@ const SvgContraceptiveVoucher = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
       <g
-        clipPath="url(#contraceptive_voucher_svg__a)"
+        clipPath="url(#contraceptive-voucher_svg__a)"
         fillRule="evenodd"
         clipRule="evenodd"
         fill="#000"
@@ -31,7 +31,7 @@ const SvgContraceptiveVoucher = (
         <path d="M0 0h48v48H0V0Zm43 24c0 10.493-8.507 19-19 19S5 34.493 5 24 13.507 5 24 5s19 8.507 19 19Z" />
       </g>
       <defs>
-        <clipPath id="contraceptive_voucher_svg__a">
+        <clipPath id="contraceptive-voucher_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

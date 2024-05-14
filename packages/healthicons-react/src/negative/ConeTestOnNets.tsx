@@ -15,13 +15,13 @@ const SvgConeTestOnNets = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#cone_test_on_nets_svg__a)" fill="#000">
+      <g clipPath="url(#cone-test-on-nets_svg__a)" fill="#000">
         <path d="M33.801 35c-.36-.278-.995-.613-1.948-.931C29.935 33.429 27.159 33 24 33s-5.935.43-7.853 1.069c-.953.318-1.588.653-1.948.931.36.278.995.613 1.948.931C18.065 36.571 20.841 37 24 37s5.935-.43 7.853-1.069c.953-.318 1.588-.653 1.948-.931ZM19.32 17.412l-4.504 15.013C17.018 31.554 20.316 31 24 31c3.685 0 6.982.554 9.184 1.425L28.68 17.412C27.966 18.924 26.14 20 24 20c-2.14 0-3.966-1.076-4.68-2.588Z" />
         <path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgConeTestOnNets = (
         />
       </g>
       <defs>
-        <clipPath id="cone_test_on_nets_svg__a">
+        <clipPath id="cone-test-on-nets_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

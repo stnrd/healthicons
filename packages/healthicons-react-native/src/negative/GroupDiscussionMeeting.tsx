@@ -12,11 +12,11 @@ const SvgGroupDiscussionMeeting = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#group_discussion_meeting_svg__a)">
+      <G clipPath="url(#group-discussion-meeting_svg__a)">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -24,7 +24,7 @@ const SvgGroupDiscussionMeeting = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="group_discussion_meeting_svg__a">
+        <ClipPath id="group-discussion-meeting_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

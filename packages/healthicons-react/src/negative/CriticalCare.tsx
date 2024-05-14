@@ -15,14 +15,14 @@ const SvgCriticalCare = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
       <g
-        clipPath="url(#critical_care_svg__a)"
+        clipPath="url(#critical-care_svg__a)"
         fillRule="evenodd"
         clipRule="evenodd"
         fill="#000"
@@ -31,7 +31,7 @@ const SvgCriticalCare = (
         <path d="M48 0H0v48h48V0ZM9 6a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h30a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3H9Z" />
       </g>
       <defs>
-        <clipPath id="critical_care_svg__a">
+        <clipPath id="critical-care_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

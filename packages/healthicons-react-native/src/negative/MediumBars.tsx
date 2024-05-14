@@ -12,11 +12,11 @@ const SvgMediumBars = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#medium_bars_svg__a)" fill="#000">
+      <G clipPath="url(#medium-bars_svg__a)" fill="#000">
         <Path d="M34 9a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v30a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V9Z" />
         <Path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ const SvgMediumBars = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="medium_bars_svg__a">
+        <ClipPath id="medium-bars_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

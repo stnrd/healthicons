@@ -12,11 +12,11 @@ const SvgBreedingSites = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#breeding_sites_svg__a)" fill="#000">
+      <G clipPath="url(#breeding-sites_svg__a)" fill="#000">
         <Path d="m14.529 28.914-.006.013.024.002-.018-.015ZM32.028 30.493c1.304 0 2.36-1.073 2.36-2.397 0-1.324-1.056-2.397-2.36-2.397-1.304 0-2.361 1.073-2.361 2.397 0 1.324 1.057 2.397 2.36 2.397Z" />
         <Path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ const SvgBreedingSites = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="breeding_sites_svg__a">
+        <ClipPath id="breeding-sites_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

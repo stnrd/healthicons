@@ -15,13 +15,13 @@ const SvgMalariaTesting = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#malaria_testing_svg__a)" fill="#000">
+      <g clipPath="url(#malaria-testing_svg__a)" fill="#000">
         <path d="M18.18 13.681c.135.13.454.319 1.204.319.773 0 1.176-.317 1.424-.685.018-.026.035-.052.05-.079l-2.678.445ZM27.416 14c.75 0 1.069-.189 1.204-.319l-2.679-.445.05.08c.25.367.652.684 1.425.684ZM38 25a2 2 0 1 1 0 4 2 2 0 0 1 0-4ZM31 27a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Z" />
         <path
           fillRule="evenodd"
@@ -36,7 +36,7 @@ const SvgMalariaTesting = (
         />
       </g>
       <defs>
-        <clipPath id="malaria_testing_svg__a">
+        <clipPath id="malaria-testing_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

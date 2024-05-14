@@ -12,11 +12,11 @@ const SvgMedicineBottle = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#medicine_bottle_svg__a)" fill="#000">
+      <G clipPath="url(#medicine-bottle_svg__a)" fill="#000">
         <Path d="M16 16h-4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h4v10ZM23 16h-5V6h5v10ZM30 16h-5V6h5v10ZM32 16V6h4a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-4ZM23 35v-5h-5v-2h5v-5h2v5h5v2h-5v5h-2Z" />
         <Path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ const SvgMedicineBottle = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="medicine_bottle_svg__a">
+        <ClipPath id="medicine-bottle_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

@@ -12,11 +12,11 @@ const SvgEarsNoseAndThroat = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#ears_nose_and_throat_svg__a)" fill="#000">
+      <G clipPath="url(#ears-nose-and-throat_svg__a)" fill="#000">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -35,7 +35,7 @@ const SvgEarsNoseAndThroat = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="ears_nose_and_throat_svg__a">
+        <ClipPath id="ears-nose-and-throat_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

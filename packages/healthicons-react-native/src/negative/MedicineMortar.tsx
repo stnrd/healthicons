@@ -12,11 +12,11 @@ const SvgMedicineMortar = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#medicine_mortar_svg__a)">
+      <G clipPath="url(#medicine-mortar_svg__a)">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -24,7 +24,7 @@ const SvgMedicineMortar = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="medicine_mortar_svg__a">
+        <ClipPath id="medicine-mortar_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

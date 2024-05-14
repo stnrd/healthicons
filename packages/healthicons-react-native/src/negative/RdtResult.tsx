@@ -12,11 +12,11 @@ const SvgRdtResult = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#rdt_result_svg__a)" fill="#000">
+      <G clipPath="url(#rdt-result_svg__a)" fill="#000">
         <Path d="M20 38a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM18 31a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z" />
         <Path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgRdtResult = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="rdt_result_svg__a">
+        <ClipPath id="rdt-result_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

@@ -15,14 +15,14 @@ const SvgEcoCare = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
       <g
-        clipPath="url(#eco_care_svg__a)"
+        clipPath="url(#eco-care_svg__a)"
         fillRule="evenodd"
         clipRule="evenodd"
         fill="#000"
@@ -31,7 +31,7 @@ const SvgEcoCare = (
         <path d="M48 0H0v48h48V0ZM15.562 7C10.037 7 6 12.64 6 18.724 6 32.304 24 41 24 41s18-9.256 18-22.276C42 12.642 37.965 7 32.437 7c-3.835 0-6.68 2.531-8.437 6.121C22.243 9.531 19.398 7 15.562 7Z" />
       </g>
       <defs>
-        <clipPath id="eco_care_svg__a">
+        <clipPath id="eco-care_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

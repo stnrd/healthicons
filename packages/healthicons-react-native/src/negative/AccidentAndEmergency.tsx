@@ -12,11 +12,11 @@ const SvgAccidentAndEmergency = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#accident_and_emergency_svg__a)" fill="#000">
+      <G clipPath="url(#accident-and-emergency_svg__a)" fill="#000">
         <Path fillRule="evenodd" clipRule="evenodd" d="M33 36H15v-2h18v2Z" />
         <Path
           fillRule="evenodd"
@@ -31,7 +31,7 @@ const SvgAccidentAndEmergency = (passedProps: SvgProps) => {
         <Path d="M13 24c0 .337.015.67.045 1H10v-2h3.045c-.03.33-.045.663-.045 1ZM15.012 17.656a10.98 10.98 0 0 0-1.001 1.732l-2.635-1.522 1-1.732 2.636 1.522ZM19.387 14.01c-.609.283-1.188.619-1.73 1.002l-1.523-2.636 1.732-1 1.521 2.635ZM24 13c-.337 0-.67.015-1 .045V10h2v3.045A11.17 11.17 0 0 0 24 13ZM30.344 15.012a10.989 10.989 0 0 0-1.732-1.001l1.522-2.635 1.732 1-1.522 2.636ZM33.99 19.387a10.98 10.98 0 0 0-1.002-1.73l2.636-1.523 1 1.732-2.635 1.521ZM35 24c0-.337-.015-.67-.045-1H38v2h-3.045c.03-.33.045-.663.045-1Z" />
       </G>
       <Defs>
-        <ClipPath id="accident_and_emergency_svg__a">
+        <ClipPath id="accident-and-emergency_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

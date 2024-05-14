@@ -12,11 +12,11 @@ const SvgIDocumentsDenied = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#i_documents_denied_svg__a)" fill="#000">
+      <G clipPath="url(#i-documents-denied_svg__a)" fill="#000">
         <Path d="m29 8 6 6h-5a1 1 0 0 1-1-1V8ZM22.707 20.293a1 1 0 0 0-1.414 1.414L24.586 25l-3.293 3.293a1 1 0 0 0 1.414 1.414L26 26.414l3.293 3.293a1 1 0 0 0 1.414-1.414L27.414 25l3.293-3.293a1 1 0 0 0-1.414-1.414L26 23.586l-3.293-3.293Z" />
         <Path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ const SvgIDocumentsDenied = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="i_documents_denied_svg__a">
+        <ClipPath id="i-documents-denied_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

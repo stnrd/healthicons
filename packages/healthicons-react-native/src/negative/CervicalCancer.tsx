@@ -12,11 +12,11 @@ const SvgCervicalCancer = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#cervical_cancer_svg__a)" fill="#000">
+      <G clipPath="url(#cervical-cancer_svg__a)" fill="#000">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -30,7 +30,7 @@ const SvgCervicalCancer = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="cervical_cancer_svg__a">
+        <ClipPath id="cervical-cancer_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

@@ -15,13 +15,13 @@ const SvgBabyFemale0203MAlt = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#baby_female_0203m_alt_svg__a)">
+      <g clipPath="url(#baby-female-0203m-alt_svg__a)">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -29,7 +29,7 @@ const SvgBabyFemale0203MAlt = (
         />
       </g>
       <defs>
-        <clipPath id="baby_female_0203m_alt_svg__a">
+        <clipPath id="baby-female-0203m-alt_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

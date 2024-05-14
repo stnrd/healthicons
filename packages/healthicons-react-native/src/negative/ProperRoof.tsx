@@ -12,11 +12,11 @@ const SvgProperRoof = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#proper_roof_svg__a)" fill="#000">
+      <G clipPath="url(#proper-roof_svg__a)" fill="#000">
         <Path d="M28 41v1-1Z" />
         <Path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ const SvgProperRoof = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="proper_roof_svg__a">
+        <ClipPath id="proper-roof_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

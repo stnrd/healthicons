@@ -12,11 +12,11 @@ const SvgUiSettings = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#ui_settings_svg__a)" fill="#000">
+      <G clipPath="url(#ui-settings_svg__a)" fill="#000">
         <Path d="M24 29a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z" />
         <Path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgUiSettings = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="ui_settings_svg__a">
+        <ClipPath id="ui-settings_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

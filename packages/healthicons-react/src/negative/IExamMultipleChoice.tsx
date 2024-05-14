@@ -15,13 +15,13 @@ const SvgIExamMultipleChoice = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#i_exam_multiple_choice_svg__a)" fill="#000">
+      <g clipPath="url(#i-exam-multiple-choice_svg__a)" fill="#000">
         <path d="M21 14a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2h-8ZM20 19a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2h-8a1 1 0 0 1-1-1ZM21 27a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2h-8ZM20 32a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2h-8a1 1 0 0 1-1-1Z" />
         <path
           fillRule="evenodd"
@@ -36,7 +36,7 @@ const SvgIExamMultipleChoice = (
         />
       </g>
       <defs>
-        <clipPath id="i_exam_multiple_choice_svg__a">
+        <clipPath id="i-exam-multiple-choice_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

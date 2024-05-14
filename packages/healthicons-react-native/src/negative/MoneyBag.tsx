@@ -12,11 +12,11 @@ const SvgMoneyBag = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#money_bag_svg__a)" fill="#000">
+      <G clipPath="url(#money-bag_svg__a)" fill="#000">
         <Path d="M14.696 9.561c.924.291 1.904.545 2.9.729 2.159.398 4.333.457 6.193-.08 2.364-.685 4.845-1.239 7.17-1.567-1.984-.653-4.383-1.17-6.92-1.17-3.662 0-7.062 1.075-9.343 2.088Z" />
         <Path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgMoneyBag = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="money_bag_svg__a">
+        <ClipPath id="money-bag_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

@@ -12,11 +12,11 @@ const SvgPalmBranchesRoof = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#palm_branches_roof_svg__a)">
+      <G clipPath="url(#palm-branches-roof_svg__a)">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -24,7 +24,7 @@ const SvgPalmBranchesRoof = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="palm_branches_roof_svg__a">
+        <ClipPath id="palm-branches-roof_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

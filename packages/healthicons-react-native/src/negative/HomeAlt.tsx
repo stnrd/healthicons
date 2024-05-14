@@ -12,11 +12,11 @@ const SvgHomeAlt = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#home_alt_svg__a)">
+      <G clipPath="url(#home-alt_svg__a)">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -24,7 +24,7 @@ const SvgHomeAlt = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="home_alt_svg__a">
+        <ClipPath id="home-alt_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

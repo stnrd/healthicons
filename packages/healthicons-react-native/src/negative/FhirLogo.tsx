@@ -12,12 +12,12 @@ const SvgFhirLogo = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#FHIR_logo_svg__a)">
-        <G clipPath="url(#FHIR_logo_svg__b)">
+      <G clipPath="url(#FHIR-logo_svg__a)">
+        <G clipPath="url(#FHIR-logo_svg__b)">
           <Path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -26,10 +26,10 @@ const SvgFhirLogo = (passedProps: SvgProps) => {
         </G>
       </G>
       <Defs>
-        <ClipPath id="FHIR_logo_svg__a">
+        <ClipPath id="FHIR-logo_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
-        <ClipPath id="FHIR_logo_svg__b">
+        <ClipPath id="FHIR-logo_svg__b">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

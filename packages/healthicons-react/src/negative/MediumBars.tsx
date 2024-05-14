@@ -15,13 +15,13 @@ const SvgMediumBars = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#medium_bars_svg__a)" fill="#000">
+      <g clipPath="url(#medium-bars_svg__a)" fill="#000">
         <path d="M34 9a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v30a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V9Z" />
         <path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgMediumBars = (
         />
       </g>
       <defs>
-        <clipPath id="medium_bars_svg__a">
+        <clipPath id="medium-bars_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

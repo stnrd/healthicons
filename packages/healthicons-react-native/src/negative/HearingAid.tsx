@@ -12,11 +12,11 @@ const SvgHearingAid = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#hearing_aid_svg__a)" fill="#000">
+      <G clipPath="url(#hearing-aid_svg__a)" fill="#000">
         <Path d="M22.567 24.13a7.034 7.034 0 0 1-2.56-2.43L16.83 25.78l1.58 1.58 4.155-3.231Z" />
         <Path
           fillRule="evenodd"
@@ -25,7 +25,7 @@ const SvgHearingAid = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="hearing_aid_svg__a">
+        <ClipPath id="hearing-aid_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

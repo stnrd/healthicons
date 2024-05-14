@@ -15,13 +15,13 @@ const SvgProperRoof = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#proper_roof_svg__a)" fill="#000">
+      <g clipPath="url(#proper-roof_svg__a)" fill="#000">
         <path d="M28 41v1-1Z" />
         <path
           fillRule="evenodd"
@@ -30,7 +30,7 @@ const SvgProperRoof = (
         />
       </g>
       <defs>
-        <clipPath id="proper_roof_svg__a">
+        <clipPath id="proper-roof_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

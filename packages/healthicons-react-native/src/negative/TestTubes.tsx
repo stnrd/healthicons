@@ -12,11 +12,11 @@ const SvgTestTubes = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#test_tubes_svg__a)" fill="#000">
+      <G clipPath="url(#test-tubes_svg__a)" fill="#000">
         <Path d="M15 23v-2h-4v2h4Z" />
         <Path d="M17 29v-8h3v8a4 4 0 0 0 8 0v-8h3v8a4 4 0 0 0 8 0v-8h2v13H7V21h2v8a4 4 0 0 0 8 0ZM22 19h4v-7h-4v7Z" />
         <Path d="M33 26v-5h4v5h-4ZM33 19h4v-7h-4v7ZM11 12v7h4v-7h-4Z" />
@@ -27,7 +27,7 @@ const SvgTestTubes = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="test_tubes_svg__a">
+        <ClipPath id="test-tubes_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

@@ -15,13 +15,13 @@ const SvgBlisterPillsOvalX1 = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#blister_pills_oval_x1_svg__a)" fill="#000">
+      <g clipPath="url(#blister-pills-oval-x1_svg__a)" fill="#000">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -30,7 +30,7 @@ const SvgBlisterPillsOvalX1 = (
         <path d="M24.243 11.414a2 2 0 0 1 2.828 2.829l-2.828 2.828a2 2 0 0 1-2.829-2.828l2.829-2.829Z" />
       </g>
       <defs>
-        <clipPath id="blister_pills_oval_x1_svg__a">
+        <clipPath id="blister-pills-oval-x1_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>

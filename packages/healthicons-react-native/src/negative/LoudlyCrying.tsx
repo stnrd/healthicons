@@ -12,12 +12,12 @@ const SvgLoudlyCrying = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
       <G
-        clipPath="url(#loudly_crying_svg__a)"
+        clipPath="url(#loudly-crying_svg__a)"
         fillRule="evenodd"
         clipRule="evenodd"
         fill="#000"
@@ -26,7 +26,7 @@ const SvgLoudlyCrying = (passedProps: SvgProps) => {
         <Path d="M48 0H0v48h48V0ZM12.565 37.902A17.964 17.964 0 0 1 6 24c0-9.941 8.059-18 18-18s18 8.059 18 18c0 5.599-2.556 10.6-6.565 13.902C38.26 38.442 40 39.183 40 40c0 1.657-7.163 3-16 3S8 41.657 8 40c0-.817 1.74-1.557 4.565-2.098Z" />
       </G>
       <Defs>
-        <ClipPath id="loudly_crying_svg__a">
+        <ClipPath id="loudly-crying_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

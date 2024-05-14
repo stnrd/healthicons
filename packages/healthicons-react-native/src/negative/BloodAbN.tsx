@@ -12,11 +12,11 @@ const SvgBloodAbN = (passedProps: SvgProps) => {
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       color="currentColor"
       {...props}
     >
-      <G clipPath="url(#blood_ab_n_svg__a)">
+      <G clipPath="url(#blood-ab-n_svg__a)">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -24,7 +24,7 @@ const SvgBloodAbN = (passedProps: SvgProps) => {
         />
       </G>
       <Defs>
-        <ClipPath id="blood_ab_n_svg__a">
+        <ClipPath id="blood-ab-n_svg__a">
           <Path d="M0 0h48v48H0z" />
         </ClipPath>
       </Defs>

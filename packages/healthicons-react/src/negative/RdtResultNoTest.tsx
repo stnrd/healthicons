@@ -15,13 +15,13 @@ const SvgRdtResultNoTest = (
       width="1.5em"
       height="1.5em"
       viewBox="0 0 48 48"
-      fill="none"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
       ref={ref}
       {...props}
     >
-      <g clipPath="url(#rdt_result_no_test_svg__a)" fill="#000">
+      <g clipPath="url(#rdt-result-no-test_svg__a)" fill="#000">
         <path d="M34.5 22.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM31.504 24a.751.751 0 1 0-1.502.002.751.751 0 0 0 1.502-.002Z" />
         <path
           fillRule="evenodd"
@@ -35,7 +35,7 @@ const SvgRdtResultNoTest = (
         />
       </g>
       <defs>
-        <clipPath id="rdt_result_no_test_svg__a">
+        <clipPath id="rdt-result-no-test_svg__a">
           <path d="M0 0h48v48H0z" />
         </clipPath>
       </defs>
