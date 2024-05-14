@@ -18,7 +18,10 @@ let duplicateIconNames = {};
 // Targets for building icons
 const targets = {
   "meta-data": { path: "meta-data.json" },
-  css: { path: "css/healthicons.css" },
+  css: {
+    path: "css",
+    iconTypes: ["filled", "outline", "negative"],
+  },
   "healthicons-react": {
     react: true,
     path: "packages/healthicons-react",
@@ -130,28 +133,44 @@ const tasks = new Listr(
               enabled: () =>
                 cliTargets.length === 0 || cliTargets.includes("css"),
               task: async (ctx) => {
-                const content = [
-                  (
-                    await fs.readFile(
-                      path.join(__dirname, "header.css"),
-                      "utf8"
-                    )
-                  ).replace("[YEAR]", new Date().getFullYear()),
-                ];
+                const headerContent = (
+                  await fs.readFile(path.join(__dirname, "header.css"), "utf8")
+                ).replace("[YEAR]", new Date().getFullYear());
+
+                const content = {
+                  all: [headerContent],
+                  filled: [headerContent],
+                  outline: [headerContent],
+                  negative: [headerContent],
+                };
+
                 ctx.healthIconsFiles.forEach((file) => {
                   const fileContents = readFileSync(file).toString();
                   const optimizedContent = optimize(fileContents);
 
                   const [dstFileName, iconType] = formatIconName(file);
 
-                  content.push(
-                    `.healthicons-${iconType}-${dstFileName}::before{mask-image:url('data:image/svg+xml;charset=utf-8,${optimizedContent.data}');-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,${optimizedContent.data}');}`
-                  );
+                  const cssLine = `.healthicons-${iconType}-${dstFileName}::before{mask-image:url('data:image/svg+xml;charset=utf-8,${optimizedContent.data}');-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,${optimizedContent.data}');}`;
+
+                  content.all.push(cssLine);
+                  if (content[iconType]) {
+                    content[iconType].push(cssLine);
+                  }
                 });
                 await fs.writeFile(
-                  path.join(rootDir, targets.css.path),
-                  content
+                  path.join(rootDir, targets.css.path, "healthicons.css"),
+                  content.all
                 );
+                targets.css.iconTypes.forEach(async (iconType) => {
+                  await fs.writeFile(
+                    path.join(
+                      rootDir,
+                      targets.css.path,
+                      `healthicons-${iconType}.css`
+                    ),
+                    content[iconType]
+                  );
+                });
               },
             },
             {
