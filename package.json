@@ -8,7 +8,7 @@
     "icons"
   ],
   "scripts": {
-    "build": "node ./bin/build.js",
+    "build": "node ./bin/build/index.js",
     "download": "node ./bin/download.js",
     "prepublish-all": "node ./bin/prepublish.js",
     "dist": "yarn --cwd ./packages/healthicons-react run dist && yarn --cwd ./packages/healthicons-react-native run dist"
@@ -32,8 +32,12 @@
   "license": "MIT",
   "homepage": "https://healthicons.org/",
   "devDependencies": {
-    "@svgr/cli": "^6.5.1",
+    "@svgr/babel-plugin-remove-jsx-attribute": "^8.0.0",
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@types/react": "^18.3.3",
     "decompress": "^4.2.1",
+    "esbuild": "^0.19.9",
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -41,7 +45,11 @@
     "listr2": "^5.0.7",
     "node-fetch": "^3.3.0",
     "prettier": "^2.8.3",
+    "react": "^18.3.1",
+    "react-native": "^0.74.2",
+    "react-native-svg": "^15.3.0",
+    "scule": "^1.1.1",
     "semver": "^7.3.8",
-    "svgo": "^3.0.2"
+    "typescript": "^4.9.4"
   }
 }
