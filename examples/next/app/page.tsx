@@ -1,6 +1,6 @@
 'use client';
-import { BloodBag, DiabetesPeople } from 'healthicons-react/dist/filled';
-import {HealthIconsProvider } from 'healthicons-react/dist/HealthIconsContext'
+import { BloodBag, Diabetes } from 'healthicons-react';
+import { HealthIconsProvider } from 'healthicons-react'
 
 
 export default function Home() {
@@ -13,9 +13,9 @@ export default function Home() {
                     strokeWidth: 1,
                     width: '2em',
                     height: '2em',
-                  }}
+                }}
             >
-                <DiabetesPeople fill='currentColor'/>
+                <Diabetes fill='currentColor' />
             </HealthIconsProvider>
         </>
     )
