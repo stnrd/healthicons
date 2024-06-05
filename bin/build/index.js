@@ -21,12 +21,14 @@ const targets = {
   react: {
     title: "React library",
     path: "packages/healthicons-react",
+    include_metadata: true,
   },
   "react-native": {
     title: "React Native library",
     target: "react",
     native: true,
     path: "packages/healthicons-react-native",
+    include_metadata: true,
   },
 };
 
@@ -68,7 +70,6 @@ const tasks = new Listr(
                 if (duplicateIconNames[name] > 1) {
                   name = `${name}-${group}`;
                   nameVariant = `${name}-${variant}-${group}`;
-                  console.log(`Renamed ${name} and ${nameVariant}`);
                 }
 
                 if (name in incompatibleNames) {
@@ -83,8 +84,6 @@ const tasks = new Listr(
                   pascalNameVariant: pascalCase(nameVariant),
                   snakeName: snakeCase(name),
                   snakeNameVariant: snakeCase(nameVariant),
-                  // Check
-                  duplicate: duplicateIconNames[name] > iconsVariants.length,
                   path: path.join(groupDir, file),
                 };
               });
@@ -93,6 +92,37 @@ const tasks = new Listr(
           }
         }
         ctx.global = { defaultVariant };
+      },
+    },
+    {
+      title:
+        "Adding component name to meta-data.json file - and include in packages",
+      task: async (ctx) => {
+        const metaDataPath = path.join(iconsDir, "meta-data.json");
+        let metadata = JSON.parse(await fs.readFile(metaDataPath, "utf-8"));
+
+        metadata = metadata.map((item) => {
+          const icon = ctx.icons[defaultVariant].find(
+            (icon) => path.parse(icon.path).name === item.id
+          );
+
+          return {
+            ...item,
+            component_name: icon.pascalName,
+          };
+        });
+
+        Object.entries(targets).forEach(async ([targetName, targetConfig]) => {
+          if (targetConfig.include_metadata) {
+            const targetPath = path.join(
+              rootDir,
+              ...targetConfig.path.split(path.posix.sep),
+              "updated-meta-data.json"
+            );
+
+            await fs.writeFile(targetPath, JSON.stringify(metadata, null, 2));
+          }
+        });
       },
     },
     {
