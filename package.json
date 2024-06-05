@@ -10,8 +10,7 @@
   "scripts": {
     "build": "node ./bin/build/index.js",
     "download": "node ./bin/download.js",
-    "prepublish-all": "node ./bin/prepublish.js",
-    "dist": "yarn --cwd ./packages/healthicons-react run dist && yarn --cwd ./packages/healthicons-react-native run dist"
+    "prepublish-all": "node ./bin/prepublish.js"
   },
   "repository": {
     "type": "git",
@@ -41,7 +40,6 @@
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "execa": "^6.1.0",
     "listr2": "^5.0.7",
     "node-fetch": "^3.3.0",
     "prettier": "^2.8.3",
