@@ -1,6 +1,6 @@
 import { View } from "react-native";
-import { Bloodbag, DiabetesPeople } from "healthicons-react-native/dist/filled";
-import { HealthIconsProvider } from "healthicons-react/dist/HealthIconsContext";
+import { Bloodbag, DiabetesPeople } from "healthicons-react-native";
+import { HealthIconsProvider } from "healthicons-react-native";
 
 export default function App() {
   return (

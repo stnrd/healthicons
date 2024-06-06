@@ -18,10 +18,12 @@ npm i healthicons-react-native react-native-svg
 
 ## Usage
 
+By default `filled` icons are imported. To import another variant use the following syntax `from healthicons-react/[variant_name]` instead.
+
 ```javascript
 import React from "react";
 import { View } from "react-native";
-import { BloodBag } from "healthicons-react-native/dist/filled";
+import { BloodBag } from "healthicons-react-native";
 const App = () => {
   return (
     <View>
