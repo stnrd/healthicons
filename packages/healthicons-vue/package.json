@@ -4,20 +4,15 @@
   "description": "Vue icon library for the Healthicons set",
   "exports": {
     ".": {
-      "import": "./dist/esm/index.mjs",
-      "require": "./dist/index.js"
-    },
-    "./filled": {
-      "import": "./dist/esm/filled/index.mjs",
-      "require": "./dist/filled/index.js"
-    },
-    "./outline": {
-      "import": "./dist/esm/outline/index.mjs",
-      "require": "./dist/outline/index.js"
-    },
-    "./negative": {
-      "import": "./dist/esm/negative/index.mjs",
-      "require": "./dist/negative/index.js"
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/esm/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "default": "./dist/index.js"
     }
   },
   "main": "./dist/index.js",
