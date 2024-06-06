@@ -14,6 +14,7 @@ if (!newVersion) {
 publishNpmPackage("healthicons");
 publishNpmPackage("healthicons-react");
 publishNpmPackage("healthicons-react-native");
+publishNpmPackage("healthicons-vue");
 
 function publishNpmPackage(name) {
   console.info("Publishing %s", name);

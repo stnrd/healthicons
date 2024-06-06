@@ -64,3 +64,11 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         continue-on-error: true
+      
+      - name: Publish Vue package
+        run: |
+          yarn --cwd ./packages/healthicons-vue install
+          yarn --cwd ./packages/healthicons-vue publish -r
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        continue-on-error: true

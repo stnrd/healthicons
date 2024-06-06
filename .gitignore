@@ -141,3 +141,7 @@ dist
 
 # backups
 icons.bak
+
+packages/healthicons-vue/src/*
+!packages/healthicons-vue/src/HealthiconsProvider.vue
+!packages/healthicons-vue/src/providerKey.ts
