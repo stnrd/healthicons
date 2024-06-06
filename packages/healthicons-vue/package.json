@@ -1,0 +1,55 @@
+{
+  "name": "healthicons-vue",
+  "version": "2.0.0",
+  "description": "Vue icon library for the Health Icons set",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./filled": {
+      "import": "./dist/esm/filled/index.mjs",
+      "require": "./dist/filled/index.js"
+    },
+    "./outline": {
+      "import": "./dist/esm/outline/index.mjs",
+      "require": "./dist/outline/index.js"
+    },
+    "./negative": {
+      "import": "./dist/esm/negative/index.mjs",
+      "require": "./dist/negative/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/esm/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stnrd/healthicons.git"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "svg",
+    "health",
+    "healthicons"
+  ],
+  "bugs": {
+    "url": "https://github.com/stnrd/healthicons/issues"
+  },
+  "author": "Sten Raadschelders",
+  "license": "MIT",
+  "dependencies": {
+    "vue-demi": "^0.14.6"
+  },
+  "devDependencies": {
+    "vue": "^3.3.12"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": ">=1.0.0-rc.1",
+    "vue": "^2.6.11 || >=3.0.0"
+  }
+}
