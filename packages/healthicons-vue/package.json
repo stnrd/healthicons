@@ -1,6 +1,6 @@
 {
   "name": "healthicons-vue",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Vue icon library for the Healthicons set",
   "exports": {
     ".": {
