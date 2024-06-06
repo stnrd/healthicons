@@ -2086,7 +2086,7 @@
       "dhis2:diabetes"
     ],
     "title": "Diabetes",
-    "component_name": "Diabetes"
+    "component_name": "DiabetesSymbols"
   },
   {
     "id": "dhis2_logo",
@@ -3350,7 +3350,7 @@
       "Therapy"
     ],
     "title": "Speech Language Therapy",
-    "component_name": "SpeechLanguageTherapy"
+    "component_name": "SpeechLanguageTherapySpecialties"
   },
   {
     "id": "gynecology",
@@ -4339,7 +4339,7 @@
       "dhis2:fever"
     ],
     "title": "Fever",
-    "component_name": "Fever"
+    "component_name": "FeverEmotions"
   },
   {
     "id": "sad",
@@ -4592,7 +4592,7 @@
       "Spectacles"
     ],
     "title": "Glasses",
-    "component_name": "Eyeglasses"
+    "component_name": "EyeglassesEmotions"
   },
   {
     "id": "bandaged",
@@ -4670,7 +4670,7 @@
       "Sweat"
     ],
     "title": "Sweating",
-    "component_name": "Sweating"
+    "component_name": "SweatingEmotions"
   },
   {
     "id": "nervous",
@@ -4940,7 +4940,7 @@
       "Pills"
     ],
     "title": "Pharmacy",
-    "component_name": "Pharmacy"
+    "component_name": "PharmacySymbols"
   },
   {
     "id": "xray",

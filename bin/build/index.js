@@ -84,6 +84,7 @@ const tasks = new Listr(
                   pascalNameVariant: pascalCase(nameVariant),
                   snakeName: snakeCase(name),
                   snakeNameVariant: snakeCase(nameVariant),
+                  group: group,
                   path: path.join(groupDir, file),
                 };
               });
@@ -103,8 +104,14 @@ const tasks = new Listr(
 
         metadata = metadata.map((item) => {
           const icon = ctx.icons[defaultVariant].find(
-            (icon) => path.parse(icon.path).name === item.id
+            (icon) =>
+              path.join(icon.group, path.parse(icon.path).name) === item.path
           );
+
+          if (!icon) {
+            console.warn(`Icon '${item.id}' not found!`);
+            return item;
+          }
 
           return {
             ...item,
