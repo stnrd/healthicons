@@ -1,7 +1,7 @@
 {
   "name": "healthicons-vue",
   "version": "2.0.0",
-  "description": "Vue icon library for the Health Icons set",
+  "description": "Vue icon library for the Healthicons set",
   "exports": {
     ".": {
       "import": "./dist/esm/index.mjs",
@@ -31,7 +31,7 @@
     "url": "git+https://github.com/stnrd/healthicons.git"
   },
   "keywords": [
-    "react",
+    "vue",
     "icons",
     "svg",
     "health",
