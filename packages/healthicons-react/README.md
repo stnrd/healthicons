@@ -18,7 +18,7 @@ npm i healthicons-react
 
 ## Usage
 
-By default filled icons are imported. To import another variant use the following syntax `from healthicons-react/[variant_name]` instead.
+By default `filled` icons are imported. To import another variant use the following syntax `from healthicons-react/[variant_name]` instead.
 
 ```javascript
 import React from "react";
