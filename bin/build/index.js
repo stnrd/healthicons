@@ -30,6 +30,10 @@ const targets = {
     path: "packages/healthicons-react-native",
     include_metadata: true,
   },
+  vue: {
+    title: "Vue library",
+    path: "packages/healthicons-vue",
+  },
 };
 
 const tasks = new Listr(
