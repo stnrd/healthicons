@@ -17,9 +17,9 @@ export const svgrOptions = {
           "@svgr/babel-plugin-remove-jsx-attribute",
           {
             elements: ["path"],
-            attributes: ["strokeWidth", "fill"],
+            attributes: ["fill"],
           },
-          "remove-stroke-width",
+          "remove-fill",
         ],
       ],
     },
@@ -36,11 +36,18 @@ export const nativeSvgrOptions = {
         [
           "@svgr/babel-plugin-remove-jsx-attribute",
           {
+            elements: ["Path"],
+            attributes: ["fill"],
+          },
+          "remove-fill",
+        ],
+        [
+          "@svgr/babel-plugin-remove-jsx-attribute",
+          {
             elements: ["Svg"],
             attributes: ["xmlns"],
           },
         ],
-        ...svgrOptions.jsx.babelConfig.plugins,
       ],
     },
   },
