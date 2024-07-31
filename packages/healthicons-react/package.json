@@ -14,10 +14,6 @@
     "./outline": {
       "import": "./dist/esm/outline/index.mjs",
       "require": "./dist/outline/index.js"
-    },
-    "./negative": {
-      "import": "./dist/esm/negative/index.mjs",
-      "require": "./dist/negative/index.js"
     }
   },
   "main": "./dist/index.js",

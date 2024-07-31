@@ -13,14 +13,14 @@ export default function App() {
       alignItems: "center",
     
     }}>
-      <Text>Health Icons</Text>
+      <Text style={{ fontSize: 24, fontWeight: "bold", margin: 24 }}>Health Icons</Text>
       <BloodBag color="red" opacity={0.3} width={24} height={24} />
       <HealthIconsProvider
         iconProps={{
           color: "#1E441E",
           strokeWidth: 1,
-          width: "24px",
-          height: "24px",
+          width: "240px",
+          height: "240px",
         }}
       >
         <Diabetes />

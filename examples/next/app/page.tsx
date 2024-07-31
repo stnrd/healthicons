@@ -23,8 +23,8 @@ export default function Home() {
                 iconProps={{
                     color: '#1E441E',
                     strokeWidth: 1,
-                    width: '2em',
-                    height: '2em',
+                    width: '6rem',
+                    height: '6rem',
                 }}
             >
                 <Diabetes fill='currentColor' />
