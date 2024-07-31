@@ -5,6 +5,7 @@
     "path": "vehicles/war",
     "tags": [
       "Armored Vehicle",
+      "Army",
       "Cannon",
       "Gun",
       "Military",
@@ -1432,61 +1433,6 @@
     "component_name": "Bacteria"
   },
   {
-    "id": "yes",
-    "category": "symbols",
-    "path": "symbols/yes",
-    "tags": [
-      "Approved",
-      "Circle",
-      "Success",
-      "Yes",
-      "dhis2:yes"
-    ],
-    "title": "Checkmark",
-    "component_name": "Yes"
-  },
-  {
-    "id": "un_paved_road",
-    "category": "symbols",
-    "path": "symbols/un_paved_road",
-    "tags": [
-      "Curve",
-      "Dirt",
-      "Road",
-      "dhis2:unpaved_road"
-    ],
-    "title": "Unpaved Road",
-    "component_name": "UnPavedRoad"
-  },
-  {
-    "id": "tally",
-    "category": "symbols",
-    "path": "symbols/tally",
-    "tags": [
-      "Add",
-      "Addition",
-      "Count",
-      "Math",
-      "Register"
-    ],
-    "title": "Tally",
-    "component_name": "Tally"
-  },
-  {
-    "id": "stop",
-    "category": "symbols",
-    "path": "symbols/stop",
-    "tags": [
-      "Fingers",
-      "Halt",
-      "Hand",
-      "Warning",
-      "dhis2:stop"
-    ],
-    "title": "Stop",
-    "component_name": "Stop"
-  },
-  {
     "id": "smoking_cessation",
     "category": "symbols",
     "path": "symbols/smoking_cessation",
@@ -2680,31 +2626,6 @@
     ],
     "title": "Call Center",
     "component_name": "CallCentre"
-  },
-  {
-    "id": "excel_logo",
-    "category": "symbols",
-    "path": "symbols/excel_logo",
-    "tags": [
-      "Document",
-      "Logo",
-      "Spreadsheet"
-    ],
-    "title": "Excel",
-    "component_name": "ExcelLogo"
-  },
-  {
-    "id": "openMRS_logo",
-    "category": "symbols",
-    "path": "symbols/openMRS_logo",
-    "tags": [
-      "EHR",
-      "EMR",
-      "Logo",
-      "Open Medical Records System"
-    ],
-    "title": "OpenMRS",
-    "component_name": "OpenMRSLogo"
   },
   {
     "id": "wheelchair_alt",
@@ -4151,34 +4072,6 @@
     "component_name": "Vih"
   },
   {
-    "id": "water_treatment",
-    "category": "symbols",
-    "path": "symbols/water_treatment",
-    "tags": [
-      "Arrows",
-      "Drop",
-      "Water",
-      "dhis2:water_treatment"
-    ],
-    "title": "Water Treatment",
-    "component_name": "WaterTreatment"
-  },
-  {
-    "id": "social_distancing",
-    "category": "symbols",
-    "path": "symbols/social_distancing",
-    "tags": [
-      "Apart",
-      "Arrows",
-      "Between",
-      "Social Distance",
-      "Space",
-      "dhis2:social_distancing"
-    ],
-    "title": "Social Distancing",
-    "component_name": "SocialDistancing"
-  },
-  {
     "id": "default",
     "category": "symbols",
     "path": "symbols/default",
@@ -4861,19 +4754,6 @@
     "component_name": "Defibrillator"
   },
   {
-    "id": "discharge",
-    "category": "symbols",
-    "path": "symbols/discharge",
-    "tags": [
-      "Chair",
-      "Department",
-      "Exit",
-      "Hospital"
-    ],
-    "title": "Discharge",
-    "component_name": "Discharge"
-  },
-  {
     "id": "leg",
     "category": "body",
     "path": "body/leg",
@@ -4915,21 +4795,6 @@
     "component_name": "Eye"
   },
   {
-    "id": "pharmacy",
-    "category": "symbols",
-    "path": "symbols/pharmacy",
-    "tags": [
-      "Department",
-      "Drugs",
-      "Medications",
-      "Pharmacist",
-      "Pharmacy",
-      "Pills"
-    ],
-    "title": "Pharmacy",
-    "component_name": "PharmacySymbols"
-  },
-  {
     "id": "xray",
     "category": "devices",
     "path": "devices/xray",
@@ -4954,21 +4819,6 @@
     ],
     "title": "Mouth",
     "component_name": "Mouth"
-  },
-  {
-    "id": "pharmacy_alt",
-    "category": "symbols",
-    "path": "symbols/pharmacy_alt",
-    "tags": [
-      "Department",
-      "Drugs",
-      "Medications",
-      "Pharmacist",
-      "Pharmacy",
-      "Pills"
-    ],
-    "title": "Pharmacy",
-    "component_name": "PharmacyAlt"
   },
   {
     "id": "rheumatology",
@@ -5022,19 +4872,6 @@
     ],
     "title": "Umbrella",
     "component_name": "Umbrella"
-  },
-  {
-    "id": "simple_logo",
-    "category": "symbols",
-    "path": "symbols/simple_logo",
-    "tags": [
-      "App",
-      "HIT",
-      "Health IT",
-      "Open Source"
-    ],
-    "title": "Simple.org",
-    "component_name": "SimpleLogo"
   },
   {
     "id": "bandage_adhesive",
@@ -5968,21 +5805,6 @@
     "component_name": "CoughingAlt"
   },
   {
-    "id": "transgender",
-    "category": "symbols",
-    "path": "symbols/transgender",
-    "tags": [
-      "Gender",
-      "Sex",
-      "Symbol",
-      "Trans",
-      "Transgender",
-      "dhis2:transgender"
-    ],
-    "title": "Transgender",
-    "component_name": "Transgender"
-  },
-  {
     "id": "pwid",
     "category": "people",
     "path": "people/pwid",
@@ -6655,46 +6477,6 @@
     "component_name": "Pneumonia"
   },
   {
-    "id": "animal_cow",
-    "category": "zoonoses",
-    "path": "zoonoses/animal_cow",
-    "tags": [
-      "Animal",
-      "Beef",
-      "Farm Animal",
-      "Milk",
-      "Zoonoses",
-      "Zoonotic Diseases"
-    ],
-    "title": "Cow",
-    "component_name": "AnimalCow"
-  },
-  {
-    "id": "assembly_point",
-    "category": "symbols",
-    "path": "symbols/assembly_point",
-    "tags": [
-      "Emergency",
-      "Navigation",
-      "Wayfinding"
-    ],
-    "title": "Assembly Point",
-    "component_name": "AssemblyPoint"
-  },
-  {
-    "id": "guide_dog",
-    "category": "symbols",
-    "path": "symbols/guide_dog",
-    "tags": [
-      "Animal",
-      "Blind",
-      "Service Animal",
-      "Sight"
-    ],
-    "title": "Guide Dog",
-    "component_name": "GuideDog"
-  },
-  {
     "id": "spleen",
     "category": "body",
     "path": "body/spleen",
@@ -6732,129 +6514,6 @@
     ],
     "title": "Ventilator ALT",
     "component_name": "VentilatorAlt"
-  },
-  {
-    "id": "ui_zoom_in",
-    "category": "symbols",
-    "path": "symbols/ui_zoom_in",
-    "tags": [
-      "Magnifying Glass",
-      "Navigation",
-      "User Interface"
-    ],
-    "title": "UI Zoom In",
-    "component_name": "UiZoomIn"
-  },
-  {
-    "id": "ui_zoom_out",
-    "category": "symbols",
-    "path": "symbols/ui_zoom_out",
-    "tags": [
-      "Magnifying Glass",
-      "Navigation",
-      "User Interface"
-    ],
-    "title": "UI Zoom Out",
-    "component_name": "UiZoomOut"
-  },
-  {
-    "id": "ui_zoom",
-    "category": "symbols",
-    "path": "symbols/ui_zoom",
-    "tags": [
-      "Find",
-      "Magnifying Glass",
-      "Navigation",
-      "Search",
-      "User Interface"
-    ],
-    "title": "UI Zoom",
-    "component_name": "UiZoom"
-  },
-  {
-    "id": "ui_settings",
-    "category": "symbols",
-    "path": "symbols/ui_settings",
-    "tags": [
-      "Navigation",
-      "Preferences",
-      "User Interface"
-    ],
-    "title": "Settings",
-    "component_name": "UiSettings"
-  },
-  {
-    "id": "ui_secure",
-    "category": "symbols",
-    "path": "symbols/ui_secure",
-    "tags": [
-      "Lock",
-      "Navigation",
-      "Security",
-      "User Interface"
-    ],
-    "title": "Secure",
-    "component_name": "UiSecure"
-  },
-  {
-    "id": "ui_preferences",
-    "category": "symbols",
-    "path": "symbols/ui_preferences",
-    "tags": [
-      "Navigation",
-      "Settings",
-      "User Interface"
-    ],
-    "title": "Preferences",
-    "component_name": "UiPreferences"
-  },
-  {
-    "id": "ui_folder_family",
-    "category": "symbols",
-    "path": "symbols/ui_folder_family",
-    "tags": [
-      "Data",
-      "Folder",
-      "Navigation",
-      "User Interface"
-    ],
-    "title": "UI Family Folder",
-    "component_name": "UiFolderFamily"
-  },
-  {
-    "id": "ui_folder",
-    "category": "symbols",
-    "path": "symbols/ui_folder",
-    "tags": [
-      "Data",
-      "Folder",
-      "Navigation",
-      "User Interface"
-    ],
-    "title": "UI Folder",
-    "component_name": "UiFolder"
-  },
-  {
-    "id": "ui_menu",
-    "category": "symbols",
-    "path": "symbols/ui_menu",
-    "tags": [
-      "Navigation",
-      "User Interface"
-    ],
-    "title": "UI Menu",
-    "component_name": "UiMenu"
-  },
-  {
-    "id": "ui_menu_grid",
-    "category": "symbols",
-    "path": "symbols/ui_menu_grid",
-    "tags": [
-      "Navigation",
-      "User Interface"
-    ],
-    "title": "UI Menu Grid",
-    "component_name": "UiMenuGrid"
   },
   {
     "id": "social_work",
@@ -6966,19 +6625,6 @@
     "component_name": "Geriatrics"
   },
   {
-    "id": "database",
-    "category": "symbols",
-    "path": "symbols/database",
-    "tags": [
-      "DB",
-      "Data",
-      "Database",
-      "Storage"
-    ],
-    "title": "Database",
-    "component_name": "Database"
-  },
-  {
     "id": "contact_lenses",
     "category": "devices",
     "path": "devices/contact_lenses",
@@ -7034,165 +6680,6 @@
     "component_name": "Cast"
   },
   {
-    "id": "ui_user_profile",
-    "category": "symbols",
-    "path": "symbols/ui_user_profile",
-    "tags": [
-      "Navigation",
-      "User Interface"
-    ],
-    "title": "UI User Profile",
-    "component_name": "UiUserProfile"
-  },
-  {
-    "id": "network_5g",
-    "category": "symbols",
-    "path": "symbols/network_5g",
-    "tags": [
-      "Bandwidth",
-      "Connection",
-      "Network",
-      "Phone",
-      "Speed",
-      "dhis2:5g"
-    ],
-    "title": "Network 5G",
-    "component_name": "Network5g"
-  },
-  {
-    "id": "network_4g",
-    "category": "symbols",
-    "path": "symbols/network_4g",
-    "tags": [
-      "Bandwidth",
-      "Connection",
-      "LTE",
-      "Network",
-      "Phone",
-      "Speed",
-      "dhis2:4g"
-    ],
-    "title": "Network 4G",
-    "component_name": "Network4g"
-  },
-  {
-    "id": "medium_bars",
-    "category": "symbols",
-    "path": "symbols/medium_bars",
-    "tags": [
-      "Connection",
-      "Medium",
-      "Network",
-      "Phone",
-      "Speed",
-      "dhis2:medium_bars"
-    ],
-    "title": "Network Medium Bars",
-    "component_name": "MediumBars"
-  },
-  {
-    "id": "low_bars",
-    "category": "symbols",
-    "path": "symbols/low_bars",
-    "tags": [
-      "Connection",
-      "Network",
-      "Phone",
-      "Slow",
-      "Speed",
-      "dhis2:low_bars"
-    ],
-    "title": "Network Low Bars",
-    "component_name": "LowBars"
-  },
-  {
-    "id": "high_bars",
-    "category": "symbols",
-    "path": "symbols/high_bars",
-    "tags": [
-      "Connection",
-      "Fast",
-      "Network",
-      "Phone",
-      "Speed",
-      "dhis2:high_bars"
-    ],
-    "title": "Network High Bars",
-    "component_name": "HighBars"
-  },
-  {
-    "id": "3g",
-    "category": "symbols",
-    "path": "symbols/3g",
-    "tags": [
-      "Bandwidth",
-      "Connection",
-      "Network",
-      "Phone",
-      "Speed",
-      "dhis2:3g"
-    ],
-    "title": "Network 3G",
-    "component_name": "ThreeG"
-  },
-  {
-    "id": "2g",
-    "category": "symbols",
-    "path": "symbols/2g",
-    "tags": [
-      "Bandwidth",
-      "Connection",
-      "Network",
-      "Phone",
-      "Speed",
-      "dhis2:2g"
-    ],
-    "title": "Network 2G",
-    "component_name": "TwoG"
-  },
-  {
-    "id": "home-quarantine",
-    "category": "symbols",
-    "path": "symbols/home-quarantine",
-    "tags": [
-      "Covid",
-      "Home",
-      "Isolation",
-      "Quarantine",
-      "Virus"
-    ],
-    "title": "Quarantine Home",
-    "component_name": "HomeQuarantine"
-  },
-  {
-    "id": "calendar-quarantine",
-    "category": "symbols",
-    "path": "symbols/calendar-quarantine",
-    "tags": [
-      "Calendar",
-      "Covid",
-      "Isolation",
-      "Quarantine",
-      "Virus"
-    ],
-    "title": "Calendar Quarantine",
-    "component_name": "CalendarQuarantine"
-  },
-  {
-    "id": "social_distancing_alt",
-    "category": "symbols",
-    "path": "symbols/social_distancing_alt",
-    "tags": [
-      "Apart",
-      "Arrows",
-      "Between",
-      "Social Distance",
-      "Space"
-    ],
-    "title": "Social Distancing ALT",
-    "component_name": "SocialDistancingAlt"
-  },
-  {
     "id": "intestinal-pain",
     "category": "conditions",
     "path": "conditions/intestinal-pain",
@@ -7208,19 +6695,6 @@
     "component_name": "IntestinalPain"
   },
   {
-    "id": "virus-shield",
-    "category": "symbols",
-    "path": "symbols/virus-shield",
-    "tags": [
-      "Covid",
-      "Protection",
-      "Vaccine",
-      "Virus"
-    ],
-    "title": "Shield Virus",
-    "component_name": "VirusShield"
-  },
-  {
     "id": "syringe-vaccine",
     "category": "devices",
     "path": "devices/syringe-vaccine",
@@ -7233,83 +6707,6 @@
     ],
     "title": "Syringe Vaccine",
     "component_name": "SyringeVaccine"
-  },
-  {
-    "id": "virus_alt",
-    "category": "symbols",
-    "path": "symbols/virus_alt",
-    "tags": [
-      "Covid",
-      "Epidemic",
-      "Infection",
-      "Infectious",
-      "Pandemic",
-      "Virology",
-      "Virus"
-    ],
-    "title": "Virus ALT",
-    "component_name": "VirusAlt"
-  },
-  {
-    "id": "virus_patient",
-    "category": "symbols",
-    "path": "symbols/virus_patient",
-    "tags": [
-      "Covid",
-      "Epidemic",
-      "Human",
-      "Pandemic",
-      "Patient",
-      "Person",
-      "Virology",
-      "Virus"
-    ],
-    "title": "Patient Virus",
-    "component_name": "VirusPatient"
-  },
-  {
-    "id": "global-pandemic",
-    "category": "symbols",
-    "path": "symbols/global-pandemic",
-    "tags": [
-      "Covid",
-      "Epidemic",
-      "Pandemic",
-      "Virology",
-      "Virus"
-    ],
-    "title": "Global Pandemic",
-    "component_name": "GlobalPandemic"
-  },
-  {
-    "id": "globe",
-    "category": "symbols",
-    "path": "symbols/globe",
-    "tags": [
-      "Earth",
-      "Globe",
-      "Location",
-      "World"
-    ],
-    "title": "Globe",
-    "component_name": "Globe"
-  },
-  {
-    "id": "virus-mutation",
-    "category": "symbols",
-    "path": "symbols/virus-mutation",
-    "tags": [
-      "Adaptation",
-      "Change",
-      "Covid",
-      "Evolution",
-      "Mutation",
-      "Viral",
-      "Virology",
-      "Virus"
-    ],
-    "title": "Virus Mutation",
-    "component_name": "VirusMutation"
   },
   {
     "id": "dental_hygiene",
@@ -7363,22 +6760,6 @@
     ],
     "title": "Enzyme",
     "component_name": "Enzyme"
-  },
-  {
-    "id": "fingerprint",
-    "category": "symbols",
-    "path": "symbols/fingerprint",
-    "tags": [
-      "Body",
-      "Finger",
-      "Fingerprint",
-      "Human",
-      "ID",
-      "Scan",
-      "identification"
-    ],
-    "title": "Fingerprint",
-    "component_name": "Fingerprint"
   },
   {
     "id": "skeleton",
@@ -7654,30 +7035,6 @@
     "component_name": "LiverAlt"
   },
   {
-    "id": "palliative-care",
-    "category": "symbols",
-    "path": "symbols/palliative-care",
-    "tags": [
-      "Heart",
-      "Hearts",
-      "Palliative Care"
-    ],
-    "title": "Palliative Care",
-    "component_name": "PalliativeCare"
-  },
-  {
-    "id": "hospice",
-    "category": "symbols",
-    "path": "symbols/hospice",
-    "tags": [
-      "Hospice Care",
-      "Hospital",
-      "Palliative Care"
-    ],
-    "title": "Hospice",
-    "component_name": "Hospice"
-  },
-  {
     "id": "eyeglasses",
     "category": "devices",
     "path": "devices/eyeglasses",
@@ -7691,21 +7048,6 @@
     ],
     "title": "Eyeglasses",
     "component_name": "Eyeglasses"
-  },
-  {
-    "id": "FHIR_logo",
-    "category": "symbols",
-    "path": "symbols/FHIR_logo",
-    "tags": [
-      "FHIR",
-      "HL7",
-      "Informatics",
-      "Interoperability",
-      "Logo",
-      "Standards"
-    ],
-    "title": "FHIR",
-    "component_name": "FHIRLogo"
   },
   {
     "id": "patient_band_alt",
@@ -7882,23 +7224,6 @@
     ],
     "title": "Pain",
     "component_name": "Pain"
-  },
-  {
-    "id": "interoperability",
-    "category": "symbols",
-    "path": "symbols/interoperability",
-    "tags": [
-      "FHIR",
-      "IT",
-      "Informatics",
-      "Interoperability",
-      "Standards",
-      "Tech",
-      "Technology",
-      "Terminology"
-    ],
-    "title": "Interoperability",
-    "component_name": "Interoperability"
   },
   {
     "id": "carbohydrates",
@@ -8324,89 +7649,6 @@
     "component_name": "UnhealthyFood"
   },
   {
-    "id": "medical_search",
-    "category": "symbols",
-    "path": "symbols/medical_search",
-    "tags": [
-      "Cross",
-      "Find",
-      "Glass",
-      "Magnifying",
-      "Medical",
-      "Plus",
-      "Search",
-      "Zoom"
-    ],
-    "title": "Medical Search ALT",
-    "component_name": "MedicalSearch"
-  },
-  {
-    "id": "medical_search",
-    "category": "symbols",
-    "path": "symbols/medical_search",
-    "tags": [
-      "Find",
-      "Glass",
-      "Lab",
-      "Magnifying",
-      "Medical",
-      "Sample",
-      "Search",
-      "Test tube"
-    ],
-    "title": "Medical Search",
-    "component_name": "MedicalSearch"
-  },
-  {
-    "id": "secure_communication",
-    "category": "symbols",
-    "path": "symbols/secure_communication",
-    "tags": [
-      "Bubble",
-      "Chat",
-      "Communication",
-      "Encrypted",
-      "Lock",
-      "Message",
-      "SMS",
-      "Secure",
-      "Speech",
-      "Talk"
-    ],
-    "title": "Chat Secure",
-    "component_name": "SecureCommunication"
-  },
-  {
-    "id": "smoking_cessation_alt",
-    "category": "symbols",
-    "path": "symbols/smoking_cessation_alt",
-    "tags": [
-      "Banned",
-      "Cessation",
-      "Smoking",
-      "Stop",
-      "Tobacco",
-      "Unhealthy"
-    ],
-    "title": "No Smoking",
-    "component_name": "SmokingCessationAlt"
-  },
-  {
-    "id": "cancel",
-    "category": "symbols",
-    "path": "symbols/cancel",
-    "tags": [
-      "Cancel",
-      "Cessation",
-      "No Entry",
-      "None",
-      "Stop",
-      "Symbol"
-    ],
-    "title": "Cancel",
-    "component_name": "Cancel"
-  },
-  {
     "id": "swim",
     "category": "exercise",
     "path": "exercise/swim",
@@ -8753,20 +7995,6 @@
     ],
     "title": "Baby Formula",
     "component_name": "BabyFormula"
-  },
-  {
-    "id": "telemedicine",
-    "category": "symbols",
-    "path": "symbols/telemedicine",
-    "tags": [
-      "Computer",
-      "Consult",
-      "Doctor",
-      "Meeting",
-      "Virtual"
-    ],
-    "title": "Telemedicine",
-    "component_name": "Telemedicine"
   },
   {
     "id": "exercise",
@@ -9230,24 +8458,6 @@
     "component_name": "Anus"
   },
   {
-    "id": "heartbeat",
-    "category": "symbols",
-    "path": "symbols/heartbeat",
-    "tags": [
-      "Cardiology",
-      "Circulatory System",
-      "Device",
-      "Electrical",
-      "Heart",
-      "Heart attack",
-      "Heartbeat",
-      "Stroke",
-      "Symbol"
-    ],
-    "title": "Heartbeat",
-    "component_name": "Heartbeat"
-  },
-  {
     "id": "vascular_surgery",
     "category": "specialties",
     "path": "specialties/vascular_surgery",
@@ -9532,6 +8742,883 @@
     "component_name": "Thyroid"
   },
   {
+    "id": "animal_snake",
+    "category": "zoonoses",
+    "path": "zoonoses/animal_snake",
+    "tags": [
+      "Animal",
+      "Poison",
+      "Poisonous",
+      "Python",
+      "Snake",
+      "Venom",
+      "Zoonoses",
+      "Zoonotic Disease"
+    ],
+    "title": "Snake",
+    "component_name": "AnimalSnake"
+  },
+  {
+    "id": "laptop",
+    "category": "objects",
+    "path": "objects/laptop",
+    "tags": [
+      "Computer",
+      "Device",
+      "Health",
+      "IT",
+      "Information technology",
+      "Laptop",
+      "Medicine",
+      "Technology"
+    ],
+    "title": "Laptop",
+    "component_name": "Laptop"
+  },
+  {
+    "id": "animal_cow",
+    "category": "zoonoses",
+    "path": "zoonoses/animal_cow",
+    "tags": [
+      "Animal",
+      "Beef",
+      "Farm Animal",
+      "Milk",
+      "Zoonoses",
+      "Zoonotic Diseases"
+    ],
+    "title": "Cow",
+    "component_name": "AnimalCow"
+  },
+  {
+    "id": "breasts",
+    "category": "body",
+    "path": "body/breasts",
+    "tags": [
+      "Body",
+      "Breast",
+      "Breast feeding",
+      "Chest",
+      "Mammary",
+      "Mammogram",
+      "Mother",
+      "Nipple"
+    ],
+    "title": "Breasts",
+    "component_name": "Breasts"
+  },
+  {
+    "id": "endotracheal_tube",
+    "category": "devices",
+    "path": "devices/endotracheal_tube",
+    "tags": [
+      "Airway",
+      "Breathe",
+      "Catheter",
+      "Device",
+      "Emergency",
+      "Oxygen",
+      "Throat",
+      "Trachea",
+      "Vocal cords"
+    ],
+    "title": "Endotracheal Tube",
+    "component_name": "EndotrachealTube"
+  },
+  {
+    "id": "laryngoscope",
+    "category": "devices",
+    "path": "devices/laryngoscope",
+    "tags": [
+      "Airway",
+      "Device",
+      "Exam",
+      "Examination",
+      "Larynx",
+      "Throat",
+      "Video",
+      "Vocal cords"
+    ],
+    "title": "Laryngoscope",
+    "component_name": "Laryngoscope"
+  },
+  {
+    "id": "yes",
+    "category": "symbols",
+    "path": "symbols/yes",
+    "tags": [
+      "Approved",
+      "Circle",
+      "Success",
+      "Yes",
+      "dhis2:yes"
+    ],
+    "title": "Checkmark",
+    "component_name": "Yes"
+  },
+  {
+    "id": "un_paved_road",
+    "category": "symbols",
+    "path": "symbols/un_paved_road",
+    "tags": [
+      "Curve",
+      "Dirt",
+      "Road",
+      "dhis2:unpaved_road"
+    ],
+    "title": "Unpaved Road",
+    "component_name": "UnPavedRoad"
+  },
+  {
+    "id": "tally",
+    "category": "symbols",
+    "path": "symbols/tally",
+    "tags": [
+      "Add",
+      "Addition",
+      "Count",
+      "Math",
+      "Register"
+    ],
+    "title": "Tally",
+    "component_name": "Tally"
+  },
+  {
+    "id": "stop",
+    "category": "symbols",
+    "path": "symbols/stop",
+    "tags": [
+      "Fingers",
+      "Halt",
+      "Hand",
+      "Warning",
+      "dhis2:stop"
+    ],
+    "title": "Stop",
+    "component_name": "Stop"
+  },
+  {
+    "id": "excel_logo",
+    "category": "symbols",
+    "path": "symbols/excel_logo",
+    "tags": [
+      "Document",
+      "Logo",
+      "Spreadsheet"
+    ],
+    "title": "Excel",
+    "component_name": "ExcelLogo"
+  },
+  {
+    "id": "openMRS_logo",
+    "category": "symbols",
+    "path": "symbols/openMRS_logo",
+    "tags": [
+      "EHR",
+      "EMR",
+      "Logo",
+      "Open Medical Records System"
+    ],
+    "title": "OpenMRS",
+    "component_name": "OpenMRSLogo"
+  },
+  {
+    "id": "water_treatment",
+    "category": "symbols",
+    "path": "symbols/water_treatment",
+    "tags": [
+      "Arrows",
+      "Drop",
+      "Water",
+      "dhis2:water_treatment"
+    ],
+    "title": "Water Treatment",
+    "component_name": "WaterTreatment"
+  },
+  {
+    "id": "social_distancing",
+    "category": "symbols",
+    "path": "symbols/social_distancing",
+    "tags": [
+      "Apart",
+      "Arrows",
+      "Between",
+      "Social Distance",
+      "Space",
+      "dhis2:social_distancing"
+    ],
+    "title": "Social Distancing",
+    "component_name": "SocialDistancing"
+  },
+  {
+    "id": "discharge",
+    "category": "symbols",
+    "path": "symbols/discharge",
+    "tags": [
+      "Chair",
+      "Department",
+      "Exit",
+      "Hospital"
+    ],
+    "title": "Discharge",
+    "component_name": "Discharge"
+  },
+  {
+    "id": "pharmacy",
+    "category": "symbols",
+    "path": "symbols/pharmacy",
+    "tags": [
+      "Department",
+      "Drugs",
+      "Medications",
+      "Pharmacist",
+      "Pharmacy",
+      "Pills"
+    ],
+    "title": "Pharmacy",
+    "component_name": "PharmacySymbols"
+  },
+  {
+    "id": "pharmacy_alt",
+    "category": "symbols",
+    "path": "symbols/pharmacy_alt",
+    "tags": [
+      "Department",
+      "Drugs",
+      "Medications",
+      "Pharmacist",
+      "Pharmacy",
+      "Pills"
+    ],
+    "title": "Pharmacy",
+    "component_name": "PharmacyAlt"
+  },
+  {
+    "id": "simple_logo",
+    "category": "symbols",
+    "path": "symbols/simple_logo",
+    "tags": [
+      "App",
+      "HIT",
+      "Health IT",
+      "Open Source"
+    ],
+    "title": "Simple.org",
+    "component_name": "SimpleLogo"
+  },
+  {
+    "id": "transgender",
+    "category": "symbols",
+    "path": "symbols/transgender",
+    "tags": [
+      "Gender",
+      "Sex",
+      "Symbol",
+      "Trans",
+      "Transgender",
+      "dhis2:transgender"
+    ],
+    "title": "Transgender",
+    "component_name": "Transgender"
+  },
+  {
+    "id": "assembly_point",
+    "category": "symbols",
+    "path": "symbols/assembly_point",
+    "tags": [
+      "Emergency",
+      "Navigation",
+      "Wayfinding"
+    ],
+    "title": "Assembly Point",
+    "component_name": "AssemblyPoint"
+  },
+  {
+    "id": "guide_dog",
+    "category": "symbols",
+    "path": "symbols/guide_dog",
+    "tags": [
+      "Animal",
+      "Blind",
+      "Service Animal",
+      "Sight"
+    ],
+    "title": "Guide Dog",
+    "component_name": "GuideDog"
+  },
+  {
+    "id": "ui_zoom_in",
+    "category": "symbols",
+    "path": "symbols/ui_zoom_in",
+    "tags": [
+      "Magnifying Glass",
+      "Navigation",
+      "User Interface"
+    ],
+    "title": "UI Zoom In",
+    "component_name": "UiZoomIn"
+  },
+  {
+    "id": "ui_zoom_out",
+    "category": "symbols",
+    "path": "symbols/ui_zoom_out",
+    "tags": [
+      "Magnifying Glass",
+      "Navigation",
+      "User Interface"
+    ],
+    "title": "UI Zoom Out",
+    "component_name": "UiZoomOut"
+  },
+  {
+    "id": "ui_zoom",
+    "category": "symbols",
+    "path": "symbols/ui_zoom",
+    "tags": [
+      "Find",
+      "Magnifying Glass",
+      "Navigation",
+      "Search",
+      "User Interface"
+    ],
+    "title": "UI Zoom",
+    "component_name": "UiZoom"
+  },
+  {
+    "id": "ui_settings",
+    "category": "symbols",
+    "path": "symbols/ui_settings",
+    "tags": [
+      "Navigation",
+      "Preferences",
+      "User Interface"
+    ],
+    "title": "Settings",
+    "component_name": "UiSettings"
+  },
+  {
+    "id": "ui_secure",
+    "category": "symbols",
+    "path": "symbols/ui_secure",
+    "tags": [
+      "Lock",
+      "Navigation",
+      "Security",
+      "User Interface"
+    ],
+    "title": "Secure",
+    "component_name": "UiSecure"
+  },
+  {
+    "id": "ui_preferences",
+    "category": "symbols",
+    "path": "symbols/ui_preferences",
+    "tags": [
+      "Navigation",
+      "Settings",
+      "User Interface"
+    ],
+    "title": "Preferences",
+    "component_name": "UiPreferences"
+  },
+  {
+    "id": "ui_folder_family",
+    "category": "symbols",
+    "path": "symbols/ui_folder_family",
+    "tags": [
+      "Data",
+      "Folder",
+      "Navigation",
+      "User Interface"
+    ],
+    "title": "UI Family Folder",
+    "component_name": "UiFolderFamily"
+  },
+  {
+    "id": "ui_folder",
+    "category": "symbols",
+    "path": "symbols/ui_folder",
+    "tags": [
+      "Data",
+      "Folder",
+      "Navigation",
+      "User Interface"
+    ],
+    "title": "UI Folder",
+    "component_name": "UiFolder"
+  },
+  {
+    "id": "ui_menu",
+    "category": "symbols",
+    "path": "symbols/ui_menu",
+    "tags": [
+      "Navigation",
+      "User Interface"
+    ],
+    "title": "UI Menu",
+    "component_name": "UiMenu"
+  },
+  {
+    "id": "ui_menu_grid",
+    "category": "symbols",
+    "path": "symbols/ui_menu_grid",
+    "tags": [
+      "Navigation",
+      "User Interface"
+    ],
+    "title": "UI Menu Grid",
+    "component_name": "UiMenuGrid"
+  },
+  {
+    "id": "database",
+    "category": "symbols",
+    "path": "symbols/database",
+    "tags": [
+      "DB",
+      "Data",
+      "Database",
+      "Storage"
+    ],
+    "title": "Database",
+    "component_name": "Database"
+  },
+  {
+    "id": "ui_user_profile",
+    "category": "symbols",
+    "path": "symbols/ui_user_profile",
+    "tags": [
+      "Navigation",
+      "User Interface"
+    ],
+    "title": "UI User Profile",
+    "component_name": "UiUserProfile"
+  },
+  {
+    "id": "network_5g",
+    "category": "symbols",
+    "path": "symbols/network_5g",
+    "tags": [
+      "Bandwidth",
+      "Connection",
+      "Network",
+      "Phone",
+      "Speed",
+      "dhis2:5g"
+    ],
+    "title": "Network 5G",
+    "component_name": "Network5g"
+  },
+  {
+    "id": "network_4g",
+    "category": "symbols",
+    "path": "symbols/network_4g",
+    "tags": [
+      "Bandwidth",
+      "Connection",
+      "LTE",
+      "Network",
+      "Phone",
+      "Speed",
+      "dhis2:4g"
+    ],
+    "title": "Network 4G",
+    "component_name": "Network4g"
+  },
+  {
+    "id": "medium_bars",
+    "category": "symbols",
+    "path": "symbols/medium_bars",
+    "tags": [
+      "Connection",
+      "Medium",
+      "Network",
+      "Phone",
+      "Speed",
+      "dhis2:medium_bars"
+    ],
+    "title": "Network Medium Bars",
+    "component_name": "MediumBars"
+  },
+  {
+    "id": "low_bars",
+    "category": "symbols",
+    "path": "symbols/low_bars",
+    "tags": [
+      "Connection",
+      "Network",
+      "Phone",
+      "Slow",
+      "Speed",
+      "dhis2:low_bars"
+    ],
+    "title": "Network Low Bars",
+    "component_name": "LowBars"
+  },
+  {
+    "id": "high_bars",
+    "category": "symbols",
+    "path": "symbols/high_bars",
+    "tags": [
+      "Connection",
+      "Fast",
+      "Network",
+      "Phone",
+      "Speed",
+      "dhis2:high_bars"
+    ],
+    "title": "Network High Bars",
+    "component_name": "HighBars"
+  },
+  {
+    "id": "3g",
+    "category": "symbols",
+    "path": "symbols/3g",
+    "tags": [
+      "Bandwidth",
+      "Connection",
+      "Network",
+      "Phone",
+      "Speed",
+      "dhis2:3g"
+    ],
+    "title": "Network 3G",
+    "component_name": "ThreeG"
+  },
+  {
+    "id": "2g",
+    "category": "symbols",
+    "path": "symbols/2g",
+    "tags": [
+      "Bandwidth",
+      "Connection",
+      "Network",
+      "Phone",
+      "Speed",
+      "dhis2:2g"
+    ],
+    "title": "Network 2G",
+    "component_name": "TwoG"
+  },
+  {
+    "id": "home-quarantine",
+    "category": "symbols",
+    "path": "symbols/home-quarantine",
+    "tags": [
+      "Covid",
+      "Home",
+      "Isolation",
+      "Quarantine",
+      "Virus"
+    ],
+    "title": "Quarantine Home",
+    "component_name": "HomeQuarantine"
+  },
+  {
+    "id": "calendar-quarantine",
+    "category": "symbols",
+    "path": "symbols/calendar-quarantine",
+    "tags": [
+      "Calendar",
+      "Covid",
+      "Isolation",
+      "Quarantine",
+      "Virus"
+    ],
+    "title": "Calendar Quarantine",
+    "component_name": "CalendarQuarantine"
+  },
+  {
+    "id": "social_distancing_alt",
+    "category": "symbols",
+    "path": "symbols/social_distancing_alt",
+    "tags": [
+      "Apart",
+      "Arrows",
+      "Between",
+      "Social Distance",
+      "Space"
+    ],
+    "title": "Social Distancing ALT",
+    "component_name": "SocialDistancingAlt"
+  },
+  {
+    "id": "virus-shield",
+    "category": "symbols",
+    "path": "symbols/virus-shield",
+    "tags": [
+      "Covid",
+      "Protection",
+      "Vaccine",
+      "Virus"
+    ],
+    "title": "Shield Virus",
+    "component_name": "VirusShield"
+  },
+  {
+    "id": "virus_alt",
+    "category": "symbols",
+    "path": "symbols/virus_alt",
+    "tags": [
+      "Covid",
+      "Epidemic",
+      "Infection",
+      "Infectious",
+      "Pandemic",
+      "Virology",
+      "Virus"
+    ],
+    "title": "Virus ALT",
+    "component_name": "VirusAlt"
+  },
+  {
+    "id": "virus_patient",
+    "category": "symbols",
+    "path": "symbols/virus_patient",
+    "tags": [
+      "Covid",
+      "Epidemic",
+      "Human",
+      "Pandemic",
+      "Patient",
+      "Person",
+      "Virology",
+      "Virus"
+    ],
+    "title": "Patient Virus",
+    "component_name": "VirusPatient"
+  },
+  {
+    "id": "global-pandemic",
+    "category": "symbols",
+    "path": "symbols/global-pandemic",
+    "tags": [
+      "Covid",
+      "Epidemic",
+      "Pandemic",
+      "Virology",
+      "Virus"
+    ],
+    "title": "Global Pandemic",
+    "component_name": "GlobalPandemic"
+  },
+  {
+    "id": "globe",
+    "category": "symbols",
+    "path": "symbols/globe",
+    "tags": [
+      "Earth",
+      "Globe",
+      "Location",
+      "World"
+    ],
+    "title": "Globe",
+    "component_name": "Globe"
+  },
+  {
+    "id": "virus-mutation",
+    "category": "symbols",
+    "path": "symbols/virus-mutation",
+    "tags": [
+      "Adaptation",
+      "Change",
+      "Covid",
+      "Evolution",
+      "Mutation",
+      "Viral",
+      "Virology",
+      "Virus"
+    ],
+    "title": "Virus Mutation",
+    "component_name": "VirusMutation"
+  },
+  {
+    "id": "fingerprint",
+    "category": "symbols",
+    "path": "symbols/fingerprint",
+    "tags": [
+      "Body",
+      "Finger",
+      "Fingerprint",
+      "Human",
+      "ID",
+      "Scan",
+      "identification"
+    ],
+    "title": "Fingerprint",
+    "component_name": "Fingerprint"
+  },
+  {
+    "id": "palliative-care",
+    "category": "symbols",
+    "path": "symbols/palliative-care",
+    "tags": [
+      "Heart",
+      "Hearts",
+      "Palliative Care"
+    ],
+    "title": "Palliative Care",
+    "component_name": "PalliativeCare"
+  },
+  {
+    "id": "hospice",
+    "category": "symbols",
+    "path": "symbols/hospice",
+    "tags": [
+      "Hospice Care",
+      "Hospital",
+      "Palliative Care"
+    ],
+    "title": "Hospice",
+    "component_name": "Hospice"
+  },
+  {
+    "id": "FHIR_logo",
+    "category": "symbols",
+    "path": "symbols/FHIR_logo",
+    "tags": [
+      "FHIR",
+      "HL7",
+      "Informatics",
+      "Interoperability",
+      "Logo",
+      "Standards"
+    ],
+    "title": "FHIR",
+    "component_name": "FHIRLogo"
+  },
+  {
+    "id": "interoperability",
+    "category": "symbols",
+    "path": "symbols/interoperability",
+    "tags": [
+      "FHIR",
+      "IT",
+      "Informatics",
+      "Interoperability",
+      "Standards",
+      "Tech",
+      "Technology",
+      "Terminology"
+    ],
+    "title": "Interoperability",
+    "component_name": "Interoperability"
+  },
+  {
+    "id": "medical_search",
+    "category": "symbols",
+    "path": "symbols/medical_search",
+    "tags": [
+      "Cross",
+      "Find",
+      "Glass",
+      "Magnifying",
+      "Medical",
+      "Plus",
+      "Search",
+      "Zoom"
+    ],
+    "title": "Medical Search",
+    "component_name": "MedicalSearch"
+  },
+  {
+    "id": "lab_search",
+    "category": "symbols",
+    "path": "symbols/lab_search",
+    "tags": [
+      "Find",
+      "Glass",
+      "Lab",
+      "Magnifying",
+      "Medical",
+      "Sample",
+      "Search",
+      "Test tube"
+    ],
+    "title": "Lab Search",
+    "component_name": "LabSearch"
+  },
+  {
+    "id": "secure_communication",
+    "category": "symbols",
+    "path": "symbols/secure_communication",
+    "tags": [
+      "Bubble",
+      "Chat",
+      "Communication",
+      "Encrypted",
+      "Lock",
+      "Message",
+      "SMS",
+      "Secure",
+      "Speech",
+      "Talk"
+    ],
+    "title": "Chat Secure",
+    "component_name": "SecureCommunication"
+  },
+  {
+    "id": "smoking_cessation_alt",
+    "category": "symbols",
+    "path": "symbols/smoking_cessation_alt",
+    "tags": [
+      "Banned",
+      "Cessation",
+      "Smoking",
+      "Stop",
+      "Tobacco",
+      "Unhealthy"
+    ],
+    "title": "No Smoking",
+    "component_name": "SmokingCessationAlt"
+  },
+  {
+    "id": "cancel",
+    "category": "symbols",
+    "path": "symbols/cancel",
+    "tags": [
+      "Cancel",
+      "Cessation",
+      "No Entry",
+      "None",
+      "Stop",
+      "Symbol"
+    ],
+    "title": "Cancel",
+    "component_name": "Cancel"
+  },
+  {
+    "id": "telemedicine",
+    "category": "symbols",
+    "path": "symbols/telemedicine",
+    "tags": [
+      "Computer",
+      "Consult",
+      "Doctor",
+      "Meeting",
+      "Virtual"
+    ],
+    "title": "Telemedicine",
+    "component_name": "Telemedicine"
+  },
+  {
+    "id": "heartbeat",
+    "category": "symbols",
+    "path": "symbols/heartbeat",
+    "tags": [
+      "Cardiology",
+      "Circulatory System",
+      "Device",
+      "Electrical",
+      "Heart",
+      "Heart attack",
+      "Heartbeat",
+      "Stroke",
+      "Symbol"
+    ],
+    "title": "Heartbeat",
+    "component_name": "Heartbeat"
+  },
+  {
     "id": "qr_code",
     "category": "symbols",
     "path": "symbols/qr_code",
@@ -9608,21 +9695,6 @@
     "component_name": "Icd9"
   },
   {
-    "id": "loinc",
-    "category": "symbols",
-    "path": "symbols/loinc",
-    "tags": [
-      "Classification",
-      "Code",
-      "Informatics",
-      "Lab",
-      "Standard",
-      "Terminology"
-    ],
-    "title": "LOINC",
-    "component_name": "Loinc"
-  },
-  {
     "id": "height",
     "category": "symbols",
     "path": "symbols/height",
@@ -9660,25 +9732,6 @@
     "component_name": "WaistCircumference"
   },
   {
-    "id": "body_mass_index",
-    "category": "symbols",
-    "path": "symbols/body_mass_index",
-    "tags": [
-      "BMI",
-      "BMI",
-      "Diagnostic",
-      "Height",
-      "Mass",
-      "Measure",
-      "Obese",
-      "Thin",
-      "Underweight",
-      "Waist"
-    ],
-    "title": "Body Mass Index",
-    "component_name": "BodyMassIndex"
-  },
-  {
     "id": "head_circumference",
     "category": "symbols",
     "path": "symbols/head_circumference",
@@ -9692,23 +9745,6 @@
     ],
     "title": "Head Circumference",
     "component_name": "HeadCircumference"
-  },
-  {
-    "id": "animal_snake",
-    "category": "zoonoses",
-    "path": "zoonoses/animal_snake",
-    "tags": [
-      "Animal",
-      "Poison",
-      "Poisonous",
-      "Python",
-      "Snake",
-      "Venom",
-      "Zoonoses",
-      "Zoonotic Disease"
-    ],
-    "title": "Snake",
-    "component_name": "AnimalSnake"
   },
   {
     "id": "arm_circumference",
@@ -9742,20 +9778,119 @@
     "component_name": "HealthcareIt"
   },
   {
-    "id": "laptop",
-    "category": "objects",
-    "path": "objects/laptop",
+    "id": "body_mass_index",
+    "category": "symbols",
+    "path": "symbols/body_mass_index",
     "tags": [
-      "Computer",
-      "Device",
-      "Health",
-      "IT",
-      "Information technology",
-      "Laptop",
-      "Medicine",
-      "Technology"
+      "BMI",
+      "BMI",
+      "Diagnostic",
+      "Height",
+      "Mass",
+      "Measure",
+      "Obese",
+      "Thin",
+      "Underweight",
+      "Waist"
     ],
-    "title": "Laptop",
-    "component_name": "Laptop"
+    "title": "Body Mass Index",
+    "component_name": "BodyMassIndex"
+  },
+  {
+    "id": "loinc",
+    "category": "symbols",
+    "path": "symbols/loinc",
+    "tags": [
+      "Classification",
+      "Code",
+      "Informatics",
+      "Lab",
+      "Standard",
+      "Terminology"
+    ],
+    "title": "LOINC",
+    "component_name": "Loinc"
+  },
+  {
+    "id": "bio_pharma",
+    "category": "symbols",
+    "path": "symbols/bio_pharma",
+    "tags": [
+      "Biology",
+      "Biopharmaceutical",
+      "Cancer",
+      "DNA",
+      "Drug",
+      "Medicine",
+      "Pharmacology"
+    ],
+    "title": "Biopharma",
+    "component_name": "BioPharma"
+  },
+  {
+    "id": "female",
+    "category": "symbols",
+    "path": "symbols/female",
+    "tags": [
+      "Female",
+      "Gender",
+      "Sex",
+      "Sign",
+      "Symbol",
+      "Woman"
+    ],
+    "title": "Female symbol",
+    "component_name": "Female"
+  },
+  {
+    "id": "male",
+    "category": "symbols",
+    "path": "symbols/male",
+    "tags": [
+      "Gender",
+      "Male",
+      "Man",
+      "Sex",
+      "Sign",
+      "Symbol"
+    ],
+    "title": "Male symbol",
+    "component_name": "Male"
+  },
+  {
+    "id": "artificial_intelligence",
+    "category": "symbols",
+    "path": "symbols/artificial_intelligence",
+    "tags": [
+      "AI",
+      "Artificial intelligence",
+      "Automation",
+      "Bot",
+      "Improve",
+      "LLM",
+      "Magic",
+      "Optimize",
+      "Sparkle"
+    ],
+    "title": "Artificial intelligence",
+    "component_name": "ArtificialIntelligence"
+  },
+  {
+    "id": "magic_wand",
+    "category": "symbols",
+    "path": "symbols/magic_wand",
+    "tags": [
+      "AI",
+      "Artificial intelligence",
+      "Automation",
+      "Bot",
+      "Improve",
+      "LLM",
+      "Magic",
+      "Optimize",
+      "Sparkle"
+    ],
+    "title": "Magic Wand",
+    "component_name": "MagicWand"
   }
 ]
