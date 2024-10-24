@@ -26,6 +26,14 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
+      - name: Generate changelog file
+        uses: rhysd/changelog-from-release/action@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          file: packages/healthicons-flutter/CHANGELOG.md
+          commit: false
+          args: -d=false
+
       - name: Build
         run: yarn run build
 
@@ -64,7 +72,7 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         continue-on-error: true
-      
+
       - name: Publish Vue package
         run: |
           yarn --cwd ./packages/healthicons-vue install
@@ -72,3 +80,9 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         continue-on-error: true
+
+      - name: Publish Flutter
+        uses: k-paxian/dart-package-publisher@v1.6
+        with:
+          credentialJson: ${{ secrets.PUB_CREDENTIAL_JSON }}
+          relativePath: ./packages/healthicons-flutter
