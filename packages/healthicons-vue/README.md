@@ -18,13 +18,13 @@ npm i healthicons-vue
 
 ## Usage
 
-By default `filled` icons are imported. To import another variant use the following syntax `from healthicons-vue/[variant_name]` instead.
-
 ### Vue 3
 
 ```javascript
 <script setup>
   import { BloodBag } from 'healthicons-vue';
+  // importing 24px icons
+  import { BloodBagOutline24px } from 'healthicons-vue';
 </script>
 
 <template>
@@ -38,7 +38,7 @@ By default `filled` icons are imported. To import another variant use the follow
 <script>
   import { BloodBag } from 'healthicons-vue';
 
-  export default
+  export default {
       components: {
           BloodBag
       }
@@ -66,7 +66,7 @@ Tired of specifying the same props for every single icon, every time you use the
 
 ```javascript
 <script setup>
-import { HealthiconsProvider, Check } from 'healthicons-vue';
+import { HealthiconsProvider, Bloodbag } from 'healthicons-vue';
 </script>
 
 <template>

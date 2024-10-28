@@ -20,6 +20,8 @@ npm i healthicons-react
 
 By default `filled` icons are imported. To import another variant use the following syntax `from healthicons-react/[variant_name]` instead.
 
+For the material icons(24px), use `from healthicons-react-native/[variant_name]-24px`.
+
 ```javascript
 import React from "react";
 import { BloodBag } from "healthicons-react";
