@@ -14,6 +14,14 @@
     "./outline": {
       "import": "./dist/esm/outline/index.mjs",
       "require": "./dist/outline/index.js"
+    },
+    "./filled-24px": {
+      "import": "./dist/esm/filled-24px/index.mjs",
+      "require": "./dist/filled-24px/index.js"
+    },
+    "./outline-24px": {
+      "import": "./dist/esm/outline-24px/index.mjs",
+      "require": "./dist/outline-24px/index.js"
     }
   },
   "main": "./dist/index.js",

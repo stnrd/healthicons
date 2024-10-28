@@ -10,7 +10,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.join(__dirname, "..", "..");
 const iconsDir = path.join(rootDir, "icons");
 
-const iconsVariants = ["filled", "outline"];
+const iconsVariants = ["filled", "outline", "filled-24px", "outline-24px"];
 const defaultVariant = iconsVariants[0];
 
 const targets = {
