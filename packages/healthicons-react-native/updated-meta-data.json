@@ -13,6 +13,9 @@
       "dhis2:war"
     ],
     "title": "Tank",
+    "formats": [
+      "48px"
+    ],
     "component_name": "War"
   },
   {
@@ -25,6 +28,9 @@
       "dhis2:vespa_motorcycle"
     ],
     "title": "Motor Scooter",
+    "formats": [
+      "48px"
+    ],
     "component_name": "VespaMotorcycle"
   },
   {
@@ -42,6 +48,9 @@
       "dhis2:small_plane"
     ],
     "title": "Small Airplane",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SmallPlane"
   },
   {
@@ -56,6 +65,9 @@
       "dhis2:mobile_clinic"
     ],
     "title": "Mobile Clinic",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MobileClinic"
   },
   {
@@ -69,6 +81,9 @@
       "dhis2:machinery"
     ],
     "title": "Machinery",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Machinery"
   },
   {
@@ -82,6 +97,9 @@
       "dhis2:helicopter"
     ],
     "title": "Helicopter",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Helicopter"
   },
   {
@@ -96,6 +114,9 @@
       "dhis2:cross_country_motorcycle"
     ],
     "title": "Off-road Motorcycle",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CrossCountryMotorcycle"
   },
   {
@@ -109,6 +130,9 @@
       "dhis2:bike"
     ],
     "title": "Bicycle",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Bike"
   },
   {
@@ -120,6 +144,9 @@
       "Motorbike"
     ],
     "title": "Motorcycle",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BasicMotorcycle"
   },
   {
@@ -135,6 +162,9 @@
       "dhis2:ambulance"
     ],
     "title": "Ambulance",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Ambulance"
   },
   {
@@ -151,6 +181,9 @@
       "dhis2:4x4"
     ],
     "title": "SUV",
+    "formats": [
+      "48px"
+    ],
     "component_name": "FourByFour"
   },
   {
@@ -165,6 +198,9 @@
       "dhis2:drone"
     ],
     "title": "Drone",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Drone"
   },
   {
@@ -178,6 +214,9 @@
       "dhis2:triangle_small"
     ],
     "title": "Triangle Small",
+    "formats": [
+      "48px"
+    ],
     "component_name": "TriangleSmall"
   },
   {
@@ -191,6 +230,9 @@
       "dhis2:triangle_medium"
     ],
     "title": "Triangle Medium",
+    "formats": [
+      "48px"
+    ],
     "component_name": "TriangleMedium"
   },
   {
@@ -204,6 +246,9 @@
       "dhis2:triangle_large"
     ],
     "title": "Triangle Large",
+    "formats": [
+      "48px"
+    ],
     "component_name": "TriangleLarge"
   },
   {
@@ -217,6 +262,9 @@
       "dhis2:star_small"
     ],
     "title": "Star Small",
+    "formats": [
+      "48px"
+    ],
     "component_name": "StarSmall"
   },
   {
@@ -230,6 +278,9 @@
       "dhis2:star_medium"
     ],
     "title": "Star Medium",
+    "formats": [
+      "48px"
+    ],
     "component_name": "StarMedium"
   },
   {
@@ -243,6 +294,9 @@
       "dhis2:star_large"
     ],
     "title": "Star Large",
+    "formats": [
+      "48px"
+    ],
     "component_name": "StarLarge"
   },
   {
@@ -257,6 +311,9 @@
       "dhis2:square_small"
     ],
     "title": "Square Small",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SquareSmall"
   },
   {
@@ -271,6 +328,9 @@
       "dhis2:square_medium"
     ],
     "title": "Square Medium",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SquareMedium"
   },
   {
@@ -285,6 +345,9 @@
       "dhis2:square_large"
     ],
     "title": "Square Large",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SquareLarge"
   },
   {
@@ -300,6 +363,9 @@
       "dhis2:information_campaign"
     ],
     "title": "Information Campaign",
+    "formats": [
+      "48px"
+    ],
     "component_name": "InformationCampaign"
   },
   {
@@ -314,6 +380,9 @@
       "dhis2:circle_small"
     ],
     "title": "Circle Small",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CircleSmall"
   },
   {
@@ -328,6 +397,9 @@
       "dhis2:circle_medium"
     ],
     "title": "Circle Medium",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CircleMedium"
   },
   {
@@ -342,6 +414,9 @@
       "dhis2:circle_large"
     ],
     "title": "Circle Large",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CircleLarge"
   },
   {
@@ -357,6 +432,9 @@
       "dhis2:market_stall"
     ],
     "title": "Market Stall",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MarketStall"
   },
   {
@@ -371,6 +449,9 @@
       "dhis2:hospital"
     ],
     "title": "Hospital",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Hospital"
   },
   {
@@ -385,6 +466,9 @@
       "dhis2:home"
     ],
     "title": "Home ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HomeAlt"
   },
   {
@@ -399,6 +483,9 @@
       "dhis2:forest"
     ],
     "title": "Forest",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Forest"
   },
   {
@@ -416,6 +503,9 @@
       "dhis2:city"
     ],
     "title": "City",
+    "formats": [
+      "48px"
+    ],
     "component_name": "City"
   },
   {
@@ -431,6 +521,9 @@
       "dhis2:church"
     ],
     "title": "Church",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Church"
   },
   {
@@ -443,6 +536,9 @@
       "dhis2:virus"
     ],
     "title": "Virus",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Virus"
   },
   {
@@ -456,6 +552,9 @@
       "dhis2:money_bag"
     ],
     "title": "Money Bag",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MoneyBag"
   },
   {
@@ -469,6 +568,9 @@
       "dhis2:coins"
     ],
     "title": "Coins",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Coins"
   },
   {
@@ -482,6 +584,9 @@
       "dhis2:bills"
     ],
     "title": "Money Bills",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Bills"
   },
   {
@@ -498,6 +603,10 @@
       "dhis2:pill_4"
     ],
     "title": "Pill 4",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Pills4"
   },
   {
@@ -514,6 +623,10 @@
       "dhis2:pill_3"
     ],
     "title": "Pill 3",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Pills3"
   },
   {
@@ -530,6 +643,10 @@
       "dhis2:pill_2"
     ],
     "title": "Pill 2",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Pills2"
   },
   {
@@ -546,6 +663,10 @@
       "dhis2:pill_1"
     ],
     "title": "Pill 1",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Pill1"
   },
   {
@@ -559,6 +680,9 @@
       "dhis2:oral_contraception_pillsx28"
     ],
     "title": "Oral Contraceptive 28",
+    "formats": [
+      "48px"
+    ],
     "component_name": "OralContraceptionPillsx28"
   },
   {
@@ -572,6 +696,9 @@
       "dhis2:oral_contraception_pillsx21"
     ],
     "title": "Oral Contraceptive 21",
+    "formats": [
+      "48px"
+    ],
     "component_name": "OralContraceptionPillsx21"
   },
   {
@@ -587,6 +714,9 @@
       "dhis2:Medicines"
     ],
     "title": "Medicines",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Medicines"
   },
   {
@@ -605,6 +735,9 @@
       "dhis2:blister_pills_round_x16"
     ],
     "title": "Blister Pills Round x16",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BlisterPillsRoundX16"
   },
   {
@@ -623,6 +756,9 @@
       "dhis2:blister_pills_round_x14"
     ],
     "title": "Blister Pills Round x14",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BlisterPillsRoundX14"
   },
   {
@@ -641,6 +777,9 @@
       "dhis2:blister_pills_round_x4"
     ],
     "title": "Blister Pills Round x4",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BlisterPillsRoundX4"
   },
   {
@@ -659,6 +798,9 @@
       "dhis2:blister_pills_round_x1"
     ],
     "title": "Blister Pills Round x1",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BlisterPillsRoundX1"
   },
   {
@@ -677,6 +819,9 @@
       "dhis2:blister_pills_oval_x16"
     ],
     "title": "Blister Pills Oval x16",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BlisterPillsOvalX16"
   },
   {
@@ -695,6 +840,9 @@
       "dhis2:blister_pills_oval_x14"
     ],
     "title": "Blister Pills Oval x14",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BlisterPillsOvalX14"
   },
   {
@@ -713,6 +861,9 @@
       "dhis2:blister_pills_oval_x4"
     ],
     "title": "Blister Pills Oval x4",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BlisterPillsOvalX4"
   },
   {
@@ -731,6 +882,9 @@
       "dhis2:blister_pills_oval_x1"
     ],
     "title": "Blister Pills Oval x1",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BlisterPillsOvalX1"
   },
   {
@@ -743,6 +897,9 @@
       "dhis2:synergist_insecticide_bioassays"
     ],
     "title": "Synergist Insecticide Bioassays",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SynergistInsecticideBioassays"
   },
   {
@@ -756,6 +913,9 @@
       "dhis2:rdt_result_pv"
     ],
     "title": "Rapid Diagnostic Testing Result PV",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultPv"
   },
   {
@@ -769,6 +929,9 @@
       "dhis2:rdt_result_positive"
     ],
     "title": "Rapid Diagnostic Testing Result Positive",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultPositive"
   },
   {
@@ -782,6 +945,9 @@
       "dhis2:rdt_result_pf_invalid"
     ],
     "title": "Rapid Diagnostic Testing Result PF Invalid",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultPfInvalid"
   },
   {
@@ -795,6 +961,9 @@
       "dhis2:rdt_result_no_test"
     ],
     "title": "Rapid Diagnostic Testing Result No Test",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultNoTest"
   },
   {
@@ -808,6 +977,9 @@
       "dhis2:rdt_result_neg_invalid"
     ],
     "title": "Rapid Diagnostic Testing Result Negative Invalid",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultNegInvalid"
   },
   {
@@ -821,6 +993,9 @@
       "dhis2:rdt_result_neg"
     ],
     "title": "Rapid Diagnostic Testing Result Negative",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultNeg"
   },
   {
@@ -834,6 +1009,9 @@
       "dhis2:rdt_result_mixed_invalid"
     ],
     "title": "Rapid Diagnostic Testing Result Mixed Invalid",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultMixedInvalid"
   },
   {
@@ -847,6 +1025,9 @@
       "dhis2:rdt_result_mixed"
     ],
     "title": "Rapid Diagnostic Testing Result Mixed Positve",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultMixed"
   },
   {
@@ -860,6 +1041,9 @@
       "dhis2:rdt_result_pv_invalid"
     ],
     "title": "Rapid Diagnostic Testing Result Invalid",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultPvInvalid"
   },
   {
@@ -873,6 +1057,9 @@
       "dhis2:rdt_result_pf"
     ],
     "title": "Rapid Diagnostic Testing PF",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultPf"
   },
   {
@@ -886,6 +1073,9 @@
       "dhis2:rdt_result_invalid"
     ],
     "title": "Rapid Diagnostic Testing Result Invalid",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultInvalid"
   },
   {
@@ -899,6 +1089,9 @@
       "dhis2:rdt_result_negative"
     ],
     "title": "Rapid Diagnostic Testing Result Negative",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResult"
   },
   {
@@ -911,6 +1104,9 @@
       "dhis2:mosquito_collection"
     ],
     "title": "Mosquito Collection",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MosquitoCollection"
   },
   {
@@ -923,6 +1119,9 @@
       "dhis2:malaria_testing"
     ],
     "title": "Malaria Testing",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MalariaTesting"
   },
   {
@@ -936,6 +1135,9 @@
       "dhis2:malaria_pv_microscope"
     ],
     "title": "Malaria PV",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MalariaPvMicroscope"
   },
   {
@@ -949,6 +1151,9 @@
       "dhis2:malaria_pf_microscope"
     ],
     "title": "Malaria PF",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MalariaPfMicroscope"
   },
   {
@@ -962,6 +1167,9 @@
       "dhis2:malaria_mixed_microscope"
     ],
     "title": "Malaria Mixed",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MalariaMixedMicroscope"
   },
   {
@@ -975,6 +1183,9 @@
       "dhis2:malaria_negative_microscope"
     ],
     "title": "Malaria Negative",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MalariaMicroscope"
   },
   {
@@ -990,6 +1201,9 @@
       "dhis2:hiv_self_test"
     ],
     "title": "HIV Self Test",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HivSelfTest"
   },
   {
@@ -1002,6 +1216,9 @@
       "dhis2:cone_test_on_walls"
     ],
     "title": "Cone Test on Walls",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ConeTestOnWalls"
   },
   {
@@ -1014,6 +1231,9 @@
       "dhis2:cone_test_on_nets"
     ],
     "title": "Cone Test on Nets",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ConeTestOnNets"
   },
   {
@@ -1030,6 +1250,10 @@
       "dhis2:weight"
     ],
     "title": "Weight Scale",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Weight"
   },
   {
@@ -1045,6 +1269,9 @@
       "dhis2:thermometer"
     ],
     "title": "Temperature",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Thermometer"
   },
   {
@@ -1063,6 +1290,10 @@
       "dhis2:syringe"
     ],
     "title": "Syringe",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Syringe"
   },
   {
@@ -1078,6 +1309,9 @@
       "dhis2:surgical_sterilization"
     ],
     "title": "Surgical Tools",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SurgicalSterilization"
   },
   {
@@ -1093,6 +1327,10 @@
       "dhis2:stethoscope"
     ],
     "title": "Stethoscope",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Stethoscope"
   },
   {
@@ -1106,6 +1344,9 @@
       "Canister"
     ],
     "title": "Oxygen Tank",
+    "formats": [
+      "48px"
+    ],
     "component_name": "OxygenTank"
   },
   {
@@ -1118,6 +1359,9 @@
       "dhis2:odontology_implant"
     ],
     "title": "Odontology Implant",
+    "formats": [
+      "48px"
+    ],
     "component_name": "OdontologyImplant"
   },
   {
@@ -1130,6 +1374,9 @@
       "dhis2:odontology"
     ],
     "title": "Odontology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Odontology"
   },
   {
@@ -1145,6 +1392,9 @@
       "dhis2:observation"
     ],
     "title": "Hospital Bed Timer",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Observation"
   },
   {
@@ -1160,6 +1410,9 @@
       "eHealth"
     ],
     "title": "Mobile App",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Mobile"
   },
   {
@@ -1174,6 +1427,10 @@
       "dhis2:microscope"
     ],
     "title": "Microscope",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Microscope"
   },
   {
@@ -1187,6 +1444,10 @@
       "dhis2:male_condom"
     ],
     "title": "Male Condom",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "MaleCondom"
   },
   {
@@ -1201,6 +1462,10 @@
       "dhis2:iud"
     ],
     "title": "Intrauterine Device",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Iud"
   },
   {
@@ -1215,6 +1480,9 @@
       "dhis2:inpatient"
     ],
     "title": "Hospital Bed ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Inpatient"
   },
   {
@@ -1226,6 +1494,9 @@
       "dhis2:implant"
     ],
     "title": "Implant",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Implant"
   },
   {
@@ -1242,6 +1513,9 @@
       "dhis2:hospitalized"
     ],
     "title": "Hospital Bed",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Hospitalized"
   },
   {
@@ -1254,6 +1528,9 @@
       "dhis2:hormonal_ring"
     ],
     "title": "Hormonal Ring",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HormonalRing"
   },
   {
@@ -1267,6 +1544,10 @@
       "dhis2:female_condom"
     ],
     "title": "Female Condom",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "FemaleCondom"
   },
   {
@@ -1282,6 +1563,10 @@
       "dhis2:family_planning"
     ],
     "title": "Family Planning",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "FamilyPlanning"
   },
   {
@@ -1295,6 +1580,9 @@
       "dhis2:contraceptive_patch"
     ],
     "title": "Contraceptive Patch",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ContraceptivePatch"
   },
   {
@@ -1308,6 +1596,10 @@
       "dhis2:contraceptive_diaphragm"
     ],
     "title": "Contraceptive Diaphragm",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "ContraceptiveDiaphragm"
   },
   {
@@ -1324,6 +1616,9 @@
       "dhis2:blood_pressure_positive"
     ],
     "title": "Hypertension",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BloodPressure"
   },
   {
@@ -1337,6 +1632,10 @@
       "Transfusion"
     ],
     "title": "Blood Bag",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "BloodBag"
   },
   {
@@ -1352,6 +1651,9 @@
       "Organ"
     ],
     "title": "Heart",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HeartOrgan"
   },
   {
@@ -1366,6 +1668,10 @@
       "Teeth"
     ],
     "title": "Tooth",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Tooth"
   },
   {
@@ -1382,6 +1688,10 @@
       "dhis2:brain"
     ],
     "title": "Brain",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Neurology"
   },
   {
@@ -1393,6 +1703,10 @@
       "Pulmonary dhis2:lungs"
     ],
     "title": "Lungs",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Lungs"
   },
   {
@@ -1405,6 +1719,9 @@
       "dhis2:kidney"
     ],
     "title": "Kidneys",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Kidneys"
   },
   {
@@ -1417,6 +1734,10 @@
       "Double Helix"
     ],
     "title": "DNA",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Dna"
   },
   {
@@ -1430,6 +1751,9 @@
       "Microscopic"
     ],
     "title": "Bacteria",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Bacteria"
   },
   {
@@ -1443,6 +1767,10 @@
       "Tobacco"
     ],
     "title": "No Smoking ALT",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "SmokingCessation"
   },
   {
@@ -1454,6 +1782,10 @@
       "Tobacco"
     ],
     "title": "Smoking",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Smoking"
   },
   {
@@ -1467,6 +1799,9 @@
       "Script"
     ],
     "title": "Prescription Alt",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Rx"
   },
   {
@@ -1480,6 +1815,9 @@
       "Water"
     ],
     "title": "Water Tap",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RunningWaterAlt"
   },
   {
@@ -1494,6 +1832,9 @@
       "dhis2:question_triangle"
     ],
     "title": "Question Triangle",
+    "formats": [
+      "48px"
+    ],
     "component_name": "QuestionTriangle"
   },
   {
@@ -1509,6 +1850,9 @@
       "dhis2:question_circle"
     ],
     "title": "Question Circle",
+    "formats": [
+      "48px"
+    ],
     "component_name": "QuestionCircle"
   },
   {
@@ -1522,6 +1866,9 @@
       "dhis2:question"
     ],
     "title": "Question",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Question"
   },
   {
@@ -1536,6 +1883,9 @@
       "dhis2:provider_fst"
     ],
     "title": "Referral Alt",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ProviderFst"
   },
   {
@@ -1549,6 +1899,9 @@
       "Script"
     ],
     "title": "Prescription",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PrescriptionDocument"
   },
   {
@@ -1563,6 +1916,9 @@
       "dhis2:positive"
     ],
     "title": "Plus",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Positive"
   },
   {
@@ -1577,6 +1933,9 @@
       "dhis2:polygon"
     ],
     "title": "Polygon",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Polygon"
   },
   {
@@ -1590,6 +1949,9 @@
       "dhis2:poison"
     ],
     "title": "Poison",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Poison"
   },
   {
@@ -1601,6 +1963,9 @@
       "dhis2:peace"
     ],
     "title": "Peace",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Peace"
   },
   {
@@ -1613,6 +1978,9 @@
       "dhis2:paved_road_alt"
     ],
     "title": "Paved Road Alt",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PavedRoadAlt"
   },
   {
@@ -1625,6 +1993,9 @@
       "dhis2:paved_road"
     ],
     "title": "Paved Road",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PavedRoad"
   },
   {
@@ -1639,6 +2010,9 @@
       "dhis2:outbreak"
     ],
     "title": "Outbreak",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Outbreak"
   },
   {
@@ -1656,6 +2030,9 @@
       "dhis2:nutrition"
     ],
     "title": "Nutrition",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Nutrition"
   },
   {
@@ -1672,6 +2049,9 @@
       "dhis2:no"
     ],
     "title": "No",
+    "formats": [
+      "48px"
+    ],
     "component_name": "No"
   },
   {
@@ -1688,6 +2068,9 @@
       "dhis2:negative"
     ],
     "title": "Minus",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Negative"
   },
   {
@@ -1701,6 +2084,9 @@
       "dhis2:megaphone"
     ],
     "title": "Megaphone",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Megaphone"
   },
   {
@@ -1717,6 +2103,9 @@
       "dhis2:medium_level"
     ],
     "title": "Medium Level",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MediumLevel"
   },
   {
@@ -1732,6 +2121,9 @@
       "dhis2:medical_advice"
     ],
     "title": "Medical Advice Hotline",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MedicalAdvice"
   },
   {
@@ -1746,6 +2138,9 @@
       "dhis2:magnifying_glass"
     ],
     "title": "Magnifying Glass",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MagnifyingGlass"
   },
   {
@@ -1762,6 +2157,9 @@
       "dhis2:low_level"
     ],
     "title": "Low Level",
+    "formats": [
+      "48px"
+    ],
     "component_name": "LowLevel"
   },
   {
@@ -1775,6 +2173,9 @@
       "dhis2:info"
     ],
     "title": "Info",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Info"
   },
   {
@@ -1786,6 +2187,9 @@
       "dhis2:imm"
     ],
     "title": "IMM",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Imm"
   },
   {
@@ -1800,6 +2204,9 @@
       "dhis2:I_exam_qualification"
     ],
     "title": "Exam",
+    "formats": [
+      "48px"
+    ],
     "component_name": "IExamQualification"
   },
   {
@@ -1813,6 +2220,9 @@
       "dhis2:i_documents_denied"
     ],
     "title": "Denied Document",
+    "formats": [
+      "48px"
+    ],
     "component_name": "IDocumentsDenied"
   },
   {
@@ -1826,6 +2236,9 @@
       "dhis2:i_documents_accepted"
     ],
     "title": "Approved Document",
+    "formats": [
+      "48px"
+    ],
     "component_name": "IDocumentsAccepted"
   },
   {
@@ -1841,6 +2254,10 @@
       "Symbol"
     ],
     "title": "Hospital Symbol",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "HospitalSymbol"
   },
   {
@@ -1857,6 +2274,9 @@
       "dhis2:high_level"
     ],
     "title": "High Level",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HighLevel"
   },
   {
@@ -1873,6 +2293,9 @@
       "dhis2:heart_cardiogram"
     ],
     "title": "Cardiogram",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HeartCardiogram"
   },
   {
@@ -1887,6 +2310,9 @@
       "dhis2:heart"
     ],
     "title": "Heart",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Heart"
   },
   {
@@ -1900,6 +2326,9 @@
       "dhis2:health_data_sync"
     ],
     "title": "Health Data Sync",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HealthDataSync"
   },
   {
@@ -1914,6 +2343,9 @@
       "dhis2:health_data_security"
     ],
     "title": "Health Data Security",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HealthDataSecurity"
   },
   {
@@ -1929,6 +2361,9 @@
       "dhis2:hazardous"
     ],
     "title": "Hazardous",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Hazardous"
   },
   {
@@ -1944,6 +2379,9 @@
       "dhis2:geo_location"
     ],
     "title": "Location",
+    "formats": [
+      "48px"
+    ],
     "component_name": "GeoLocation"
   },
   {
@@ -1958,6 +2396,9 @@
       "dhis2:electricity"
     ],
     "title": "Electricity",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Electricity"
   },
   {
@@ -1973,6 +2414,9 @@
       "dhis2:eco_care"
     ],
     "title": "Ecology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "EcoCare"
   },
   {
@@ -1989,6 +2433,9 @@
       "dhis2:donkey"
     ],
     "title": "Donkey",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AnimalDonkey"
   },
   {
@@ -2004,6 +2451,10 @@
       "dhis2:diabetes_measure"
     ],
     "title": "Glucometer",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "DiabetesMeasure"
   },
   {
@@ -2019,6 +2470,9 @@
       "dhis2:diabetes"
     ],
     "title": "Diabetes",
+    "formats": [
+      "48px"
+    ],
     "component_name": "DiabetesSymbols"
   },
   {
@@ -2031,6 +2485,9 @@
       "dhis2:dhis2_logo"
     ],
     "title": "DHIS2 Logo",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Dhis2Logo"
   },
   {
@@ -2044,6 +2501,9 @@
       "Died"
     ],
     "title": "Death Alt 2",
+    "formats": [
+      "48px"
+    ],
     "component_name": "DeathAlt2"
   },
   {
@@ -2058,6 +2518,10 @@
       "Skull"
     ],
     "title": "Death Alt",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "DeathAlt"
   },
   {
@@ -2072,6 +2536,9 @@
       "Skull"
     ],
     "title": "Death",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Death"
   },
   {
@@ -2085,6 +2552,9 @@
       "dhis2:community_meeting"
     ],
     "title": "Outdoor Meeting",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CommunityMeeting"
   },
   {
@@ -2098,6 +2568,9 @@
       "dhis2:communication"
     ],
     "title": "Chat",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Communication"
   },
   {
@@ -2114,6 +2587,9 @@
       "dhis2:clinical_fe"
     ],
     "title": "Clinical Record",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ClinicalFe"
   },
   {
@@ -2130,6 +2606,10 @@
       "dhis2:clinical_f"
     ],
     "title": "Clinical Document",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "ClinicalF"
   },
   {
@@ -2144,6 +2624,9 @@
       "dhis2:cholera"
     ],
     "title": "Cholera",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Cholera"
   },
   {
@@ -2157,6 +2640,10 @@
       "dhis2:cervical_cancer"
     ],
     "title": "Cervical Cancer",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "CervicalCancer"
   },
   {
@@ -2171,6 +2658,9 @@
       "dhis2:cardiogram_e"
     ],
     "title": "Cardiogram Edit",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CardiogramE"
   },
   {
@@ -2184,6 +2674,10 @@
       "dhis2:cardiogram"
     ],
     "title": "Cardiogram",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Cardiogram"
   },
   {
@@ -2198,6 +2692,9 @@
       "Weed"
     ],
     "title": "Cannabis",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Cannabis"
   },
   {
@@ -2211,6 +2708,9 @@
       "dhis2:calendar"
     ],
     "title": "Calendar",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Calendar"
   },
   {
@@ -2226,6 +2726,9 @@
       "dhis2:book"
     ],
     "title": "Medical Book",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Book"
   },
   {
@@ -2239,6 +2742,9 @@
       "dhis2:award_trophy"
     ],
     "title": "Trophy",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AwardTrophy"
   },
   {
@@ -2253,6 +2759,9 @@
       "dhis2:award_ribbon"
     ],
     "title": "Award",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AwardRibbon"
   },
   {
@@ -2267,6 +2776,9 @@
       "dhis2:alert_triangle"
     ],
     "title": "Warning Triangle",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AlertTriangle"
   },
   {
@@ -2279,6 +2791,9 @@
       "dhis2:alert_circle"
     ],
     "title": "Alert Circle",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AlertCircle"
   },
   {
@@ -2292,6 +2807,9 @@
       "dhis2:alert"
     ],
     "title": "Warning",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Alert"
   },
   {
@@ -2306,6 +2824,9 @@
       "dhis2:world_care"
     ],
     "title": "Environmental",
+    "formats": [
+      "48px"
+    ],
     "component_name": "WorldCare"
   },
   {
@@ -2321,6 +2842,9 @@
       "dhis2:wash_hands"
     ],
     "title": "Water Sanitation",
+    "formats": [
+      "48px"
+    ],
     "component_name": "WaterSanitation"
   },
   {
@@ -2336,6 +2860,9 @@
       "dhis2:wash_hands"
     ],
     "title": "Wash Hands",
+    "formats": [
+      "48px"
+    ],
     "component_name": "WashHands"
   },
   {
@@ -2349,6 +2876,9 @@
       "dhis2:tb"
     ],
     "title": "Tuberculosis",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Tb"
   },
   {
@@ -2364,6 +2894,9 @@
       "dhis2:refused"
     ],
     "title": "Hand",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Refused"
   },
   {
@@ -2380,6 +2913,9 @@
       "dhis2:people"
     ],
     "title": "People",
+    "formats": [
+      "48px"
+    ],
     "component_name": "People"
   },
   {
@@ -2394,6 +2930,9 @@
       "dhis2:miner_worker"
     ],
     "title": "Person Miner ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MinerWorkerAlt"
   },
   {
@@ -2409,6 +2948,9 @@
       "dhis2:mental_disorders"
     ],
     "title": "Mental Disorder",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MentalDisorders"
   },
   {
@@ -2425,6 +2967,9 @@
       "dhis2:discussion_meeting"
     ],
     "title": "Discussion",
+    "formats": [
+      "48px"
+    ],
     "component_name": "GroupDiscussionMeeting"
   },
   {
@@ -2441,6 +2986,9 @@
       "dhis2:forum"
     ],
     "title": "Chat",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Forum"
   },
   {
@@ -2456,6 +3004,9 @@
       "dhis2:diarrhea"
     ],
     "title": "Diarrhea",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Diarrhea"
   },
   {
@@ -2467,6 +3018,9 @@
       "Blood Test Hand"
     ],
     "title": "Diabetes",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Diabetes"
   },
   {
@@ -2479,6 +3033,9 @@
       "Hearing Impaired"
     ],
     "title": "Deaf",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Deaf"
   },
   {
@@ -2494,6 +3051,9 @@
       "dhis2:clean_hands"
     ],
     "title": "Clean Hands",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CleanHands"
   },
   {
@@ -2513,6 +3073,9 @@
       "dhis2:child_cognition"
     ],
     "title": "Child Cognition",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChildCognition"
   },
   {
@@ -2526,6 +3089,9 @@
       "Respiratory"
     ],
     "title": "Asthma",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Asthma"
   },
   {
@@ -2538,6 +3104,9 @@
       "dhis2:allergies"
     ],
     "title": "Allergies",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Allergies"
   },
   {
@@ -2551,6 +3120,9 @@
       "Sheets"
     ],
     "title": "Spreadsheet",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Spreadsheets"
   },
   {
@@ -2567,6 +3139,9 @@
       "Windows"
     ],
     "title": "Desktop App",
+    "formats": [
+      "48px"
+    ],
     "component_name": "DesktopApp"
   },
   {
@@ -2583,6 +3158,10 @@
       "dhis2:village"
     ],
     "title": "Village",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Village"
   },
   {
@@ -2598,6 +3177,10 @@
       "dhis2:ministry_of_health"
     ],
     "title": "Ministry of Health",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "MinistryOfHealth"
   },
   {
@@ -2612,6 +3195,9 @@
       "Roof"
     ],
     "title": "Home",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Home"
   },
   {
@@ -2625,6 +3211,9 @@
       "Talking"
     ],
     "title": "Call Center",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CallCentre"
   },
   {
@@ -2635,6 +3224,10 @@
       "Transport"
     ],
     "title": "Wheelchair ALT",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "WheelchairAlt"
   },
   {
@@ -2649,6 +3242,10 @@
       "Liquid"
     ],
     "title": "Intravenous Bag",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "IntravenousBag"
   },
   {
@@ -2659,6 +3256,9 @@
       "Letter"
     ],
     "title": "A",
+    "formats": [
+      "48px"
+    ],
     "component_name": "A"
   },
   {
@@ -2669,6 +3269,9 @@
       "Letter"
     ],
     "title": "B",
+    "formats": [
+      "48px"
+    ],
     "component_name": "B"
   },
   {
@@ -2679,6 +3282,9 @@
       "Letter"
     ],
     "title": "C",
+    "formats": [
+      "48px"
+    ],
     "component_name": "C"
   },
   {
@@ -2689,6 +3295,9 @@
       "Letter"
     ],
     "title": "D",
+    "formats": [
+      "48px"
+    ],
     "component_name": "D"
   },
   {
@@ -2699,6 +3308,9 @@
       "Letter"
     ],
     "title": "E",
+    "formats": [
+      "48px"
+    ],
     "component_name": "E"
   },
   {
@@ -2709,6 +3321,9 @@
       "Letter"
     ],
     "title": "F",
+    "formats": [
+      "48px"
+    ],
     "component_name": "F"
   },
   {
@@ -2719,6 +3334,9 @@
       "Letter"
     ],
     "title": "G",
+    "formats": [
+      "48px"
+    ],
     "component_name": "G"
   },
   {
@@ -2729,6 +3347,9 @@
       "Letter"
     ],
     "title": "H",
+    "formats": [
+      "48px"
+    ],
     "component_name": "H"
   },
   {
@@ -2739,6 +3360,9 @@
       "Letter"
     ],
     "title": "I",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Ii"
   },
   {
@@ -2749,6 +3373,9 @@
       "Letter"
     ],
     "title": "J",
+    "formats": [
+      "48px"
+    ],
     "component_name": "J"
   },
   {
@@ -2759,6 +3386,9 @@
       "Letter"
     ],
     "title": "K",
+    "formats": [
+      "48px"
+    ],
     "component_name": "K"
   },
   {
@@ -2769,6 +3399,9 @@
       "Letter"
     ],
     "title": "L",
+    "formats": [
+      "48px"
+    ],
     "component_name": "L"
   },
   {
@@ -2779,6 +3412,9 @@
       "Letter"
     ],
     "title": "M",
+    "formats": [
+      "48px"
+    ],
     "component_name": "M"
   },
   {
@@ -2789,6 +3425,9 @@
       "Letter"
     ],
     "title": "N",
+    "formats": [
+      "48px"
+    ],
     "component_name": "N"
   },
   {
@@ -2799,6 +3438,9 @@
       "Letter"
     ],
     "title": "O",
+    "formats": [
+      "48px"
+    ],
     "component_name": "O"
   },
   {
@@ -2809,6 +3451,9 @@
       "Letter"
     ],
     "title": "P",
+    "formats": [
+      "48px"
+    ],
     "component_name": "P"
   },
   {
@@ -2819,6 +3464,9 @@
       "Letter"
     ],
     "title": "Q",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Q"
   },
   {
@@ -2829,6 +3477,9 @@
       "Letter"
     ],
     "title": "R",
+    "formats": [
+      "48px"
+    ],
     "component_name": "R"
   },
   {
@@ -2839,6 +3490,9 @@
       "Letter"
     ],
     "title": "S",
+    "formats": [
+      "48px"
+    ],
     "component_name": "S"
   },
   {
@@ -2849,6 +3503,9 @@
       "Letter"
     ],
     "title": "T",
+    "formats": [
+      "48px"
+    ],
     "component_name": "T"
   },
   {
@@ -2859,6 +3516,9 @@
       "Letter"
     ],
     "title": "U",
+    "formats": [
+      "48px"
+    ],
     "component_name": "U"
   },
   {
@@ -2869,6 +3529,9 @@
       "Letter"
     ],
     "title": "V",
+    "formats": [
+      "48px"
+    ],
     "component_name": "V"
   },
   {
@@ -2879,6 +3542,9 @@
       "Letter"
     ],
     "title": "W",
+    "formats": [
+      "48px"
+    ],
     "component_name": "W"
   },
   {
@@ -2889,6 +3555,9 @@
       "Letter"
     ],
     "title": "X",
+    "formats": [
+      "48px"
+    ],
     "component_name": "X"
   },
   {
@@ -2899,6 +3568,9 @@
       "Letter"
     ],
     "title": "Y",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Y"
   },
   {
@@ -2909,6 +3581,9 @@
       "Letter"
     ],
     "title": "Z",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Z"
   },
   {
@@ -2921,6 +3596,9 @@
       "Punctuation"
     ],
     "title": "Exclamation Point",
+    "formats": [
+      "48px"
+    ],
     "component_name": "EsclamationMark"
   },
   {
@@ -2934,6 +3612,9 @@
       "Question"
     ],
     "title": "Question mark",
+    "formats": [
+      "48px"
+    ],
     "component_name": "QuestionMark"
   },
   {
@@ -2948,6 +3629,9 @@
       "Money"
     ],
     "title": "Dollar sign",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Dollar"
   },
   {
@@ -2962,6 +3646,9 @@
       "Money"
     ],
     "title": "Cedi",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Ghana"
   },
   {
@@ -2976,6 +3663,9 @@
       "Money"
     ],
     "title": "Yen",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Yen"
   },
   {
@@ -2990,6 +3680,9 @@
       "Money"
     ],
     "title": "Rupee",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Rupee"
   },
   {
@@ -3005,6 +3698,9 @@
       "Speciality"
     ],
     "title": "Accident and Emergency",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AccidentAndEmergency"
   },
   {
@@ -3023,6 +3719,9 @@
       "Speciality"
     ],
     "title": "Admissions",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Admissions"
   },
   {
@@ -3038,6 +3737,9 @@
       "Speciality"
     ],
     "title": "Coronary Care",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CoronaryCareUnit"
   },
   {
@@ -3057,6 +3759,9 @@
       "Speciality"
     ],
     "title": "Critical Care",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CriticalCare"
   },
   {
@@ -3073,6 +3778,9 @@
       "Speciality"
     ],
     "title": "Discharge Lounge",
+    "formats": [
+      "48px"
+    ],
     "component_name": "DischargeLounge"
   },
   {
@@ -3088,6 +3796,9 @@
       "Speciality"
     ],
     "title": "Cardiology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Cardiology"
   },
   {
@@ -3103,6 +3814,10 @@
       "Sound"
     ],
     "title": "Ear",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Ear"
   },
   {
@@ -3115,6 +3830,9 @@
       "Speciality"
     ],
     "title": "Hematology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Hematology"
   },
   {
@@ -3127,6 +3845,9 @@
       "Speciality"
     ],
     "title": "Nephrology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Nephrology"
   },
   {
@@ -3144,6 +3865,9 @@
       "Speciality"
     ],
     "title": "Obstetricsmonia",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Obstetricsmonia"
   },
   {
@@ -3158,6 +3882,9 @@
       "Vision"
     ],
     "title": "Opthalmology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Opthalmology"
   },
   {
@@ -3172,6 +3899,9 @@
       "Specialty"
     ],
     "title": "Respirology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Respirology"
   },
   {
@@ -3186,6 +3916,9 @@
       "Specialty"
     ],
     "title": "Psychology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Psychology"
   },
   {
@@ -3202,6 +3935,9 @@
       "Speciality"
     ],
     "title": "Medical Records",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MedicalRecords"
   },
   {
@@ -3215,6 +3951,9 @@
       "Speciality"
     ],
     "title": "Oncology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Oncology"
   },
   {
@@ -3229,6 +3968,9 @@
       "Spine"
     ],
     "title": "Orthopaedics",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Orthopaedics"
   },
   {
@@ -3242,6 +3984,9 @@
       "Xray"
     ],
     "title": "Radiology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Radiology"
   },
   {
@@ -3258,6 +4003,9 @@
       "Therapy"
     ],
     "title": "Speech Language Therapy",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SpeechLanguageTherapySpecialties"
   },
   {
@@ -3275,6 +4023,9 @@
       "Womens Health"
     ],
     "title": "Gynecology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Gynecology"
   },
   {
@@ -3288,6 +4039,9 @@
       "Stomach"
     ],
     "title": "Gastroenterology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Gastroenterology"
   },
   {
@@ -3304,6 +4058,9 @@
       "Speciality"
     ],
     "title": "Finance",
+    "formats": [
+      "48px"
+    ],
     "component_name": "FinanceDept"
   },
   {
@@ -3318,6 +4075,9 @@
       "Speciality"
     ],
     "title": "Hematology Lab",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HematologyLaboratory"
   },
   {
@@ -3334,6 +4094,9 @@
       "Team"
     ],
     "title": "Human Resources",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HumanResoruces"
   },
   {
@@ -3345,6 +4108,9 @@
       "Zero"
     ],
     "title": "0",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Svg0"
   },
   {
@@ -3356,6 +4122,9 @@
       "One"
     ],
     "title": "1",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Svg1"
   },
   {
@@ -3367,6 +4136,9 @@
       "Two"
     ],
     "title": "2",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Svg2"
   },
   {
@@ -3378,6 +4150,9 @@
       "Three"
     ],
     "title": "3",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Svg3"
   },
   {
@@ -3389,6 +4164,9 @@
       "Number"
     ],
     "title": "4",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Svg4"
   },
   {
@@ -3400,6 +4178,9 @@
       "Number"
     ],
     "title": "5",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Svg5"
   },
   {
@@ -3411,6 +4192,9 @@
       "Six"
     ],
     "title": "6",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Svg6"
   },
   {
@@ -3422,6 +4206,9 @@
       "Seven"
     ],
     "title": "7",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Svg7"
   },
   {
@@ -3433,6 +4220,9 @@
       "Number"
     ],
     "title": "8",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Svg8"
   },
   {
@@ -3444,6 +4234,9 @@
       "Number"
     ],
     "title": "9",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Svg9"
   },
   {
@@ -3460,6 +4253,9 @@
       "Woman"
     ],
     "title": "Female Reproductive System",
+    "formats": [
+      "48px"
+    ],
     "component_name": "FemaleReproductiveSystem"
   },
   {
@@ -3473,6 +4269,10 @@
       "Vertebrae"
     ],
     "title": "Spine",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Spine"
   },
   {
@@ -3488,6 +4288,9 @@
       "Sign in"
     ],
     "title": "Entry",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Entry"
   },
   {
@@ -3502,6 +4305,9 @@
       "Symbol"
     ],
     "title": "Health Shield",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Health"
   },
   {
@@ -3515,6 +4321,9 @@
       "Symbol"
     ],
     "title": "Health ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HealthAlt"
   },
   {
@@ -3529,6 +4338,9 @@
       "Symbol"
     ],
     "title": "Health Literacy",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HealthLiteracy"
   },
   {
@@ -3547,6 +4359,9 @@
       "Symbol"
     ],
     "title": "Health Register Book",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RegisterBook"
   },
   {
@@ -3562,6 +4377,9 @@
       "dhis2:blood_a_n"
     ],
     "title": "Blood Type A-",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BloodAN"
   },
   {
@@ -3577,6 +4395,9 @@
       "dhis2:blood_a_p"
     ],
     "title": "Blood Type A+",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BloodAP"
   },
   {
@@ -3592,6 +4413,9 @@
       "dhis2:blood_ab_n"
     ],
     "title": "Blood Type AB-",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BloodAbN"
   },
   {
@@ -3607,6 +4431,9 @@
       "dhis2:blood_ab_p"
     ],
     "title": "Blood Type AB+",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BloodAbP"
   },
   {
@@ -3622,6 +4449,9 @@
       "dhis2:blood_b_n"
     ],
     "title": "Blood Type B-",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BloodBN"
   },
   {
@@ -3637,6 +4467,9 @@
       "dhis2:blood_b_p"
     ],
     "title": "Blood Type B+",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BloodBP"
   },
   {
@@ -3652,6 +4485,9 @@
       "dhis2:blood_o_n"
     ],
     "title": "Blood Type O-",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BloodON"
   },
   {
@@ -3667,6 +4503,9 @@
       "dhis2:blood_o_p"
     ],
     "title": "Blood Type O+",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BloodOP"
   },
   {
@@ -3682,6 +4521,9 @@
       "dhis2:blood_rh_n"
     ],
     "title": "Blood Type RH-",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BloodRhN"
   },
   {
@@ -3697,6 +4539,9 @@
       "dhis2:blood_rh_p"
     ],
     "title": "Blood Type RH+",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BloodRhP"
   },
   {
@@ -3713,6 +4558,9 @@
       "dhis2:i_groups_perspective_crowd"
     ],
     "title": "Group",
+    "formats": [
+      "48px"
+    ],
     "component_name": "IGroupsPerspectiveCrowd"
   },
   {
@@ -3729,6 +4577,9 @@
       "dhis2:nurse"
     ],
     "title": "Person Nurse",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Nurse"
   },
   {
@@ -3745,6 +4596,9 @@
       "dhis2:military_worker"
     ],
     "title": "Person Military",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MilitaryWorker"
   },
   {
@@ -3762,6 +4616,9 @@
       "dhis2:truck_driver"
     ],
     "title": "Person Truck Driver",
+    "formats": [
+      "48px"
+    ],
     "component_name": "TruckDriver"
   },
   {
@@ -3776,6 +4633,9 @@
       "dhis2:security_worker"
     ],
     "title": "Person Security Worker",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SecurityWorker"
   },
   {
@@ -3790,6 +4650,9 @@
       "dhis2:construction_worker"
     ],
     "title": "Person Construction Worker",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ConstructionWorker"
   },
   {
@@ -3803,6 +4666,9 @@
       "dhis2:palm_branches_roof"
     ],
     "title": "Home with Roof Made of Palm Branches",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PalmBranchesRoof"
   },
   {
@@ -3816,6 +4682,9 @@
       "dhis2:proper_roof"
     ],
     "title": "Home with Proper Roof",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ProperRoof"
   },
   {
@@ -3843,6 +4712,9 @@
       "dhis2:letrina"
     ],
     "title": "Latrine",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Letrina"
   },
   {
@@ -3869,6 +4741,9 @@
       "Water Closet"
     ],
     "title": "Latrine ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "LetrinaAlt"
   },
   {
@@ -3882,6 +4757,9 @@
       "Worship"
     ],
     "title": "Temple",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Temple"
   },
   {
@@ -3895,6 +4773,9 @@
       "Worship"
     ],
     "title": "Temple Alt",
+    "formats": [
+      "48px"
+    ],
     "component_name": "TempleAlt"
   },
   {
@@ -3910,6 +4791,9 @@
       "Worship"
     ],
     "title": "Mosque",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Mosque"
   },
   {
@@ -3925,6 +4809,10 @@
       "dhis2:emergency_post"
     ],
     "title": "Field Hospital",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "EmergencyPost"
   },
   {
@@ -3939,6 +4827,10 @@
       "dhis2:rural_post"
     ],
     "title": "Rural Clinic",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "RuralPost"
   },
   {
@@ -3954,6 +4846,10 @@
       "dhis2:ambulatory_clinic"
     ],
     "title": "Clinic",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "AmbulatoryClinic"
   },
   {
@@ -3970,6 +4866,9 @@
       "dhis2:contact_support"
     ],
     "title": "Support",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ContactSupport"
   },
   {
@@ -3983,6 +4882,9 @@
       "dhis2:i_note_action"
     ],
     "title": "Notes",
+    "formats": [
+      "48px"
+    ],
     "component_name": "INoteAction"
   },
   {
@@ -3996,6 +4898,9 @@
       "dhis2:i_certificate"
     ],
     "title": "Certificate",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ICertificatePaper"
   },
   {
@@ -4009,6 +4914,9 @@
       "dhis2:breeding_sites"
     ],
     "title": "Breeding Sites",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BreedingSites"
   },
   {
@@ -4025,6 +4933,9 @@
       "dhis2:health_worker_form"
     ],
     "title": "Health Worker Form",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HealthWorkerForm"
   },
   {
@@ -4040,6 +4951,9 @@
       "dhis2:sexual_reproductive_health"
     ],
     "title": "Gender Symbols",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SexualReproductiveHealth"
   },
   {
@@ -4054,6 +4968,9 @@
       "dhis2:vih"
     ],
     "title": "HPV",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Hpv"
   },
   {
@@ -4069,6 +4986,9 @@
       "dhis2:vih"
     ],
     "title": "HIV",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Vih"
   },
   {
@@ -4083,6 +5003,9 @@
       "dhis2:default"
     ],
     "title": "Document Edit",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Default"
   },
   {
@@ -4098,6 +5021,9 @@
       "dhis2:i_exam_multiple_choice"
     ],
     "title": "Exam Multiple-Choice",
+    "formats": [
+      "48px"
+    ],
     "component_name": "IExamMultipleChoice"
   },
   {
@@ -4112,6 +5038,9 @@
       "dhis2:i_schedule_school_date_time"
     ],
     "title": "Calendar Schedule",
+    "formats": [
+      "48px"
+    ],
     "component_name": "IScheduleSchoolDateTime"
   },
   {
@@ -4125,6 +5054,10 @@
       "dhis2:justice"
     ],
     "title": "Justice",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Justice"
   },
   {
@@ -4138,6 +5071,9 @@
       "dhis2:phone"
     ],
     "title": "Phone",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Phone"
   },
   {
@@ -4153,6 +5089,9 @@
       "dhis2:credit_card"
     ],
     "title": "Credit Card",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CreditCard"
   },
   {
@@ -4167,6 +5106,9 @@
       "dhis2:construction"
     ],
     "title": "Hammer",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Construction"
   },
   {
@@ -4181,6 +5123,9 @@
       "dhis2:running_water"
     ],
     "title": "Water Tap",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RunningWater"
   },
   {
@@ -4199,6 +5144,9 @@
       "dhis2:expectorate"
     ],
     "title": "Expectorate",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Expectorate"
   },
   {
@@ -4219,6 +5167,9 @@
       "dhis2:fever"
     ],
     "title": "Fever",
+    "formats": [
+      "48px"
+    ],
     "component_name": "FeverEmotions"
   },
   {
@@ -4237,6 +5188,9 @@
       "dhis2:sad"
     ],
     "title": "Sad",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Sad"
   },
   {
@@ -4255,6 +5209,9 @@
       "dhis2:measles"
     ],
     "title": "Measles",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Measles"
   },
   {
@@ -4273,6 +5230,9 @@
       "dhis2:ok"
     ],
     "title": "Smile",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Ok"
   },
   {
@@ -4289,6 +5249,9 @@
       "Upset"
     ],
     "title": "Angry",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Angry"
   },
   {
@@ -4304,6 +5267,9 @@
       "Face"
     ],
     "title": "Confused",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Confused"
   },
   {
@@ -4320,6 +5286,9 @@
       "Tears"
     ],
     "title": "Crying",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Crying"
   },
   {
@@ -4338,6 +5307,9 @@
       "Vomit"
     ],
     "title": "Nauseous",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Nauseous"
   },
   {
@@ -4354,6 +5326,9 @@
       "Tears"
     ],
     "title": "Loudly Crying",
+    "formats": [
+      "48px"
+    ],
     "component_name": "LoudlyCrying"
   },
   {
@@ -4371,6 +5346,9 @@
       "dhis2:not_ok"
     ],
     "title": "Frown",
+    "formats": [
+      "48px"
+    ],
     "component_name": "NotOk"
   },
   {
@@ -4388,6 +5366,9 @@
       "dhis2:neutral"
     ],
     "title": "Neutral",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Neutral"
   },
   {
@@ -4406,6 +5387,9 @@
       "dhis2:happy"
     ],
     "title": "Happy",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Happy"
   },
   {
@@ -4422,6 +5406,9 @@
       "Symptom"
     ],
     "title": "Coughing",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Coughing"
   },
   {
@@ -4438,6 +5425,9 @@
       "Symptom"
     ],
     "title": "Vomiting",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Vomitting"
   },
   {
@@ -4455,6 +5445,9 @@
       "Surgery"
     ],
     "title": "Masked",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Masked"
   },
   {
@@ -4472,6 +5465,9 @@
       "Spectacles"
     ],
     "title": "Glasses",
+    "formats": [
+      "48px"
+    ],
     "component_name": "EyeglassesEmotions"
   },
   {
@@ -4489,6 +5485,9 @@
       "Sick"
     ],
     "title": "Bandage",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Bandaged"
   },
   {
@@ -4504,6 +5503,9 @@
       "Nauseous"
     ],
     "title": "Dizzy",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Dizzy"
   },
   {
@@ -4518,6 +5520,9 @@
       "Mouth"
     ],
     "title": "Tongue",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Tongue"
   },
   {
@@ -4534,6 +5539,9 @@
       "Sick"
     ],
     "title": "Woozy",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Woozy"
   },
   {
@@ -4550,6 +5558,9 @@
       "Sweat"
     ],
     "title": "Sweating",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SweatingEmotions"
   },
   {
@@ -4566,6 +5577,9 @@
       "Teeth"
     ],
     "title": "Nervous",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Nervous"
   },
   {
@@ -4582,6 +5596,9 @@
       "Tired"
     ],
     "title": "Sleepy",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Sleepy"
   },
   {
@@ -4598,6 +5615,9 @@
       "Relaxed"
     ],
     "title": "Calm",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Calm"
   },
   {
@@ -4610,6 +5630,9 @@
       "Thermometer"
     ],
     "title": "Thermometer Digital",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ThermometerDigital"
   },
   {
@@ -4622,6 +5645,9 @@
       "Hormones"
     ],
     "title": "Endocrinology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Endocrinology"
   },
   {
@@ -4637,12 +5663,15 @@
       "Therapy"
     ],
     "title": "Speech Language Therapy",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SpeechLanguageTherapy"
   },
   {
     "id": "ppe_apron",
-    "category": "devices",
-    "path": "devices/ppe_apron",
+    "category": "ppe",
+    "path": "ppe/ppe_apron",
     "tags": [
       "Apron",
       "Clothing",
@@ -4651,6 +5680,10 @@
       "Safety"
     ],
     "title": "PPE Apron",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "PpeApron"
   },
   {
@@ -4662,6 +5695,9 @@
       "Circulatory System"
     ],
     "title": "Blood Drop",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BloodDrop"
   },
   {
@@ -4673,6 +5709,9 @@
       "Liver"
     ],
     "title": "Hepatology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Hepatology"
   },
   {
@@ -4687,6 +5726,9 @@
       "Pharmacy"
     ],
     "title": "Pharmacy",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Pharmacy"
   },
   {
@@ -4700,6 +5742,9 @@
       "Wheelchair"
     ],
     "title": "Wheelchair",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Wheelchair"
   },
   {
@@ -4712,6 +5757,10 @@
       "Organ"
     ],
     "title": "Liver",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Liver"
   },
   {
@@ -4724,6 +5773,9 @@
       "Joint"
     ],
     "title": "Arm",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Arm"
   },
   {
@@ -4737,6 +5789,9 @@
       "Sanitation"
     ],
     "title": "Cleaning",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Cleaning"
   },
   {
@@ -4751,6 +5806,9 @@
       "Heart"
     ],
     "title": "Defibrillator",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Defibrillator"
   },
   {
@@ -4763,6 +5821,9 @@
       "Leg"
     ],
     "title": "Leg",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Leg"
   },
   {
@@ -4778,6 +5839,9 @@
       "Vision"
     ],
     "title": "Low Vision",
+    "formats": [
+      "48px"
+    ],
     "component_name": "LowVision"
   },
   {
@@ -4792,6 +5856,10 @@
       "Vision"
     ],
     "title": "Eye",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Eye"
   },
   {
@@ -4805,6 +5873,10 @@
       "Xray"
     ],
     "title": "X-ray",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Xray"
   },
   {
@@ -4818,6 +5890,10 @@
       "Oral"
     ],
     "title": "Mouth",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Mouth"
   },
   {
@@ -4832,6 +5908,9 @@
       "Spine"
     ],
     "title": "Rheumatology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Rheumatology"
   },
   {
@@ -4845,6 +5924,10 @@
       "Orthopaedics"
     ],
     "title": "Joints",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Joints"
   },
   {
@@ -4861,6 +5944,10 @@
       "Village"
     ],
     "title": "Rural Post ALT",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "RuralPostAlt"
   },
   {
@@ -4871,6 +5958,9 @@
       "Transgender"
     ],
     "title": "Umbrella",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Umbrella"
   },
   {
@@ -4885,6 +5975,9 @@
       "Injury"
     ],
     "title": "Bandage",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BandageAdhesive"
   },
   {
@@ -4897,6 +5990,9 @@
       "dhis2:rdt_result_out_stock"
     ],
     "title": "Stock Out RDT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultOutStock"
   },
   {
@@ -4909,6 +6005,9 @@
       "dhis2:stock_out"
     ],
     "title": "Stock Out",
+    "formats": [
+      "48px"
+    ],
     "component_name": "StockOut"
   },
   {
@@ -4923,6 +6022,9 @@
       "dhis2:i_utensils"
     ],
     "title": "Utensils",
+    "formats": [
+      "48px"
+    ],
     "component_name": "IUtensils"
   },
   {
@@ -4941,6 +6043,9 @@
       "Triage"
     ],
     "title": "Outpatient",
+    "formats": [
+      "48px"
+    ],
     "component_name": "OutpatientDepartment"
   },
   {
@@ -4956,6 +6061,9 @@
       "dhis2:malaria_outbreak"
     ],
     "title": "Mosquitos",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AnimalMosquitos"
   },
   {
@@ -4967,6 +6075,9 @@
       "dhis2:insecticide_resistance"
     ],
     "title": "Insecticide Resistant",
+    "formats": [
+      "48px"
+    ],
     "component_name": "InsecticideResistance"
   },
   {
@@ -4979,6 +6090,9 @@
       "dhis2:hiv_ind"
     ],
     "title": "HIV Inconclusive",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HivInd"
   },
   {
@@ -4991,6 +6105,9 @@
       "dhis2:hiv_neg"
     ],
     "title": "HIV Negative",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HivNeg"
   },
   {
@@ -5003,6 +6120,9 @@
       "dhis2:hiv_pos"
     ],
     "title": "HIV Positive",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HivPos"
   },
   {
@@ -5019,6 +6139,10 @@
       "dhis2:mosquito"
     ],
     "title": "Mosquito",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Mosquito"
   },
   {
@@ -5033,6 +6157,9 @@
       "Ribbon"
     ],
     "title": "HIV",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Ribbon"
   },
   {
@@ -5047,6 +6174,9 @@
       "dhis2:referral"
     ],
     "title": "Referral",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Referral"
   },
   {
@@ -5059,6 +6189,10 @@
       "Limbs"
     ],
     "title": "Body",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Body"
   },
   {
@@ -5072,6 +6206,9 @@
       "dhis2:msm"
     ],
     "title": "Men Who Have Sex With Men",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Msm"
   },
   {
@@ -5090,6 +6227,9 @@
       "Symptom dhis2:sti"
     ],
     "title": "Sexually Transmitted Infection",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Sti"
   },
   {
@@ -5104,6 +6244,9 @@
       "dhis2:boy_0105y"
     ],
     "title": "Child 1-5 Years",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Boy0105y"
   },
   {
@@ -5125,6 +6268,9 @@
       "dhis2:child_program"
     ],
     "title": "Children",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChildProgram"
   },
   {
@@ -5139,6 +6285,9 @@
       "dhis2:girl_0105y"
     ],
     "title": "Girl 1-5 Years",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Girl0105y"
   },
   {
@@ -5153,6 +6302,9 @@
       "dhis2:girl_1015y"
     ],
     "title": "Child Female 10-15 Years",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Girl1015y"
   },
   {
@@ -5167,6 +6319,9 @@
       "dhis2:male_and_female"
     ],
     "title": "Male and Female",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MaleAndFemale"
   },
   {
@@ -5181,6 +6336,9 @@
       "dhis2:female_and_male"
     ],
     "title": "Female and Male",
+    "formats": [
+      "48px"
+    ],
     "component_name": "FemaleAndMale"
   },
   {
@@ -5197,6 +6355,10 @@
       "dhis2:man"
     ],
     "title": "Person",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Man"
   },
   {
@@ -5218,6 +6380,9 @@
       "dhis2:outpatient"
     ],
     "title": "Outpatient",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Outpatient"
   },
   {
@@ -5231,6 +6396,9 @@
       "dhis2:baby_male_0203m"
     ],
     "title": "Baby Male 2-3 Months",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BabyMale0609m"
   },
   {
@@ -5244,6 +6412,10 @@
       "Infant"
     ],
     "title": "Baby 2-3 Months",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Baby0203m"
   },
   {
@@ -5257,6 +6429,9 @@
       "dhis2:baby_male_0203m"
     ],
     "title": "Baby Female 2-3 Months",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BabyFemale0609m"
   },
   {
@@ -5271,6 +6446,9 @@
       "dhis2:factory_worker"
     ],
     "title": "Person Factory Worker",
+    "formats": [
+      "48px"
+    ],
     "component_name": "FactoryWorker"
   },
   {
@@ -5284,6 +6462,9 @@
       "dhis2:agricultural_worker"
     ],
     "title": "Person Farmer ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AgricultureWorkerAlt"
   },
   {
@@ -5297,6 +6478,9 @@
       "dhis2:domestic_worker"
     ],
     "title": "Person Domestic Worker ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "DomesticWorkerAlt"
   },
   {
@@ -5310,6 +6494,9 @@
       "dhis2:agricultural_worker"
     ],
     "title": "Person Farmer",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AgricultureWorker"
   },
   {
@@ -5324,6 +6511,9 @@
       "dhis2:travel"
     ],
     "title": "Person Traveller ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "TravelAlt"
   },
   {
@@ -5339,6 +6529,9 @@
       "dhis2:plantation_worker"
     ],
     "title": "Person Plantation Worker ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PlantationWorkerAlt"
   },
   {
@@ -5353,6 +6546,9 @@
       "dhis2:prisoner"
     ],
     "title": "Person Prisoner",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Prisoner"
   },
   {
@@ -5368,6 +6564,9 @@
       "dhis2:officer"
     ],
     "title": "Person Police Officer",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Officer"
   },
   {
@@ -5381,6 +6580,9 @@
       "dhis2:domestic_worker"
     ],
     "title": "Person Domestic Worker",
+    "formats": [
+      "48px"
+    ],
     "component_name": "DomesticWorker"
   },
   {
@@ -5395,6 +6597,9 @@
       "dhis2:travel"
     ],
     "title": "Person Traveller",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Travel"
   },
   {
@@ -5410,6 +6615,9 @@
       "dhis2:plantation_worker"
     ],
     "title": "Person Plantation Worker",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PlantationWorker"
   },
   {
@@ -5423,6 +6631,9 @@
       "dhis2:miner_worker"
     ],
     "title": "Person Miner",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MinerWorker"
   },
   {
@@ -5439,6 +6650,10 @@
       "dhis2:pregnant"
     ],
     "title": "Pregnant",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Pregnant"
   },
   {
@@ -5454,6 +6669,10 @@
       "dhis2:overweight"
     ],
     "title": "Overweight",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Overweight"
   },
   {
@@ -5472,6 +6691,9 @@
       "dhis2:lactation"
     ],
     "title": "Nursing Mother",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Lactation"
   },
   {
@@ -5490,6 +6712,9 @@
       "dhis2:vomiting"
     ],
     "title": "Vomiting",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Vomiting"
   },
   {
@@ -5505,6 +6730,9 @@
       "dhis2:baby_female"
     ],
     "title": "Baby Female 3-6 Months",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BabyFemale0306m"
   },
   {
@@ -5520,6 +6748,9 @@
       "dhis2:baby_male"
     ],
     "title": "Baby Male 3-6 Months",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BabyMale0306m"
   },
   {
@@ -5536,6 +6767,9 @@
       "Male"
     ],
     "title": "Baby 3-6 months",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Baby0306m"
   },
   {
@@ -5549,6 +6783,9 @@
       "dhis2:baby_male_0203m"
     ],
     "title": "Baby Female 2-3 Months ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BabyFemale0203mAlt"
   },
   {
@@ -5562,6 +6799,9 @@
       "dhis2:baby_male_0203m"
     ],
     "title": "Baby Male 2-3 Months ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BabyMale0203mAlt"
   },
   {
@@ -5575,6 +6815,9 @@
       "Infant"
     ],
     "title": "Baby 2-3 Months ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Baby0203Alt"
   },
   {
@@ -5590,6 +6833,9 @@
       "dhis2:spraying"
     ],
     "title": "Spraying",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Spraying"
   },
   {
@@ -5606,6 +6852,9 @@
       "dhis2:agriculture"
     ],
     "title": "Agriculture",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Agriculture"
   },
   {
@@ -5624,6 +6873,9 @@
       "dhis2:elderly"
     ],
     "title": "Elderly People",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Elderly"
   },
   {
@@ -5640,6 +6892,9 @@
       "dhis2:rmnh"
     ],
     "title": "Reproductive Maternal and Newborn Health",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Rmnh"
   },
   {
@@ -5659,6 +6914,9 @@
       "dhis2:young_people"
     ],
     "title": "Youth",
+    "formats": [
+      "48px"
+    ],
     "component_name": "YoungPeople"
   },
   {
@@ -5674,6 +6932,9 @@
       "dhis2:sex_worker_male"
     ],
     "title": "Sex Worker Female",
+    "formats": [
+      "48px"
+    ],
     "component_name": "FemaleSexWorker"
   },
   {
@@ -5688,6 +6949,9 @@
       "dhis2:sex_worker_male"
     ],
     "title": "Sex Worker",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MaleSexWorker"
   },
   {
@@ -5701,6 +6965,9 @@
       "dhis2:health_worker"
     ],
     "title": "Person Health Worker",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HealthWorker"
   },
   {
@@ -5715,6 +6982,9 @@
       "dhis2:doctor_female"
     ],
     "title": "Person Male Doctor",
+    "formats": [
+      "48px"
+    ],
     "component_name": "DoctorMale"
   },
   {
@@ -5729,6 +6999,9 @@
       "dhis2:doctor_female"
     ],
     "title": "Person Female Doctor",
+    "formats": [
+      "48px"
+    ],
     "component_name": "DoctorFemale"
   },
   {
@@ -5743,6 +7016,9 @@
       "dhis2:doctor"
     ],
     "title": "Doctor",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Doctor"
   },
   {
@@ -5757,6 +7033,9 @@
       "dhis2:city_worker"
     ],
     "title": "Business Person",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CityWorker"
   },
   {
@@ -5773,6 +7052,9 @@
       "dhis2:group_discussion_meetingx3"
     ],
     "title": "Group Discussion",
+    "formats": [
+      "48px"
+    ],
     "component_name": "GroupDiscussionMeetingx3"
   },
   {
@@ -5786,6 +7068,9 @@
       "dhis2:child_care"
     ],
     "title": "Child care",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChildCare"
   },
   {
@@ -5802,6 +7087,9 @@
       "dhis2:coughing"
     ],
     "title": "Coughing",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CoughingAlt"
   },
   {
@@ -5819,6 +7107,9 @@
       "dhis2:pwid"
     ],
     "title": "People Who Inject Drugs",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Pwid"
   },
   {
@@ -5834,6 +7125,10 @@
       "dhis2:fetus"
     ],
     "title": "Fetus",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Fetus"
   },
   {
@@ -5850,6 +7145,9 @@
       "dhis2:pregnant_32w"
     ],
     "title": "Fetus 32 Weeks",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Pregnant32w"
   },
   {
@@ -5866,6 +7164,9 @@
       "dhis2:pregnant_0812w"
     ],
     "title": "Fetus 8-12 Weeks",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Pregnant0812w"
   },
   {
@@ -5882,6 +7183,9 @@
       "dhis2:pregnant_2426w"
     ],
     "title": "Fetus 24-26 Weeks",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Pregnant2426w"
   },
   {
@@ -5898,6 +7202,9 @@
       "dhis2:pregnant_3638w"
     ],
     "title": "Fetus 36-38 Weeks",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Pregnant3638w"
   },
   {
@@ -5913,6 +7220,9 @@
       "dhis2:forest_persons"
     ],
     "title": "Person in Forest",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ForestPersons"
   },
   {
@@ -5928,6 +7238,9 @@
       "dhis2:old_man"
     ],
     "title": "Elderly Man",
+    "formats": [
+      "48px"
+    ],
     "component_name": "OldMan"
   },
   {
@@ -5943,6 +7256,9 @@
       "dhis2:old_woman"
     ],
     "title": "Elderly Woman",
+    "formats": [
+      "48px"
+    ],
     "component_name": "OldWoman"
   },
   {
@@ -5959,6 +7275,9 @@
       "dhis2:person"
     ],
     "title": "Person",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Person"
   },
   {
@@ -5974,6 +7293,9 @@
       "Temperature"
     ],
     "title": "Sweating",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Sweating"
   },
   {
@@ -5988,6 +7310,9 @@
       "Triage"
     ],
     "title": "Symptoms",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Symptom"
   },
   {
@@ -6003,6 +7328,10 @@
       "dhis2:underweight"
     ],
     "title": "Underweight",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Underweight"
   },
   {
@@ -6020,6 +7349,10 @@
       "dhis2:i_training_class"
     ],
     "title": "Training",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "ITrainingClass"
   },
   {
@@ -6036,6 +7369,9 @@
       "dhis2:traumatism"
     ],
     "title": "Trauma",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Traumatism"
   },
   {
@@ -6050,6 +7386,9 @@
       "dhis2:ancv"
     ],
     "title": "Antenatal Care Visit",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Ancv"
   },
   {
@@ -6066,6 +7405,9 @@
       "dhis2:chills"
     ],
     "title": "Chills",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Chills"
   },
   {
@@ -6084,6 +7426,9 @@
       "dhis2:chills_fever"
     ],
     "title": "Fever",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChillsFever"
   },
   {
@@ -6099,6 +7444,9 @@
       "dhis2:back_pain"
     ],
     "title": "Back Pain",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BackPain"
   },
   {
@@ -6117,6 +7465,9 @@
       "dhis2:nausea"
     ],
     "title": "Nausea",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Nausea"
   },
   {
@@ -6133,6 +7484,10 @@
       "dhis2:woman"
     ],
     "title": "Woman",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Woman"
   },
   {
@@ -6147,6 +7502,9 @@
       "Symptom dhis2:headache"
     ],
     "title": "Headache",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Headache"
   },
   {
@@ -6161,6 +7519,9 @@
       "dhis2:boy_1015y"
     ],
     "title": "Child 10-15 Years",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Boy1015y"
   },
   {
@@ -6175,6 +7536,9 @@
       "dhis2:llin"
     ],
     "title": "Bed Net",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Llin"
   },
   {
@@ -6188,6 +7552,9 @@
       "dhis2:contraceptive_injection"
     ],
     "title": "Contraceptive Injection",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ContraceptiveInjection"
   },
   {
@@ -6203,6 +7570,9 @@
       "dhis2:blood_pressure_2"
     ],
     "title": "Blood Pressure Monitor ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BloodPressure2"
   },
   {
@@ -6218,6 +7588,10 @@
       "dhis2:blood_pressure_monitor"
     ],
     "title": "Blood Pressure Monitor",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "BloodPressureMonitor"
   },
   {
@@ -6232,6 +7606,9 @@
       "dhis2:copper_iud"
     ],
     "title": "Copper Intrauterine Device",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CopperIud"
   },
   {
@@ -6250,6 +7627,9 @@
       "dhis2:cold_chain"
     ],
     "title": "Cold Temperature",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ColdChain"
   },
   {
@@ -6264,6 +7644,9 @@
       "dhis2:fever"
     ],
     "title": "High Temperature",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Fever"
   },
   {
@@ -6278,6 +7661,9 @@
       "dhis2:clinical_a"
     ],
     "title": "Test Tube",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ClinicalA"
   },
   {
@@ -6290,6 +7676,9 @@
       "dhis2:syana_press"
     ],
     "title": "Syana Press",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SayanaPress"
   },
   {
@@ -6303,6 +7692,9 @@
       "dhis2:treated_water"
     ],
     "title": "Treated Water",
+    "formats": [
+      "48px"
+    ],
     "component_name": "TreatedWater"
   },
   {
@@ -6318,6 +7710,9 @@
       "dhis2:tac"
     ],
     "title": "CT Scan",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Tac"
   },
   {
@@ -6331,6 +7726,9 @@
       "dhis2:intensity_concentration_bioassays"
     ],
     "title": "Intensity Concentration Bioassays",
+    "formats": [
+      "48px"
+    ],
     "component_name": "IntensityConcentrationBioassays"
   },
   {
@@ -6343,6 +7741,9 @@
       "dhis2:discriminating_concentration_bioassays"
     ],
     "title": "Discriminating Concentration Bioassays",
+    "formats": [
+      "48px"
+    ],
     "component_name": "DiscriminatingConcentrationBioassays"
   },
   {
@@ -6356,6 +7757,9 @@
       "dhis2:rdt_result_pv_rectangular"
     ],
     "title": "Rapid Diagnostic Testing Result PV",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultPvRectangular"
   },
   {
@@ -6369,6 +7773,9 @@
       "dhis2:rdt_result_pf_rectangular"
     ],
     "title": "Rapid Diagnostic Testing Result PF",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultPfRectangular"
   },
   {
@@ -6382,6 +7789,9 @@
       "dhis2:rdt_result_pf_invalid_rectangular"
     ],
     "title": "Rapid Diagnostic Testing Result PF Invalid",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultPfInvalidRectangular"
   },
   {
@@ -6395,6 +7805,9 @@
       "dhis2:rdt_result_neg_rectangular"
     ],
     "title": "Rapid Diagnostic Testing Result Negative",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultNegRectangular"
   },
   {
@@ -6408,6 +7821,9 @@
       "dhis2:rdt_result_mixed_rectangular"
     ],
     "title": "Rapid Diagnostic Testing Result Mixed",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultMixedRectangular"
   },
   {
@@ -6421,6 +7837,9 @@
       "dhis2:rdt_result_mixed_invalid_rectangular"
     ],
     "title": "Rapid Diagnostic Testing Result Mixed Invalid",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultMixedInvalidRectangular"
   },
   {
@@ -6434,6 +7853,9 @@
       "dhis2:rdt_result_neg_invalid_rectangular"
     ],
     "title": "Rapid Diagnostic Testing Result Negative Invalid",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultNegInvalidRectangular"
   },
   {
@@ -6447,6 +7869,9 @@
       "dhis2:rdt_result_pv_invalid_rectangular"
     ],
     "title": "Rapid Diagnostic Testing Result PV Invalid",
+    "formats": [
+      "48px"
+    ],
     "component_name": "RdtResultPvInvalidRectangular"
   },
   {
@@ -6460,6 +7885,9 @@
       "dhis2:contraceptive_voucher"
     ],
     "title": "Contraceptive",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ContraceptiveVoucher"
   },
   {
@@ -6474,6 +7902,10 @@
       "dhis2:pneumonia"
     ],
     "title": "Pneumonia",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Pneumonia"
   },
   {
@@ -6489,6 +7921,9 @@
       "Spleen"
     ],
     "title": "Spleen",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Spleen"
   },
   {
@@ -6501,6 +7936,9 @@
       "Lungs"
     ],
     "title": "Ventilator",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Ventilator"
   },
   {
@@ -6513,6 +7951,9 @@
       "Lungs"
     ],
     "title": "Ventilator ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "VentilatorAlt"
   },
   {
@@ -6528,6 +7969,9 @@
       "Speciality"
     ],
     "title": "Social Work",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SocialWork"
   },
   {
@@ -6541,6 +7985,9 @@
       "Speciality"
     ],
     "title": "Intensive Care Unit",
+    "formats": [
+      "48px"
+    ],
     "component_name": "IntensiveCareUnit"
   },
   {
@@ -6555,6 +8002,9 @@
       "Speciality"
     ],
     "title": "Pediatrics",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Pediatrics"
   },
   {
@@ -6569,6 +8019,9 @@
       "Weights"
     ],
     "title": "Gym",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Gym"
   },
   {
@@ -6582,6 +8035,9 @@
       "Speciality"
     ],
     "title": "Physical Therapy",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PhysicalTherapy"
   },
   {
@@ -6596,6 +8052,9 @@
       "Surgery"
     ],
     "title": "Pediatric Surgery",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PediatricSurgery"
   },
   {
@@ -6609,6 +8068,9 @@
       "Surgery"
     ],
     "title": "Neurosurgery",
+    "formats": [
+      "48px"
+    ],
     "component_name": "NeuroSurgery"
   },
   {
@@ -6622,6 +8084,9 @@
       "Speciality"
     ],
     "title": "Geriatrics",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Geriatrics"
   },
   {
@@ -6635,6 +8100,9 @@
       "Vision"
     ],
     "title": "Contact Lens",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ContactLenses"
   },
   {
@@ -6650,6 +8118,9 @@
       "Village"
     ],
     "title": "Community Healthcare Worker",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CommunityHealthworker"
   },
   {
@@ -6664,6 +8135,9 @@
       "Spirituality"
     ],
     "title": "Chaplaincy",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Chaplaincy"
   },
   {
@@ -6677,6 +8151,9 @@
       "Splint"
     ],
     "title": "Cast",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Cast"
   },
   {
@@ -6692,6 +8169,9 @@
       "Symptom"
     ],
     "title": "Intestinal Pain",
+    "formats": [
+      "48px"
+    ],
     "component_name": "IntestinalPain"
   },
   {
@@ -6706,6 +8186,9 @@
       "Virus"
     ],
     "title": "Syringe Vaccine",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SyringeVaccine"
   },
   {
@@ -6721,6 +8204,9 @@
       "Toothpaste"
     ],
     "title": "Dental Hygiene",
+    "formats": [
+      "48px"
+    ],
     "component_name": "DentalHygiene"
   },
   {
@@ -6732,6 +8218,9 @@
       "PPE"
     ],
     "title": "PPE Sanitizer ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PpeSantizerAlt"
   },
   {
@@ -6746,6 +8235,9 @@
       "Platelets"
     ],
     "title": "Blood Cells",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BloodCells"
   },
   {
@@ -6759,6 +8251,9 @@
       "Microscopic"
     ],
     "title": "Enzyme",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Enzyme"
   },
   {
@@ -6774,6 +8269,9 @@
       "Skeleton"
     ],
     "title": "Skeleton",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Skeleton"
   },
   {
@@ -6789,6 +8287,9 @@
       "Skeleton"
     ],
     "title": "Skull",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Skull"
   },
   {
@@ -6801,6 +8302,9 @@
       "Science"
     ],
     "title": "Biochemistry Lab",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BiochemistryLaboratory"
   },
   {
@@ -6813,6 +8317,10 @@
       "Urine"
     ],
     "title": "Bladder",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Bladder"
   },
   {
@@ -6825,6 +8333,9 @@
       "Throat"
     ],
     "title": "Ear Nose and Throat",
+    "formats": [
+      "48px"
+    ],
     "component_name": "EarsNoseAndThroat"
   },
   {
@@ -6839,6 +8350,9 @@
       "Toe"
     ],
     "title": "Foot",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Foot"
   },
   {
@@ -6850,6 +8364,9 @@
       "Organ"
     ],
     "title": "Gallbladder",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Gallbladder"
   },
   {
@@ -6861,6 +8378,9 @@
       "Organ"
     ],
     "title": "Lymph Node",
+    "formats": [
+      "48px"
+    ],
     "component_name": "LymphNodes"
   },
   {
@@ -6872,6 +8392,9 @@
       "Pain"
     ],
     "title": "Nerve",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Nerve"
   },
   {
@@ -6887,6 +8410,9 @@
       "Trauma"
     ],
     "title": "Sling",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Sling"
   },
   {
@@ -6899,6 +8425,10 @@
       "Reproductive System"
     ],
     "title": "Sperm",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Sperm"
   },
   {
@@ -6909,6 +8439,9 @@
       "Specialty"
     ],
     "title": "Urology",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Urology"
   },
   {
@@ -6921,6 +8454,10 @@
       "Smell"
     ],
     "title": "Nose",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Nose"
   },
   {
@@ -6934,6 +8471,9 @@
       "Symptom"
     ],
     "title": "Loss of Smell",
+    "formats": [
+      "48px"
+    ],
     "component_name": "LossSmell"
   },
   {
@@ -6950,6 +8490,9 @@
       "Virus"
     ],
     "title": "Viral Lung Infection",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ViralLungInfection"
   },
   {
@@ -6965,6 +8508,9 @@
       "Sanitizer"
     ],
     "title": "PPE Virus Sanitizer Spray",
+    "formats": [
+      "48px"
+    ],
     "component_name": "VirusSanitizerSpray"
   },
   {
@@ -6980,6 +8526,9 @@
       "Virus"
     ],
     "title": "Virus Research ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "VirusResearch"
   },
   {
@@ -6996,6 +8545,9 @@
       "Virus"
     ],
     "title": "Virus Research",
+    "formats": [
+      "48px"
+    ],
     "component_name": "VirusResearchAlt"
   },
   {
@@ -7009,6 +8561,9 @@
       "Virus"
     ],
     "title": "Virus Lab Research",
+    "formats": [
+      "48px"
+    ],
     "component_name": "VirusLabResearchSyringe"
   },
   {
@@ -7022,6 +8577,9 @@
       "Virus"
     ],
     "title": "Virus Lab Research ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "VirusLabResearchTestTube"
   },
   {
@@ -7032,6 +8590,9 @@
       "Organ"
     ],
     "title": "Liver ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "LiverAlt"
   },
   {
@@ -7047,6 +8608,9 @@
       "Optometry"
     ],
     "title": "Eyeglasses",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Eyeglasses"
   },
   {
@@ -7060,6 +8624,9 @@
       "Patient"
     ],
     "title": "Patient Band ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PatientBandAlt"
   },
   {
@@ -7073,6 +8640,9 @@
       "Patient"
     ],
     "title": "Patient Band",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PatientBand"
   },
   {
@@ -7086,6 +8656,9 @@
       "Vessel"
     ],
     "title": "Blood Vessel",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BloodVessel"
   },
   {
@@ -7103,6 +8676,9 @@
       "Nutrition"
     ],
     "title": "Fruits",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Fruits"
   },
   {
@@ -7115,6 +8691,9 @@
       "Intestine"
     ],
     "title": "Intestine",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Intestine"
   },
   {
@@ -7134,6 +8713,9 @@
       "Wine"
     ],
     "title": "Alcohol",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Alcohol"
   },
   {
@@ -7151,6 +8733,9 @@
       "Vessel"
     ],
     "title": "Varicose Vein",
+    "formats": [
+      "48px"
+    ],
     "component_name": "VaricoseVein"
   },
   {
@@ -7170,6 +8755,9 @@
       "Testing"
     ],
     "title": "Sonography",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Sonography"
   },
   {
@@ -7189,6 +8777,9 @@
       "Sonography"
     ],
     "title": "Sonogram",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Sonogram"
   },
   {
@@ -7206,6 +8797,9 @@
       "Surgical"
     ],
     "title": "Surgical Department",
+    "formats": [
+      "48px"
+    ],
     "component_name": "GeneralSurgery"
   },
   {
@@ -7223,6 +8817,9 @@
       "Trauma"
     ],
     "title": "Pain",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Pain"
   },
   {
@@ -7239,6 +8836,9 @@
       "Wheat"
     ],
     "title": "Carbohydrates",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Carbohydrates"
   },
   {
@@ -7251,6 +8851,10 @@
       "dhis2:sanitizer"
     ],
     "title": "PPE Sanitizer",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "PpeSanitizer"
   },
   {
@@ -7263,6 +8867,10 @@
       "dhis2:ppe_mask_n95"
     ],
     "title": "PPE Mask N95",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "PpeMaskN95"
   },
   {
@@ -7275,6 +8883,9 @@
       "dhis2:ppe_gown"
     ],
     "title": "PPE Gown",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PpeGown"
   },
   {
@@ -7289,6 +8900,9 @@
       "dhis2:ppe_gloves"
     ],
     "title": "PPE Gloves",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PpeGloves"
   },
   {
@@ -7301,6 +8915,10 @@
       "dhis2:ppe_face_mask"
     ],
     "title": "PPE Face Mask",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "PpeFaceMask"
   },
   {
@@ -7313,6 +8931,10 @@
       "dhis2:ppe_mask"
     ],
     "title": "PPE Surgical Mask",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "PpeMask"
   },
   {
@@ -7326,6 +8948,9 @@
       "Safety"
     ],
     "title": "PPE Face Shield",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PpeFaceShield"
   },
   {
@@ -7341,6 +8966,9 @@
       "Safety"
     ],
     "title": "PPE Goggles",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PpeGoggles"
   },
   {
@@ -7354,6 +8982,10 @@
       "Safety"
     ],
     "title": "PPE Suit",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "PpeSuit"
   },
   {
@@ -7369,6 +9001,9 @@
       "Virus"
     ],
     "title": "PPE Respirator",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Respirator"
   },
   {
@@ -7382,6 +9017,10 @@
       "Sanitation"
     ],
     "title": "PPE Disinfecting Wipes",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "DisinfectingWipes"
   },
   {
@@ -7395,6 +9034,9 @@
       "Safety"
     ],
     "title": "PPE Face Shield ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PpeFaceShieldAlt"
   },
   {
@@ -7412,6 +9054,9 @@
       "Wipe"
     ],
     "title": "Hand Wipe Paper",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HandWipePaper"
   },
   {
@@ -7425,6 +9070,9 @@
       "Visualization"
     ],
     "title": "Bar Chart",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChartBar"
   },
   {
@@ -7438,6 +9086,9 @@
       "Visualization"
     ],
     "title": "Split Bar Chart",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChartBarStacked"
   },
   {
@@ -7452,6 +9103,9 @@
       "Visualization"
     ],
     "title": "Line Chart",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChartLine"
   },
   {
@@ -7466,6 +9120,9 @@
       "Visualization"
     ],
     "title": "Double Line Chart",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChartLineStacked"
   },
   {
@@ -7480,6 +9137,9 @@
       "Visualization"
     ],
     "title": "Pie Chart",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChartPie"
   },
   {
@@ -7498,6 +9158,9 @@
       "Virus"
     ],
     "title": "Cured Decreasing Line Chart",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChartCuredDecreasing"
   },
   {
@@ -7516,6 +9179,9 @@
       "Virus"
     ],
     "title": "Cured Increasing Line Chart",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChartCuredIncreasing"
   },
   {
@@ -7534,6 +9200,9 @@
       "Virus"
     ],
     "title": "Death Rate Decreasing Line Chart",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChartDeathRateIncreasing"
   },
   {
@@ -7552,6 +9221,9 @@
       "Virus"
     ],
     "title": "Death Rate Increasing Line Chart",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChartDeathRateDecreasing"
   },
   {
@@ -7570,6 +9242,9 @@
       "Virus"
     ],
     "title": "Death Rate Stable Line Chart",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChartDeathRateStable"
   },
   {
@@ -7586,6 +9261,9 @@
       "Virus"
     ],
     "title": "Infected Decreasing Line Chart",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChartInfectedDecreasing"
   },
   {
@@ -7602,6 +9280,9 @@
       "Virus"
     ],
     "title": "Infected Increasing Line Chart",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChartInfectedIncreasing"
   },
   {
@@ -7620,6 +9301,9 @@
       "Virus"
     ],
     "title": "Infected Stable Line Chart",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChartInfectedStable"
   },
   {
@@ -7632,6 +9316,9 @@
       "dhis2:hot_meal"
     ],
     "title": "Hot Meal",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HotMeal"
   },
   {
@@ -7646,6 +9333,9 @@
       "Nutrition"
     ],
     "title": "Unhealthy Food",
+    "formats": [
+      "48px"
+    ],
     "component_name": "UnhealthyFood"
   },
   {
@@ -7666,6 +9356,9 @@
       "Water"
     ],
     "title": "Swimming",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Swim"
   },
   {
@@ -7684,6 +9377,9 @@
       "Walk"
     ],
     "title": "Activity Walk",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Walking"
   },
   {
@@ -7702,6 +9398,9 @@
       "Run"
     ],
     "title": "Activity Run",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Running"
   },
   {
@@ -7720,6 +9419,9 @@
       "Weights"
     ],
     "title": "Activity Weights",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Weights"
   },
   {
@@ -7737,6 +9439,9 @@
       "Walk"
     ],
     "title": "Supported Walk",
+    "formats": [
+      "48px"
+    ],
     "component_name": "WalkSupported"
   },
   {
@@ -7754,6 +9459,9 @@
       "Toilet"
     ],
     "title": "Toilet Paper",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ToiletPaper"
   },
   {
@@ -7774,6 +9482,9 @@
       "Ultrasound"
     ],
     "title": "Ultrasound Device",
+    "formats": [
+      "48px"
+    ],
     "component_name": "UltrasoundScanner"
   },
   {
@@ -7791,6 +9502,9 @@
       "Test tube"
     ],
     "title": "Medical Sample",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MedicalSample"
   },
   {
@@ -7811,6 +9525,9 @@
       "Postnatal"
     ],
     "title": "Breast Pump",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BreastPump"
   },
   {
@@ -7826,6 +9543,9 @@
       "Unhealthy"
     ],
     "title": "Sodium",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Lactose"
   },
   {
@@ -7841,6 +9561,9 @@
       "Sodium"
     ],
     "title": "Low Sodium",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SodiumFree"
   },
   {
@@ -7856,6 +9579,9 @@
       "Speciality"
     ],
     "title": "Pain Management",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PainManagment"
   },
   {
@@ -7874,6 +9600,9 @@
       "Rehabilitation"
     ],
     "title": "Exercise Bicycle",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ExerciseBicycle"
   },
   {
@@ -7890,6 +9619,9 @@
       "Injury"
     ],
     "title": "Burn",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Burn"
   },
   {
@@ -7908,6 +9640,9 @@
       "Unit"
     ],
     "title": "Burn Unit",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BurnUnit"
   },
   {
@@ -7925,6 +9660,9 @@
       "Nutrition"
     ],
     "title": "Dairy",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Dairy"
   },
   {
@@ -7944,6 +9682,9 @@
       "Nutrition"
     ],
     "title": "Dairy Free",
+    "formats": [
+      "48px"
+    ],
     "component_name": "LactoseFree"
   },
   {
@@ -7961,6 +9702,9 @@
       "Therapy"
     ],
     "title": "Yoga",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ExerciseYoga"
   },
   {
@@ -7977,6 +9721,9 @@
       "Resuscitation"
     ],
     "title": "CPR",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Cpr"
   },
   {
@@ -7994,6 +9741,9 @@
       "Postnatal"
     ],
     "title": "Baby Formula",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BabyFormula"
   },
   {
@@ -8011,6 +9761,9 @@
       "dhis2:exercise"
     ],
     "title": "Exercise",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Exercise"
   },
   {
@@ -8028,6 +9781,9 @@
       "Vulva"
     ],
     "title": "Vulva",
+    "formats": [
+      "48px"
+    ],
     "component_name": "VaginaAlt"
   },
   {
@@ -8043,6 +9799,9 @@
       "Reproductive System"
     ],
     "title": "Penis",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PenisAlt"
   },
   {
@@ -8057,6 +9816,9 @@
       "Reproductive System"
     ],
     "title": "Penis",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Penis"
   },
   {
@@ -8074,6 +9836,9 @@
       "Scrotum"
     ],
     "title": "Testicles",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Testicles"
   },
   {
@@ -8094,6 +9859,9 @@
       "Test Tube"
     ],
     "title": "Chemical Burn",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ChemicalBurn"
   },
   {
@@ -8109,6 +9877,9 @@
       "Pulse"
     ],
     "title": "Pulse Oximeter",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PulseOximeterAlt"
   },
   {
@@ -8124,6 +9895,9 @@
       "Pulse"
     ],
     "title": "Pulse Oximeter",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PulseOximeter"
   },
   {
@@ -8139,6 +9913,9 @@
       "Zoonotic Disease"
     ],
     "title": "Rat",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AnimalRat"
   },
   {
@@ -8154,6 +9931,9 @@
       "Sweetener"
     ],
     "title": "Sugar",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Sugar"
   },
   {
@@ -8171,6 +9951,9 @@
       "Sweetener"
     ],
     "title": "Sugar",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SugarAlt"
   },
   {
@@ -8186,6 +9969,9 @@
       "Zoonotic Disease"
     ],
     "title": "Pig",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AnimalPig"
   },
   {
@@ -8199,6 +9985,9 @@
       "Zoonotic Disease"
     ],
     "title": "Bat",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AnimalBat"
   },
   {
@@ -8215,6 +10004,9 @@
       "Wine"
     ],
     "title": "No Alcohol",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AlcoholCessation"
   },
   {
@@ -8230,6 +10022,9 @@
       "Wheat"
     ],
     "title": "Gluten",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Gluten"
   },
   {
@@ -8245,6 +10040,9 @@
       "Wheat"
     ],
     "title": "Gluten Free",
+    "formats": [
+      "48px"
+    ],
     "component_name": "GlutenFree"
   },
   {
@@ -8264,6 +10062,9 @@
       "Worker"
     ],
     "title": "Emergency Operations Person",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CrisisResponseCenterPerson"
   },
   {
@@ -8279,6 +10080,9 @@
       "Satellite"
     ],
     "title": "Emergency Operations Center",
+    "formats": [
+      "48px"
+    ],
     "component_name": "EmergencyOperationsCenter"
   },
   {
@@ -8296,6 +10100,9 @@
       "Zoonotic Diseases"
     ],
     "title": "Spider",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AnimalSpider"
   },
   {
@@ -8309,6 +10116,9 @@
       "Zoonotic Diseases"
     ],
     "title": "Tick",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AnimalTick"
   },
   {
@@ -8325,6 +10135,9 @@
       "Zoonotic Disease"
     ],
     "title": "Chicken",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AnimalChicken"
   },
   {
@@ -8341,6 +10154,9 @@
       "Pharmacy"
     ],
     "title": "Mortar and Pestle",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MedicineMortar"
   },
   {
@@ -8357,6 +10173,9 @@
       "Prescription"
     ],
     "title": "Medicine Container",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MedicineBottle"
   },
   {
@@ -8376,6 +10195,9 @@
       "Respiratory System"
     ],
     "title": "Inhaler",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AsthmaInhaler"
   },
   {
@@ -8391,6 +10213,9 @@
       "Hearing"
     ],
     "title": "Hearing Aid",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HearingAid"
   },
   {
@@ -8406,6 +10231,9 @@
       "Rehabilitation"
     ],
     "title": "Crutch",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Crutches"
   },
   {
@@ -8427,6 +10255,9 @@
       "Walking"
     ],
     "title": "Cane",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Cane"
   },
   {
@@ -8440,6 +10271,10 @@
       "Vial"
     ],
     "title": "Test tubes",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "TestTubes"
   },
   {
@@ -8455,6 +10290,9 @@
       "Intestine"
     ],
     "title": "Anus",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Anus"
   },
   {
@@ -8470,6 +10308,9 @@
       "Vascular system"
     ],
     "title": "Vascular Surgery",
+    "formats": [
+      "48px"
+    ],
     "component_name": "VascularSurgery"
   },
   {
@@ -8488,6 +10329,9 @@
       "Vein"
     ],
     "title": "Stent",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Stent"
   },
   {
@@ -8506,6 +10350,9 @@
       "Vulva"
     ],
     "title": "Vagina",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Vagina"
   },
   {
@@ -8524,6 +10371,9 @@
       "Tumor"
     ],
     "title": "Pancreatic Cancer",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PancreaticCancer"
   },
   {
@@ -8538,6 +10388,9 @@
       "Pancreatic"
     ],
     "title": "Pancreas",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Pancreas"
   },
   {
@@ -8554,6 +10407,9 @@
       "Tumor"
     ],
     "title": "Prostate Cancer",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ProstateCancer"
   },
   {
@@ -8567,6 +10423,9 @@
       "Prostate"
     ],
     "title": "Prostate",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Prostate"
   },
   {
@@ -8584,6 +10443,9 @@
       "Tumor"
     ],
     "title": "Stomach Cancer",
+    "formats": [
+      "48px"
+    ],
     "component_name": "StomachCancer"
   },
   {
@@ -8597,6 +10459,10 @@
       "Organ"
     ],
     "title": "Stomach",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "Stomach"
   },
   {
@@ -8611,6 +10477,9 @@
       "Tumor"
     ],
     "title": "Cancerous Cell Nuclei",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CancerousCellNuclei"
   },
   {
@@ -8624,6 +10493,9 @@
       "Ribosomes"
     ],
     "title": "Cell Nuclei",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CellNuclei"
   },
   {
@@ -8641,6 +10513,9 @@
       "Speech"
     ],
     "title": "Cochlear Implant",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CochlearImplant"
   },
   {
@@ -8657,6 +10532,9 @@
       "Sample"
     ],
     "title": "Urine Sample",
+    "formats": [
+      "48px"
+    ],
     "component_name": "UrineSample"
   },
   {
@@ -8675,6 +10553,9 @@
       "User"
     ],
     "title": "Insurance Card",
+    "formats": [
+      "48px"
+    ],
     "component_name": "InsuranceCard"
   },
   {
@@ -8694,6 +10575,9 @@
       "Skull"
     ],
     "title": "Head",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Head"
   },
   {
@@ -8710,6 +10594,9 @@
       "Organ"
     ],
     "title": "Colon",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Colon"
   },
   {
@@ -8725,6 +10612,9 @@
       "Support"
     ],
     "title": "Orthotics",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Orthotics"
   },
   {
@@ -8739,6 +10629,9 @@
       "Thyroid"
     ],
     "title": "Thyroid",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Thyroid"
   },
   {
@@ -8756,6 +10649,9 @@
       "Zoonotic Disease"
     ],
     "title": "Snake",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AnimalSnake"
   },
   {
@@ -8773,6 +10669,9 @@
       "Technology"
     ],
     "title": "Laptop",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Laptop"
   },
   {
@@ -8788,6 +10687,9 @@
       "Zoonotic Diseases"
     ],
     "title": "Cow",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AnimalCow"
   },
   {
@@ -8805,6 +10707,9 @@
       "Nipple"
     ],
     "title": "Breasts",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Breasts"
   },
   {
@@ -8823,6 +10728,9 @@
       "Vocal cords"
     ],
     "title": "Endotracheal Tube",
+    "formats": [
+      "48px"
+    ],
     "component_name": "EndotrachealTube"
   },
   {
@@ -8840,6 +10748,9 @@
       "Vocal cords"
     ],
     "title": "Laryngoscope",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Laryngoscope"
   },
   {
@@ -8854,6 +10765,9 @@
       "dhis2:yes"
     ],
     "title": "Checkmark",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Yes"
   },
   {
@@ -8867,6 +10781,9 @@
       "dhis2:unpaved_road"
     ],
     "title": "Unpaved Road",
+    "formats": [
+      "48px"
+    ],
     "component_name": "UnPavedRoad"
   },
   {
@@ -8881,6 +10798,9 @@
       "Register"
     ],
     "title": "Tally",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Tally"
   },
   {
@@ -8895,6 +10815,9 @@
       "dhis2:stop"
     ],
     "title": "Stop",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Stop"
   },
   {
@@ -8907,6 +10830,9 @@
       "Spreadsheet"
     ],
     "title": "Excel",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ExcelLogo"
   },
   {
@@ -8920,6 +10846,9 @@
       "Open Medical Records System"
     ],
     "title": "OpenMRS",
+    "formats": [
+      "48px"
+    ],
     "component_name": "OpenMRSLogo"
   },
   {
@@ -8933,6 +10862,9 @@
       "dhis2:water_treatment"
     ],
     "title": "Water Treatment",
+    "formats": [
+      "48px"
+    ],
     "component_name": "WaterTreatment"
   },
   {
@@ -8948,6 +10880,9 @@
       "dhis2:social_distancing"
     ],
     "title": "Social Distancing",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SocialDistancing"
   },
   {
@@ -8961,6 +10896,9 @@
       "Hospital"
     ],
     "title": "Discharge",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Discharge"
   },
   {
@@ -8976,6 +10914,9 @@
       "Pills"
     ],
     "title": "Pharmacy",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PharmacySymbols"
   },
   {
@@ -8991,6 +10932,9 @@
       "Pills"
     ],
     "title": "Pharmacy",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PharmacyAlt"
   },
   {
@@ -9004,6 +10948,9 @@
       "Open Source"
     ],
     "title": "Simple.org",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SimpleLogo"
   },
   {
@@ -9019,6 +10966,9 @@
       "dhis2:transgender"
     ],
     "title": "Transgender",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Transgender"
   },
   {
@@ -9031,6 +10981,9 @@
       "Wayfinding"
     ],
     "title": "Assembly Point",
+    "formats": [
+      "48px"
+    ],
     "component_name": "AssemblyPoint"
   },
   {
@@ -9044,6 +10997,9 @@
       "Sight"
     ],
     "title": "Guide Dog",
+    "formats": [
+      "48px"
+    ],
     "component_name": "GuideDog"
   },
   {
@@ -9056,6 +11012,9 @@
       "User Interface"
     ],
     "title": "UI Zoom In",
+    "formats": [
+      "48px"
+    ],
     "component_name": "UiZoomIn"
   },
   {
@@ -9068,6 +11027,9 @@
       "User Interface"
     ],
     "title": "UI Zoom Out",
+    "formats": [
+      "48px"
+    ],
     "component_name": "UiZoomOut"
   },
   {
@@ -9082,6 +11044,9 @@
       "User Interface"
     ],
     "title": "UI Zoom",
+    "formats": [
+      "48px"
+    ],
     "component_name": "UiZoom"
   },
   {
@@ -9094,6 +11059,9 @@
       "User Interface"
     ],
     "title": "Settings",
+    "formats": [
+      "48px"
+    ],
     "component_name": "UiSettings"
   },
   {
@@ -9107,6 +11075,9 @@
       "User Interface"
     ],
     "title": "Secure",
+    "formats": [
+      "48px"
+    ],
     "component_name": "UiSecure"
   },
   {
@@ -9119,6 +11090,9 @@
       "User Interface"
     ],
     "title": "Preferences",
+    "formats": [
+      "48px"
+    ],
     "component_name": "UiPreferences"
   },
   {
@@ -9132,6 +11106,9 @@
       "User Interface"
     ],
     "title": "UI Family Folder",
+    "formats": [
+      "48px"
+    ],
     "component_name": "UiFolderFamily"
   },
   {
@@ -9145,6 +11122,9 @@
       "User Interface"
     ],
     "title": "UI Folder",
+    "formats": [
+      "48px"
+    ],
     "component_name": "UiFolder"
   },
   {
@@ -9156,6 +11136,9 @@
       "User Interface"
     ],
     "title": "UI Menu",
+    "formats": [
+      "48px"
+    ],
     "component_name": "UiMenu"
   },
   {
@@ -9167,6 +11150,9 @@
       "User Interface"
     ],
     "title": "UI Menu Grid",
+    "formats": [
+      "48px"
+    ],
     "component_name": "UiMenuGrid"
   },
   {
@@ -9180,6 +11166,9 @@
       "Storage"
     ],
     "title": "Database",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Database"
   },
   {
@@ -9191,6 +11180,9 @@
       "User Interface"
     ],
     "title": "UI User Profile",
+    "formats": [
+      "48px"
+    ],
     "component_name": "UiUserProfile"
   },
   {
@@ -9206,6 +11198,9 @@
       "dhis2:5g"
     ],
     "title": "Network 5G",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Network5g"
   },
   {
@@ -9222,6 +11217,9 @@
       "dhis2:4g"
     ],
     "title": "Network 4G",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Network4g"
   },
   {
@@ -9237,6 +11235,9 @@
       "dhis2:medium_bars"
     ],
     "title": "Network Medium Bars",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MediumBars"
   },
   {
@@ -9252,6 +11253,9 @@
       "dhis2:low_bars"
     ],
     "title": "Network Low Bars",
+    "formats": [
+      "48px"
+    ],
     "component_name": "LowBars"
   },
   {
@@ -9267,6 +11271,9 @@
       "dhis2:high_bars"
     ],
     "title": "Network High Bars",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HighBars"
   },
   {
@@ -9282,6 +11289,9 @@
       "dhis2:3g"
     ],
     "title": "Network 3G",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ThreeG"
   },
   {
@@ -9297,6 +11307,9 @@
       "dhis2:2g"
     ],
     "title": "Network 2G",
+    "formats": [
+      "48px"
+    ],
     "component_name": "TwoG"
   },
   {
@@ -9311,6 +11324,10 @@
       "Virus"
     ],
     "title": "Quarantine Home",
+    "formats": [
+      "24px",
+      "48px"
+    ],
     "component_name": "HomeQuarantine"
   },
   {
@@ -9325,6 +11342,9 @@
       "Virus"
     ],
     "title": "Calendar Quarantine",
+    "formats": [
+      "48px"
+    ],
     "component_name": "CalendarQuarantine"
   },
   {
@@ -9339,6 +11359,9 @@
       "Space"
     ],
     "title": "Social Distancing ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SocialDistancingAlt"
   },
   {
@@ -9352,6 +11375,9 @@
       "Virus"
     ],
     "title": "Shield Virus",
+    "formats": [
+      "48px"
+    ],
     "component_name": "VirusShield"
   },
   {
@@ -9368,6 +11394,9 @@
       "Virus"
     ],
     "title": "Virus ALT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "VirusAlt"
   },
   {
@@ -9385,6 +11414,9 @@
       "Virus"
     ],
     "title": "Patient Virus",
+    "formats": [
+      "48px"
+    ],
     "component_name": "VirusPatient"
   },
   {
@@ -9399,6 +11431,9 @@
       "Virus"
     ],
     "title": "Global Pandemic",
+    "formats": [
+      "48px"
+    ],
     "component_name": "GlobalPandemic"
   },
   {
@@ -9412,6 +11447,9 @@
       "World"
     ],
     "title": "Globe",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Globe"
   },
   {
@@ -9429,6 +11467,9 @@
       "Virus"
     ],
     "title": "Virus Mutation",
+    "formats": [
+      "48px"
+    ],
     "component_name": "VirusMutation"
   },
   {
@@ -9445,6 +11486,9 @@
       "identification"
     ],
     "title": "Fingerprint",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Fingerprint"
   },
   {
@@ -9457,6 +11501,9 @@
       "Palliative Care"
     ],
     "title": "Palliative Care",
+    "formats": [
+      "48px"
+    ],
     "component_name": "PalliativeCare"
   },
   {
@@ -9469,6 +11516,9 @@
       "Palliative Care"
     ],
     "title": "Hospice",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Hospice"
   },
   {
@@ -9484,6 +11534,9 @@
       "Standards"
     ],
     "title": "FHIR",
+    "formats": [
+      "48px"
+    ],
     "component_name": "FHIRLogo"
   },
   {
@@ -9501,6 +11554,9 @@
       "Terminology"
     ],
     "title": "Interoperability",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Interoperability"
   },
   {
@@ -9518,6 +11574,9 @@
       "Zoom"
     ],
     "title": "Medical Search",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MedicalSearch"
   },
   {
@@ -9535,6 +11594,9 @@
       "Test tube"
     ],
     "title": "Lab Search",
+    "formats": [
+      "48px"
+    ],
     "component_name": "LabSearch"
   },
   {
@@ -9554,6 +11616,9 @@
       "Talk"
     ],
     "title": "Chat Secure",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SecureCommunication"
   },
   {
@@ -9569,6 +11634,9 @@
       "Unhealthy"
     ],
     "title": "No Smoking",
+    "formats": [
+      "48px"
+    ],
     "component_name": "SmokingCessationAlt"
   },
   {
@@ -9584,6 +11652,9 @@
       "Symbol"
     ],
     "title": "Cancel",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Cancel"
   },
   {
@@ -9598,6 +11669,9 @@
       "Virtual"
     ],
     "title": "Telemedicine",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Telemedicine"
   },
   {
@@ -9616,6 +11690,9 @@
       "Symbol"
     ],
     "title": "Heartbeat",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Heartbeat"
   },
   {
@@ -9632,6 +11709,9 @@
       "Scan"
     ],
     "title": "QR Code",
+    "formats": [
+      "48px"
+    ],
     "component_name": "QrCode"
   },
   {
@@ -9647,6 +11727,9 @@
       "WHO"
     ],
     "title": "ICD",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Icd"
   },
   {
@@ -9662,6 +11745,9 @@
       "WHO"
     ],
     "title": "ICD 11",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Icd11"
   },
   {
@@ -9677,6 +11763,9 @@
       "WHO"
     ],
     "title": "ICD 10",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Icd10"
   },
   {
@@ -9692,6 +11781,9 @@
       "WHO"
     ],
     "title": "ICD 9",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Icd9"
   },
   {
@@ -9710,6 +11802,9 @@
       "Tall"
     ],
     "title": "Height",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Height"
   },
   {
@@ -9729,6 +11824,9 @@
       "Waist"
     ],
     "title": "Waist Circumference",
+    "formats": [
+      "48px"
+    ],
     "component_name": "WaistCircumference"
   },
   {
@@ -9744,6 +11842,9 @@
       "Skull"
     ],
     "title": "Head Circumference",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HeadCircumference"
   },
   {
@@ -9758,6 +11859,9 @@
       "Patient"
     ],
     "title": "Arm Circumference",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ArmCircumference"
   },
   {
@@ -9775,6 +11879,9 @@
       "Technology"
     ],
     "title": "Health IT",
+    "formats": [
+      "48px"
+    ],
     "component_name": "HealthcareIt"
   },
   {
@@ -9794,6 +11901,9 @@
       "Waist"
     ],
     "title": "Body Mass Index",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BodyMassIndex"
   },
   {
@@ -9809,6 +11919,9 @@
       "Terminology"
     ],
     "title": "LOINC",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Loinc"
   },
   {
@@ -9825,6 +11938,9 @@
       "Pharmacology"
     ],
     "title": "Biopharma",
+    "formats": [
+      "48px"
+    ],
     "component_name": "BioPharma"
   },
   {
@@ -9840,6 +11956,9 @@
       "Woman"
     ],
     "title": "Female symbol",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Female"
   },
   {
@@ -9855,6 +11974,9 @@
       "Symbol"
     ],
     "title": "Male symbol",
+    "formats": [
+      "48px"
+    ],
     "component_name": "Male"
   },
   {
@@ -9873,6 +11995,9 @@
       "Sparkle"
     ],
     "title": "Artificial intelligence",
+    "formats": [
+      "48px"
+    ],
     "component_name": "ArtificialIntelligence"
   },
   {
@@ -9891,6 +12016,57 @@
       "Sparkle"
     ],
     "title": "Magic Wand",
+    "formats": [
+      "48px"
+    ],
     "component_name": "MagicWand"
+  },
+  {
+    "id": "triangle_inverted_small",
+    "category": "shapes",
+    "path": "shapes/triangle_inverted_small",
+    "tags": [
+      "Bullet",
+      "Medication monitoring",
+      "Shape",
+      "Triangle"
+    ],
+    "title": "Triangle Small Inverted",
+    "formats": [
+      "48px"
+    ],
+    "component_name": "TriangleInvertedSmall"
+  },
+  {
+    "id": "triangle_inverted_medium",
+    "category": "shapes",
+    "path": "shapes/triangle_inverted_medium",
+    "tags": [
+      "Bullet",
+      "Medication monitoring",
+      "Shape",
+      "Triangle"
+    ],
+    "title": "Triangle Medium Inverted",
+    "formats": [
+      "48px"
+    ],
+    "component_name": "TriangleInvertedMedium"
+  },
+  {
+    "id": "triangle_inverted_large",
+    "category": "shapes",
+    "path": "shapes/triangle_inverted_large",
+    "tags": [
+      "Bullet",
+      "Medication monitoring",
+      "Shape",
+      "Triangle"
+    ],
+    "title": "Triangle Large Inverted",
+    "formats": [
+      "48px"
+    ],
+    "component_name": "TriangleInvertedLarge"
   }
 ]

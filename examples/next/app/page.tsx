@@ -2,10 +2,16 @@
 import React, { useState } from 'react';
 import { BloodBag, Diabetes } from 'healthicons-react';
 import { HealthIconsProvider } from 'healthicons-react'
+import { BloodPressureMonitor } from 'healthicons-react/filled-24px'
 import metadata from '../node_modules/healthicons-react/updated-meta-data.json';
 
 const getIcon = (name: string) => {
     const component = require(`healthicons-react`)[name];
+    return component;
+}
+
+const getMaterialIcon = (name: string) => {
+    const component = require(`healthicons-react/filled-24px`)[name];
     return component;
 }
 
@@ -29,6 +35,7 @@ export default function Home() {
             >
                 <Diabetes fill='currentColor' />
             </HealthIconsProvider>
+            <BloodPressureMonitor fill='red' height={36} width={36} />
             <div>
                 <label htmlFor="search" style={{ marginRight: '10px' }}>Search:</label>
                 <input
@@ -45,11 +52,13 @@ export default function Home() {
                             <th>Title</th>
                             <th>Component Name</th>
                             <th>Icon</th>
+                            <th>24px(Material)</th>
                         </tr>
                     </thead>
                     <tbody>
                         {filteredData.map(item => {
                             const Icon = getIcon(item.component_name);
+                            const MaterialIcon = getMaterialIcon(item.component_name);
                             return (
                                 <tr key={item.id}>
                                     <td>{item.id}</td>
@@ -58,6 +67,11 @@ export default function Home() {
                                     <td>{item.component_name}</td>
                                     <td>
                                         <Icon />
+                                    </td>
+                                    <td>
+                                        {
+                                            !MaterialIcon ? "Not added" : <MaterialIcon />
+                                        }
                                     </td>
                                 </tr>
                             );
