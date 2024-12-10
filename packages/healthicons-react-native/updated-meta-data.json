@@ -5145,6 +5145,7 @@
     ],
     "title": "Expectorate",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Expectorate"
@@ -5168,6 +5169,7 @@
     ],
     "title": "Fever",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "FeverEmotions"
@@ -5189,6 +5191,7 @@
     ],
     "title": "Sad",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Sad"
@@ -5210,6 +5213,7 @@
     ],
     "title": "Measles",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Measles"
@@ -5231,6 +5235,7 @@
     ],
     "title": "Smile",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Ok"
@@ -5250,6 +5255,7 @@
     ],
     "title": "Angry",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Angry"
@@ -5268,6 +5274,7 @@
     ],
     "title": "Confused",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Confused"
@@ -5287,6 +5294,7 @@
     ],
     "title": "Crying",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Crying"
@@ -5347,6 +5355,7 @@
     ],
     "title": "Frown",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "NotOk"
@@ -5367,6 +5376,7 @@
     ],
     "title": "Neutral",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Neutral"
@@ -5388,6 +5398,7 @@
     ],
     "title": "Happy",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Happy"
@@ -5407,6 +5418,7 @@
     ],
     "title": "Coughing",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Coughing"
@@ -5426,6 +5438,7 @@
     ],
     "title": "Vomiting",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Vomitting"
@@ -5446,6 +5459,7 @@
     ],
     "title": "Masked",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Masked"
@@ -5466,6 +5480,7 @@
     ],
     "title": "Glasses",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "EyeglassesEmotions"
@@ -5486,6 +5501,7 @@
     ],
     "title": "Bandage",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Bandaged"
@@ -5504,6 +5520,7 @@
     ],
     "title": "Dizzy",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Dizzy"
@@ -5521,6 +5538,7 @@
     ],
     "title": "Tongue",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Tongue"
@@ -5540,6 +5558,7 @@
     ],
     "title": "Woozy",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Woozy"
@@ -5559,6 +5578,7 @@
     ],
     "title": "Sweating",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "SweatingEmotions"
@@ -5578,6 +5598,7 @@
     ],
     "title": "Nervous",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Nervous"
@@ -5616,6 +5637,7 @@
     ],
     "title": "Calm",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Calm"
@@ -7294,6 +7316,7 @@
     ],
     "title": "Sweating",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Sweating"
@@ -7645,6 +7668,7 @@
     ],
     "title": "High Temperature",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Fever"
@@ -8609,6 +8633,7 @@
     ],
     "title": "Eyeglasses",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Eyeglasses"
