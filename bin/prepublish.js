@@ -15,6 +15,7 @@ publishNpmPackage("healthicons");
 publishNpmPackage("healthicons-react");
 publishNpmPackage("healthicons-react-native");
 publishNpmPackage("healthicons-vue");
+publishPubPackage("healthicons-flutter");
 
 function publishNpmPackage(name) {
   console.info("Publishing %s", name);
@@ -32,4 +33,16 @@ function publishNpmPackage(name) {
 
   fs.writeFileSync(packageJsonPath, JSON.stringify(contents, undefined, 2));
   console.info("package.json updated");
+}
+
+function publishPubPackage(name) {
+  const pubspecFilepath = path.join("packages", name, "pubspec.yaml");
+  const pubspecContents = fs.readFileSync(pubspecFilepath).toString();
+
+  fs.writeFileSync(
+    pubspecFilepath,
+    updateYamlKey("version", newVersion, pubspecContents)
+  );
+
+  console.info("pubspec.yaml updated");
 }
