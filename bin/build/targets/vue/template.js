@@ -1,11 +1,13 @@
 const template = (svg) => `<script lang="ts">
-import { defineComponent, inject } from "vue-demi";
-import type { SVGAttributes } from "vue-demi";
+import type { SVGAttributes } from 'vue';
+import { defineComponent, inject } from 'vue';
 import providerKey from "../providerKey";
 
-export default defineComponent<SVGAttributes>(() => {
-  const context = inject(providerKey);
-  return { context };
+export default defineComponent<SVGAttributes>({
+  setup() {
+    const context = inject(providerKey);
+    return { context };
+  },
 });
 </script>
 

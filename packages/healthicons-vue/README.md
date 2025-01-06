@@ -18,31 +18,11 @@ npm i healthicons-vue
 
 ## Usage
 
-### Vue 3
-
 ```javascript
 <script setup>
   import { BloodBag } from 'healthicons-vue';
   // importing 24px icons
   import { BloodBagOutline24px } from 'healthicons-vue';
-</script>
-
-<template>
-  <BloodBag />
-</template>
-```
-
-### Vue 2
-
-```javascript
-<script>
-  import { BloodBag } from 'healthicons-vue';
-
-  export default {
-      components: {
-          BloodBag
-      }
-  }
 </script>
 
 <template>

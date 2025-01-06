@@ -41,7 +41,6 @@ const defaultEsbuildOptions = {
 
 /** @type {import('typescript').CompilerOptions} */
 const defaultTsOptions = {
-  jsx: "react",
   declaration: true,
   emitDeclarationOnly: true,
   target: "es6",
@@ -182,10 +181,12 @@ async function getReactComponent(iconPath, native, template) {
   return svgr.transform(iconContent, options);
 }
 
-async function generateDts(inputPath, outputPath, input, module) {
+async function generateDts(inputPath, outputPath, input, module, native) {
   const dts = getDts(inputPath, await input, {
     ...defaultTsOptions,
+    jsx: native ? 'react-native' : 'react',
     module,
+    ...(module === 'esnext' && { moduleResolution: 'bundler' }),
   });
 
   return fs.writeFile(outputPath, dts);
