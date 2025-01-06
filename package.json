@@ -1,6 +1,6 @@
 {
   "name": "healthicons",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "React wrappers around the Health Icon library",
   "type": "module",
   "files": [
