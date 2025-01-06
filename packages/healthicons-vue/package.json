@@ -2,6 +2,7 @@
   "name": "healthicons-vue",
   "version": "3.1.1",
   "description": "Vue icon library for the Healthicons set",
+  "sideEffects": false,
   "exports": {
     ".": {
       "import": {
@@ -11,8 +12,7 @@
       "require": {
         "types": "./dist/index.d.ts",
         "default": "./dist/index.js"
-      },
-      "default": "./dist/index.js"
+      }
     }
   },
   "main": "./dist/index.js",
@@ -37,14 +37,10 @@
   },
   "author": "Sten Raadschelders",
   "license": "MIT",
-  "dependencies": {
-    "vue-demi": "^0.14.6"
+  "peerDependencies": {
+    "vue": "3"
   },
   "devDependencies": {
-    "vue": "^3.3.12"
-  },
-  "peerDependencies": {
-    "@vue/composition-api": ">=1.0.0-rc.1",
-    "vue": "^2.6.11 || >=3.0.0"
+    "@vue/tsconfig": "^0.7.0"
   }
 }
