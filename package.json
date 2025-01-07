@@ -1,17 +1,11 @@
 {
   "name": "healthicons",
-  "version": "3.2.1",
-  "description": "React wrappers around the Health Icon library",
   "type": "module",
-  "files": [
-    "css",
-    "icons"
-  ],
-  "scripts": {
-    "build": "node ./bin/build/index.js",
-    "download": "node ./bin/download.js",
-    "prepublish-all": "node ./bin/prepublish.js"
-  },
+  "version": "1.1.1",
+  "description": "React wrappers around the Health Icon library",
+  "author": "Sten Raadschelders",
+  "license": "MIT",
+  "homepage": "https://healthicons.org/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stnrd/healthicons.git"
@@ -27,11 +21,18 @@
     "svg",
     "css"
   ],
-  "author": "Sten Raadschelders",
-  "license": "MIT",
-  "homepage": "https://healthicons.org/",
+  "files": [
+    "css",
+    "icons"
+  ],
+  "scripts": {
+    "build": "node ./bin/build/index.js",
+    "download": "node ./bin/download.js",
+    "prepublish-all": "node ./bin/prepublish.js"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^3.12.1",
+    "@atomist/yaml-updater": "^1.0.2",
     "@svgr/babel-plugin-remove-jsx-attribute": "^8.0.0",
     "@svgr/core": "^8.1.0",
     "@svgr/plugin-jsx": "^8.1.0",
