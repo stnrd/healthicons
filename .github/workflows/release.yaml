@@ -29,7 +29,7 @@ jobs:
       - name: Generate changelog file
         uses: rhysd/changelog-from-release/action@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PAT }}
           file: packages/healthicons-flutter/CHANGELOG.md
           commit: false
           args: -d=false
