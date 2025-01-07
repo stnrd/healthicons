@@ -23,6 +23,10 @@ const targets = {
     path: "packages/healthicons-react",
     include_metadata: true,
   },
+  flutter: {
+    title: "Flutter library",
+    path: "packages/healthicons-flutter",
+  },
   "react-native": {
     title: "React Native library",
     target: "react",
