@@ -56,6 +56,10 @@ A React Native library is available to install under the name `healthicons-react
 
 A Vue library is available to install under the name `healthicons-vue`. For more details, see the package [README](./packages/healthicons-vue).
 
+## Flutter
+
+A Flutter library is available to install under the name `healthicons_flutter`. For more details, see the package [README](./packages/healthicons-flutter).
+
 ## CSS
 
 Import the CSS File:
