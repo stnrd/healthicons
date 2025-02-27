@@ -1,3 +1,15 @@
+<a id="v3.2.3"></a>
+# [v3.2.3](https://github.com/stnrd/healthicons/releases/tag/v3.2.3) - 2025-02-27
+
+## What's Changed
+* Icons update feb 2025 by [@stnrd](https://github.com/stnrd) in [#31](https://github.com/stnrd/healthicons/pull/31)
+
+
+**Full Changelog**: https://github.com/stnrd/healthicons/compare/v3.2.2...v3.2.3
+
+[Changes][v3.2.3]
+
+
 <a id="v3.2.2"></a>
 # [v3.2.2](https://github.com/stnrd/healthicons/releases/tag/v3.2.2) - 2025-01-07
 
@@ -190,6 +202,7 @@ Added hospice and palliative care icons
 [Changes][v1.2.0]
 
 
+[v3.2.3]: https://github.com/stnrd/healthicons/compare/v3.2.2...v3.2.3
 [v3.2.2]: https://github.com/stnrd/healthicons/compare/v3.2.1...v3.2.2
 [v3.2.1]: https://github.com/stnrd/healthicons/compare/v3.2.0...v3.2.1
 [v3.2.0]: https://github.com/stnrd/healthicons/compare/v3.1.1...v3.2.0
