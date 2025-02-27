@@ -82,7 +82,11 @@ jobs:
         continue-on-error: true
 
       - name: Publish Flutter
-        uses: k-paxian/dart-package-publisher@v1.6
+        # TODO: Switch back to a specific version  -
+        # Flutter screwed up their repo now we can't pull from there
+        # anymore :( pointing the action branch to master fixes it for
+        # now.
+        uses: k-paxian/dart-package-publisher@master
         with:
           credentialJson: ${{ secrets.PUB_CREDENTIAL_JSON }}
           relativePath: ./packages/healthicons-flutter
