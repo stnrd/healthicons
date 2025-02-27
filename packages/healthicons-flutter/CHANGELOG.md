@@ -3,6 +3,7 @@
 
 ## What's Changed
 * Icons update feb 2025 by [@stnrd](https://github.com/stnrd) in [#31](https://github.com/stnrd/healthicons/pull/31)
+* Fixing flutter publishing action by [@stnrd](https://github.com/stnrd) in [#32](https://github.com/stnrd/healthicons/pull/32)
 
 
 **Full Changelog**: https://github.com/stnrd/healthicons/compare/v3.2.2...v3.2.3
