@@ -22,6 +22,7 @@ export default antfu({
     'packages/healthicons-flutter/.dart_tool/',
     'packages/healthicons-flutter/build/',
     'packages/healthicons-flutter/example/',
+    'examples/',
   ],
   rules: {
     'style/padding-line-between-statements': [

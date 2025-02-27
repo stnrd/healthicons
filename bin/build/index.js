@@ -1,49 +1,50 @@
-import fs from "node:fs/promises";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-import { Listr } from "listr2";
-import { pascalCase, snakeCase } from "scule";
-import { incompatibleNames } from "../../constants.js";
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { Listr } from 'listr2';
+import { pascalCase, snakeCase } from 'scule';
+import { incompatibleNames } from '../../constants.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const rootDir = path.join(__dirname, "..", "..");
-const iconsDir = path.join(rootDir, "icons");
+const rootDir = path.join(__dirname, '..', '..');
+const iconsDir = path.join(rootDir, 'icons');
 
-const iconsVariants = ["filled", "outline", "filled-24px", "outline-24px"];
+const iconsVariants = ['filled', 'outline', 'filled-24px', 'outline-24px'];
 const defaultVariant = iconsVariants[0];
+const cliTargets = [];
 
 const targets = {
-  css: {
-    title: "CSS files",
-    path: "css",
+  'css': {
+    title: 'CSS files',
+    path: 'css',
   },
-  react: {
-    title: "React library",
-    path: "packages/healthicons-react",
+  'react': {
+    title: 'React library',
+    path: 'packages/healthicons-react',
     include_metadata: true,
   },
-  flutter: {
-    title: "Flutter library",
-    path: "packages/healthicons-flutter",
+  'flutter': {
+    title: 'Flutter library',
+    path: 'packages/healthicons-flutter',
   },
-  "react-native": {
-    title: "React Native library",
-    target: "react",
+  'react-native': {
+    title: 'React Native library',
+    target: 'react',
     native: true,
-    path: "packages/healthicons-react-native",
+    path: 'packages/healthicons-react-native',
     include_metadata: true,
   },
-  vue: {
-    title: "Vue library",
-    path: "packages/healthicons-vue",
+  'vue': {
+    title: 'Vue library',
+    path: 'packages/healthicons-vue',
   },
 };
 
 const tasks = new Listr(
   [
     {
-      title: "Fetching icons",
+      title: 'Fetching icons',
       task: async (ctx) => {
         ctx.icons = {};
 
@@ -51,7 +52,7 @@ const tasks = new Listr(
           iconsVariants.map((variant) => [
             variant,
             path.join(iconsDir, variant),
-          ])
+          ]),
         );
 
         for (const [variant, dir] of Object.entries(iconsVariantsDirs)) {
@@ -63,7 +64,7 @@ const tasks = new Listr(
             const files = await fs.readdir(groupDir);
 
             const icons = files
-              .filter((file) => file.endsWith(".svg"))
+              .filter((file) => file.endsWith('.svg'))
               .map((file) => {
                 let name = path.parse(file).name;
                 let nameVariant = `${name}-${variant}`;
@@ -106,15 +107,15 @@ const tasks = new Listr(
     },
     {
       title:
-        "Adding component name to meta-data.json file - and include in packages",
+        'Adding component name to meta-data.json file - and include in packages',
       task: async (ctx) => {
-        const metaDataPath = path.join(iconsDir, "meta-data.json");
-        let metadata = JSON.parse(await fs.readFile(metaDataPath, "utf-8"));
+        const metaDataPath = path.join(iconsDir, 'meta-data.json');
+        let metadata = JSON.parse(await fs.readFile(metaDataPath, 'utf-8'));
 
         metadata = metadata.map((item) => {
           const icon = ctx.icons[defaultVariant].find(
             (icon) =>
-              path.join(icon.group, path.parse(icon.path).name) === item.path
+              path.join(icon.group, path.parse(icon.path).name) === item.path,
           );
 
           if (!icon) {
@@ -133,7 +134,7 @@ const tasks = new Listr(
             const targetPath = path.join(
               rootDir,
               ...targetConfig.path.split(path.posix.sep),
-              "updated-meta-data.json"
+              'updated-meta-data.json',
             );
 
             await fs.writeFile(targetPath, JSON.stringify(metadata, null, 2));
@@ -142,7 +143,7 @@ const tasks = new Listr(
       },
     },
     {
-      title: "Building targets",
+      title: 'Building targets',
       task: (_, task) =>
         task.newListr(
           Object.entries(targets).map(([targetName, targetConfig]) => ({
@@ -156,13 +157,13 @@ const tasks = new Listr(
 
               targetConfig.path = path.join(
                 rootDir,
-                ...targetConfig.path.split(path.posix.sep)
+                ...targetConfig.path.split(path.posix.sep),
               );
 
               return task(ctx, targetConfig);
             },
           })),
-          { concurrent: true, exitOnError: false }
+          { concurrent: true, exitOnError: false },
         ),
     },
   ],
@@ -171,10 +172,8 @@ const tasks = new Listr(
       collapseSubtasks: false,
       collapseErrors: false,
     },
-  }
+  },
 );
-
-const cliTargets = [];
 
 // Get targets from command line arguments
 // (build all targets if no arguments given)
@@ -184,10 +183,10 @@ for (const arg of process.argv.slice(2)) {
   } else {
     console.error(
       `Target '${arg}' doesn't exist!\n\nPossible targets are:\n${Object.keys(
-        targets
+        targets,
       )
         .map((name) => `- ${name}`)
-        .join("\n")}`
+        .join('\n')}`,
     );
 
     process.exit(1);

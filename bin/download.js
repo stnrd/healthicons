@@ -43,7 +43,7 @@ const tasks = new Listr(
     {
       title: 'Backup existing icons',
       skip: (ctx) => ctx.skip,
-      task: async (ctx) => {
+      task: async (_) => {
         try {
           await fs.rename(healthiconsIconsDir, 'icons.bak');
         } catch (err) {
