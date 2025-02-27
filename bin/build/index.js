@@ -1,7 +1,7 @@
-import { Listr } from "listr2";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { Listr } from "listr2";
 import { pascalCase, snakeCase } from "scule";
 import { incompatibleNames } from "../../constants.js";
 
@@ -92,7 +92,7 @@ const tasks = new Listr(
                   pascalNameVariant: pascalCase(nameVariant),
                   snakeName: snakeCase(name),
                   snakeNameVariant: snakeCase(nameVariant),
-                  group: group,
+                  group,
                   path: path.join(groupDir, file),
                 };
               });
@@ -100,6 +100,7 @@ const tasks = new Listr(
             ctx.icons[variant] = [...(ctx.icons[variant] || []), ...icons];
           }
         }
+
         ctx.global = { defaultVariant };
       },
     },
@@ -127,7 +128,7 @@ const tasks = new Listr(
           };
         });
 
-        Object.entries(targets).forEach(async ([targetName, targetConfig]) => {
+        Object.entries(targets).forEach(async ([_, targetConfig]) => {
           if (targetConfig.include_metadata) {
             const targetPath = path.join(
               rootDir,

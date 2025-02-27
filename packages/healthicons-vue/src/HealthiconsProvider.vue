@@ -11,6 +11,7 @@ const iconProps = toRef(props, 'iconProps');
 
 provide(providerKey, iconProps);
 </script>
+
 <template>
   <slot />
 </template>

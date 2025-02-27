@@ -2,6 +2,22 @@
   "name": "healthicons-vue",
   "version": "3.2.2",
   "description": "Vue icon library for the Healthicons set",
+  "author": "Sten Raadschelders",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stnrd/healthicons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stnrd/healthicons/issues"
+  },
+  "keywords": [
+    "vue",
+    "icons",
+    "svg",
+    "health",
+    "healthicons"
+  ],
   "sideEffects": false,
   "exports": {
     ".": {
@@ -21,22 +37,6 @@
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stnrd/healthicons.git"
-  },
-  "keywords": [
-    "vue",
-    "icons",
-    "svg",
-    "health",
-    "healthicons"
-  ],
-  "bugs": {
-    "url": "https://github.com/stnrd/healthicons/issues"
-  },
-  "author": "Sten Raadschelders",
-  "license": "MIT",
   "peerDependencies": {
     "vue": "3"
   },

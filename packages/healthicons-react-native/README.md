@@ -23,23 +23,25 @@ By default `filled` icons are imported. To import another variant use the follow
 For the material icons(24px), use `from healthicons-react-native/[variant_name]-24px`.
 
 ```javascript
-import React from "react";
-import { View } from "react-native";
-import { BloodBag } from "healthicons-react-native";
-const App = () => {
+import { BloodBag } from 'healthicons-react-native';
+import React from 'react';
+import { View } from 'react-native';
+
+function App() {
   return (
     <View>
       <BloodBag />
     </View>
   );
-};
+}
+
 export default App;
 ```
 
 Icons can take any `react-native-svg` properties as optional props, e.g.
 
 ```javascript
-<BloodBag color="red" height={36} width={36} />
+<BloodBag color="red" height={36} width={36} />;
 ```
 
 Default values for the most common props are given below:
@@ -58,16 +60,16 @@ Tired of specifying the same props for every single icon, every time you use the
 
 ```tsx
 import {
-  HealthIconsProvider,
   BloodBag,
-} from "healthicons-react-native/dist/filled";
+  HealthIconsProvider,
+} from 'healthicons-react-native/dist/filled';
 return (
   <HealthIconsProvider
     iconProps={{
-      color: "#AAAAAA",
+      color: '#AAAAAA',
       strokeWidth: 1,
-      width: "1em",
-      height: "1em",
+      width: '1em',
+      height: '1em',
     }}
   >
     <SomeOtherContainer>

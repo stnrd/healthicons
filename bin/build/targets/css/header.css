@@ -1,6 +1,6 @@
-*[class^="healthicons-"]::before,
-*[class*=" healthicons-"]::before {
-  content: " ";
+*[class^='healthicons-']::before,
+*[class*=' healthicons-']::before {
+  content: ' ';
   display: block;
   background: currentColor;
   mask-size: cover;
@@ -8,7 +8,7 @@
   width: 1em;
   height: 1em;
 }
-*[class^="healthicons-"],
-*[class*=" healthicons-"] {
+*[class^='healthicons-'],
+*[class*=' healthicons-'] {
   display: inline-block;
 }

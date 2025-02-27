@@ -1,41 +1,41 @@
-import * as svgr from "@svgr/core";
-import * as esbuild from "esbuild";
-import fs from "node:fs/promises";
-import path from "node:path";
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import * as svgr from '@svgr/core';
+import * as esbuild from 'esbuild';
 import {
   generateExport,
   generateImport,
   toImportPath,
-} from "../../lib/import-export.js";
-import { getDts } from "../../lib/ts.js";
+} from '../../lib/import-export.js';
+import { getDts } from '../../lib/ts.js';
 import healthIconsContextTemplate, {
   exports as healthIconsContextExports,
-} from "./resources/context-template.js";
-import { getTemplate as getIconTemplate } from "./resources/icon-template.js";
-import { nativeSvgrOptions, svgrOptions } from "./resources/svgr-options.js";
+} from './resources/context-template.js';
+import { getTemplate as getIconTemplate } from './resources/icon-template.js';
+import { nativeSvgrOptions, svgrOptions } from './resources/svgr-options.js';
 
-const outDir = "dist";
+const outDir = 'dist';
 
 const jsTargets = [
   {
-    format: "cjs",
-    module: "commonjs",
-    dir: ".",
-    ext: "js",
-    dtsExt: "d.ts",
+    format: 'cjs',
+    module: 'commonjs',
+    dir: '.',
+    ext: 'js',
+    dtsExt: 'd.ts',
   },
   {
-    format: "esm",
-    module: "esnext",
-    dir: "esm",
-    ext: "mjs",
-    dtsExt: "d.mts",
+    format: 'esm',
+    module: 'esnext',
+    dir: 'esm',
+    ext: 'mjs',
+    dtsExt: 'd.mts',
   },
 ];
 
 /** @type {import('esbuild').TransformOptions} */
 const defaultEsbuildOptions = {
-  target: "es6",
+  target: 'es6',
   minify: true,
 };
 
@@ -43,7 +43,7 @@ const defaultEsbuildOptions = {
 const defaultTsOptions = {
   declaration: true,
   emitDeclarationOnly: true,
-  target: "es6",
+  target: 'es6',
   strict: true,
   esModuleInterop: true,
   skipLibCheck: true,
@@ -69,29 +69,30 @@ export default async (ctx, target) => {
 
     jsTarget.healthIconsContextPath = path.join(
       jsTarget.path,
-      `HealthIconsContext.${jsTarget.ext}`
+      `HealthIconsContext.${jsTarget.ext}`,
     );
 
     await generateJs(
       jsTarget.healthIconsContextPath,
       healthIconsContext,
-      jsTarget.format
+      jsTarget.format,
     );
 
     const healthIconsContextTsxPath = path.join(
       jsTarget.path,
-      "HealthIconsContext.tsx"
+      'HealthIconsContext.tsx',
     );
+
     const healthIconsContextDtsPath = path.join(
       jsTarget.path,
-      `HealthIconsContext.${jsTarget.dtsExt}`
+      `HealthIconsContext.${jsTarget.dtsExt}`,
     );
 
     await generateDts(
       healthIconsContextTsxPath,
       healthIconsContextDtsPath,
       healthIconsContext,
-      jsTarget.module
+      jsTarget.module,
     );
 
     for (const variant of Object.keys(ctx.icons)) {
@@ -108,15 +109,15 @@ export default async (ctx, target) => {
       const variantIndex = prepareIndex(jsTarget, variant);
 
       for (const icon of icons) {
-        const mainIndexComponentName =
-          variant === ctx.global.defaultVariant
+        const mainIndexComponentName
+          = variant === ctx.global.defaultVariant
             ? icon.pascalName
             : icon.pascalNameVariant;
 
         const jsPath = path.join(
           jsTarget.path,
           variant,
-          `${icon.pascalName}.${jsTarget.ext}`
+          `${icon.pascalName}.${jsTarget.ext}`,
         );
 
         mainIndex.add(mainIndexComponentName, jsPath);
@@ -128,16 +129,16 @@ export default async (ctx, target) => {
             toImportPath(
               path.relative(
                 path.join(jsTarget.path, variant),
-                jsTarget.healthIconsContextPath
-              )
-            )
+                jsTarget.healthIconsContextPath,
+              ),
+            ),
           );
         }
 
         const reactComponent = getReactComponent(
           icon.path,
           target.native,
-          jsTarget.iconTemplate
+          jsTarget.iconTemplate,
         );
 
         // Only run for first icon, type is same and can be reused for all the others
@@ -145,7 +146,7 @@ export default async (ctx, target) => {
           jsTarget.iconDts = true;
 
           // Virtual input path
-          const tsxPath = path.join(jsTarget.path, variant, "icon.tsx");
+          const tsxPath = path.join(jsTarget.path, variant, 'icon.tsx');
 
           const dtsPath = path.join(jsTarget.path, `icon.${jsTarget.dtsExt}`);
 
@@ -153,7 +154,7 @@ export default async (ctx, target) => {
             tsxPath,
             dtsPath,
             reactComponent,
-            jsTarget.module
+            jsTarget.module,
           );
 
           promises.push(iconDts);
@@ -174,7 +175,7 @@ export default async (ctx, target) => {
 };
 
 async function getReactComponent(iconPath, native, template) {
-  const iconContent = await fs.readFile(iconPath, "utf8");
+  const iconContent = await fs.readFile(iconPath, 'utf8');
 
   const options = native ? nativeSvgrOptions : svgrOptions;
   options.template = template;
@@ -195,36 +196,37 @@ async function generateDts(inputPath, outputPath, input, module, native) {
 async function generateJs(outputPath, input, format) {
   const { code } = await esbuild.transform(await input, {
     ...defaultEsbuildOptions,
-    loader: "tsx",
+    loader: 'tsx',
     format,
   });
+
   return fs.writeFile(outputPath, code);
 }
 
 function prepareIndex(jsTarget, variant) {
-  const outputPath = path.join(jsTarget.path, variant ?? "");
+  const outputPath = path.join(jsTarget.path, variant ?? '');
 
   const healthIconsContextPath = toImportPath(
-    path.relative(outputPath, jsTarget.healthIconsContextPath)
+    path.relative(outputPath, jsTarget.healthIconsContextPath),
   );
 
   const healthIconsContext = generateExport(
     healthIconsContextExports,
-    healthIconsContextPath
+    healthIconsContextPath,
   );
 
   const content = [healthIconsContext];
 
   const iconJsPath = toImportPath(
-    path.relative(outputPath, path.join(jsTarget.path, `icon.${jsTarget.ext}`))
+    path.relative(outputPath, path.join(jsTarget.path, `icon.${jsTarget.ext}`)),
   );
 
-  const iconDtsImport = generateImport("Icon", iconJsPath);
+  const iconDtsImport = generateImport('Icon', iconJsPath);
 
   const dtsContent = [
     healthIconsContext,
     iconDtsImport,
-    "type I = typeof Icon;",
+    'type I = typeof Icon;',
   ];
 
   function add(name, iconPath) {
@@ -240,7 +242,7 @@ function prepareIndex(jsTarget, variant) {
       outputPath,
       content,
       jsTarget.format,
-      jsTarget.ext
+      jsTarget.ext,
     );
 
     const indexDts = generateIndexDts(outputPath, dtsContent, jsTarget.dtsExt);
@@ -252,7 +254,7 @@ function prepareIndex(jsTarget, variant) {
 }
 
 async function generateIndexJs(outputDir, content, format, ext) {
-  const { code } = await esbuild.transform(content.join(""), {
+  const { code } = await esbuild.transform(content.join(''), {
     minify: true,
     format,
   });

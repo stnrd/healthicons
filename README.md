@@ -65,10 +65,7 @@ A Flutter library is available to install under the name `healthicons_flutter`. 
 Import the CSS File:
 
 ```html
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/stnrd/healthicons@main/css/healthicons.css"
-/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/stnrd/healthicons@main/css/healthicons.css" />
 ```
 
 Here is an example in HTML:

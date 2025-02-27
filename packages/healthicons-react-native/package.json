@@ -2,6 +2,24 @@
   "name": "healthicons-react-native",
   "version": "3.2.2",
   "description": "React Native icon library for the Health Icons set",
+  "author": "Sten Raadschelders",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stnrd/healthicons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stnrd/healthicons/issues"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "icons",
+    "svg",
+    "health",
+    "healthicons"
+  ],
+  "sideEffects": false,
   "exports": {
     ".": {
       "import": "./dist/esm/index.mjs",
@@ -30,30 +48,12 @@
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stnrd/healthicons.git"
-  },
-  "keywords": [
-    "react",
-    "react-native",
-    "icons",
-    "svg",
-    "health",
-    "healthicons"
-  ],
-  "sideEffects": false,
-  "bugs": {
-    "url": "https://github.com/stnrd/healthicons/issues"
-  },
-  "author": "Sten Raadschelders",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/react": "^18.2.45",
-    "react-native-svg": "^13.14.0"
-  },
   "peerDependencies": {
     "react": "^16.8.6 || ^17 || ^18",
     "react-native": ">=0.50.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "react-native-svg": "^13.14.0"
   }
 }

@@ -2,6 +2,23 @@
   "name": "healthicons-react",
   "version": "3.2.2",
   "description": "React icon library for the Health Icons set",
+  "author": "Sten Raadschelders",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stnrd/healthicons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stnrd/healthicons/issues"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "svg",
+    "health",
+    "healthicons"
+  ],
+  "sideEffects": false,
   "exports": {
     ".": {
       "import": "./dist/esm/index.mjs",
@@ -30,29 +47,11 @@
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stnrd/healthicons.git"
-  },
-  "keywords": [
-    "react",
-    "icons",
-    "svg",
-    "health",
-    "healthicons"
-  ],
-  "sideEffects": false,
-  "bugs": {
-    "url": "https://github.com/stnrd/healthicons/issues"
-  },
-  "author": "Sten Raadschelders",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/react": "^18.0.27",
-    "react": "^18.2.0",
-    "typescript": "^4.9.4"
-  },
   "peerDependencies": {
     "react": "^16.8.6 || ^17 || ^18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "typescript": "^4.9.4"
   }
 }

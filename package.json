@@ -27,6 +27,8 @@
   ],
   "scripts": {
     "build": "node ./bin/build/index.js",
+    "lint": "eslint .",
+    "lint:fix": "yarn run lint --fix",
     "download": "node ./bin/download.js",
     "prepublish-all": "node ./bin/prepublish.js"
   },

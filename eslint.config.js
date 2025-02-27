@@ -19,6 +19,9 @@ export default antfu({
   ignores: [
     'css/*.css',
     '**/.expo/',
+    'packages/healthicons-flutter/.dart_tool/',
+    'packages/healthicons-flutter/build/',
+    'packages/healthicons-flutter/example/',
   ],
   rules: {
     'style/padding-line-between-statements': [
