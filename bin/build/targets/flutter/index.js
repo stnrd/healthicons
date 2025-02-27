@@ -1,13 +1,13 @@
-import fs from "node:fs/promises";
-import path from "node:path";
-import iconTemplate from "./template.js";
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import iconTemplate from './template.js';
 
 export default async (ctx, target) => {
   const promises = [];
 
-  const outDir = path.join(target.path, "lib");
+  const outDir = path.join(target.path, 'lib');
 
-  const entryContent = ["library healthicons_flutter;"];
+  const entryContent = ['library healthicons_flutter;'];
 
   for (const [variant, icons] of Object.entries(ctx.icons)) {
     const variantOutDir = path.join(outDir, variant);
@@ -23,8 +23,8 @@ export default async (ctx, target) => {
           path.join(outDir, dartPath),
           variant !== ctx.global.defaultVariant
             ? icon.pascalNameVariant
-            : icon.pascalName
-        )
+            : icon.pascalName,
+        ),
       );
 
       entryContent.push(`export './${dartPath}';`);
@@ -32,14 +32,14 @@ export default async (ctx, target) => {
   }
 
   promises.push(
-    fs.writeFile(path.join(outDir, "healthicons_flutter.dart"), entryContent)
+    fs.writeFile(path.join(outDir, 'healthicons_flutter.dart'), entryContent),
   );
 
   return Promise.all(promises);
 };
 
 async function generateIconFile(src, dest, iconName) {
-  const iconContent = await fs.readFile(src, "utf8");
+  const iconContent = await fs.readFile(src, 'utf8');
 
   const dartContent = iconTemplate(iconName, iconContent);
 

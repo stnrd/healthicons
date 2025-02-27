@@ -1,25 +1,25 @@
 /** @type {import('@svgr/core').Config} */
 export const svgrOptions = {
-  plugins: ["@svgr/plugin-jsx"],
+  plugins: ['@svgr/plugin-jsx'],
   icon: true,
   ref: true,
   typescript: true,
   svgProps: {
-    width: "1.5em",
-    height: "1.5em",
-    color: "currentColor",
-    fill: "currentColor",
+    width: '1.5em',
+    height: '1.5em',
+    color: 'currentColor',
+    fill: 'currentColor',
   },
   jsx: {
     babelConfig: {
       plugins: [
         [
-          "@svgr/babel-plugin-remove-jsx-attribute",
+          '@svgr/babel-plugin-remove-jsx-attribute',
           {
-            elements: ["path"],
-            attributes: ["fill"],
+            elements: ['path'],
+            attributes: ['fill'],
           },
-          "remove-fill",
+          'remove-fill',
         ],
       ],
     },
@@ -34,18 +34,18 @@ export const nativeSvgrOptions = {
     babelConfig: {
       plugins: [
         [
-          "@svgr/babel-plugin-remove-jsx-attribute",
+          '@svgr/babel-plugin-remove-jsx-attribute',
           {
-            elements: ["Path"],
-            attributes: ["fill"],
+            elements: ['Path'],
+            attributes: ['fill'],
           },
-          "remove-fill",
+          'remove-fill',
         ],
         [
-          "@svgr/babel-plugin-remove-jsx-attribute",
+          '@svgr/babel-plugin-remove-jsx-attribute',
           {
-            elements: ["Svg"],
-            attributes: ["xmlns"],
+            elements: ['Svg'],
+            attributes: ['xmlns'],
           },
         ],
       ],

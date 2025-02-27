@@ -69,6 +69,6 @@ import { HealthiconsProvider, Bloodbag } from 'healthicons-vue';
 
 The Vue components in this package are named using the PascalCase convention, which is a variation of their reference names (e.g. add-circle-outline becomes AddCircleOutline).
 
-| HealthIcons Name | Vue Component          |
-| ---------------- | ---------------------- |
-| `blood-bag`      | `BloodBag`             |
+| HealthIcons Name | Vue Component |
+| ---------------- | ------------- |
+| `blood-bag`      | `BloodBag`    |
