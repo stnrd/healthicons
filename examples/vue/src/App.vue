@@ -10,10 +10,12 @@ import {
 </script>
 
 <template>
-  <Database />
-  <OxygenTank color="red" height="36" width="36" />
-  <BloodBag />
-  <BloodBagFilled24px />
+  <div style="color: #1E441E">
+    <Database />
+  </div>
+    <OxygenTank color="red" fill="currentColor" height="36" width="36" />
+    <BloodBag />
+    <BloodBagFilled24px />
 
   <HealthiconsProvider
     :icon-props="{

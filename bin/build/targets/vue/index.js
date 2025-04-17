@@ -8,6 +8,19 @@ import dts from 'vite-plugin-dts';
 import { generateExport } from '../../lib/import-export.js';
 import iconTemplate from './template.js';
 
+// Remove fill attributes from all paths
+function removeFillFromPaths(node) {
+  if (node.type === 'element') {
+    if (node.tagName === 'path' && node.properties.fill) {
+      delete node.properties.fill;
+    }
+
+    if (node.children) {
+      node.children.forEach(removeFillFromPaths);
+    }
+  }
+}
+
 export default async (ctx, target) => {
   const promises = [];
 
@@ -35,8 +48,20 @@ export default async (ctx, target) => {
       const iconContent = await fs.readFile(src, 'utf8');
 
       const iconAst = fromHtml(iconContent, { fragment: true });
+
+      // Remove `fill` attributes from all paths. At the moment,
+      // our icons are coming in with fill=`black` which isn't
+      // ideal for setting colors.
+      removeFillFromPaths(iconAst.children[0]);
+
       // Bind iconProps of the provider to the svg root
       iconAst.children[0].properties['v-bind'] = 'context';
+
+      // Add `color` and `fill` attributes to the svg root.
+      // Use `currentColor` so it inherits the color from the parent.
+      iconAst.children[0].properties.color = 'currentColor';
+      iconAst.children[0].properties.fill = 'currentColor';
+
       const transformedIcon = toHtml(iconAst);
       const componentContent = iconTemplate(transformedIcon);
 
