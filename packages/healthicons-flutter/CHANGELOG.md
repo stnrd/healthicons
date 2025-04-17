@@ -1,3 +1,15 @@
+<a id="v3.2.5"></a>
+# [v3.2.5](https://github.com/stnrd/healthicons/releases/tag/v3.2.5) - 2025-04-17
+
+## What's Changed
+* Removing hardcoded black value from the Vue icons and set root fill and color to `currentColor` by [@stnrd](https://github.com/stnrd) in [#35](https://github.com/stnrd/healthicons/pull/35)
+
+
+**Full Changelog**: https://github.com/stnrd/healthicons/compare/v3.2.4...v3.2.5
+
+[Changes][v3.2.5]
+
+
 <a id="v3.2.4"></a>
 # [v3.2.4](https://github.com/stnrd/healthicons/releases/tag/v3.2.4) - 2025-04-07
 
@@ -215,6 +227,7 @@ Added hospice and palliative care icons
 [Changes][v1.2.0]
 
 
+[v3.2.5]: https://github.com/stnrd/healthicons/compare/v3.2.4...v3.2.5
 [v3.2.4]: https://github.com/stnrd/healthicons/compare/v3.2.3...v3.2.4
 [v3.2.3]: https://github.com/stnrd/healthicons/compare/v3.2.2...v3.2.3
 [v3.2.2]: https://github.com/stnrd/healthicons/compare/v3.2.1...v3.2.2
