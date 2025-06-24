@@ -1,3 +1,19 @@
+<a id="v3.3.0"></a>
+# [v3.3.0](https://github.com/stnrd/healthicons/releases/tag/v3.3.0) - 2025-06-24
+
+## What's Changed
+* Bump next from 14.0.4 to 14.2.26 in /examples/next by [@dependabot](https://github.com/dependabot) in [#36](https://github.com/stnrd/healthicons/pull/36)
+* Bump next from 14.2.26 to 14.2.30 in /examples/next by [@dependabot](https://github.com/dependabot) in [#37](https://github.com/stnrd/healthicons/pull/37)
+* Update peer and dev dependencies for healthicons packages to support … by [@stnrd](https://github.com/stnrd) in [#38](https://github.com/stnrd/healthicons/pull/38)
+
+## New Contributors
+* [@dependabot](https://github.com/dependabot) made their first contribution in [#36](https://github.com/stnrd/healthicons/pull/36)
+
+**Full Changelog**: https://github.com/stnrd/healthicons/compare/v3.2.5...v3.3.0
+
+[Changes][v3.3.0]
+
+
 <a id="v3.2.5"></a>
 # [v3.2.5](https://github.com/stnrd/healthicons/releases/tag/v3.2.5) - 2025-04-17
 
@@ -227,6 +243,7 @@ Added hospice and palliative care icons
 [Changes][v1.2.0]
 
 
+[v3.3.0]: https://github.com/stnrd/healthicons/compare/v3.2.5...v3.3.0
 [v3.2.5]: https://github.com/stnrd/healthicons/compare/v3.2.4...v3.2.5
 [v3.2.4]: https://github.com/stnrd/healthicons/compare/v3.2.3...v3.2.4
 [v3.2.3]: https://github.com/stnrd/healthicons/compare/v3.2.2...v3.2.3
