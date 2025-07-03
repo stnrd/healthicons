@@ -1,4 +1,5 @@
-import { SafeAreaView, Text } from "react-native";
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
 import {
   BloodBag,
   Diabetes,
@@ -7,13 +8,10 @@ import {
 
 export default function App() {
   return (
-    <SafeAreaView style={{
-      flex: 1,
-      justifyContent: "center",
-      alignItems: "center",
-    
-    }}>
-      <Text style={{ fontSize: 24, fontWeight: "bold", margin: 24 }}>Health Icons</Text>
+    <View style={styles.container}>
+      <Text style={{ fontSize: 24, fontWeight: "bold", margin: 24 }}>
+        Health Icons
+      </Text>
       <BloodBag color="red" opacity={0.3} width={24} height={24} />
       <HealthIconsProvider
         iconProps={{
@@ -25,6 +23,15 @@ export default function App() {
       >
         <Diabetes />
       </HealthIconsProvider>
-    </SafeAreaView>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});

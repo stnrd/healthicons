@@ -93,6 +93,7 @@ export default async (ctx, target) => {
       healthIconsContextDtsPath,
       healthIconsContext,
       jsTarget.module,
+      target.native,
     );
 
     for (const variant of Object.keys(ctx.icons)) {
@@ -155,6 +156,7 @@ export default async (ctx, target) => {
             dtsPath,
             reactComponent,
             jsTarget.module,
+            target.native,
           );
 
           promises.push(iconDts);
