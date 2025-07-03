@@ -1,3 +1,15 @@
+<a id="v3.4.0"></a>
+# [v3.4.0](https://github.com/stnrd/healthicons/releases/tag/v3.4.0) - 2025-07-03
+
+## What's Changed
+* Fix react native build procedure by [@stnrd](https://github.com/stnrd) in [#41](https://github.com/stnrd/healthicons/pull/41)
+
+
+**Full Changelog**: https://github.com/stnrd/healthicons/compare/v3.3.0...v3.4.0
+
+[Changes][v3.4.0]
+
+
 <a id="v3.3.0"></a>
 # [v3.3.0](https://github.com/stnrd/healthicons/releases/tag/v3.3.0) - 2025-06-24
 
@@ -243,6 +255,7 @@ Added hospice and palliative care icons
 [Changes][v1.2.0]
 
 
+[v3.4.0]: https://github.com/stnrd/healthicons/compare/v3.3.0...v3.4.0
 [v3.3.0]: https://github.com/stnrd/healthicons/compare/v3.2.5...v3.3.0
 [v3.2.5]: https://github.com/stnrd/healthicons/compare/v3.2.4...v3.2.5
 [v3.2.4]: https://github.com/stnrd/healthicons/compare/v3.2.3...v3.2.4
