@@ -1,0 +1,24 @@
+{
+  "name": "react-native-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~53.0.16",
+    "expo-status-bar": "~2.2.3",
+    "healthicons-react-native": "file:../..//packages/healthicons-react-native",
+    "iconoir-react-native": "^7.11.0",
+    "react": "19.0.0",
+    "react-native": "0.79.5",
+    "react-native-svg": "^15.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
