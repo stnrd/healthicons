@@ -1,9 +1,10 @@
+import { Buffer } from 'node:buffer';
 import { promises as fs } from 'node:fs';
 import os from 'node:os';
 import path, { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import decompress from 'decompress';
 
+import decompress from 'decompress';
 import { Listr } from 'listr2';
 import fetch from 'node-fetch';
 
@@ -31,9 +32,9 @@ const tasks = new Listr(
       task: async (ctx) => {
         try {
           const resp = await fetch(url);
-          const buffer = await resp.buffer();
+          const buffer = await resp.arrayBuffer();
 
-          await decompress(buffer, ctx.tmpDir);
+          await decompress(Buffer.from(buffer), ctx.tmpDir);
         } catch (err) {
           ctx.skip = true;
           throw new Error(err.message);
@@ -79,7 +80,7 @@ const tasks = new Listr(
       skip: (ctx) => ctx.skip,
       task: async () => {
         try {
-          await fs.rmdir(path.join(rootDir, 'icons.bak'), { recursive: true });
+          await fs.rm(path.join(rootDir, 'icons.bak'), { recursive: true });
         } catch (err) {
           throw new Error(err.message);
         }
