@@ -1,7 +1,7 @@
 {
   "name": "healthicons",
   "type": "module",
-  "version": "3.4.0",
+  "version": "3.5.0",
   "description": "React wrappers around the Health Icon library",
   "author": "Sten Raadschelders",
   "license": "MIT",

@@ -1,3 +1,15 @@
+<a id="v3.5.0"></a>
+# [v3.5.0](https://github.com/stnrd/healthicons/releases/tag/v3.5.0) - 2025-07-09
+
+## What's Changed
+* Fix bug in svgr template which caused issues during react native component generation by [@stnrd](https://github.com/stnrd) in [#42](https://github.com/stnrd/healthicons/pull/42)
+
+
+**Full Changelog**: https://github.com/stnrd/healthicons/compare/v3.4.0...v3.5.0
+
+[Changes][v3.5.0]
+
+
 <a id="v3.4.0"></a>
 # [v3.4.0](https://github.com/stnrd/healthicons/releases/tag/v3.4.0) - 2025-07-03
 
@@ -255,6 +267,7 @@ Added hospice and palliative care icons
 [Changes][v1.2.0]
 
 
+[v3.5.0]: https://github.com/stnrd/healthicons/compare/v3.4.0...v3.5.0
 [v3.4.0]: https://github.com/stnrd/healthicons/compare/v3.3.0...v3.4.0
 [v3.3.0]: https://github.com/stnrd/healthicons/compare/v3.2.5...v3.3.0
 [v3.2.5]: https://github.com/stnrd/healthicons/compare/v3.2.4...v3.2.5
