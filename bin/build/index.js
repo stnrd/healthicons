@@ -163,7 +163,10 @@ const tasks = new Listr(
               return task(ctx, targetConfig);
             },
           })),
-          { concurrent: true, exitOnError: false },
+          {
+            concurrent: true,
+            exitOnError: true,
+          },
         ),
     },
   ],

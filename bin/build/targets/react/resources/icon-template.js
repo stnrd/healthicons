@@ -8,22 +8,22 @@ export function getTemplate(native, healthIconsContextPath) {
         = 'Svg';
     }
 
-    const useClientDirective = native ? '' : '"use client"';
+    const useClientDirective = native ? tpl`` : tpl`"use client"`;
 
     return tpl`
-  ${useClientDirective}
-  ${variables.imports};
-  import {HealthIconsContext} from "${healthIconsContextPath}"
- 
-  ${variables.interfaces};
+    ${useClientDirective}
+    ${variables.imports};
+    import {HealthIconsContext} from "${healthIconsContextPath}"
   
-  const ${variables.componentName} = (${variables.props}) => {
-    const context = React.useContext(HealthIconsContext);
-    const props = { ...context, ...passedProps };
-    return ${variables.jsx}
-  };
-  
-  ${variables.exports};
-  `;
+    ${variables.interfaces};
+    
+    const ${variables.componentName} = (${variables.props}) => {
+      const context = React.useContext(HealthIconsContext);
+      const props = { ...context, ...passedProps };
+      return ${variables.jsx}
+    };
+    
+    ${variables.exports};
+    `;
   };
 }
