@@ -1,0 +1,84 @@
+{
+  "name": "healthicons-solid-js",
+  "version": "3.5.0",
+  "description": "Solid.js icon library for the Healthicons set",
+  "author": "Sten Raadschelders",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stnrd/healthicons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stnrd/healthicons/issues"
+  },
+  "keywords": [
+    "solid-js",
+    "solid",
+    "icons",
+    "svg",
+    "health",
+    "healthicons"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/esm/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./filled": {
+      "import": {
+        "types": "./dist/filled/index.d.ts",
+        "default": "./dist/filled/esm/index.mjs"
+      },
+      "require": {
+        "types": "./dist/filled/index.d.ts",
+        "default": "./dist/filled/index.js"
+      }
+    },
+    "./outline": {
+      "import": {
+        "types": "./dist/outline/index.d.ts",
+        "default": "./dist/outline/esm/index.mjs"
+      },
+      "require": {
+        "types": "./dist/outline/index.d.ts",
+        "default": "./dist/outline/index.js"
+      }
+    },
+    "./filled-24px": {
+      "import": {
+        "types": "./dist/filled-24px/index.d.ts",
+        "default": "./dist/filled-24px/esm/index.mjs"
+      },
+      "require": {
+        "types": "./dist/filled-24px/index.d.ts",
+        "default": "./dist/filled-24px/index.js"
+      }
+    },
+    "./outline-24px": {
+      "import": {
+        "types": "./dist/outline-24px/index.d.ts",
+        "default": "./dist/outline-24px/esm/index.mjs"
+      },
+      "require": {
+        "types": "./dist/outline-24px/index.d.ts",
+        "default": "./dist/outline-24px/index.js"
+      }
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/esm/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "solid-js": "^1.7 || ^1.8 || ^1.9"
+  }
+}
