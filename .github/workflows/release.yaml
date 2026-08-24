@@ -36,6 +36,8 @@ jobs:
 
       - name: Build
         run: yarn run build
+        env:
+          NODE_OPTIONS: --max-old-space-size=8192
 
       - name: Prepare packages
         run: yarn run prepublish-all
@@ -77,6 +79,14 @@ jobs:
         run: |
           yarn --cwd ./packages/healthicons-vue install
           yarn --cwd ./packages/healthicons-vue publish -r
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        continue-on-error: true
+
+      - name: Publish Solid.js package
+        run: |
+          yarn --cwd ./packages/healthicons-solid-js install
+          yarn --cwd ./packages/healthicons-solid-js publish -r
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         continue-on-error: true
