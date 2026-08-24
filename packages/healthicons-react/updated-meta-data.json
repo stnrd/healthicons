@@ -19,9 +19,9 @@
     "component_name": "War"
   },
   {
-    "id": "vespa_motorcycle",
+    "id": "vespa-motorcycle",
     "category": "vehicles",
-    "path": "vehicles/vespa_motorcycle",
+    "path": "vehicles/vespa-motorcycle",
     "tags": [
       "Motorbike",
       "Motorcycle",
@@ -34,9 +34,9 @@
     "component_name": "VespaMotorcycle"
   },
   {
-    "id": "small_plane",
+    "id": "small-plane",
     "category": "vehicles",
-    "path": "vehicles/small_plane",
+    "path": "vehicles/small-plane",
     "tags": [
       "Airplane",
       "Airport",
@@ -54,9 +54,9 @@
     "component_name": "SmallPlane"
   },
   {
-    "id": "mobile_clinic",
+    "id": "mobile-clinic",
     "category": "vehicles",
-    "path": "vehicles/mobile_clinic",
+    "path": "vehicles/mobile-clinic",
     "tags": [
       "Ambulance",
       "Cross",
@@ -105,9 +105,9 @@
     "component_name": "Helicopter"
   },
   {
-    "id": "cross_country_motorcycle",
+    "id": "cross-country_motorcycle",
     "category": "vehicles",
-    "path": "vehicles/cross_country_motorcycle",
+    "path": "vehicles/cross-country_motorcycle",
     "tags": [
       "Cross Country",
       "Dirt Bike",
@@ -138,9 +138,9 @@
     "component_name": "Bike"
   },
   {
-    "id": "basic_motorcycle",
+    "id": "basic-motorcycle",
     "category": "vehicles",
-    "path": "vehicles/basic_motorcycle",
+    "path": "vehicles/basic-motorcycle",
     "tags": [
       "Dirtbike dhis2:motorcycle",
       "Motorbike"
@@ -208,9 +208,9 @@
     "component_name": "Drone"
   },
   {
-    "id": "triangle_small",
+    "id": "triangle-small",
     "category": "shapes",
-    "path": "shapes/triangle_small",
+    "path": "shapes/triangle-small",
     "tags": [
       "Bullet",
       "Shape",
@@ -224,9 +224,9 @@
     "component_name": "TriangleSmall"
   },
   {
-    "id": "triangle_medium",
+    "id": "triangle-medium",
     "category": "shapes",
-    "path": "shapes/triangle_medium",
+    "path": "shapes/triangle-medium",
     "tags": [
       "Bullet",
       "Shape",
@@ -240,9 +240,9 @@
     "component_name": "TriangleMedium"
   },
   {
-    "id": "triangle_large",
+    "id": "triangle-large",
     "category": "shapes",
-    "path": "shapes/triangle_large",
+    "path": "shapes/triangle-large",
     "tags": [
       "Bullet",
       "Shape",
@@ -256,9 +256,9 @@
     "component_name": "TriangleLarge"
   },
   {
-    "id": "star_small",
+    "id": "star-small",
     "category": "shapes",
-    "path": "shapes/star_small",
+    "path": "shapes/star-small",
     "tags": [
       "Bullet",
       "Shape",
@@ -272,9 +272,9 @@
     "component_name": "StarSmall"
   },
   {
-    "id": "star_medium",
+    "id": "star-medium",
     "category": "shapes",
-    "path": "shapes/star_medium",
+    "path": "shapes/star-medium",
     "tags": [
       "Bullet",
       "Shape",
@@ -288,9 +288,9 @@
     "component_name": "StarMedium"
   },
   {
-    "id": "star_large",
+    "id": "star-large",
     "category": "shapes",
-    "path": "shapes/star_large",
+    "path": "shapes/star-large",
     "tags": [
       "Bullet",
       "Shape",
@@ -304,9 +304,9 @@
     "component_name": "StarLarge"
   },
   {
-    "id": "square_small",
+    "id": "square-small",
     "category": "shapes",
-    "path": "shapes/square_small",
+    "path": "shapes/square-small",
     "tags": [
       "Bullet",
       "Cube",
@@ -321,9 +321,9 @@
     "component_name": "SquareSmall"
   },
   {
-    "id": "square_medium",
+    "id": "square-medium",
     "category": "shapes",
-    "path": "shapes/square_medium",
+    "path": "shapes/square-medium",
     "tags": [
       "Bullet",
       "Cube",
@@ -338,9 +338,9 @@
     "component_name": "SquareMedium"
   },
   {
-    "id": "square_large",
+    "id": "square-large",
     "category": "shapes",
-    "path": "shapes/square_large",
+    "path": "shapes/square-large",
     "tags": [
       "Bullet",
       "Cube",
@@ -355,9 +355,9 @@
     "component_name": "SquareLarge"
   },
   {
-    "id": "information_campaign",
+    "id": "information-campaign",
     "category": "shapes",
-    "path": "shapes/information_campaign",
+    "path": "shapes/information-campaign",
     "tags": [
       "Advertising",
       "Circle",
@@ -373,9 +373,9 @@
     "component_name": "InformationCampaign"
   },
   {
-    "id": "circle_small",
+    "id": "circle-small",
     "category": "shapes",
-    "path": "shapes/circle_small",
+    "path": "shapes/circle-small",
     "tags": [
       "Circle",
       "Dot",
@@ -390,9 +390,9 @@
     "component_name": "CircleSmall"
   },
   {
-    "id": "circle_medium",
+    "id": "circle-medium",
     "category": "shapes",
-    "path": "shapes/circle_medium",
+    "path": "shapes/circle-medium",
     "tags": [
       "Circle",
       "Dot",
@@ -407,9 +407,9 @@
     "component_name": "CircleMedium"
   },
   {
-    "id": "circle_large",
+    "id": "circle-large",
     "category": "shapes",
-    "path": "shapes/circle_large",
+    "path": "shapes/circle-large",
     "tags": [
       "Circle",
       "Dot",
@@ -424,9 +424,9 @@
     "component_name": "CircleLarge"
   },
   {
-    "id": "market_stall",
+    "id": "market-stall",
     "category": "places",
-    "path": "places/market_stall",
+    "path": "places/market-stall",
     "tags": [
       "Awning",
       "Building",
@@ -460,9 +460,9 @@
     "component_name": "Hospital"
   },
   {
-    "id": "home_alt",
+    "id": "home-alt",
     "category": "places",
-    "path": "places/home_alt",
+    "path": "places/home-alt",
     "tags": [
       "Building",
       "Door",
@@ -492,6 +492,23 @@
       "48px"
     ],
     "component_name": "Forest"
+  },
+  {
+    "id": "forest-persons",
+    "category": "places",
+    "path": "places/forest-persons",
+    "tags": [
+      "Nature",
+      "Park",
+      "Trees",
+      "Woods",
+      "dhis2:forest-persons"
+    ],
+    "title": "Forest Persons",
+    "formats": [
+      "48px"
+    ],
+    "component_name": "ForestPersons"
   },
   {
     "id": "city",
@@ -548,9 +565,9 @@
     "component_name": "Virus"
   },
   {
-    "id": "money_bag",
+    "id": "money-bag",
     "category": "objects",
-    "path": "objects/money_bag",
+    "path": "objects/money-bag",
     "tags": [
       "Currency",
       "Money",
@@ -596,9 +613,9 @@
     "component_name": "Bills"
   },
   {
-    "id": "pills_4",
+    "id": "pills-4",
     "category": "medications",
-    "path": "medications/pills_4",
+    "path": "medications/pills-4",
     "tags": [
       "Drug",
       "Medication",
@@ -616,9 +633,9 @@
     "component_name": "Pills4"
   },
   {
-    "id": "pills_3",
+    "id": "pills-3",
     "category": "medications",
-    "path": "medications/pills_3",
+    "path": "medications/pills-3",
     "tags": [
       "Drug",
       "Medication",
@@ -636,9 +653,9 @@
     "component_name": "Pills3"
   },
   {
-    "id": "pills_2",
+    "id": "pills-2",
     "category": "medications",
-    "path": "medications/pills_2",
+    "path": "medications/pills-2",
     "tags": [
       "Drug",
       "Medication",
@@ -656,9 +673,9 @@
     "component_name": "Pills2"
   },
   {
-    "id": "pill_1",
+    "id": "pill-1",
     "category": "medications",
-    "path": "medications/pill_1",
+    "path": "medications/pill-1",
     "tags": [
       "Drug",
       "Medication",
@@ -676,9 +693,9 @@
     "component_name": "Pill1"
   },
   {
-    "id": "oral_contraception_pillsx28",
+    "id": "oral-contraception_pillsx28",
     "category": "contraceptives",
-    "path": "contraceptives/oral_contraception_pillsx28",
+    "path": "contraceptives/oral-contraception_pillsx28",
     "tags": [
       "Birth Control Pills",
       "Contraception",
@@ -692,9 +709,9 @@
     "component_name": "OralContraceptionPillsx28"
   },
   {
-    "id": "oral_contraception_pillsx21",
+    "id": "oral-contraception_pillsx21",
     "category": "contraceptives",
-    "path": "contraceptives/oral_contraception_pillsx21",
+    "path": "contraceptives/oral-contraception_pillsx21",
     "tags": [
       "Birth Control Pills",
       "Contraception",
@@ -703,6 +720,7 @@
     ],
     "title": "Oral Contraceptive 21",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "OralContraceptionPillsx21"
@@ -727,9 +745,9 @@
     "component_name": "Medicines"
   },
   {
-    "id": "blister_pills_round_x16",
+    "id": "blister-pills_round_x16",
     "category": "medications",
-    "path": "medications/blister_pills_round_x16",
+    "path": "medications/blister-pills_round_x16",
     "tags": [
       "Blister Pack",
       "Drug",
@@ -749,9 +767,9 @@
     "component_name": "BlisterPillsRoundX16"
   },
   {
-    "id": "blister_pills_round_x14",
+    "id": "blister-pills_round_x14",
     "category": "medications",
-    "path": "medications/blister_pills_round_x14",
+    "path": "medications/blister-pills_round_x14",
     "tags": [
       "Blister Pack",
       "Drug",
@@ -770,9 +788,9 @@
     "component_name": "BlisterPillsRoundX14"
   },
   {
-    "id": "blister_pills_round_x4",
+    "id": "blister-pills_round_x4",
     "category": "medications",
-    "path": "medications/blister_pills_round_x4",
+    "path": "medications/blister-pills_round_x4",
     "tags": [
       "Blister Pack",
       "Drug",
@@ -791,9 +809,9 @@
     "component_name": "BlisterPillsRoundX4"
   },
   {
-    "id": "blister_pills_round_x1",
+    "id": "blister-pills_round_x1",
     "category": "medications",
-    "path": "medications/blister_pills_round_x1",
+    "path": "medications/blister-pills_round_x1",
     "tags": [
       "Blister Pack",
       "Drug",
@@ -812,9 +830,9 @@
     "component_name": "BlisterPillsRoundX1"
   },
   {
-    "id": "blister_pills_oval_x16",
+    "id": "blister-pills_oval_x16",
     "category": "medications",
-    "path": "medications/blister_pills_oval_x16",
+    "path": "medications/blister-pills_oval_x16",
     "tags": [
       "Blister Pack",
       "Drug",
@@ -833,9 +851,9 @@
     "component_name": "BlisterPillsOvalX16"
   },
   {
-    "id": "blister_pills_oval_x14",
+    "id": "blister-pills_oval_x14",
     "category": "medications",
-    "path": "medications/blister_pills_oval_x14",
+    "path": "medications/blister-pills_oval_x14",
     "tags": [
       "Blister Pack",
       "Drug",
@@ -854,9 +872,9 @@
     "component_name": "BlisterPillsOvalX14"
   },
   {
-    "id": "blister_pills_oval_x4",
+    "id": "blister-pills_oval_x4",
     "category": "medications",
-    "path": "medications/blister_pills_oval_x4",
+    "path": "medications/blister-pills_oval_x4",
     "tags": [
       "Blister Pack",
       "Drug",
@@ -875,9 +893,9 @@
     "component_name": "BlisterPillsOvalX4"
   },
   {
-    "id": "blister_pills_oval_x1",
+    "id": "blister-pills_oval_x1",
     "category": "medications",
-    "path": "medications/blister_pills_oval_x1",
+    "path": "medications/blister-pills_oval_x1",
     "tags": [
       "Blister Pack",
       "Drug",
@@ -896,9 +914,9 @@
     "component_name": "BlisterPillsOvalX1"
   },
   {
-    "id": "synergist_insecticide_bioassays",
+    "id": "synergist-insecticide_bioassays",
     "category": "diagnostics",
-    "path": "diagnostics/synergist_insecticide_bioassays",
+    "path": "diagnostics/synergist-insecticide_bioassays",
     "tags": [
       "Malaria",
       "Mosquito",
@@ -911,9 +929,9 @@
     "component_name": "SynergistInsecticideBioassays"
   },
   {
-    "id": "rdt_result_pv",
+    "id": "rdt-result_pv",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_pv",
+    "path": "diagnostics/rdt-result_pv",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -927,9 +945,9 @@
     "component_name": "RdtResultPv"
   },
   {
-    "id": "rdt_result_positive",
+    "id": "rdt-result_positive",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_positive",
+    "path": "diagnostics/rdt-result_positive",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -943,9 +961,9 @@
     "component_name": "RdtResultPositive"
   },
   {
-    "id": "rdt_result_pf_invalid",
+    "id": "rdt-result_pf_invalid",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_pf_invalid",
+    "path": "diagnostics/rdt-result_pf_invalid",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -959,9 +977,9 @@
     "component_name": "RdtResultPfInvalid"
   },
   {
-    "id": "rdt_result_no_test",
+    "id": "rdt-result_no_test",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_no_test",
+    "path": "diagnostics/rdt-result_no_test",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -975,9 +993,9 @@
     "component_name": "RdtResultNoTest"
   },
   {
-    "id": "rdt_result_neg_invalid",
+    "id": "rdt-result_neg_invalid",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_neg_invalid",
+    "path": "diagnostics/rdt-result_neg_invalid",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -991,9 +1009,9 @@
     "component_name": "RdtResultNegInvalid"
   },
   {
-    "id": "rdt_result_neg",
+    "id": "rdt-result_neg",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_neg",
+    "path": "diagnostics/rdt-result_neg",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -1007,9 +1025,9 @@
     "component_name": "RdtResultNeg"
   },
   {
-    "id": "rdt_result_mixed_invalid",
+    "id": "rdt-result_mixed_invalid",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_mixed_invalid",
+    "path": "diagnostics/rdt-result_mixed_invalid",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -1023,9 +1041,9 @@
     "component_name": "RdtResultMixedInvalid"
   },
   {
-    "id": "rdt_result_mixed",
+    "id": "rdt-result_mixed",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_mixed",
+    "path": "diagnostics/rdt-result_mixed",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -1039,9 +1057,9 @@
     "component_name": "RdtResultMixed"
   },
   {
-    "id": "rdt_result_pv_invalid",
+    "id": "rdt-result_pv_invalid",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_pv_invalid",
+    "path": "diagnostics/rdt-result_pv_invalid",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -1055,9 +1073,9 @@
     "component_name": "RdtResultPvInvalid"
   },
   {
-    "id": "rdt_result_pf",
+    "id": "rdt-result_pf",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_pf",
+    "path": "diagnostics/rdt-result_pf",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -1071,9 +1089,9 @@
     "component_name": "RdtResultPf"
   },
   {
-    "id": "rdt_result_invalid",
+    "id": "rdt-result_invalid",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_invalid",
+    "path": "diagnostics/rdt-result_invalid",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -1087,9 +1105,9 @@
     "component_name": "RdtResultInvalid"
   },
   {
-    "id": "rdt_result",
+    "id": "rdt-result",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result",
+    "path": "diagnostics/rdt-result",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -1103,9 +1121,9 @@
     "component_name": "RdtResult"
   },
   {
-    "id": "mosquito_collection",
+    "id": "mosquito-collection",
     "category": "diagnostics",
-    "path": "diagnostics/mosquito_collection",
+    "path": "diagnostics/mosquito-collection",
     "tags": [
       "Malaria",
       "Mosquito",
@@ -1118,9 +1136,9 @@
     "component_name": "MosquitoCollection"
   },
   {
-    "id": "malaria_testing",
+    "id": "malaria-testing",
     "category": "diagnostics",
-    "path": "diagnostics/malaria_testing",
+    "path": "diagnostics/malaria-testing",
     "tags": [
       "Malaria",
       "Mosquito",
@@ -1133,9 +1151,9 @@
     "component_name": "MalariaTesting"
   },
   {
-    "id": "malaria_pv_microscope",
+    "id": "malaria-pv_microscope",
     "category": "diagnostics",
-    "path": "diagnostics/malaria_pv_microscope",
+    "path": "diagnostics/malaria-pv_microscope",
     "tags": [
       "Diagnostic",
       "Malaria",
@@ -1149,9 +1167,9 @@
     "component_name": "MalariaPvMicroscope"
   },
   {
-    "id": "malaria_pf_microscope",
+    "id": "malaria-pf_microscope",
     "category": "diagnostics",
-    "path": "diagnostics/malaria_pf_microscope",
+    "path": "diagnostics/malaria-pf_microscope",
     "tags": [
       "Diagnostic",
       "Malaria",
@@ -1165,9 +1183,9 @@
     "component_name": "MalariaPfMicroscope"
   },
   {
-    "id": "malaria_mixed_microscope",
+    "id": "malaria-mixed_microscope",
     "category": "diagnostics",
-    "path": "diagnostics/malaria_mixed_microscope",
+    "path": "diagnostics/malaria-mixed_microscope",
     "tags": [
       "Diagnostic",
       "Malaria",
@@ -1181,9 +1199,9 @@
     "component_name": "MalariaMixedMicroscope"
   },
   {
-    "id": "malaria_microscope",
+    "id": "malaria-microscope",
     "category": "diagnostics",
-    "path": "diagnostics/malaria_microscope",
+    "path": "diagnostics/malaria-microscope",
     "tags": [
       "Diagnostic",
       "Malaria",
@@ -1197,9 +1215,9 @@
     "component_name": "MalariaMicroscope"
   },
   {
-    "id": "hiv_self_test",
+    "id": "hiv-self_test",
     "category": "diagnostics",
-    "path": "diagnostics/hiv_self_test",
+    "path": "diagnostics/hiv-self_test",
     "tags": [
       "AIDS",
       "Blood",
@@ -1215,9 +1233,9 @@
     "component_name": "HivSelfTest"
   },
   {
-    "id": "cone_test_on_walls",
+    "id": "cone-test_on_walls",
     "category": "diagnostics",
-    "path": "diagnostics/cone_test_on_walls",
+    "path": "diagnostics/cone-test_on_walls",
     "tags": [
       "Diagnostic",
       "Testing",
@@ -1230,9 +1248,9 @@
     "component_name": "ConeTestOnWalls"
   },
   {
-    "id": "cone_test_on_nets",
+    "id": "cone-test_on_nets",
     "category": "diagnostics",
-    "path": "diagnostics/cone_test_on_nets",
+    "path": "diagnostics/cone-test_on_nets",
     "tags": [
       "Diagnostic",
       "Testing",
@@ -1305,9 +1323,9 @@
     "component_name": "Syringe"
   },
   {
-    "id": "surgical_sterilization",
+    "id": "surgical-sterilization",
     "category": "devices",
-    "path": "devices/surgical_sterilization",
+    "path": "devices/surgical-sterilization",
     "tags": [
       "Scalpel",
       "Sterilized Surgical Tools",
@@ -1342,9 +1360,9 @@
     "component_name": "Stethoscope"
   },
   {
-    "id": "oxygen_tank",
+    "id": "oxygen-tank",
     "category": "devices",
-    "path": "devices/oxygen_tank",
+    "path": "devices/oxygen-tank",
     "tags": [
       "02",
       "Air",
@@ -1359,9 +1377,9 @@
     "component_name": "OxygenTank"
   },
   {
-    "id": "odontology_implant",
+    "id": "odontology-implant",
     "category": "devices",
-    "path": "devices/odontology_implant",
+    "path": "devices/odontology-implant",
     "tags": [
       "Dentist",
       "Tooth",
@@ -1445,9 +1463,9 @@
     "component_name": "Microscope"
   },
   {
-    "id": "male_condom",
+    "id": "male-condom",
     "category": "contraceptives",
-    "path": "contraceptives/male_condom",
+    "path": "contraceptives/male-condom",
     "tags": [
       "Condom",
       "Contraceptive",
@@ -1533,9 +1551,9 @@
     "component_name": "Hospitalized"
   },
   {
-    "id": "hormonal_ring",
+    "id": "hormonal-ring",
     "category": "contraceptives",
-    "path": "contraceptives/hormonal_ring",
+    "path": "contraceptives/hormonal-ring",
     "tags": [
       "Contraceptive",
       "Family Planning",
@@ -1549,9 +1567,9 @@
     "component_name": "HormonalRing"
   },
   {
-    "id": "female_condom",
+    "id": "female-condom",
     "category": "contraceptives",
-    "path": "contraceptives/female_condom",
+    "path": "contraceptives/female-condom",
     "tags": [
       "Condom",
       "Contraceptive",
@@ -1566,9 +1584,9 @@
     "component_name": "FemaleCondom"
   },
   {
-    "id": "family_planning",
+    "id": "family-planning",
     "category": "contraceptives",
-    "path": "contraceptives/family_planning",
+    "path": "contraceptives/family-planning",
     "tags": [
       "Condom",
       "Contraceptive",
@@ -1585,9 +1603,9 @@
     "component_name": "FamilyPlanning"
   },
   {
-    "id": "contraceptive_patch",
+    "id": "contraceptive-patch",
     "category": "contraceptives",
-    "path": "contraceptives/contraceptive_patch",
+    "path": "contraceptives/contraceptive-patch",
     "tags": [
       "Contraceptive",
       "Family Planning",
@@ -1602,9 +1620,9 @@
     "component_name": "ContraceptivePatch"
   },
   {
-    "id": "contraceptive_diaphragm",
+    "id": "contraceptive-diaphragm",
     "category": "contraceptives",
-    "path": "contraceptives/contraceptive_diaphragm",
+    "path": "contraceptives/contraceptive-diaphragm",
     "tags": [
       "Contraceptive",
       "Diaphragm",
@@ -1619,9 +1637,9 @@
     "component_name": "ContraceptiveDiaphragm"
   },
   {
-    "id": "blood_pressure",
+    "id": "blood-pressure",
     "category": "devices",
-    "path": "devices/blood_pressure",
+    "path": "devices/blood-pressure",
     "tags": [
       "BP",
       "Blood pressure",
@@ -1638,9 +1656,9 @@
     "component_name": "BloodPressure"
   },
   {
-    "id": "blood_bag",
+    "id": "blood-bag",
     "category": "blood",
-    "path": "blood/blood_bag",
+    "path": "blood/blood-bag",
     "tags": [
       "Bag",
       "Blood",
@@ -1655,9 +1673,9 @@
     "component_name": "BloodBag"
   },
   {
-    "id": "heart_organ",
+    "id": "heart-organ",
     "category": "body",
-    "path": "body/heart_organ",
+    "path": "body/heart-organ",
     "tags": [
       "Cardiac",
       "Cardiologist",
@@ -1770,14 +1788,15 @@
     ],
     "title": "Bacteria",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Bacteria"
   },
   {
-    "id": "smoking_cessation",
+    "id": "smoking-cessation",
     "category": "symbols",
-    "path": "symbols/smoking_cessation",
+    "path": "symbols/smoking-cessation",
     "tags": [
       "Banned",
       "Cessation",
@@ -1823,9 +1842,9 @@
     "component_name": "Rx"
   },
   {
-    "id": "running_water_alt",
+    "id": "running-water_alt",
     "category": "symbols",
-    "path": "symbols/running_water_alt",
+    "path": "symbols/running-water_alt",
     "tags": [
       "Appliance",
       "Plumbing",
@@ -1839,9 +1858,9 @@
     "component_name": "RunningWaterAlt"
   },
   {
-    "id": "question_triangle",
+    "id": "question-triangle",
     "category": "symbols",
-    "path": "symbols/question_triangle",
+    "path": "symbols/question-triangle",
     "tags": [
       "Alert",
       "FAQ",
@@ -1857,9 +1876,9 @@
     "component_name": "QuestionTriangle"
   },
   {
-    "id": "question_circle",
+    "id": "question-circle",
     "category": "symbols",
-    "path": "symbols/question_circle",
+    "path": "symbols/question-circle",
     "tags": [
       "Alert",
       "Ask",
@@ -1893,9 +1912,9 @@
     "component_name": "Question"
   },
   {
-    "id": "provider_fst",
+    "id": "provider-fst",
     "category": "symbols",
-    "path": "symbols/provider_fst",
+    "path": "symbols/provider-fst",
     "tags": [
       "Admission",
       "Connect",
@@ -1911,9 +1930,9 @@
     "component_name": "ProviderFst"
   },
   {
-    "id": "prescription_document",
+    "id": "prescription-document",
     "category": "objects",
-    "path": "objects/prescription_document",
+    "path": "objects/prescription-document",
     "tags": [
       "Medication",
       "Pharmacy",
@@ -1995,9 +2014,9 @@
     "component_name": "Peace"
   },
   {
-    "id": "paved_road_alt",
+    "id": "paved-road_alt",
     "category": "symbols",
-    "path": "symbols/paved_road_alt",
+    "path": "symbols/paved-road_alt",
     "tags": [
       "Curve",
       "Road",
@@ -2011,9 +2030,9 @@
     "component_name": "PavedRoadAlt"
   },
   {
-    "id": "paved_road",
+    "id": "paved-road",
     "category": "symbols",
-    "path": "symbols/paved_road",
+    "path": "symbols/paved-road",
     "tags": [
       "Curve",
       "Road",
@@ -2122,9 +2141,9 @@
     "component_name": "Megaphone"
   },
   {
-    "id": "medium_level",
+    "id": "medium-level",
     "category": "symbols",
-    "path": "symbols/medium_level",
+    "path": "symbols/medium-level",
     "tags": [
       "Gauge",
       "Half",
@@ -2142,9 +2161,9 @@
     "component_name": "MediumLevel"
   },
   {
-    "id": "medical_advice",
+    "id": "medical-advice",
     "category": "symbols",
-    "path": "symbols/medical_advice",
+    "path": "symbols/medical-advice",
     "tags": [
       "Advice",
       "Call Center",
@@ -2160,9 +2179,9 @@
     "component_name": "MedicalAdvice"
   },
   {
-    "id": "magnifying_glass",
+    "id": "magnifying-glass",
     "category": "symbols",
-    "path": "symbols/magnifying_glass",
+    "path": "symbols/magnifying-glass",
     "tags": [
       "Detective",
       "Research",
@@ -2177,9 +2196,9 @@
     "component_name": "MagnifyingGlass"
   },
   {
-    "id": "low_level",
+    "id": "low-level",
     "category": "symbols",
-    "path": "symbols/low_level",
+    "path": "symbols/low-level",
     "tags": [
       "Empty",
       "Gauge",
@@ -2228,9 +2247,9 @@
     "component_name": "Imm"
   },
   {
-    "id": "i_exam_qualification",
+    "id": "i-exam_qualification",
     "category": "symbols",
-    "path": "symbols/i_exam_qualification",
+    "path": "symbols/i-exam_qualification",
     "tags": [
       "A",
       "Class",
@@ -2245,9 +2264,9 @@
     "component_name": "IExamQualification"
   },
   {
-    "id": "i_documents_denied",
+    "id": "i-documents_denied",
     "category": "symbols",
-    "path": "symbols/i_documents_denied",
+    "path": "symbols/i-documents_denied",
     "tags": [
       "Document",
       "Paper",
@@ -2262,9 +2281,9 @@
     "component_name": "IDocumentsDenied"
   },
   {
-    "id": "i_documents_accepted",
+    "id": "i-documents_accepted",
     "category": "symbols",
-    "path": "symbols/i_documents_accepted",
+    "path": "symbols/i-documents_accepted",
     "tags": [
       "Document",
       "Paper",
@@ -2279,9 +2298,9 @@
     "component_name": "IDocumentsAccepted"
   },
   {
-    "id": "hospital_symbol",
+    "id": "hospital-symbol",
     "category": "symbols",
-    "path": "symbols/hospital_symbol",
+    "path": "symbols/hospital-symbol",
     "tags": [
       "Building",
       "Clinic",
@@ -2298,9 +2317,9 @@
     "component_name": "HospitalSymbol"
   },
   {
-    "id": "high_level",
+    "id": "high-level",
     "category": "symbols",
-    "path": "symbols/high_level",
+    "path": "symbols/high-level",
     "tags": [
       "Fast",
       "Full",
@@ -2318,9 +2337,9 @@
     "component_name": "HighLevel"
   },
   {
-    "id": "heart_cardiogram",
+    "id": "heart-cardiogram",
     "category": "symbols",
-    "path": "symbols/heart_cardiogram",
+    "path": "symbols/heart-cardiogram",
     "tags": [
       "Cardiology",
       "ECG",
@@ -2356,9 +2375,9 @@
     "component_name": "Heart"
   },
   {
-    "id": "health_data_sync",
+    "id": "health-data_sync",
     "category": "symbols",
-    "path": "symbols/health_data_sync",
+    "path": "symbols/health-data_sync",
     "tags": [
       "Data flow",
       "Flow",
@@ -2372,9 +2391,9 @@
     "component_name": "HealthDataSync"
   },
   {
-    "id": "health_data_security",
+    "id": "health-data_security",
     "category": "symbols",
-    "path": "symbols/health_data_security",
+    "path": "symbols/health-data_security",
     "tags": [
       "Locked",
       "Operations",
@@ -2408,9 +2427,9 @@
     "component_name": "Hazardous"
   },
   {
-    "id": "geo_location",
+    "id": "geo-location",
     "category": "symbols",
-    "path": "symbols/geo_location",
+    "path": "symbols/geo-location",
     "tags": [
       "GIS",
       "Geo",
@@ -2444,9 +2463,9 @@
     "component_name": "Electricity"
   },
   {
-    "id": "eco_care",
+    "id": "eco-care",
     "category": "symbols",
-    "path": "symbols/eco_care",
+    "path": "symbols/eco-care",
     "tags": [
       "Earth",
       "Environment",
@@ -2462,9 +2481,9 @@
     "component_name": "EcoCare"
   },
   {
-    "id": "animal_donkey",
+    "id": "animal-donkey",
     "category": "zoonoses",
-    "path": "zoonoses/animal_donkey",
+    "path": "zoonoses/animal-donkey",
     "tags": [
       "Animal",
       "Ass",
@@ -2481,9 +2500,9 @@
     "component_name": "AnimalDonkey"
   },
   {
-    "id": "diabetes_measure",
+    "id": "diabetes-measure",
     "category": "devices",
-    "path": "devices/diabetes_measure",
+    "path": "devices/diabetes-measure",
     "tags": [
       "Blood Sugar",
       "DM",
@@ -2518,9 +2537,9 @@
     "component_name": "DiabetesSymbols"
   },
   {
-    "id": "dhis2_logo",
+    "id": "dhis2-logo",
     "category": "symbols",
-    "path": "symbols/dhis2_logo",
+    "path": "symbols/dhis2-logo",
     "tags": [
       "Layers",
       "Squares",
@@ -2533,9 +2552,9 @@
     "component_name": "Dhis2Logo"
   },
   {
-    "id": "death_alt2",
+    "id": "death-alt2",
     "category": "symbols",
-    "path": "symbols/death_alt2",
+    "path": "symbols/death-alt2",
     "tags": [
       "Casket",
       "Dead",
@@ -2549,9 +2568,9 @@
     "component_name": "DeathAlt2"
   },
   {
-    "id": "death_alt",
+    "id": "death-alt",
     "category": "symbols",
-    "path": "symbols/death_alt",
+    "path": "symbols/death-alt",
     "tags": [
       "Casket",
       "Dead",
@@ -2585,9 +2604,9 @@
     "component_name": "Death"
   },
   {
-    "id": "community_meeting",
+    "id": "community-meeting",
     "category": "symbols",
-    "path": "symbols/community_meeting",
+    "path": "symbols/community-meeting",
     "tags": [
       "Group",
       "Meditation",
@@ -2618,9 +2637,9 @@
     "component_name": "Communication"
   },
   {
-    "id": "clinical_fe",
+    "id": "clinical-fe",
     "category": "symbols",
-    "path": "symbols/clinical_fe",
+    "path": "symbols/clinical-fe",
     "tags": [
       "Chart",
       "Clinical Note",
@@ -2637,9 +2656,9 @@
     "component_name": "ClinicalFe"
   },
   {
-    "id": "clinical_f",
+    "id": "clinical-f",
     "category": "symbols",
-    "path": "symbols/clinical_f",
+    "path": "symbols/clinical-f",
     "tags": [
       "Chart",
       "Clinical Note",
@@ -2674,9 +2693,9 @@
     "component_name": "Cholera"
   },
   {
-    "id": "cervical_cancer",
+    "id": "cervical-cancer",
     "category": "conditions",
-    "path": "conditions/cervical_cancer",
+    "path": "conditions/cervical-cancer",
     "tags": [
       "Cancer",
       "Cervix",
@@ -2691,9 +2710,9 @@
     "component_name": "CervicalCancer"
   },
   {
-    "id": "cardiogram_e",
+    "id": "cardiogram-e",
     "category": "symbols",
-    "path": "symbols/cardiogram_e",
+    "path": "symbols/cardiogram-e",
     "tags": [
       "Cardiology",
       "Chart",
@@ -2776,9 +2795,9 @@
     "component_name": "Book"
   },
   {
-    "id": "award_trophy",
+    "id": "award-trophy",
     "category": "objects",
-    "path": "objects/award_trophy",
+    "path": "objects/award-trophy",
     "tags": [
       "Prize",
       "Success",
@@ -2792,9 +2811,9 @@
     "component_name": "AwardTrophy"
   },
   {
-    "id": "award_ribbon",
+    "id": "award-ribbon",
     "category": "symbols",
-    "path": "symbols/award_ribbon",
+    "path": "symbols/award-ribbon",
     "tags": [
       "Prize",
       "Ribbon",
@@ -2809,9 +2828,9 @@
     "component_name": "AwardRibbon"
   },
   {
-    "id": "alert_triangle",
+    "id": "alert-triangle",
     "category": "symbols",
-    "path": "symbols/alert_triangle",
+    "path": "symbols/alert-triangle",
     "tags": [
       "Alert",
       "Exclamation Mark",
@@ -2826,9 +2845,9 @@
     "component_name": "AlertTriangle"
   },
   {
-    "id": "alert_circle",
+    "id": "alert-circle",
     "category": "symbols",
-    "path": "symbols/alert_circle",
+    "path": "symbols/alert-circle",
     "tags": [
       "Exclamation Point",
       "Warning",
@@ -2857,9 +2876,9 @@
     "component_name": "Alert"
   },
   {
-    "id": "world_care",
+    "id": "world-care",
     "category": "people",
-    "path": "people/world_care",
+    "path": "people/world-care",
     "tags": [
       "Activism",
       "Environment",
@@ -2874,9 +2893,9 @@
     "component_name": "WorldCare"
   },
   {
-    "id": "water_sanitation",
+    "id": "water-sanitation",
     "category": "people",
-    "path": "people/water_sanitation",
+    "path": "people/water-sanitation",
     "tags": [
       "Clean",
       "Fingers",
@@ -2893,9 +2912,9 @@
     "component_name": "WaterSanitation"
   },
   {
-    "id": "wash_hands",
+    "id": "wash-hands",
     "category": "people",
-    "path": "people/wash_hands",
+    "path": "people/wash-hands",
     "tags": [
       "Clean",
       "Fingers",
@@ -2966,9 +2985,9 @@
     "component_name": "People"
   },
   {
-    "id": "miner_worker_alt",
+    "id": "miner-worker_alt",
     "category": "people",
-    "path": "people/miner_worker_alt",
+    "path": "people/miner-worker_alt",
     "tags": [
       "Helmet",
       "Industry",
@@ -2983,9 +3002,9 @@
     "component_name": "MinerWorkerAlt"
   },
   {
-    "id": "mental_disorders",
+    "id": "mental-disorders",
     "category": "people",
-    "path": "people/mental_disorders",
+    "path": "people/mental-disorders",
     "tags": [
       "Brain",
       "Head",
@@ -3001,9 +3020,9 @@
     "component_name": "MentalDisorders"
   },
   {
-    "id": "group_discussion_meeting",
+    "id": "group-discussion_meeting",
     "category": "people",
-    "path": "people/group_discussion_meeting",
+    "path": "people/group-discussion_meeting",
     "tags": [
       "Chat",
       "Discussion",
@@ -3089,9 +3108,9 @@
     "component_name": "Deaf"
   },
   {
-    "id": "clean_hands",
+    "id": "clean-hands",
     "category": "people",
-    "path": "people/clean_hands",
+    "path": "people/clean-hands",
     "tags": [
       "Clean",
       "Fingers",
@@ -3107,9 +3126,9 @@
     "component_name": "CleanHands"
   },
   {
-    "id": "child_cognition",
+    "id": "child-cognition",
     "category": "people",
-    "path": "people/child_cognition",
+    "path": "people/child-cognition",
     "tags": [
       "Brain",
       "Education",
@@ -3177,9 +3196,9 @@
     "component_name": "Spreadsheets"
   },
   {
-    "id": "desktop_app",
+    "id": "desktop-app",
     "category": "objects",
-    "path": "objects/desktop_app",
+    "path": "objects/desktop-app",
     "tags": [
       "Computer",
       "Desktop",
@@ -3216,9 +3235,9 @@
     "component_name": "Village"
   },
   {
-    "id": "ministry_of_health",
+    "id": "ministry-of_health",
     "category": "places",
-    "path": "places/ministry_of_health",
+    "path": "places/ministry-of_health",
     "tags": [
       "Building",
       "Government",
@@ -3252,9 +3271,9 @@
     "component_name": "Home"
   },
   {
-    "id": "call_centre",
+    "id": "call-centre",
     "category": "people",
-    "path": "people/call_centre",
+    "path": "people/call-centre",
     "tags": [
       "Headset",
       "Help",
@@ -3268,9 +3287,9 @@
     "component_name": "CallCentre"
   },
   {
-    "id": "wheelchair_alt",
+    "id": "wheelchair-alt",
     "category": "devices",
-    "path": "devices/wheelchair_alt",
+    "path": "devices/wheelchair-alt",
     "tags": [
       "Transport"
     ],
@@ -3282,9 +3301,9 @@
     "component_name": "WheelchairAlt"
   },
   {
-    "id": "intravenous_drip",
+    "id": "intravenous-drip",
     "category": "devices",
-    "path": "devices/intravenous_drip",
+    "path": "devices/intravenous-drip",
     "tags": [
       "Bag",
       "Blood",
@@ -3304,9 +3323,9 @@
     "component_name": "IntravenousDrip"
   },
   {
-    "id": "intravenous_bag",
+    "id": "intravenous-bag",
     "category": "devices",
-    "path": "devices/intravenous_bag",
+    "path": "devices/intravenous-bag",
     "tags": [
       "Bag",
       "Blood",
@@ -3675,9 +3694,9 @@
     "component_name": "EsclamationMark"
   },
   {
-    "id": "question_mark",
+    "id": "question-mark",
     "category": "typography",
-    "path": "typography/question_mark",
+    "path": "typography/question-mark",
     "tags": [
       "Help",
       "Letter",
@@ -3759,9 +3778,9 @@
     "component_name": "Rupee"
   },
   {
-    "id": "accident_and_emergency",
+    "id": "accident-and_emergency",
     "category": "specialties",
-    "path": "specialties/accident_and_emergency",
+    "path": "specialties/accident-and_emergency",
     "tags": [
       "Ambulance",
       "Critical Care",
@@ -3798,9 +3817,9 @@
     "component_name": "Admissions"
   },
   {
-    "id": "coronary_care_unit",
+    "id": "coronary-care_unit",
     "category": "specialties",
-    "path": "specialties/coronary_care_unit",
+    "path": "specialties/coronary-care_unit",
     "tags": [
       "Cardiology",
       "Coronary Care",
@@ -3816,9 +3835,9 @@
     "component_name": "CoronaryCareUnit"
   },
   {
-    "id": "critical_care",
+    "id": "critical-care",
     "category": "specialties",
-    "path": "specialties/critical_care",
+    "path": "specialties/critical-care",
     "tags": [
       "Critical Care",
       "Department",
@@ -3838,9 +3857,9 @@
     "component_name": "CriticalCare"
   },
   {
-    "id": "discharge_lounge",
+    "id": "discharge-lounge",
     "category": "specialties",
-    "path": "specialties/discharge_lounge",
+    "path": "specialties/discharge-lounge",
     "tags": [
       "Chair",
       "Department",
@@ -3954,7 +3973,7 @@
       "Speciality",
       "Vision"
     ],
-    "title": "Opthalmology",
+    "title": "Ophthalmology",
     "formats": [
       "48px"
     ],
@@ -3995,9 +4014,9 @@
     "component_name": "Psychology"
   },
   {
-    "id": "medical_records",
+    "id": "medical-records",
     "category": "specialties",
-    "path": "specialties/medical_records",
+    "path": "specialties/medical-records",
     "tags": [
       "Chart",
       "Department",
@@ -4063,9 +4082,9 @@
     "component_name": "Radiology"
   },
   {
-    "id": "speech_language_therapy",
+    "id": "speech-language_therapy",
     "category": "specialties",
-    "path": "specialties/speech_language_therapy",
+    "path": "specialties/speech-language_therapy",
     "tags": [
       "Department",
       "Language",
@@ -4118,9 +4137,9 @@
     "component_name": "Gastroenterology"
   },
   {
-    "id": "finance_dept",
+    "id": "finance-dept",
     "category": "specialties",
-    "path": "specialties/finance_dept",
+    "path": "specialties/finance-dept",
     "tags": [
       "Accounting",
       "Cashier",
@@ -4137,9 +4156,9 @@
     "component_name": "FinanceDept"
   },
   {
-    "id": "hematology_laboratory",
+    "id": "hematology-laboratory",
     "category": "specialties",
-    "path": "specialties/hematology_laboratory",
+    "path": "specialties/hematology-laboratory",
     "tags": [
       "Blood",
       "Department",
@@ -4154,9 +4173,9 @@
     "component_name": "HematologyLaboratory"
   },
   {
-    "id": "human_resoruces",
+    "id": "human-resoruces",
     "category": "specialties",
-    "path": "specialties/human_resoruces",
+    "path": "specialties/human-resoruces",
     "tags": [
       "Department",
       "Group",
@@ -4313,9 +4332,9 @@
     "component_name": "Svg9"
   },
   {
-    "id": "female_reproductive_system",
+    "id": "female-reproductive_system",
     "category": "body",
-    "path": "body/female_reproductive_system",
+    "path": "body/female-reproductive_system",
     "tags": [
       "Gynecology",
       "Health",
@@ -4386,9 +4405,9 @@
     "component_name": "Health"
   },
   {
-    "id": "health_alt",
+    "id": "health-alt",
     "category": "symbols",
-    "path": "symbols/health_alt",
+    "path": "symbols/health-alt",
     "tags": [
       "Cross",
       "Hospital",
@@ -4403,9 +4422,9 @@
     "component_name": "HealthAlt"
   },
   {
-    "id": "health_literacy",
+    "id": "health-literacy",
     "category": "symbols",
-    "path": "symbols/health_literacy",
+    "path": "symbols/health-literacy",
     "tags": [
       "Book",
       "Document",
@@ -4420,9 +4439,9 @@
     "component_name": "HealthLiteracy"
   },
   {
-    "id": "register_book",
+    "id": "register-book",
     "category": "objects",
-    "path": "objects/register_book",
+    "path": "objects/register-book",
     "tags": [
       "Book",
       "Chart",
@@ -4441,9 +4460,9 @@
     "component_name": "RegisterBook"
   },
   {
-    "id": "blood_a_n",
+    "id": "blood-a_n",
     "category": "blood",
-    "path": "blood/blood_a_n",
+    "path": "blood/blood-a_n",
     "tags": [
       "A Negative",
       "Bag",
@@ -4460,9 +4479,9 @@
     "component_name": "BloodAN"
   },
   {
-    "id": "blood_a_p",
+    "id": "blood-a_p",
     "category": "blood",
-    "path": "blood/blood_a_p",
+    "path": "blood/blood-a_p",
     "tags": [
       "A Positive",
       "Bag",
@@ -4479,9 +4498,9 @@
     "component_name": "BloodAP"
   },
   {
-    "id": "blood_ab_n",
+    "id": "blood-ab_n",
     "category": "blood",
-    "path": "blood/blood_ab_n",
+    "path": "blood/blood-ab_n",
     "tags": [
       "AB Negative",
       "Bag",
@@ -4498,9 +4517,9 @@
     "component_name": "BloodAbN"
   },
   {
-    "id": "blood_ab_p",
+    "id": "blood-ab_p",
     "category": "blood",
-    "path": "blood/blood_ab_p",
+    "path": "blood/blood-ab_p",
     "tags": [
       "AB Positive",
       "Bag",
@@ -4517,9 +4536,9 @@
     "component_name": "BloodAbP"
   },
   {
-    "id": "blood_b_n",
+    "id": "blood-b_n",
     "category": "blood",
-    "path": "blood/blood_b_n",
+    "path": "blood/blood-b_n",
     "tags": [
       "B Negative",
       "Bag",
@@ -4536,9 +4555,9 @@
     "component_name": "BloodBN"
   },
   {
-    "id": "blood_b_p",
+    "id": "blood-b_p",
     "category": "blood",
-    "path": "blood/blood_b_p",
+    "path": "blood/blood-b_p",
     "tags": [
       "B Positive",
       "Bag",
@@ -4555,9 +4574,9 @@
     "component_name": "BloodBP"
   },
   {
-    "id": "blood_o_n",
+    "id": "blood-o_n",
     "category": "blood",
-    "path": "blood/blood_o_n",
+    "path": "blood/blood-o_n",
     "tags": [
       "Bag",
       "Blood",
@@ -4574,9 +4593,9 @@
     "component_name": "BloodON"
   },
   {
-    "id": "blood_o_p",
+    "id": "blood-o_p",
     "category": "blood",
-    "path": "blood/blood_o_p",
+    "path": "blood/blood-o_p",
     "tags": [
       "Bag",
       "Blood",
@@ -4593,9 +4612,9 @@
     "component_name": "BloodOP"
   },
   {
-    "id": "blood_rh_n",
+    "id": "blood-rh_n",
     "category": "blood",
-    "path": "blood/blood_rh_n",
+    "path": "blood/blood-rh_n",
     "tags": [
       "Bag",
       "Blood",
@@ -4612,9 +4631,9 @@
     "component_name": "BloodRhN"
   },
   {
-    "id": "blood_rh_p",
+    "id": "blood-rh_p",
     "category": "blood",
-    "path": "blood/blood_rh_p",
+    "path": "blood/blood-rh_p",
     "tags": [
       "Bag",
       "Blood",
@@ -4631,9 +4650,9 @@
     "component_name": "BloodRhP"
   },
   {
-    "id": "i_groups_perspective_crowd",
+    "id": "i-groups_perspective_crowd",
     "category": "people",
-    "path": "people/i_groups_perspective_crowd",
+    "path": "people/i-groups_perspective_crowd",
     "tags": [
       "Community",
       "Crowd",
@@ -4669,9 +4688,9 @@
     "component_name": "Nurse"
   },
   {
-    "id": "military_worker",
+    "id": "military-worker",
     "category": "people",
-    "path": "people/military_worker",
+    "path": "people/military-worker",
     "tags": [
       "Armed Services",
       "Army",
@@ -4688,9 +4707,9 @@
     "component_name": "MilitaryWorker"
   },
   {
-    "id": "truck_driver",
+    "id": "truck-driver",
     "category": "people",
-    "path": "people/truck_driver",
+    "path": "people/truck-driver",
     "tags": [
       "Driver",
       "Lorry",
@@ -4708,9 +4727,9 @@
     "component_name": "TruckDriver"
   },
   {
-    "id": "security_worker",
+    "id": "security-worker",
     "category": "people",
-    "path": "people/security_worker",
+    "path": "people/security-worker",
     "tags": [
       "Guard",
       "Officer",
@@ -4725,9 +4744,9 @@
     "component_name": "SecurityWorker"
   },
   {
-    "id": "construction_worker",
+    "id": "construction-worker",
     "category": "people",
-    "path": "people/construction_worker",
+    "path": "people/construction-worker",
     "tags": [
       "Builder",
       "Construction",
@@ -4742,9 +4761,9 @@
     "component_name": "ConstructionWorker"
   },
   {
-    "id": "palm_branches_roof",
+    "id": "palm-branches_roof",
     "category": "places",
-    "path": "places/palm_branches_roof",
+    "path": "places/palm-branches_roof",
     "tags": [
       "Building",
       "House",
@@ -4758,9 +4777,9 @@
     "component_name": "PalmBranchesRoof"
   },
   {
-    "id": "proper_roof",
+    "id": "proper-roof",
     "category": "places",
-    "path": "places/proper_roof",
+    "path": "places/proper-roof",
     "tags": [
       "Building",
       "House",
@@ -4804,9 +4823,9 @@
     "component_name": "Letrina"
   },
   {
-    "id": "letrina_alt",
+    "id": "letrina-alt",
     "category": "places",
-    "path": "places/letrina_alt",
+    "path": "places/letrina-alt",
     "tags": [
       "Bathroom",
       "Biffy",
@@ -4849,9 +4868,9 @@
     "component_name": "Temple"
   },
   {
-    "id": "temple_alt",
+    "id": "temple-alt",
     "category": "places",
-    "path": "places/temple_alt",
+    "path": "places/temple-alt",
     "tags": [
       "Building",
       "House of Worship",
@@ -4883,9 +4902,9 @@
     "component_name": "Mosque"
   },
   {
-    "id": "emergency_post",
+    "id": "emergency-post",
     "category": "places",
-    "path": "places/emergency_post",
+    "path": "places/emergency-post",
     "tags": [
       "Building",
       "Cross",
@@ -4902,9 +4921,9 @@
     "component_name": "EmergencyPost"
   },
   {
-    "id": "rural_post",
+    "id": "rural-post",
     "category": "places",
-    "path": "places/rural_post",
+    "path": "places/rural-post",
     "tags": [
       "Building",
       "Hospital",
@@ -4920,9 +4939,9 @@
     "component_name": "RuralPost"
   },
   {
-    "id": "ambulatory_clinic",
+    "id": "ambulatory-clinic",
     "category": "places",
-    "path": "places/ambulatory_clinic",
+    "path": "places/ambulatory-clinic",
     "tags": [
       "Ambulatory Clinic",
       "Building",
@@ -4939,9 +4958,9 @@
     "component_name": "AmbulatoryClinic"
   },
   {
-    "id": "contact_support",
+    "id": "contact-support",
     "category": "symbols",
-    "path": "symbols/contact_support",
+    "path": "symbols/contact-support",
     "tags": [
       "Chat",
       "Contact",
@@ -4958,9 +4977,9 @@
     "component_name": "ContactSupport"
   },
   {
-    "id": "i_note_action",
+    "id": "i-note_action",
     "category": "symbols",
-    "path": "symbols/i_note_action",
+    "path": "symbols/i-note_action",
     "tags": [
       "Class",
       "Paper",
@@ -4974,9 +4993,9 @@
     "component_name": "INoteAction"
   },
   {
-    "id": "i_certificate_paper",
+    "id": "i-certificate_paper",
     "category": "objects",
-    "path": "objects/i_certificate_paper",
+    "path": "objects/i-certificate_paper",
     "tags": [
       "Document",
       "Paper",
@@ -4990,9 +5009,9 @@
     "component_name": "ICertificatePaper"
   },
   {
-    "id": "breeding_sites",
+    "id": "breeding-sites",
     "category": "symbols",
-    "path": "symbols/breeding_sites",
+    "path": "symbols/breeding-sites",
     "tags": [
       "Disease",
       "Eggs",
@@ -5006,9 +5025,9 @@
     "component_name": "BreedingSites"
   },
   {
-    "id": "health_worker_form",
+    "id": "health-worker_form",
     "category": "objects",
-    "path": "objects/health_worker_form",
+    "path": "objects/health-worker_form",
     "tags": [
       "Doctor",
       "Document",
@@ -5025,9 +5044,9 @@
     "component_name": "HealthWorkerForm"
   },
   {
-    "id": "sexual_reproductive_health",
+    "id": "sexual-reproductive_health",
     "category": "symbols",
-    "path": "symbols/sexual_reproductive_health",
+    "path": "symbols/sexual-reproductive_health",
     "tags": [
       "Female",
       "Gender",
@@ -5096,9 +5115,9 @@
     "component_name": "Default"
   },
   {
-    "id": "i_exam_multiple_choice",
+    "id": "i-exam_multiple_choice",
     "category": "symbols",
-    "path": "symbols/i_exam_multiple_choice",
+    "path": "symbols/i-exam_multiple_choice",
     "tags": [
       "Document",
       "Exam",
@@ -5114,9 +5133,9 @@
     "component_name": "IExamMultipleChoice"
   },
   {
-    "id": "i_schedule_school_date_time",
+    "id": "i-schedule_school_date_time",
     "category": "symbols",
-    "path": "symbols/i_schedule_school_date_time",
+    "path": "symbols/i-schedule_school_date_time",
     "tags": [
       "Appointment",
       "Cal",
@@ -5164,9 +5183,9 @@
     "component_name": "Phone"
   },
   {
-    "id": "credit_card",
+    "id": "credit-card",
     "category": "objects",
-    "path": "objects/credit_card",
+    "path": "objects/credit-card",
     "tags": [
       "Currency",
       "Mastercard",
@@ -5199,9 +5218,9 @@
     "component_name": "Construction"
   },
   {
-    "id": "running_water",
+    "id": "running-water",
     "category": "objects",
-    "path": "objects/running_water",
+    "path": "objects/running-water",
     "tags": [
       "Clean Water",
       "Drinking Water",
@@ -5410,9 +5429,9 @@
     "component_name": "Nauseous"
   },
   {
-    "id": "loudly_crying",
+    "id": "loudly-crying",
     "category": "emotions",
-    "path": "emotions/loudly_crying",
+    "path": "emotions/loudly-crying",
     "tags": [
       "Crying",
       "Emoji",
@@ -5430,9 +5449,9 @@
     "component_name": "LoudlyCrying"
   },
   {
-    "id": "not_ok",
+    "id": "not-ok",
     "category": "emotions",
-    "path": "emotions/not_ok",
+    "path": "emotions/not-ok",
     "tags": [
       "Bad",
       "Emoji",
@@ -5734,9 +5753,9 @@
     "component_name": "Calm"
   },
   {
-    "id": "thermometer_digital",
+    "id": "thermometer-digital",
     "category": "devices",
-    "path": "devices/thermometer_digital",
+    "path": "devices/thermometer-digital",
     "tags": [
       "Fever",
       "Temperature",
@@ -5765,9 +5784,9 @@
     "component_name": "Endocrinology"
   },
   {
-    "id": "speech_language_therapy",
+    "id": "speech-language_therapy",
     "category": "people",
-    "path": "people/speech_language_therapy",
+    "path": "people/speech-language_therapy",
     "tags": [
       "Face",
       "Language",
@@ -5783,9 +5802,9 @@
     "component_name": "SpeechLanguageTherapy"
   },
   {
-    "id": "ppe_apron",
+    "id": "ppe-apron",
     "category": "ppe",
-    "path": "ppe/ppe_apron",
+    "path": "ppe/ppe-apron",
     "tags": [
       "Apron",
       "Clothing",
@@ -5931,9 +5950,9 @@
     "component_name": "Leg"
   },
   {
-    "id": "low_vision",
+    "id": "low-vision",
     "category": "conditions",
-    "path": "conditions/low_vision",
+    "path": "conditions/low-vision",
     "tags": [
       "Eye",
       "Eyes",
@@ -6036,9 +6055,9 @@
     "component_name": "Joints"
   },
   {
-    "id": "rural_post_alt",
+    "id": "rural-post_alt",
     "category": "places",
-    "path": "places/rural_post_alt",
+    "path": "places/rural-post_alt",
     "tags": [
       "Building",
       "Clinic",
@@ -6069,9 +6088,9 @@
     "component_name": "Umbrella"
   },
   {
-    "id": "bandage_adhesive",
+    "id": "bandage-adhesive",
     "category": "objects",
-    "path": "objects/bandage_adhesive",
+    "path": "objects/bandage-adhesive",
     "tags": [
       "Bandage",
       "Bandaid",
@@ -6086,9 +6105,9 @@
     "component_name": "BandageAdhesive"
   },
   {
-    "id": "rdt_result_out_stock",
+    "id": "rdt-result_out_stock",
     "category": "objects",
-    "path": "objects/rdt_result_out_stock",
+    "path": "objects/rdt-result_out_stock",
     "tags": [
       "Empty Box",
       "Retroviral",
@@ -6101,9 +6120,9 @@
     "component_name": "RdtResultOutStock"
   },
   {
-    "id": "stock_out",
+    "id": "stock-out",
     "category": "objects",
-    "path": "objects/stock_out",
+    "path": "objects/stock-out",
     "tags": [
       "Empty Box",
       "Medicines",
@@ -6116,9 +6135,9 @@
     "component_name": "StockOut"
   },
   {
-    "id": "i_utensils",
+    "id": "i-utensils",
     "category": "objects",
-    "path": "objects/i_utensils",
+    "path": "objects/i-utensils",
     "tags": [
       "Office",
       "Pen",
@@ -6133,9 +6152,9 @@
     "component_name": "IUtensils"
   },
   {
-    "id": "outpatient_department",
+    "id": "outpatient-department",
     "category": "specialties",
-    "path": "specialties/outpatient_department",
+    "path": "specialties/outpatient-department",
     "tags": [
       "Department",
       "Diagnosis",
@@ -6154,9 +6173,9 @@
     "component_name": "OutpatientDepartment"
   },
   {
-    "id": "animal_mosquitos",
+    "id": "animal-mosquitos",
     "category": "zoonoses",
-    "path": "zoonoses/animal_mosquitos",
+    "path": "zoonoses/animal-mosquitos",
     "tags": [
       "Malaria",
       "Mosquito",
@@ -6172,9 +6191,9 @@
     "component_name": "AnimalMosquitos"
   },
   {
-    "id": "insecticide_resistance",
+    "id": "insecticide-resistance",
     "category": "symbols",
-    "path": "symbols/insecticide_resistance",
+    "path": "symbols/insecticide-resistance",
     "tags": [
       "Mosquito",
       "dhis2:insecticide_resistance"
@@ -6186,9 +6205,9 @@
     "component_name": "InsecticideResistance"
   },
   {
-    "id": "hiv_ind",
+    "id": "hiv-ind",
     "category": "conditions",
-    "path": "conditions/hiv_ind",
+    "path": "conditions/hiv-ind",
     "tags": [
       "AIDS",
       "HIV",
@@ -6201,9 +6220,9 @@
     "component_name": "HivInd"
   },
   {
-    "id": "hiv_neg",
+    "id": "hiv-neg",
     "category": "conditions",
-    "path": "conditions/hiv_neg",
+    "path": "conditions/hiv-neg",
     "tags": [
       "AIDS",
       "HIV",
@@ -6216,9 +6235,9 @@
     "component_name": "HivNeg"
   },
   {
-    "id": "hiv_pos",
+    "id": "hiv-pos",
     "category": "conditions",
-    "path": "conditions/hiv_pos",
+    "path": "conditions/hiv-pos",
     "tags": [
       "AIDS",
       "HIV",
@@ -6339,9 +6358,9 @@
     "component_name": "Sti"
   },
   {
-    "id": "boy_0105y",
+    "id": "boy-0105y",
     "category": "people",
-    "path": "people/boy_0105y",
+    "path": "people/boy-0105y",
     "tags": [
       "Boy",
       "Child",
@@ -6357,9 +6376,9 @@
     "component_name": "Boy0105y"
   },
   {
-    "id": "child_program",
+    "id": "child-program",
     "category": "people",
-    "path": "people/child_program",
+    "path": "people/child-program",
     "tags": [
       "Boy",
       "Child",
@@ -6381,9 +6400,9 @@
     "component_name": "ChildProgram"
   },
   {
-    "id": "girl_0105y",
+    "id": "girl-0105y",
     "category": "people",
-    "path": "people/girl_0105y",
+    "path": "people/girl-0105y",
     "tags": [
       "Child",
       "Female",
@@ -6399,9 +6418,9 @@
     "component_name": "Girl0105y"
   },
   {
-    "id": "girl_1015y",
+    "id": "girl-1015y",
     "category": "people",
-    "path": "people/girl_1015y",
+    "path": "people/girl-1015y",
     "tags": [
       "Child",
       "Female",
@@ -6416,9 +6435,9 @@
     "component_name": "Girl1015y"
   },
   {
-    "id": "male_and_female",
+    "id": "male-and_female",
     "category": "people",
-    "path": "people/male_and_female",
+    "path": "people/male-and_female",
     "tags": [
       "Couple",
       "Man",
@@ -6434,9 +6453,9 @@
     "component_name": "MaleAndFemale"
   },
   {
-    "id": "female_and_male",
+    "id": "female-and_male",
     "category": "people",
-    "path": "people/female_and_male",
+    "path": "people/female-and_male",
     "tags": [
       "Couple",
       "Man",
@@ -6495,9 +6514,9 @@
     "component_name": "Outpatient"
   },
   {
-    "id": "baby_male_0609m",
+    "id": "baby-male_0609m",
     "category": "people",
-    "path": "people/baby_male_0609m",
+    "path": "people/baby-male_0609m",
     "tags": [
       "Boy",
       "Diaper",
@@ -6511,9 +6530,9 @@
     "component_name": "BabyMale0609m"
   },
   {
-    "id": "baby_0203m",
+    "id": "baby-0203m",
     "category": "people",
-    "path": "people/baby_0203m",
+    "path": "people/baby-0203m",
     "tags": [
       "Boy",
       "Diaper",
@@ -6528,9 +6547,9 @@
     "component_name": "Baby0203m"
   },
   {
-    "id": "baby_female_0609m",
+    "id": "baby-female_0609m",
     "category": "people",
-    "path": "people/baby_female_0609m",
+    "path": "people/baby-female_0609m",
     "tags": [
       "Diaper",
       "Girl",
@@ -6544,9 +6563,9 @@
     "component_name": "BabyFemale0609m"
   },
   {
-    "id": "factory_worker",
+    "id": "factory-worker",
     "category": "people",
-    "path": "people/factory_worker",
+    "path": "people/factory-worker",
     "tags": [
       "Factory",
       "Helmet",
@@ -6561,9 +6580,9 @@
     "component_name": "FactoryWorker"
   },
   {
-    "id": "agriculture_worker_alt",
+    "id": "agriculture-worker_alt",
     "category": "people",
-    "path": "people/agriculture_worker_alt",
+    "path": "people/agriculture-worker_alt",
     "tags": [
       "Agricultural Worker",
       "Farmhand",
@@ -6577,9 +6596,9 @@
     "component_name": "AgricultureWorkerAlt"
   },
   {
-    "id": "domestic_worker_alt",
+    "id": "domestic-worker_alt",
     "category": "people",
-    "path": "people/domestic_worker_alt",
+    "path": "people/domestic-worker_alt",
     "tags": [
       "Cleaner",
       "Labor",
@@ -6593,9 +6612,9 @@
     "component_name": "DomesticWorkerAlt"
   },
   {
-    "id": "agriculture_worker",
+    "id": "agriculture-worker",
     "category": "people",
-    "path": "people/agriculture_worker",
+    "path": "people/agriculture-worker",
     "tags": [
       "Agricultural Worker",
       "Farmhand",
@@ -6609,9 +6628,9 @@
     "component_name": "AgricultureWorker"
   },
   {
-    "id": "travel_alt",
+    "id": "travel-alt",
     "category": "people",
-    "path": "people/travel_alt",
+    "path": "people/travel-alt",
     "tags": [
       "Flight",
       "Person",
@@ -6626,9 +6645,9 @@
     "component_name": "TravelAlt"
   },
   {
-    "id": "plantation_worker_alt",
+    "id": "plantation-worker_alt",
     "category": "people",
-    "path": "people/plantation_worker_alt",
+    "path": "people/plantation-worker_alt",
     "tags": [
       "Agriculture",
       "Farmer",
@@ -6679,9 +6698,9 @@
     "component_name": "Officer"
   },
   {
-    "id": "domestic_worker",
+    "id": "domestic-worker",
     "category": "people",
-    "path": "people/domestic_worker",
+    "path": "people/domestic-worker",
     "tags": [
       "Cleaner",
       "Labor",
@@ -6712,9 +6731,9 @@
     "component_name": "Travel"
   },
   {
-    "id": "plantation_worker",
+    "id": "plantation-worker",
     "category": "people",
-    "path": "people/plantation_worker",
+    "path": "people/plantation-worker",
     "tags": [
       "Agriculture",
       "Farmer",
@@ -6730,9 +6749,9 @@
     "component_name": "PlantationWorker"
   },
   {
-    "id": "miner_worker",
+    "id": "miner-worker",
     "category": "people",
-    "path": "people/miner_worker",
+    "path": "people/miner-worker",
     "tags": [
       "Helmet",
       "Miner",
@@ -6829,9 +6848,9 @@
     "component_name": "Vomiting"
   },
   {
-    "id": "baby_female_0306m",
+    "id": "baby-female_0306m",
     "category": "people",
-    "path": "people/baby_female_0306m",
+    "path": "people/baby-female_0306m",
     "tags": [
       "Crawl",
       "Diaper",
@@ -6847,9 +6866,9 @@
     "component_name": "BabyFemale0306m"
   },
   {
-    "id": "baby_male_0306m",
+    "id": "baby-male_0306m",
     "category": "people",
-    "path": "people/baby_male_0306m",
+    "path": "people/baby-male_0306m",
     "tags": [
       "Boy",
       "Crawl",
@@ -6865,9 +6884,9 @@
     "component_name": "BabyMale0306m"
   },
   {
-    "id": "baby_0306m",
+    "id": "baby-0306m",
     "category": "people",
-    "path": "people/baby_0306m",
+    "path": "people/baby-0306m",
     "tags": [
       "Boy",
       "Crawl",
@@ -6885,9 +6904,9 @@
     "component_name": "Baby0306m"
   },
   {
-    "id": "baby_female_0203m_alt",
+    "id": "baby-female_0203m_alt",
     "category": "people",
-    "path": "people/baby_female_0203m_alt",
+    "path": "people/baby-female_0203m_alt",
     "tags": [
       "Diaper",
       "Girl",
@@ -6901,9 +6920,9 @@
     "component_name": "BabyFemale0203mAlt"
   },
   {
-    "id": "baby_male_0203m_alt",
+    "id": "baby-male_0203m_alt",
     "category": "people",
-    "path": "people/baby_male_0203m_alt",
+    "path": "people/baby-male_0203m_alt",
     "tags": [
       "Boy",
       "Diaper",
@@ -6917,9 +6936,9 @@
     "component_name": "BabyMale0203mAlt"
   },
   {
-    "id": "baby_0203_alt",
+    "id": "baby-0203_alt",
     "category": "people",
-    "path": "people/baby_0203_alt",
+    "path": "people/baby-0203_alt",
     "tags": [
       "Boy",
       "Diaper",
@@ -7011,9 +7030,9 @@
     "component_name": "Rmnh"
   },
   {
-    "id": "young_people",
+    "id": "young-people",
     "category": "people",
-    "path": "people/young_people",
+    "path": "people/young-people",
     "tags": [
       "Boy",
       "Child",
@@ -7033,9 +7052,9 @@
     "component_name": "YoungPeople"
   },
   {
-    "id": "female_sex_worker",
+    "id": "female-sex_worker",
     "category": "people",
-    "path": "people/female_sex_worker",
+    "path": "people/female-sex_worker",
     "tags": [
       "Female",
       "Person",
@@ -7051,9 +7070,9 @@
     "component_name": "FemaleSexWorker"
   },
   {
-    "id": "male_sex_worker",
+    "id": "male-sex_worker",
     "category": "people",
-    "path": "people/male_sex_worker",
+    "path": "people/male-sex_worker",
     "tags": [
       "Male",
       "Person",
@@ -7068,9 +7087,9 @@
     "component_name": "MaleSexWorker"
   },
   {
-    "id": "health_worker",
+    "id": "health-worker",
     "category": "people",
-    "path": "people/health_worker",
+    "path": "people/health-worker",
     "tags": [
       "Doctor",
       "Health Provider",
@@ -7085,9 +7104,9 @@
     "component_name": "HealthWorker"
   },
   {
-    "id": "doctor_male",
+    "id": "doctor-male",
     "category": "people",
-    "path": "people/doctor_male",
+    "path": "people/doctor-male",
     "tags": [
       "Doctor",
       "MD",
@@ -7102,9 +7121,9 @@
     "component_name": "DoctorMale"
   },
   {
-    "id": "doctor_female",
+    "id": "doctor-female",
     "category": "people",
-    "path": "people/doctor_female",
+    "path": "people/doctor-female",
     "tags": [
       "Doctor",
       "MD",
@@ -7137,9 +7156,9 @@
     "component_name": "Doctor"
   },
   {
-    "id": "city_worker",
+    "id": "city-worker",
     "category": "people",
-    "path": "people/city_worker",
+    "path": "people/city-worker",
     "tags": [
       "Business",
       "Official",
@@ -7154,9 +7173,9 @@
     "component_name": "CityWorker"
   },
   {
-    "id": "group_discussion_meetingx3",
+    "id": "group-discussion_meetingx3",
     "category": "people",
-    "path": "people/group_discussion_meetingx3",
+    "path": "people/group-discussion_meetingx3",
     "tags": [
       "Chat",
       "Discussion",
@@ -7173,9 +7192,9 @@
     "component_name": "GroupDiscussionMeetingx3"
   },
   {
-    "id": "child_care",
+    "id": "child-care",
     "category": "people",
-    "path": "people/child_care",
+    "path": "people/child-care",
     "tags": [
       "Baby",
       "Childcare",
@@ -7189,9 +7208,9 @@
     "component_name": "ChildCare"
   },
   {
-    "id": "coughing_alt",
+    "id": "coughing-alt",
     "category": "conditions",
-    "path": "conditions/coughing_alt",
+    "path": "conditions/coughing-alt",
     "tags": [
       "Aerosol",
       "Cough",
@@ -7248,9 +7267,9 @@
     "component_name": "Fetus"
   },
   {
-    "id": "pregnant_32w",
+    "id": "pregnant-32w",
     "category": "people",
-    "path": "people/pregnant_32w",
+    "path": "people/pregnant-32w",
     "tags": [
       "ANC",
       "Antenatal",
@@ -7267,9 +7286,9 @@
     "component_name": "Pregnant32w"
   },
   {
-    "id": "pregnant_0812w",
+    "id": "pregnant-0812w",
     "category": "people",
-    "path": "people/pregnant_0812w",
+    "path": "people/pregnant-0812w",
     "tags": [
       "ANC",
       "Antenatal",
@@ -7286,9 +7305,9 @@
     "component_name": "Pregnant0812w"
   },
   {
-    "id": "pregnant_2426w",
+    "id": "pregnant-2426w",
     "category": "people",
-    "path": "people/pregnant_2426w",
+    "path": "people/pregnant-2426w",
     "tags": [
       "ANC",
       "Antenatal",
@@ -7305,9 +7324,9 @@
     "component_name": "Pregnant2426w"
   },
   {
-    "id": "pregnant_3638w",
+    "id": "pregnant-3638w",
     "category": "people",
-    "path": "people/pregnant_3638w",
+    "path": "people/pregnant-3638w",
     "tags": [
       "ANC",
       "Antenatal",
@@ -7324,27 +7343,9 @@
     "component_name": "Pregnant3638w"
   },
   {
-    "id": "forest_persons",
-    "category": "places",
-    "path": "places/forest_persons",
-    "tags": [
-      "Nature",
-      "Person",
-      "Tree",
-      "Walking",
-      "Woods",
-      "dhis2:forest_persons"
-    ],
-    "title": "Person in Forest",
-    "formats": [
-      "48px"
-    ],
-    "component_name": "ForestPersons"
-  },
-  {
-    "id": "old_man",
+    "id": "old-man",
     "category": "people",
-    "path": "people/old_man",
+    "path": "people/old-man",
     "tags": [
       "Geriatric",
       "Male",
@@ -7361,9 +7362,9 @@
     "component_name": "OldMan"
   },
   {
-    "id": "old_woman",
+    "id": "old-woman",
     "category": "people",
-    "path": "people/old_woman",
+    "path": "people/old-woman",
     "tags": [
       "Female",
       "Geriatric",
@@ -7456,9 +7457,9 @@
     "component_name": "Underweight"
   },
   {
-    "id": "i_training_class",
+    "id": "i-training_class",
     "category": "people",
-    "path": "people/i_training_class",
+    "path": "people/i-training_class",
     "tags": [
       "Class",
       "Person",
@@ -7533,9 +7534,9 @@
     "component_name": "Chills"
   },
   {
-    "id": "chills_fever",
+    "id": "chills-fever",
     "category": "conditions",
-    "path": "conditions/chills_fever",
+    "path": "conditions/chills-fever",
     "tags": [
       "Chills",
       "Cold",
@@ -7554,9 +7555,9 @@
     "component_name": "ChillsFever"
   },
   {
-    "id": "back_pain",
+    "id": "back-pain",
     "category": "conditions",
-    "path": "conditions/back_pain",
+    "path": "conditions/back-pain",
     "tags": [
       "Arthritis",
       "Pain",
@@ -7632,9 +7633,9 @@
     "component_name": "Headache"
   },
   {
-    "id": "boy_1015y",
+    "id": "boy-1015y",
     "category": "people",
-    "path": "people/boy_1015y",
+    "path": "people/boy-1015y",
     "tags": [
       "Boy",
       "Child",
@@ -7667,9 +7668,9 @@
     "component_name": "Llin"
   },
   {
-    "id": "contraceptive_injection",
+    "id": "contraceptive-injection",
     "category": "contraceptives",
-    "path": "contraceptives/contraceptive_injection",
+    "path": "contraceptives/contraceptive-injection",
     "tags": [
       "Contraceptive",
       "Family Planning",
@@ -7684,9 +7685,9 @@
     "component_name": "ContraceptiveInjection"
   },
   {
-    "id": "blood_pressure_2",
+    "id": "blood-pressure_2",
     "category": "devices",
-    "path": "devices/blood_pressure_2",
+    "path": "devices/blood-pressure_2",
     "tags": [
       "BP",
       "Cardiology",
@@ -7702,9 +7703,9 @@
     "component_name": "BloodPressure2"
   },
   {
-    "id": "blood_pressure_monitor",
+    "id": "blood-pressure_monitor",
     "category": "devices",
-    "path": "devices/blood_pressure_monitor",
+    "path": "devices/blood-pressure_monitor",
     "tags": [
       "BP",
       "Cardiology",
@@ -7721,9 +7722,9 @@
     "component_name": "BloodPressureMonitor"
   },
   {
-    "id": "copper_iud",
+    "id": "copper-iud",
     "category": "contraceptives",
-    "path": "contraceptives/copper_iud",
+    "path": "contraceptives/copper-iud",
     "tags": [
       "Contraceptive",
       "Family Planning",
@@ -7739,9 +7740,9 @@
     "component_name": "CopperIud"
   },
   {
-    "id": "cold_chain",
+    "id": "cold-chain",
     "category": "devices",
-    "path": "devices/cold_chain",
+    "path": "devices/cold-chain",
     "tags": [
       "Cold",
       "Cold Chain",
@@ -7778,9 +7779,9 @@
     "component_name": "Fever"
   },
   {
-    "id": "clinical_a",
+    "id": "clinical-a",
     "category": "devices",
-    "path": "devices/clinical_a",
+    "path": "devices/clinical-a",
     "tags": [
       "Diagnostic",
       "Lab",
@@ -7795,9 +7796,9 @@
     "component_name": "ClinicalA"
   },
   {
-    "id": "sayana_press",
+    "id": "sayana-press",
     "category": "contraceptives",
-    "path": "contraceptives/sayana_press",
+    "path": "contraceptives/sayana-press",
     "tags": [
       "Contraceptive",
       "Family Planning",
@@ -7811,9 +7812,9 @@
     "component_name": "SayanaPress"
   },
   {
-    "id": "treated_water",
+    "id": "treated-water",
     "category": "devices",
-    "path": "devices/treated_water",
+    "path": "devices/treated-water",
     "tags": [
       "Clean Water",
       "Drinking Water",
@@ -7845,9 +7846,9 @@
     "component_name": "Tac"
   },
   {
-    "id": "intensity_concentration_bioassays",
+    "id": "intensity-concentration_bioassays",
     "category": "diagnostics",
-    "path": "diagnostics/intensity_concentration_bioassays",
+    "path": "diagnostics/intensity-concentration_bioassays",
     "tags": [
       "Diagnostic",
       "Malaria",
@@ -7861,9 +7862,9 @@
     "component_name": "IntensityConcentrationBioassays"
   },
   {
-    "id": "discriminating_concentration_bioassays",
+    "id": "discriminating-concentration_bioassays",
     "category": "diagnostics",
-    "path": "diagnostics/discriminating_concentration_bioassays",
+    "path": "diagnostics/discriminating-concentration_bioassays",
     "tags": [
       "Mosquito",
       "Test",
@@ -7876,9 +7877,9 @@
     "component_name": "DiscriminatingConcentrationBioassays"
   },
   {
-    "id": "rdt_result_pv_rectangular",
+    "id": "rdt-result_pv_rectangular",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_pv_rectangular",
+    "path": "diagnostics/rdt-result_pv_rectangular",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -7892,9 +7893,9 @@
     "component_name": "RdtResultPvRectangular"
   },
   {
-    "id": "rdt_result_pf_rectangular",
+    "id": "rdt-result_pf_rectangular",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_pf_rectangular",
+    "path": "diagnostics/rdt-result_pf_rectangular",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -7908,9 +7909,9 @@
     "component_name": "RdtResultPfRectangular"
   },
   {
-    "id": "rdt_result_pf_invalid_rectangular",
+    "id": "rdt-result_pf_invalid_rectangular",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_pf_invalid_rectangular",
+    "path": "diagnostics/rdt-result_pf_invalid_rectangular",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -7924,9 +7925,9 @@
     "component_name": "RdtResultPfInvalidRectangular"
   },
   {
-    "id": "rdt_result_neg_rectangular",
+    "id": "rdt-result_neg_rectangular",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_neg_rectangular",
+    "path": "diagnostics/rdt-result_neg_rectangular",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -7940,9 +7941,9 @@
     "component_name": "RdtResultNegRectangular"
   },
   {
-    "id": "rdt_result_mixed_rectangular",
+    "id": "rdt-result_mixed_rectangular",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_mixed_rectangular",
+    "path": "diagnostics/rdt-result_mixed_rectangular",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -7956,9 +7957,9 @@
     "component_name": "RdtResultMixedRectangular"
   },
   {
-    "id": "rdt_result_mixed_invalid_rectangular",
+    "id": "rdt-result_mixed_invalid_rectangular",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_mixed_invalid_rectangular",
+    "path": "diagnostics/rdt-result_mixed_invalid_rectangular",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -7972,9 +7973,9 @@
     "component_name": "RdtResultMixedInvalidRectangular"
   },
   {
-    "id": "rdt_result_neg_invalid_rectangular",
+    "id": "rdt-result_neg_invalid_rectangular",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_neg_invalid_rectangular",
+    "path": "diagnostics/rdt-result_neg_invalid_rectangular",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -7988,9 +7989,9 @@
     "component_name": "RdtResultNegInvalidRectangular"
   },
   {
-    "id": "rdt_result_pv_invalid_rectangular",
+    "id": "rdt-result_pv_invalid_rectangular",
     "category": "diagnostics",
-    "path": "diagnostics/rdt_result_pv_invalid_rectangular",
+    "path": "diagnostics/rdt-result_pv_invalid_rectangular",
     "tags": [
       "Diagnostic",
       "RDT",
@@ -8004,9 +8005,9 @@
     "component_name": "RdtResultPvInvalidRectangular"
   },
   {
-    "id": "contraceptive_voucher",
+    "id": "contraceptive-voucher",
     "category": "contraceptives",
-    "path": "contraceptives/contraceptive_voucher",
+    "path": "contraceptives/contraceptive-voucher",
     "tags": [
       "Condom",
       "Contraception",
@@ -8074,9 +8075,9 @@
     "component_name": "Ventilator"
   },
   {
-    "id": "ventilator_alt",
+    "id": "ventilator-alt",
     "category": "devices",
-    "path": "devices/ventilator_alt",
+    "path": "devices/ventilator-alt",
     "tags": [
       "Breathing",
       "Device",
@@ -8090,9 +8091,9 @@
     "component_name": "VentilatorAlt"
   },
   {
-    "id": "social_work",
+    "id": "social-work",
     "category": "specialties",
-    "path": "specialties/social_work",
+    "path": "specialties/social-work",
     "tags": [
       "Care",
       "Department",
@@ -8108,9 +8109,9 @@
     "component_name": "SocialWork"
   },
   {
-    "id": "intensive_care_unit",
+    "id": "intensive-care_unit",
     "category": "specialties",
-    "path": "specialties/intensive_care_unit",
+    "path": "specialties/intensive-care_unit",
     "tags": [
       "Department",
       "ICU",
@@ -8158,9 +8159,9 @@
     "component_name": "Gym"
   },
   {
-    "id": "physical_therapy",
+    "id": "physical-therapy",
     "category": "specialties",
-    "path": "specialties/physical_therapy",
+    "path": "specialties/physical-therapy",
     "tags": [
       "Assisted Walking",
       "Department",
@@ -8174,9 +8175,9 @@
     "component_name": "PhysicalTherapy"
   },
   {
-    "id": "pediatric_surgery",
+    "id": "pediatric-surgery",
     "category": "people",
-    "path": "people/pediatric_surgery",
+    "path": "people/pediatric-surgery",
     "tags": [
       "Antenatal Care",
       "Baby",
@@ -8191,9 +8192,9 @@
     "component_name": "PediatricSurgery"
   },
   {
-    "id": "neuro_surgery",
+    "id": "neuro-surgery",
     "category": "people",
-    "path": "people/neuro_surgery",
+    "path": "people/neuro-surgery",
     "tags": [
       "Brain",
       "Brain Surgery",
@@ -8223,9 +8224,9 @@
     "component_name": "Geriatrics"
   },
   {
-    "id": "contact_lenses",
+    "id": "contact-lenses",
     "category": "devices",
-    "path": "devices/contact_lenses",
+    "path": "devices/contact-lenses",
     "tags": [
       "Corrective Lens",
       "Ophthalmology",
@@ -8240,9 +8241,9 @@
     "component_name": "ContactLenses"
   },
   {
-    "id": "community_healthworker",
+    "id": "community-healthworker",
     "category": "people",
-    "path": "people/community_healthworker",
+    "path": "people/community-healthworker",
     "tags": [
       "ASHA",
       "CHEW",
@@ -8328,9 +8329,9 @@
     "component_name": "SyringeVaccine"
   },
   {
-    "id": "dental_hygiene",
+    "id": "dental-hygiene",
     "category": "devices",
-    "path": "devices/dental_hygiene",
+    "path": "devices/dental-hygiene",
     "tags": [
       "Dental",
       "Dentist",
@@ -8346,9 +8347,9 @@
     "component_name": "DentalHygiene"
   },
   {
-    "id": "ppe_santizer_alt",
+    "id": "ppe-santizer_alt",
     "category": "devices",
-    "path": "devices/ppe_santizer_alt",
+    "path": "devices/ppe-santizer_alt",
     "tags": [
       "Infection Control",
       "PPE"
@@ -8360,9 +8361,9 @@
     "component_name": "PpeSantizerAlt"
   },
   {
-    "id": "blood_cells",
+    "id": "blood-cells",
     "category": "body",
-    "path": "body/blood_cells",
+    "path": "body/blood-cells",
     "tags": [
       "Blood",
       "Body",
@@ -8433,9 +8434,9 @@
     "component_name": "Skull"
   },
   {
-    "id": "biochemistry_laboratory",
+    "id": "biochemistry-laboratory",
     "category": "specialties",
-    "path": "specialties/biochemistry_laboratory",
+    "path": "specialties/biochemistry-laboratory",
     "tags": [
       "DNA",
       "Laboratory",
@@ -8464,9 +8465,9 @@
     "component_name": "Bladder"
   },
   {
-    "id": "ears_nose_and_throat",
+    "id": "ears-nose_and_throat",
     "category": "specialties",
-    "path": "specialties/ears_nose_and_throat",
+    "path": "specialties/ears-nose_and_throat",
     "tags": [
       "Ear",
       "Nose",
@@ -8512,9 +8513,9 @@
     "component_name": "Gallbladder"
   },
   {
-    "id": "lymph_nodes",
+    "id": "lymph-nodes",
     "category": "body",
-    "path": "body/lymph_nodes",
+    "path": "body/lymph-nodes",
     "tags": [
       "Lymphatic System",
       "Organ"
@@ -8619,9 +8620,9 @@
     "component_name": "LossSmell"
   },
   {
-    "id": "viral_lung_infection",
+    "id": "viral-lung_infection",
     "category": "conditions",
-    "path": "conditions/viral_lung_infection",
+    "path": "conditions/viral-lung_infection",
     "tags": [
       "Covid",
       "Epidemic",
@@ -8674,9 +8675,9 @@
     "component_name": "VirusResearch"
   },
   {
-    "id": "virus_research_alt",
+    "id": "virus-research_alt",
     "category": "symbols",
-    "path": "symbols/virus_research_alt",
+    "path": "symbols/virus-research_alt",
     "tags": [
       "Covid",
       "Diagnostic",
@@ -8693,9 +8694,9 @@
     "component_name": "VirusResearchAlt"
   },
   {
-    "id": "virus_lab_research_syringe",
+    "id": "virus-lab_research_syringe",
     "category": "devices",
-    "path": "devices/virus_lab_research_syringe",
+    "path": "devices/virus-lab_research_syringe",
     "tags": [
       "Research",
       "Syringe",
@@ -8709,9 +8710,9 @@
     "component_name": "VirusLabResearchSyringe"
   },
   {
-    "id": "virus_lab_research_test_tube",
+    "id": "virus-lab_research_test_tube",
     "category": "devices",
-    "path": "devices/virus_lab_research_test_tube",
+    "path": "devices/virus-lab_research_test_tube",
     "tags": [
       "Research",
       "Test Tube",
@@ -8739,9 +8740,9 @@
     "component_name": "LiverAlt"
   },
   {
-    "id": "low_income_level",
+    "id": "low-income-level",
     "category": "symbols",
-    "path": "symbols/low_income_level",
+    "path": "symbols/low-income-level",
     "tags": [
       "Arrow",
       "Finance",
@@ -8778,9 +8779,9 @@
     "component_name": "Eyeglasses"
   },
   {
-    "id": "patient_band_alt",
+    "id": "patient-band_alt",
     "category": "devices",
-    "path": "devices/patient_band_alt",
+    "path": "devices/patient-band_alt",
     "tags": [
       "Hospital",
       "ID",
@@ -8794,9 +8795,9 @@
     "component_name": "PatientBandAlt"
   },
   {
-    "id": "patient_band",
+    "id": "patient-band",
     "category": "devices",
-    "path": "devices/patient_band",
+    "path": "devices/patient-band",
     "tags": [
       "Hospital",
       "ID",
@@ -8810,9 +8811,9 @@
     "component_name": "PatientBand"
   },
   {
-    "id": "blood_vessel",
+    "id": "blood-vessel",
     "category": "body",
-    "path": "body/blood_vessel",
+    "path": "body/blood-vessel",
     "tags": [
       "Blood",
       "Body",
@@ -8856,6 +8857,7 @@
     ],
     "title": "Intestine",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Intestine"
@@ -8883,9 +8885,9 @@
     "component_name": "Alcohol"
   },
   {
-    "id": "varicose_vein",
+    "id": "varicose-vein",
     "category": "conditions",
-    "path": "conditions/varicose_vein",
+    "path": "conditions/varicose-vein",
     "tags": [
       "Aging",
       "Blood",
@@ -8898,6 +8900,7 @@
     ],
     "title": "Varicose Vein",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "VaricoseVein"
@@ -8947,9 +8950,9 @@
     "component_name": "Sonogram"
   },
   {
-    "id": "general_surgery",
+    "id": "general-surgery",
     "category": "specialties",
-    "path": "specialties/general_surgery",
+    "path": "specialties/general-surgery",
     "tags": [
       "Department",
       "Group",
@@ -9006,9 +9009,9 @@
     "component_name": "Carbohydrates"
   },
   {
-    "id": "ppe_sanitizer",
+    "id": "ppe-sanitizer",
     "category": "ppe",
-    "path": "ppe/ppe_sanitizer",
+    "path": "ppe/ppe-sanitizer",
     "tags": [
       "Infection Control",
       "PPE",
@@ -9022,9 +9025,9 @@
     "component_name": "PpeSanitizer"
   },
   {
-    "id": "ppe_mask_n95",
+    "id": "ppe-mask_n95",
     "category": "ppe",
-    "path": "ppe/ppe_mask_n95",
+    "path": "ppe/ppe-mask_n95",
     "tags": [
       "Infection Control",
       "PPE",
@@ -9038,9 +9041,9 @@
     "component_name": "PpeMaskN95"
   },
   {
-    "id": "ppe_gown",
+    "id": "ppe-gown",
     "category": "ppe",
-    "path": "ppe/ppe_gown",
+    "path": "ppe/ppe-gown",
     "tags": [
       "Clothes",
       "Infection Control",
@@ -9053,9 +9056,9 @@
     "component_name": "PpeGown"
   },
   {
-    "id": "ppe_gloves",
+    "id": "ppe-gloves",
     "category": "ppe",
-    "path": "ppe/ppe_gloves",
+    "path": "ppe/ppe-gloves",
     "tags": [
       "Glove",
       "Hands",
@@ -9071,9 +9074,9 @@
     "component_name": "PpeGloves"
   },
   {
-    "id": "ppe_face_mask",
+    "id": "ppe-face_mask",
     "category": "ppe",
-    "path": "ppe/ppe_face_mask",
+    "path": "ppe/ppe-face_mask",
     "tags": [
       "Infection Control",
       "PPE",
@@ -9103,9 +9106,9 @@
     "component_name": "PpeMask"
   },
   {
-    "id": "ppe_face_shield",
+    "id": "ppe-face_shield",
     "category": "ppe",
-    "path": "ppe/ppe_face_shield",
+    "path": "ppe/ppe-face_shield",
     "tags": [
       "Hazardous Materials",
       "PPE",
@@ -9119,9 +9122,9 @@
     "component_name": "PpeFaceShield"
   },
   {
-    "id": "ppe_goggles",
+    "id": "ppe-goggles",
     "category": "ppe",
-    "path": "ppe/ppe_goggles",
+    "path": "ppe/ppe-goggles",
     "tags": [
       "Eye",
       "Eye Protection",
@@ -9138,9 +9141,9 @@
     "component_name": "PpeGoggles"
   },
   {
-    "id": "ppe_suit",
+    "id": "ppe-suit",
     "category": "ppe",
-    "path": "ppe/ppe_suit",
+    "path": "ppe/ppe-suit",
     "tags": [
       "Hazardous Materials",
       "Hazmat",
@@ -9174,9 +9177,9 @@
     "component_name": "Respirator"
   },
   {
-    "id": "disinfecting_wipes",
+    "id": "disinfecting-wipes",
     "category": "ppe",
-    "path": "ppe/disinfecting_wipes",
+    "path": "ppe/disinfecting-wipes",
     "tags": [
       "Antibacterial",
       "Cleaning",
@@ -9228,9 +9231,9 @@
     "component_name": "HandWipePaper"
   },
   {
-    "id": "chart_bar",
+    "id": "chart-bar",
     "category": "graphs",
-    "path": "graphs/chart_bar",
+    "path": "graphs/chart-bar",
     "tags": [
       "Bar Chart",
       "Data",
@@ -9245,9 +9248,9 @@
     "component_name": "ChartBar"
   },
   {
-    "id": "chart_bar_stacked",
+    "id": "chart-bar_stacked",
     "category": "graphs",
-    "path": "graphs/chart_bar_stacked",
+    "path": "graphs/chart-bar_stacked",
     "tags": [
       "Bar Chart",
       "Data",
@@ -9262,9 +9265,9 @@
     "component_name": "ChartBarStacked"
   },
   {
-    "id": "chart_line",
+    "id": "chart-line",
     "category": "graphs",
-    "path": "graphs/chart_line",
+    "path": "graphs/chart-line",
     "tags": [
       "Data",
       "Graph",
@@ -9280,9 +9283,9 @@
     "component_name": "ChartLine"
   },
   {
-    "id": "chart_line_stacked",
+    "id": "chart-line_stacked",
     "category": "graphs",
-    "path": "graphs/chart_line_stacked",
+    "path": "graphs/chart-line_stacked",
     "tags": [
       "Data",
       "Graph",
@@ -9298,9 +9301,9 @@
     "component_name": "ChartLineStacked"
   },
   {
-    "id": "chart_pie",
+    "id": "chart-pie",
     "category": "graphs",
-    "path": "graphs/chart_pie",
+    "path": "graphs/chart-pie",
     "tags": [
       "Data",
       "Graph",
@@ -9487,9 +9490,9 @@
     "component_name": "ChartInfectedStable"
   },
   {
-    "id": "hot_meal",
+    "id": "hot-meal",
     "category": "nutrition",
-    "path": "nutrition/hot_meal",
+    "path": "nutrition/hot-meal",
     "tags": [
       "Food",
       "Meal",
@@ -9503,9 +9506,9 @@
     "component_name": "HotMeal"
   },
   {
-    "id": "unhealthy_food",
+    "id": "unhealthy-food",
     "category": "nutrition",
-    "path": "nutrition/unhealthy_food",
+    "path": "nutrition/unhealthy-food",
     "tags": [
       "Fast Food",
       "Food",
@@ -9609,9 +9612,9 @@
     "component_name": "Weights"
   },
   {
-    "id": "walk_supported",
+    "id": "walk-supported",
     "category": "exercise",
-    "path": "exercise/walk_supported",
+    "path": "exercise/walk-supported",
     "tags": [
       "Exercise",
       "Fitness",
@@ -9630,9 +9633,9 @@
     "component_name": "WalkSupported"
   },
   {
-    "id": "toilet_paper",
+    "id": "toilet-paper",
     "category": "devices",
-    "path": "devices/toilet_paper",
+    "path": "devices/toilet-paper",
     "tags": [
       "Clean",
       "Fecal",
@@ -9650,9 +9653,9 @@
     "component_name": "ToiletPaper"
   },
   {
-    "id": "ultrasound_scanner",
+    "id": "ultrasound-scanner",
     "category": "devices",
-    "path": "devices/ultrasound_scanner",
+    "path": "devices/ultrasound-scanner",
     "tags": [
       "Baby",
       "Childbirth",
@@ -9673,9 +9676,9 @@
     "component_name": "UltrasoundScanner"
   },
   {
-    "id": "medical_sample",
+    "id": "medical-sample",
     "category": "devices",
-    "path": "devices/medical_sample",
+    "path": "devices/medical-sample",
     "tags": [
       "Container",
       "Exam",
@@ -9693,9 +9696,9 @@
     "component_name": "MedicalSample"
   },
   {
-    "id": "breast_pump",
+    "id": "breast-pump",
     "category": "devices",
-    "path": "devices/breast_pump",
+    "path": "devices/breast-pump",
     "tags": [
       "Baby",
       "Birth",
@@ -9734,9 +9737,9 @@
     "component_name": "Lactose"
   },
   {
-    "id": "sodium_free",
+    "id": "sodium-free",
     "category": "nutrition",
-    "path": "nutrition/sodium_free",
+    "path": "nutrition/sodium-free",
     "tags": [
       "Food",
       "No",
@@ -9752,9 +9755,9 @@
     "component_name": "SodiumFree"
   },
   {
-    "id": "pain_managment",
+    "id": "pain-managment",
     "category": "specialties",
-    "path": "specialties/pain_managment",
+    "path": "specialties/pain-managment",
     "tags": [
       "Ache",
       "Department",
@@ -9770,9 +9773,9 @@
     "component_name": "PainManagment"
   },
   {
-    "id": "exercise_bicycle",
+    "id": "exercise-bicycle",
     "category": "exercise",
-    "path": "exercise/exercise_bicycle",
+    "path": "exercise/exercise-bicycle",
     "tags": [
       "Bicycle",
       "Bike",
@@ -9810,9 +9813,9 @@
     "component_name": "Burn"
   },
   {
-    "id": "burn_unit",
+    "id": "burn-unit",
     "category": "specialties",
-    "path": "specialties/burn_unit",
+    "path": "specialties/burn-unit",
     "tags": [
       "Burn",
       "Emergency",
@@ -9851,9 +9854,9 @@
     "component_name": "Dairy"
   },
   {
-    "id": "lactose_free",
+    "id": "lactose-free",
     "category": "nutrition",
-    "path": "nutrition/lactose_free",
+    "path": "nutrition/lactose-free",
     "tags": [
       "Allergy",
       "Beverage",
@@ -9873,9 +9876,9 @@
     "component_name": "LactoseFree"
   },
   {
-    "id": "exercise_yoga",
+    "id": "exercise-yoga",
     "category": "people",
-    "path": "people/exercise_yoga",
+    "path": "people/exercise-yoga",
     "tags": [
       "Calm",
       "Exercise",
@@ -9912,9 +9915,9 @@
     "component_name": "Cpr"
   },
   {
-    "id": "baby_formula",
+    "id": "baby-formula",
     "category": "nutrition",
-    "path": "nutrition/baby_formula",
+    "path": "nutrition/baby-formula",
     "tags": [
       "Baby",
       "Baby Food",
@@ -9953,9 +9956,9 @@
     "component_name": "Exercise"
   },
   {
-    "id": "vagina_alt",
+    "id": "vagina-alt",
     "category": "body",
-    "path": "body/vagina_alt",
+    "path": "body/vagina-alt",
     "tags": [
       "Anatomy",
       "Body",
@@ -9974,9 +9977,9 @@
     "component_name": "VaginaAlt"
   },
   {
-    "id": "penis_alt",
+    "id": "penis-alt",
     "category": "body",
-    "path": "body/penis_alt",
+    "path": "body/penis-alt",
     "tags": [
       "Anatomy",
       "Body",
@@ -10005,6 +10008,7 @@
     ],
     "title": "Penis",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Penis"
@@ -10025,14 +10029,15 @@
     ],
     "title": "Testicles",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Testicles"
   },
   {
-    "id": "chemical_burn",
+    "id": "chemical-burn",
     "category": "conditions",
-    "path": "conditions/chemical_burn",
+    "path": "conditions/chemical-burn",
     "tags": [
       "Accident",
       "Burn",
@@ -10053,9 +10058,9 @@
     "component_name": "ChemicalBurn"
   },
   {
-    "id": "pulse_oximeter_alt",
+    "id": "pulse-oximeter_alt",
     "category": "devices",
-    "path": "devices/pulse_oximeter_alt",
+    "path": "devices/pulse-oximeter_alt",
     "tags": [
       "Device",
       "Finger",
@@ -10071,9 +10076,9 @@
     "component_name": "PulseOximeterAlt"
   },
   {
-    "id": "pulse_oximeter",
+    "id": "pulse-oximeter",
     "category": "devices",
-    "path": "devices/pulse_oximeter",
+    "path": "devices/pulse-oximeter",
     "tags": [
       "Device",
       "Finger",
@@ -10089,9 +10094,9 @@
     "component_name": "PulseOximeter"
   },
   {
-    "id": "animal_rat",
+    "id": "animal-rat",
     "category": "zoonoses",
-    "path": "zoonoses/animal_rat",
+    "path": "zoonoses/animal-rat",
     "tags": [
       "Animal",
       "Mouse",
@@ -10125,9 +10130,9 @@
     "component_name": "Sugar"
   },
   {
-    "id": "sugar_alt",
+    "id": "sugar-alt",
     "category": "nutrition",
-    "path": "nutrition/sugar_alt",
+    "path": "nutrition/sugar-alt",
     "tags": [
       "Food",
       "Nutrition",
@@ -10145,9 +10150,9 @@
     "component_name": "SugarAlt"
   },
   {
-    "id": "animal_pig",
+    "id": "animal-pig",
     "category": "zoonoses",
-    "path": "zoonoses/animal_pig",
+    "path": "zoonoses/animal-pig",
     "tags": [
       "Animal",
       "Farm",
@@ -10163,9 +10168,9 @@
     "component_name": "AnimalPig"
   },
   {
-    "id": "animal_bat",
+    "id": "animal-bat",
     "category": "zoonoses",
-    "path": "zoonoses/animal_bat",
+    "path": "zoonoses/animal-bat",
     "tags": [
       "Animal",
       "Mammal",
@@ -10179,9 +10184,9 @@
     "component_name": "AnimalBat"
   },
   {
-    "id": "alcohol_cessation",
+    "id": "alcohol-cessation",
     "category": "nutrition",
-    "path": "nutrition/alcohol_cessation",
+    "path": "nutrition/alcohol-cessation",
     "tags": [
       "Alcohol",
       "Cessation",
@@ -10217,9 +10222,9 @@
     "component_name": "Gluten"
   },
   {
-    "id": "gluten_free",
+    "id": "gluten-free",
     "category": "nutrition",
-    "path": "nutrition/gluten_free",
+    "path": "nutrition/gluten-free",
     "tags": [
       "Celiac Disease",
       "Cereal",
@@ -10235,9 +10240,9 @@
     "component_name": "GlutenFree"
   },
   {
-    "id": "crisis_response_center_person",
+    "id": "crisis-response_center_person",
     "category": "people",
-    "path": "people/crisis_response_center_person",
+    "path": "people/crisis-response_center_person",
     "tags": [
       "Alert",
       "Computers",
@@ -10257,9 +10262,9 @@
     "component_name": "CrisisResponseCenterPerson"
   },
   {
-    "id": "emergency_operations_center",
+    "id": "emergency-operations_center",
     "category": "places",
-    "path": "places/emergency_operations_center",
+    "path": "places/emergency-operations_center",
     "tags": [
       "Building",
       "Emergency",
@@ -10275,9 +10280,9 @@
     "component_name": "EmergencyOperationsCenter"
   },
   {
-    "id": "animal_spider",
+    "id": "animal-spider",
     "category": "zoonoses",
-    "path": "zoonoses/animal_spider",
+    "path": "zoonoses/animal-spider",
     "tags": [
       "Animal",
       "Arachnid",
@@ -10295,9 +10300,9 @@
     "component_name": "AnimalSpider"
   },
   {
-    "id": "animal_tick",
+    "id": "animal-tick",
     "category": "zoonoses",
-    "path": "zoonoses/animal_tick",
+    "path": "zoonoses/animal-tick",
     "tags": [
       "Animal",
       "Disease",
@@ -10311,9 +10316,9 @@
     "component_name": "AnimalTick"
   },
   {
-    "id": "animal_chicken",
+    "id": "animal-chicken",
     "category": "zoonoses",
-    "path": "zoonoses/animal_chicken",
+    "path": "zoonoses/animal-chicken",
     "tags": [
       "Bird Flu",
       "Chicken",
@@ -10330,9 +10335,9 @@
     "component_name": "AnimalChicken"
   },
   {
-    "id": "medicine_mortar",
+    "id": "medicine-mortar",
     "category": "devices",
-    "path": "devices/medicine_mortar",
+    "path": "devices/medicine-mortar",
     "tags": [
       "Compound",
       "Compounding",
@@ -10349,9 +10354,9 @@
     "component_name": "MedicineMortar"
   },
   {
-    "id": "medicine_bottle",
+    "id": "medicine-bottle",
     "category": "devices",
-    "path": "devices/medicine_bottle",
+    "path": "devices/medicine-bottle",
     "tags": [
       "Bottle",
       "Capsule",
@@ -10368,9 +10373,9 @@
     "component_name": "MedicineBottle"
   },
   {
-    "id": "asthma_inhaler",
+    "id": "asthma-inhaler",
     "category": "devices",
-    "path": "devices/asthma_inhaler",
+    "path": "devices/asthma-inhaler",
     "tags": [
       "Allergy",
       "Asthma",
@@ -10390,9 +10395,9 @@
     "component_name": "AsthmaInhaler"
   },
   {
-    "id": "hearing_aid",
+    "id": "hearing-aid",
     "category": "devices",
-    "path": "devices/hearing_aid",
+    "path": "devices/hearing-aid",
     "tags": [
       "Assistive",
       "Audio",
@@ -10450,9 +10455,9 @@
     "component_name": "Cane"
   },
   {
-    "id": "test_tubes",
+    "id": "test-tubes",
     "category": "devices",
-    "path": "devices/test_tubes",
+    "path": "devices/test-tubes",
     "tags": [
       "Research",
       "Sample",
@@ -10480,14 +10485,15 @@
     ],
     "title": "Anus",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Anus"
   },
   {
-    "id": "vascular_surgery",
+    "id": "vascular-surgery",
     "category": "specialties",
-    "path": "specialties/vascular_surgery",
+    "path": "specialties/vascular-surgery",
     "tags": [
       "Blood vessel",
       "Department",
@@ -10545,9 +10551,9 @@
     "component_name": "Vagina"
   },
   {
-    "id": "pancreatic_cancer",
+    "id": "pancreatic-cancer",
     "category": "conditions",
-    "path": "conditions/pancreatic_cancer",
+    "path": "conditions/pancreatic-cancer",
     "tags": [
       "Cancer",
       "Digestive",
@@ -10584,9 +10590,9 @@
     "component_name": "Pancreas"
   },
   {
-    "id": "prostate_cancer",
+    "id": "prostate-cancer",
     "category": "conditions",
-    "path": "conditions/prostate_cancer",
+    "path": "conditions/prostate-cancer",
     "tags": [
       "Bladder",
       "Cancer",
@@ -10620,9 +10626,9 @@
     "component_name": "Prostate"
   },
   {
-    "id": "stomach_cancer",
+    "id": "stomach-cancer",
     "category": "conditions",
-    "path": "conditions/stomach_cancer",
+    "path": "conditions/stomach-cancer",
     "tags": [
       "Cancer",
       "Digestive System",
@@ -10657,9 +10663,9 @@
     "component_name": "Stomach"
   },
   {
-    "id": "cancerous_cell_nuclei",
+    "id": "cancerous-cell_nuclei",
     "category": "conditions",
-    "path": "conditions/cancerous_cell_nuclei",
+    "path": "conditions/cancerous-cell_nuclei",
     "tags": [
       "Cancer",
       "Cell",
@@ -10674,9 +10680,9 @@
     "component_name": "CancerousCellNuclei"
   },
   {
-    "id": "cell_nuclei",
+    "id": "cell-nuclei",
     "category": "body",
-    "path": "body/cell_nuclei",
+    "path": "body/cell-nuclei",
     "tags": [
       "Body",
       "Cell",
@@ -10691,9 +10697,9 @@
     "component_name": "CellNuclei"
   },
   {
-    "id": "cochlear_implant",
+    "id": "cochlear-implant",
     "category": "devices",
-    "path": "devices/cochlear_implant",
+    "path": "devices/cochlear-implant",
     "tags": [
       "Assistive Device",
       "Audio",
@@ -10711,9 +10717,9 @@
     "component_name": "CochlearImplant"
   },
   {
-    "id": "urine_sample",
+    "id": "urine-sample",
     "category": "devices",
-    "path": "devices/urine_sample",
+    "path": "devices/urine-sample",
     "tags": [
       "Container",
       "Cup",
@@ -10730,9 +10736,9 @@
     "component_name": "UrineSample"
   },
   {
-    "id": "insurance_card",
+    "id": "insurance-card",
     "category": "objects",
-    "path": "objects/insurance_card",
+    "path": "objects/insurance-card",
     "tags": [
       "ID",
       "ID Card",
@@ -10768,6 +10774,7 @@
     ],
     "title": "Head",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Head"
@@ -10822,14 +10829,15 @@
     ],
     "title": "Thyroid",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "Thyroid"
   },
   {
-    "id": "animal_snake",
+    "id": "animal-snake",
     "category": "zoonoses",
-    "path": "zoonoses/animal_snake",
+    "path": "zoonoses/animal-snake",
     "tags": [
       "Animal",
       "Poison",
@@ -10867,9 +10875,9 @@
     "component_name": "Laptop"
   },
   {
-    "id": "animal_cow",
+    "id": "animal-cow",
     "category": "zoonoses",
-    "path": "zoonoses/animal_cow",
+    "path": "zoonoses/animal-cow",
     "tags": [
       "Animal",
       "Beef",
@@ -10905,9 +10913,9 @@
     "component_name": "Breasts"
   },
   {
-    "id": "endotracheal_tube",
+    "id": "endotracheal-tube",
     "category": "devices",
-    "path": "devices/endotracheal_tube",
+    "path": "devices/endotracheal-tube",
     "tags": [
       "Airway",
       "Breathe",
@@ -10963,9 +10971,9 @@
     "component_name": "Yes"
   },
   {
-    "id": "un_paved_road",
+    "id": "un-paved_road",
     "category": "symbols",
-    "path": "symbols/un_paved_road",
+    "path": "symbols/un-paved_road",
     "tags": [
       "Curve",
       "Dirt",
@@ -11013,9 +11021,9 @@
     "component_name": "Stop"
   },
   {
-    "id": "excel_logo",
+    "id": "excel-logo",
     "category": "symbols",
-    "path": "symbols/excel_logo",
+    "path": "symbols/excel-logo",
     "tags": [
       "Document",
       "Logo",
@@ -11028,9 +11036,9 @@
     "component_name": "ExcelLogo"
   },
   {
-    "id": "openMRS_logo",
+    "id": "openMRS-logo",
     "category": "symbols",
-    "path": "symbols/openMRS_logo",
+    "path": "symbols/openMRS-logo",
     "tags": [
       "EHR",
       "EMR",
@@ -11044,9 +11052,9 @@
     "component_name": "OpenMRSLogo"
   },
   {
-    "id": "water_treatment",
+    "id": "water-treatment",
     "category": "symbols",
-    "path": "symbols/water_treatment",
+    "path": "symbols/water-treatment",
     "tags": [
       "Arrows",
       "Drop",
@@ -11060,9 +11068,9 @@
     "component_name": "WaterTreatment"
   },
   {
-    "id": "social_distancing",
+    "id": "social-distancing",
     "category": "symbols",
-    "path": "symbols/social_distancing",
+    "path": "symbols/social-distancing",
     "tags": [
       "Apart",
       "Arrows",
@@ -11113,9 +11121,9 @@
     "component_name": "PharmacySymbols"
   },
   {
-    "id": "pharmacy_alt",
+    "id": "pharmacy-alt",
     "category": "symbols",
-    "path": "symbols/pharmacy_alt",
+    "path": "symbols/pharmacy-alt",
     "tags": [
       "Department",
       "Drugs",
@@ -11131,9 +11139,9 @@
     "component_name": "PharmacyAlt"
   },
   {
-    "id": "simple_logo",
+    "id": "simple-logo",
     "category": "symbols",
-    "path": "symbols/simple_logo",
+    "path": "symbols/simple-logo",
     "tags": [
       "App",
       "HIT",
@@ -11165,9 +11173,9 @@
     "component_name": "Transgender"
   },
   {
-    "id": "assembly_point",
+    "id": "assembly-point",
     "category": "symbols",
-    "path": "symbols/assembly_point",
+    "path": "symbols/assembly-point",
     "tags": [
       "Emergency",
       "Navigation",
@@ -11180,9 +11188,9 @@
     "component_name": "AssemblyPoint"
   },
   {
-    "id": "guide_dog",
+    "id": "guide-dog",
     "category": "symbols",
-    "path": "symbols/guide_dog",
+    "path": "symbols/guide-dog",
     "tags": [
       "Animal",
       "Blind",
@@ -11196,9 +11204,9 @@
     "component_name": "GuideDog"
   },
   {
-    "id": "ui_zoom_in",
+    "id": "ui-zoom_in",
     "category": "symbols",
-    "path": "symbols/ui_zoom_in",
+    "path": "symbols/ui-zoom_in",
     "tags": [
       "Magnifying Glass",
       "Navigation",
@@ -11211,9 +11219,9 @@
     "component_name": "UiZoomIn"
   },
   {
-    "id": "ui_zoom_out",
+    "id": "ui-zoom_out",
     "category": "symbols",
-    "path": "symbols/ui_zoom_out",
+    "path": "symbols/ui-zoom_out",
     "tags": [
       "Magnifying Glass",
       "Navigation",
@@ -11226,9 +11234,9 @@
     "component_name": "UiZoomOut"
   },
   {
-    "id": "ui_zoom",
+    "id": "ui-zoom",
     "category": "symbols",
-    "path": "symbols/ui_zoom",
+    "path": "symbols/ui-zoom",
     "tags": [
       "Find",
       "Magnifying Glass",
@@ -11243,9 +11251,9 @@
     "component_name": "UiZoom"
   },
   {
-    "id": "ui_settings",
+    "id": "ui-settings",
     "category": "symbols",
-    "path": "symbols/ui_settings",
+    "path": "symbols/ui-settings",
     "tags": [
       "Navigation",
       "Preferences",
@@ -11258,9 +11266,9 @@
     "component_name": "UiSettings"
   },
   {
-    "id": "ui_secure",
+    "id": "ui-secure",
     "category": "symbols",
-    "path": "symbols/ui_secure",
+    "path": "symbols/ui-secure",
     "tags": [
       "Lock",
       "Navigation",
@@ -11274,9 +11282,9 @@
     "component_name": "UiSecure"
   },
   {
-    "id": "ui_preferences",
+    "id": "ui-preferences",
     "category": "symbols",
-    "path": "symbols/ui_preferences",
+    "path": "symbols/ui-preferences",
     "tags": [
       "Navigation",
       "Settings",
@@ -11289,9 +11297,9 @@
     "component_name": "UiPreferences"
   },
   {
-    "id": "ui_folder_family",
+    "id": "ui-folder_family",
     "category": "symbols",
-    "path": "symbols/ui_folder_family",
+    "path": "symbols/ui-folder_family",
     "tags": [
       "Data",
       "Folder",
@@ -11305,9 +11313,9 @@
     "component_name": "UiFolderFamily"
   },
   {
-    "id": "ui_folder",
+    "id": "ui-folder",
     "category": "symbols",
-    "path": "symbols/ui_folder",
+    "path": "symbols/ui-folder",
     "tags": [
       "Data",
       "Folder",
@@ -11321,9 +11329,9 @@
     "component_name": "UiFolder"
   },
   {
-    "id": "ui_menu",
+    "id": "ui-menu",
     "category": "symbols",
-    "path": "symbols/ui_menu",
+    "path": "symbols/ui-menu",
     "tags": [
       "Navigation",
       "User Interface"
@@ -11335,9 +11343,9 @@
     "component_name": "UiMenu"
   },
   {
-    "id": "ui_menu_grid",
+    "id": "ui-menu_grid",
     "category": "symbols",
-    "path": "symbols/ui_menu_grid",
+    "path": "symbols/ui-menu_grid",
     "tags": [
       "Navigation",
       "User Interface"
@@ -11365,9 +11373,9 @@
     "component_name": "Database"
   },
   {
-    "id": "ui_user_profile",
+    "id": "ui-user_profile",
     "category": "symbols",
-    "path": "symbols/ui_user_profile",
+    "path": "symbols/ui-user_profile",
     "tags": [
       "Navigation",
       "User Interface"
@@ -11379,9 +11387,9 @@
     "component_name": "UiUserProfile"
   },
   {
-    "id": "network_5g",
+    "id": "network-5g",
     "category": "symbols",
-    "path": "symbols/network_5g",
+    "path": "symbols/network-5g",
     "tags": [
       "Bandwidth",
       "Connection",
@@ -11397,9 +11405,9 @@
     "component_name": "Network5g"
   },
   {
-    "id": "network_4g",
+    "id": "network-4g",
     "category": "symbols",
-    "path": "symbols/network_4g",
+    "path": "symbols/network-4g",
     "tags": [
       "Bandwidth",
       "Connection",
@@ -11416,9 +11424,9 @@
     "component_name": "Network4g"
   },
   {
-    "id": "medium_bars",
+    "id": "medium-bars",
     "category": "symbols",
-    "path": "symbols/medium_bars",
+    "path": "symbols/medium-bars",
     "tags": [
       "Connection",
       "Medium",
@@ -11434,9 +11442,9 @@
     "component_name": "MediumBars"
   },
   {
-    "id": "low_bars",
+    "id": "low-bars",
     "category": "symbols",
-    "path": "symbols/low_bars",
+    "path": "symbols/low-bars",
     "tags": [
       "Connection",
       "Network",
@@ -11452,9 +11460,9 @@
     "component_name": "LowBars"
   },
   {
-    "id": "high_bars",
+    "id": "high-bars",
     "category": "symbols",
-    "path": "symbols/high_bars",
+    "path": "symbols/high-bars",
     "tags": [
       "Connection",
       "Fast",
@@ -11541,9 +11549,9 @@
     "component_name": "CalendarQuarantine"
   },
   {
-    "id": "social_distancing_alt",
+    "id": "social-distancing_alt",
     "category": "symbols",
-    "path": "symbols/social_distancing_alt",
+    "path": "symbols/social-distancing_alt",
     "tags": [
       "Apart",
       "Arrows",
@@ -11574,9 +11582,9 @@
     "component_name": "VirusShield"
   },
   {
-    "id": "virus_alt",
+    "id": "virus-alt",
     "category": "symbols",
-    "path": "symbols/virus_alt",
+    "path": "symbols/virus-alt",
     "tags": [
       "Covid",
       "Epidemic",
@@ -11594,9 +11602,9 @@
     "component_name": "VirusAlt"
   },
   {
-    "id": "virus_patient",
+    "id": "virus-patient",
     "category": "symbols",
-    "path": "symbols/virus_patient",
+    "path": "symbols/virus-patient",
     "tags": [
       "Covid",
       "Epidemic",
@@ -11720,9 +11728,9 @@
     "component_name": "Hospice"
   },
   {
-    "id": "FHIR_logo",
+    "id": "FHIR-logo",
     "category": "symbols",
-    "path": "symbols/FHIR_logo",
+    "path": "symbols/FHIR-logo",
     "tags": [
       "FHIR",
       "HL7",
@@ -11758,9 +11766,9 @@
     "component_name": "Interoperability"
   },
   {
-    "id": "medical_search",
+    "id": "medical-search",
     "category": "symbols",
-    "path": "symbols/medical_search",
+    "path": "symbols/medical-search",
     "tags": [
       "Cross",
       "Find",
@@ -11778,9 +11786,9 @@
     "component_name": "MedicalSearch"
   },
   {
-    "id": "lab_search",
+    "id": "lab-search",
     "category": "symbols",
-    "path": "symbols/lab_search",
+    "path": "symbols/lab-search",
     "tags": [
       "Find",
       "Glass",
@@ -11798,9 +11806,9 @@
     "component_name": "LabSearch"
   },
   {
-    "id": "secure_communication",
+    "id": "secure-communication",
     "category": "symbols",
-    "path": "symbols/secure_communication",
+    "path": "symbols/secure-communication",
     "tags": [
       "Bubble",
       "Chat",
@@ -11820,9 +11828,9 @@
     "component_name": "SecureCommunication"
   },
   {
-    "id": "smoking_cessation_alt",
+    "id": "smoking-cessation_alt",
     "category": "symbols",
-    "path": "symbols/smoking_cessation_alt",
+    "path": "symbols/smoking-cessation_alt",
     "tags": [
       "Banned",
       "Cessation",
@@ -11896,9 +11904,9 @@
     "component_name": "Heartbeat"
   },
   {
-    "id": "qr_code",
+    "id": "qr-code",
     "category": "symbols",
-    "path": "symbols/qr_code",
+    "path": "symbols/qr-code",
     "tags": [
       "Bar code",
       "Barcode",
@@ -11933,9 +11941,9 @@
     "component_name": "Icd"
   },
   {
-    "id": "icd_11",
+    "id": "icd-11",
     "category": "symbols",
-    "path": "symbols/icd_11",
+    "path": "symbols/icd-11",
     "tags": [
       "Classification",
       "Code",
@@ -11951,9 +11959,9 @@
     "component_name": "Icd11"
   },
   {
-    "id": "icd_10",
+    "id": "icd-10",
     "category": "symbols",
-    "path": "symbols/icd_10",
+    "path": "symbols/icd-10",
     "tags": [
       "Classification",
       "Code",
@@ -11969,9 +11977,9 @@
     "component_name": "Icd10"
   },
   {
-    "id": "icd_9",
+    "id": "icd-9",
     "category": "symbols",
-    "path": "symbols/icd_9",
+    "path": "symbols/icd-9",
     "tags": [
       "Classification",
       "Code",
@@ -12008,9 +12016,9 @@
     "component_name": "Height"
   },
   {
-    "id": "waist_circumference",
+    "id": "waist-circumference",
     "category": "symbols",
-    "path": "symbols/waist_circumference",
+    "path": "symbols/waist-circumference",
     "tags": [
       "BMI",
       "Centimeter",
@@ -12030,9 +12038,9 @@
     "component_name": "WaistCircumference"
   },
   {
-    "id": "head_circumference",
+    "id": "head-circumference",
     "category": "symbols",
-    "path": "symbols/head_circumference",
+    "path": "symbols/head-circumference",
     "tags": [
       "Centimeter",
       "Diagnostic",
@@ -12048,9 +12056,9 @@
     "component_name": "HeadCircumference"
   },
   {
-    "id": "arm_circumference",
+    "id": "arm-circumference",
     "category": "symbols",
-    "path": "symbols/arm_circumference",
+    "path": "symbols/arm-circumference",
     "tags": [
       "Arm",
       "Centimeter",
@@ -12065,9 +12073,9 @@
     "component_name": "ArmCircumference"
   },
   {
-    "id": "healthcare_it",
+    "id": "healthcare-it",
     "category": "symbols",
-    "path": "symbols/healthcare_it",
+    "path": "symbols/healthcare-it",
     "tags": [
       "Computer",
       "Device",
@@ -12085,9 +12093,9 @@
     "component_name": "HealthcareIt"
   },
   {
-    "id": "body_mass_index",
+    "id": "body-mass_index",
     "category": "symbols",
-    "path": "symbols/body_mass_index",
+    "path": "symbols/body-mass_index",
     "tags": [
       "BMI",
       "BMI",
@@ -12125,9 +12133,9 @@
     "component_name": "Loinc"
   },
   {
-    "id": "bio_pharma",
+    "id": "bio-pharma",
     "category": "symbols",
-    "path": "symbols/bio_pharma",
+    "path": "symbols/bio-pharma",
     "tags": [
       "Biology",
       "Biopharmaceutical",
@@ -12182,9 +12190,9 @@
     "component_name": "Male"
   },
   {
-    "id": "artificial_intelligence",
+    "id": "artificial-intelligence",
     "category": "symbols",
-    "path": "symbols/artificial_intelligence",
+    "path": "symbols/artificial-intelligence",
     "tags": [
       "AI",
       "Artificial intelligence",
@@ -12203,9 +12211,9 @@
     "component_name": "ArtificialIntelligence"
   },
   {
-    "id": "magic_wand",
+    "id": "magic-wand",
     "category": "symbols",
-    "path": "symbols/magic_wand",
+    "path": "symbols/magic-wand",
     "tags": [
       "AI",
       "Artificial intelligence",
@@ -12219,14 +12227,15 @@
     ],
     "title": "Magic Wand",
     "formats": [
+      "24px",
       "48px"
     ],
     "component_name": "MagicWand"
   },
   {
-    "id": "triangle_inverted_small",
+    "id": "triangle-inverted_small",
     "category": "shapes",
-    "path": "shapes/triangle_inverted_small",
+    "path": "shapes/triangle-inverted_small",
     "tags": [
       "Bullet",
       "Medication monitoring",
@@ -12240,9 +12249,9 @@
     "component_name": "TriangleInvertedSmall"
   },
   {
-    "id": "triangle_inverted_medium",
+    "id": "triangle-inverted_medium",
     "category": "shapes",
-    "path": "shapes/triangle_inverted_medium",
+    "path": "shapes/triangle-inverted_medium",
     "tags": [
       "Bullet",
       "Medication monitoring",
@@ -12256,9 +12265,9 @@
     "component_name": "TriangleInvertedMedium"
   },
   {
-    "id": "triangle_inverted_large",
+    "id": "triangle-inverted_large",
     "category": "shapes",
-    "path": "shapes/triangle_inverted_large",
+    "path": "shapes/triangle-inverted_large",
     "tags": [
       "Bullet",
       "Medication monitoring",
@@ -12272,9 +12281,9 @@
     "component_name": "TriangleInvertedLarge"
   },
   {
-    "id": "blood_drop",
+    "id": "blood-drop",
     "category": "body",
-    "path": "body/blood_drop",
+    "path": "body/blood-drop",
     "tags": [
       "Blood",
       "Circulatory System"
@@ -12287,9 +12296,9 @@
     "component_name": "BloodDrop"
   },
   {
-    "id": "occupational_therapy",
+    "id": "occupational-therapy",
     "category": "specialties",
-    "path": "specialties/occupational_therapy",
+    "path": "specialties/occupational-therapy",
     "tags": [
       "Department",
       "Hospital",
@@ -12417,9 +12426,9 @@
     "component_name": "SyphilisAlt"
   },
   {
-    "id": "life_science",
+    "id": "life-science",
     "category": "symbols",
-    "path": "symbols/life_science",
+    "path": "symbols/life-science",
     "tags": [
       "Biology",
       "Botany",
@@ -12441,9 +12450,9 @@
     "component_name": "LifeScience"
   },
   {
-    "id": "colorectal_cancer",
+    "id": "colorectal-cancer",
     "category": "conditions",
-    "path": "conditions/colorectal_cancer",
+    "path": "conditions/colorectal-cancer",
     "tags": [
       "Cancer",
       "Digestive System",
@@ -12483,18 +12492,10 @@
     "category": "symbols",
     "path": "symbols/lactation",
     "tags": [
-      "Baby",
-      "Breast",
-      "Breastfeed",
-      "Breastmilk",
-      "Feed",
-      "Feed",
-      "Milk",
-      "Mother",
-      "Nurse",
-      "Nursing",
-      "Nutrition",
-      "Postnatal"
+      "Breastfeeding",
+      "Maternal",
+      "Motherhood",
+      "Nursing"
     ],
     "title": "Lactation",
     "formats": [
@@ -12526,13 +12527,13 @@
     "component_name": "Vegetables"
   },
   {
-    "id": "bladder_cancer",
+    "id": "bladder-cancer",
     "category": "conditions",
-    "path": "conditions/bladder_cancer",
+    "path": "conditions/bladder-cancer",
     "tags": [
       "Anus",
-      "Bowel",
-      "Bowel Cancer",
+      "Bladder",
+      "Bladder Cancer",
       "Cancer",
       "Growth",
       "Malignant",
@@ -12548,9 +12549,9 @@
     "component_name": "BladderCancer"
   },
   {
-    "id": "skin_cancer",
+    "id": "skin-cancer",
     "category": "conditions",
-    "path": "conditions/skin_cancer",
+    "path": "conditions/skin-cancer",
     "tags": [
       "Cancer",
       "Carcinoma",
@@ -12569,9 +12570,9 @@
     "component_name": "SkinCancer"
   },
   {
-    "id": "microscope_with_specimen",
+    "id": "microscope-with_specimen",
     "category": "devices",
-    "path": "devices/microscope_with_specimen",
+    "path": "devices/microscope-with_specimen",
     "tags": [
       "Diagnostic",
       "Examination",
@@ -12587,9 +12588,9 @@
     "component_name": "MicroscopeWithSpecimen"
   },
   {
-    "id": "oesophagus_cancer",
+    "id": "oesophagus-cancer",
     "category": "conditions",
-    "path": "conditions/oesophagus_cancer",
+    "path": "conditions/oesophagus-cancer",
     "tags": [
       "Cancer",
       "Digestive system",
@@ -12609,9 +12610,9 @@
     "component_name": "OesophagusCancer"
   },
   {
-    "id": "sugar_free",
+    "id": "sugar-free",
     "category": "nutrition",
-    "path": "nutrition/sugar_free",
+    "path": "nutrition/sugar-free",
     "tags": [
       "Diet",
       "Food",
@@ -12707,9 +12708,9 @@
     "component_name": "Malnutrition"
   },
   {
-    "id": "thyroid_cancer",
+    "id": "thyroid-cancer",
     "category": "conditions",
-    "path": "conditions/thyroid_cancer",
+    "path": "conditions/thyroid-cancer",
     "tags": [
       "Cancer",
       "Growth",
@@ -12726,9 +12727,9 @@
     "component_name": "ThyroidCancer"
   },
   {
-    "id": "dry_eyes",
+    "id": "dry-eyes",
     "category": "conditions",
-    "path": "conditions/dry_eyes",
+    "path": "conditions/dry-eyes",
     "tags": [
       "Dry",
       "Eye",
@@ -12746,9 +12747,9 @@
     "component_name": "DryEyes"
   },
   {
-    "id": "dry_mouth",
+    "id": "dry-mouth",
     "category": "conditions",
-    "path": "conditions/dry_mouth",
+    "path": "conditions/dry-mouth",
     "tags": [
       "Cracked",
       "Dry",
@@ -12765,9 +12766,9 @@
     "component_name": "DryMouth"
   },
   {
-    "id": "surveilance_officer",
+    "id": "surveilance-officer",
     "category": "people",
-    "path": "people/surveilance_officer",
+    "path": "people/surveilance-officer",
     "tags": [
       "Doctor",
       "Epidemiologist",
@@ -12783,18 +12784,16 @@
     "component_name": "SurveilanceOfficer"
   },
   {
-    "id": "mental_health",
+    "id": "mental-health",
     "category": "symbols",
-    "path": "symbols/mental_health",
+    "path": "symbols/mental-health",
     "tags": [
-      "Brain",
-      "Heart",
-      "Mental Health",
-      "Psychiatry",
+      "Emotional health",
+      "Mind",
       "Psychology",
-      "Wellness"
+      "Wellbeing"
     ],
-    "title": "Mental Health",
+    "title": "Mental health",
     "formats": [
       "24px",
       "48px"
@@ -12823,9 +12822,9 @@
     "component_name": "Ecmo"
   },
   {
-    "id": "integrated_data_and_research",
+    "id": "integrated-data_and_research",
     "category": "symbols",
-    "path": "symbols/integrated_data_and_research",
+    "path": "symbols/integrated-data_and_research",
     "tags": [
       "Chart",
       "Data",
@@ -12844,9 +12843,9 @@
     "component_name": "IntegratedDataAndResearch"
   },
   {
-    "id": "autoimmune_disease",
+    "id": "autoimmune-disease",
     "category": "conditions",
-    "path": "conditions/autoimmune_disease",
+    "path": "conditions/autoimmune-disease",
     "tags": [
       "Autoimmune",
       "Body",
@@ -12865,9 +12864,9 @@
     "component_name": "AutoimmuneDisease"
   },
   {
-    "id": "risk_analysis",
+    "id": "risk-analysis",
     "category": "symbols",
-    "path": "symbols/risk_analysis",
+    "path": "symbols/risk-analysis",
     "tags": [
       "Alert",
       "CDSS",
@@ -12884,9 +12883,9 @@
     "component_name": "RiskAnalysis"
   },
   {
-    "id": "health_vulnerability_through_social_determinants",
+    "id": "health-vulnerability_through_social_determinants",
     "category": "symbols",
-    "path": "symbols/health_vulnerability_through_social_determinants",
+    "path": "symbols/health-vulnerability_through_social_determinants",
     "tags": [
       "Causes",
       "Community",
@@ -12903,9 +12902,9 @@
     "component_name": "HealthVulnerabilityThroughSocialDeterminants"
   },
   {
-    "id": "resilient_and_migration_sensitive_health_system",
+    "id": "resilient-and_migration_sensitive_health_system",
     "category": "symbols",
-    "path": "symbols/resilient_and_migration_sensitive_health_system",
+    "path": "symbols/resilient-and_migration_sensitive_health_system",
     "tags": [
       "Adaptable",
       "Environment",
@@ -12923,9 +12922,9 @@
     "component_name": "ResilientAndMigrationSensitiveHealthSystem"
   },
   {
-    "id": "close_policy_gaps",
+    "id": "close-policy_gaps",
     "category": "symbols",
-    "path": "symbols/close_policy_gaps",
+    "path": "symbols/close-policy_gaps",
     "tags": [
       "Government",
       "Health policy",
@@ -12942,9 +12941,9 @@
     "component_name": "ClosePolicyGaps"
   },
   {
-    "id": "close_policy_gaps_alt",
+    "id": "close-policy_gaps_alt",
     "category": "symbols",
-    "path": "symbols/close_policy_gaps_alt",
+    "path": "symbols/close-policy_gaps_alt",
     "tags": [
       "Government",
       "Health policy",
@@ -12955,7 +12954,6 @@
     ],
     "title": "Policy Gaps ALT",
     "formats": [
-      "24px",
       "48px"
     ],
     "component_name": "ClosePolicyGapsAlt"
@@ -12985,9 +12983,9 @@
     "component_name": "Biopsy"
   },
   {
-    "id": "job_status_level",
+    "id": "job-status-level",
     "category": "symbols",
-    "path": "symbols/job_status_level",
+    "path": "symbols/job-status-level",
     "tags": [
       "Career",
       "Group",
@@ -13005,9 +13003,9 @@
     "component_name": "JobStatusLevel"
   },
   {
-    "id": "regular_patient",
+    "id": "regular-patient",
     "category": "people",
-    "path": "people/regular_patient",
+    "path": "people/regular-patient",
     "tags": [
       "Ongoing",
       "Patient",
@@ -13026,16 +13024,12 @@
     "category": "symbols",
     "path": "symbols/diagnostics",
     "tags": [
-      "Charts",
-      "Data",
-      "Diagnose",
-      "Diagnositics",
-      "Dx",
-      "Evaluation",
-      "Exam",
-      "Lab",
-      "Trend",
-      "Triage"
+      "Analysis",
+      "Disease Detection",
+      "Health Check",
+      "Lab Analysis",
+      "Medical test",
+      "Report"
     ],
     "title": "Diagnostics",
     "formats": [
@@ -13045,9 +13039,9 @@
     "component_name": "Diagnostics"
   },
   {
-    "id": "cpap_machine",
+    "id": "cpap-machine",
     "category": "devices",
-    "path": "devices/cpap_machine",
+    "path": "devices/cpap-machine",
     "tags": [
       "Breathing",
       "Continuous positive airway pressure",
@@ -13081,9 +13075,9 @@
     "component_name": "Antibody"
   },
   {
-    "id": "blood_transfusion",
+    "id": "blood-transfusion",
     "category": "symbols",
-    "path": "symbols/blood_transfusion",
+    "path": "symbols/blood-transfusion",
     "tags": [
       "Arm",
       "Bag",
@@ -13139,9 +13133,9 @@
     "component_name": "Tumour"
   },
   {
-    "id": "cpap_tubes",
+    "id": "cpap-tubes",
     "category": "devices",
-    "path": "devices/cpap_tubes",
+    "path": "devices/cpap-tubes",
     "tags": [
       "Breathing",
       "Continuous positive airway pressure",
@@ -13158,9 +13152,9 @@
     "component_name": "CpapTubes"
   },
   {
-    "id": "infusion_pump",
+    "id": "infusion-pump",
     "category": "devices",
-    "path": "devices/infusion_pump",
+    "path": "devices/infusion-pump",
     "tags": [
       "Bag",
       "Device",
@@ -13179,9 +13173,9 @@
     "component_name": "InfusionPump"
   },
   {
-    "id": "HL7v2_logo",
+    "id": "HL7v2-logo",
     "category": "symbols",
-    "path": "symbols/HL7v2_logo",
+    "path": "symbols/HL7v2-logo",
     "tags": [
       "FHIR",
       "FHIR2",
@@ -13199,9 +13193,9 @@
     "component_name": "HL7v2Logo"
   },
   {
-    "id": "cpap_masks",
+    "id": "cpap-masks",
     "category": "devices",
-    "path": "devices/cpap_masks",
+    "path": "devices/cpap-masks",
     "tags": [
       "Breathing",
       "Continuous positive airway pressure",
@@ -13218,9 +13212,9 @@
     "component_name": "CpapMasks"
   },
   {
-    "id": "ear_nose_throat",
+    "id": "ear-nose-throat",
     "category": "symbols",
-    "path": "symbols/ear_nose_throat",
+    "path": "symbols/ear-nose-throat",
     "tags": [
       "Auditory",
       "Breathing",
@@ -13242,9 +13236,9 @@
     "component_name": "EarNoseThroat"
   },
   {
-    "id": "nappy_diaper",
+    "id": "nappy-diaper",
     "category": "symbols",
-    "path": "symbols/nappy_diaper",
+    "path": "symbols/nappy-diaper",
     "tags": [
       "Baby",
       "Child",
@@ -13263,5 +13257,170 @@
       "48px"
     ],
     "component_name": "NappyDiaper"
+  },
+  {
+    "id": "video",
+    "category": "symbols",
+    "path": "symbols/video",
+    "tags": [
+      "Camera",
+      "Film",
+      "Media",
+      "Movie",
+      "Multimedia",
+      "Play"
+    ],
+    "title": "Video",
+    "formats": [
+      "24px",
+      "48px"
+    ],
+    "component_name": "Video"
+  },
+  {
+    "id": "american-sign-language",
+    "category": "symbols",
+    "path": "symbols/american-sign-language",
+    "tags": [
+      "ASL",
+      "Accessibility",
+      "Communication",
+      "Deaf",
+      "Hand Gesture",
+      "Sign Language"
+    ],
+    "title": "American Sign Language",
+    "formats": [
+      "24px",
+      "48px"
+    ],
+    "component_name": "AmericanSignLanguage"
+  },
+  {
+    "id": "pound",
+    "category": "typography",
+    "path": "typography/pound",
+    "tags": [
+      "Currency",
+      "Currency Symbol",
+      "Finance",
+      "GBP",
+      "Money",
+      "Sterling"
+    ],
+    "title": "Pound",
+    "formats": [
+      "48px"
+    ],
+    "component_name": "Pound"
+  },
+  {
+    "id": "euro",
+    "category": "typography",
+    "path": "typography/euro",
+    "tags": [
+      "Currency",
+      "Currency Symbol",
+      "EUR",
+      "Euro",
+      "Finance",
+      "Money"
+    ],
+    "title": "Euro",
+    "formats": [
+      "48px"
+    ],
+    "component_name": "Euro"
+  },
+  {
+    "id": "ruble",
+    "category": "typography",
+    "path": "typography/ruble",
+    "tags": [
+      "Currency",
+      "Currency Symbol",
+      "Finance",
+      "Money",
+      "RUB",
+      "Ruble"
+    ],
+    "title": "Ruble",
+    "formats": [
+      "48px"
+    ],
+    "component_name": "Ruble"
+  },
+  {
+    "id": "won",
+    "category": "typography",
+    "path": "typography/won",
+    "tags": [
+      "Currency",
+      "Currency Symbol",
+      "Finance",
+      "KRW",
+      "Money",
+      "Won"
+    ],
+    "title": "Won",
+    "formats": [
+      "48px"
+    ],
+    "component_name": "Won"
+  },
+  {
+    "id": "naira",
+    "category": "typography",
+    "path": "typography/naira",
+    "tags": [
+      "Currency",
+      "Currency Symbol",
+      "Finance",
+      "Money",
+      "NGN",
+      "Naira"
+    ],
+    "title": "Naira",
+    "formats": [
+      "48px"
+    ],
+    "component_name": "Naira"
+  },
+  {
+    "id": "peso",
+    "category": "typography",
+    "path": "typography/peso",
+    "tags": [
+      "Currency",
+      "Currency Symbol",
+      "Finance",
+      "Money",
+      "PHP",
+      "Peso"
+    ],
+    "title": "Peso",
+    "formats": [
+      "48px"
+    ],
+    "component_name": "Peso"
+  },
+  {
+    "id": "dialysis",
+    "category": "devices",
+    "path": "devices/dialysis",
+    "tags": [
+      "Blood Filtration",
+      "Device",
+      "Healthcare",
+      "Hemodialysis",
+      "Kidney",
+      "Medical",
+      "Renal Care"
+    ],
+    "title": "Dialysis",
+    "formats": [
+      "48px"
+    ],
+    "component_name": "Dialysis"
   }
 ]
