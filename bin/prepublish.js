@@ -16,6 +16,7 @@ publishNpmPackage('healthicons');
 publishNpmPackage('healthicons-react');
 publishNpmPackage('healthicons-react-native');
 publishNpmPackage('healthicons-vue');
+publishNpmPackage('healthicons-solid-js');
 publishPubPackage('healthicons-flutter');
 
 function publishNpmPackage(name) {

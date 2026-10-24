@@ -39,6 +39,11 @@ const targets = {
     title: 'Vue library',
     path: 'packages/healthicons-vue',
   },
+  'solid-js': {
+    title: 'SolidJS library',
+    path: 'packages/healthicons-solid-js',
+    include_metadata: true,
+  },
 };
 
 const tasks = new Listr(
