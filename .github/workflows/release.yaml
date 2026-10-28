@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT }}
           ref: main
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           registry-url: 'https://registry.npmjs.org'
@@ -43,11 +43,10 @@ jobs:
           TAG_NAME: ${{ github.ref_name }}
 
       - name: Commit release
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Release Version ${{ github.ref_name }} [skip ci]
           branch: main
-          push_options: --force
 
       - name: Update tag
         run: |
@@ -57,36 +56,34 @@ jobs:
       - name: Set .npmrc
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
 
-      - name: Publish React package
+      - name: Publish npm packages
         run: |
-          yarn --cwd ./packages/healthicons-react install
-          yarn --cwd ./packages/healthicons-react publish -r
+          FAILED=0
+          for pkg in healthicons-react healthicons-react-native healthicons-vue; do
+            LOG=$(mktemp)
+            if (cd "packages/$pkg" && npm publish) >"$LOG" 2>&1; then
+              echo "Published $pkg"
+              cat "$LOG"
+            elif grep -q "previously published versions" "$LOG"; then
+              echo "$pkg is already published at this version, skipping"
+            else
+              echo "::error::Publishing $pkg failed"
+              cat "$LOG"
+              FAILED=1
+            fi
+          done
+          exit $FAILED
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        continue-on-error: true
 
-      - name: Publish React Native package
-        run: |
-          yarn --cwd ./packages/healthicons-react-native install
-          yarn --cwd ./packages/healthicons-react-native publish -r
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        continue-on-error: true
-
-      - name: Publish Vue package
-        run: |
-          yarn --cwd ./packages/healthicons-vue install
-          yarn --cwd ./packages/healthicons-vue publish -r
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        continue-on-error: true
-
-      - name: Publish Flutter
-        # TODO: Switch back to a specific version  -
-        # Flutter screwed up their repo now we can't pull from there
-        # anymore :( pointing the action branch to master fixes it for
-        # now.
-        uses: k-paxian/dart-package-publisher@master
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
         with:
-          credentialJson: ${{ secrets.PUB_CREDENTIAL_JSON }}
-          relativePath: ./packages/healthicons-flutter
+          channel: stable
+
+      - name: Publish Flutter package
+        run: |
+          mkdir -p ~/.pub-cache
+          echo '${{ secrets.PUB_CREDENTIAL_JSON }}' > ~/.pub-cache/credentials.json
+          cd packages/healthicons-flutter
+          flutter pub publish --force
