@@ -9,19 +9,22 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write # Required for OIDC trusted publishing with npm
+      contents: read
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           token: ${{ secrets.PAT }}
           ref: main
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
           registry-url: 'https://registry.npmjs.org'
-          always-auth: true
+          package-manager-cache: false
 
       - name: Install dependencies
         run: yarn install
@@ -53,10 +56,11 @@ jobs:
           git -c user.email="actions@github.com" -c user.name="GitHub Actions" tag -fa ${{ github.ref_name }} -m "${{ github.ref_name }}"
           git push -f origin ${{ github.ref_name }}
 
-      - name: Set .npmrc
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
-
       - name: Publish npm packages
+        # Authentication happens via OIDC trusted publishing (id-token: write):
+        # the npm CLI detects the GitHub Actions environment and exchanges a
+        # short-lived OIDC token. No npm token secret is used or needed.
+        # Provenance attestations are generated automatically.
         run: |
           FAILED=0
           for pkg in healthicons-react healthicons-react-native healthicons-vue; do
@@ -67,14 +71,16 @@ jobs:
             elif grep -q "previously published versions" "$LOG"; then
               echo "$pkg is already published at this version, skipping"
             else
-              echo "::error::Publishing $pkg failed"
+              echo "::error::Publishing $pkg failed (if new packages: verify the trusted publisher config on npmjs.com matches stnrd/healthicons + release.yaml)"
               cat "$LOG"
               FAILED=1
             fi
           done
-          exit $FAILED
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          # npm publishes are skipped when they fail (e.g. trusted publisher
+          # not configured yet); don't block the Flutter publish on them.
+          if [ "$FAILED" != "0" ]; then
+            echo "::warning::One or more npm packages failed to publish (see errors above); continuing with Flutter publish"
+          fi
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
